@@ -1,92 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BSH 2026 Interactive Map Tour | Non-Profit Housing in Vancouver</title>
-
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin="">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; color: rgba(0, 0, 0, 0.26); -webkit-text-stroke: rgba(0, 0, 0, 0.26)}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; background-color: #b3b3b3}
+    span.s3 {font-kerning: none; color: rgba(0, 0, 0, 0.85); background-color: #b3b3b3; -webkit-text-stroke: 0px rgba(0, 0, 0, 0.85)}
+  </style>
 </head>
 <body>
-    <div class="tour-container">
-        <!-- Sidebar -->
-        <aside class="sidebar" id="sidebar">
-            <header class="sidebar-header">
-                <div class="logo">
-                    <span class="logo-text">BSH</span>
-                </div>
-                <h1>Non-Profit Housing Tour</h1>
-                <p class="subtitle">2026 Spring Workshop</p>
-            </header>
-
-            <!-- Progress indicator -->
-            <div class="progress-container">
-                <div class="progress-bar">
-                    <div class="progress-fill" id="progressFill"></div>
-                </div>
-                <span class="progress-text" id="progressText">Stop 1 of 4</span>
-            </div>
-
-            <!-- Stop content -->
-            <div class="stop-content" id="stopContent">
-                <!-- Content will be injected by JavaScript -->
-            </div>
-
-            <!-- Navigation -->
-            <nav class="tour-nav">
-                <button class="nav-btn" id="prevBtn" disabled>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M15 18l-6-6 6-6"/>
-                    </svg>
-                    Previous
-                </button>
-                <button class="nav-btn primary" id="nextBtn">
-                    Next
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M9 18l6-6-6-6"/>
-                    </svg>
-                </button>
-            </nav>
-
-            <!-- Stop selector dots -->
-            <div class="stop-dots" id="stopDots">
-                <!-- Dots will be injected by JavaScript -->
-            </div>
-
-            <footer class="sidebar-footer">
-                <p>Balanced Supply of Housing</p>
-                <p>Peter A. Allard School of Law, UBC</p>
-            </footer>
-        </aside>
-
-        <!-- Map -->
-        <main class="map-container">
-            <div id="map"></div>
-
-            <!-- Mobile toggle button -->
-            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle sidebar">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M3 12h18M3 6h18M3 18h18"/>
-                </svg>
-            </button>
-        </main>
-    </div>
-
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
-
-    <script src="app.js"></script>
+<p class="p1"><span class="s1">BSH</span></p>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>BSH Tour</b></span></h1>
+<p class="p3"><span class="s1">2026 Spring Workshop</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">Stop 1 of 4</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p5"><span class="s2">Previous </span><span class="s3">Next</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1">Balanced Supply of Housing</span></p>
+<p class="p3"><span class="s1">Peter A. Allard School of Law, UBC</span></p>
+<p class="p4"><span class="s1"></span><br></p>
 </body>
 </html>

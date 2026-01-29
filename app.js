@@ -24,9 +24,9 @@ const tourStops = [
 
         // Quick stats for badges
         stats: [
-            { label: "Established", value: "1974" },
-            { label: "Units", value: "1,800+" },
-            { label: "Tenure Types", value: "6" }
+            { label: "City-Owned", value: "80%" },
+            { label: "Co-ops", value: "6" },
+            { label: "Leases Expire", value: "2030s-40s" }
         ],
 
         // Content organized into sections/tabs
@@ -36,9 +36,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Developed on city-owned land starting in the 1970s, this neighbourhood demonstrates how public land can support diverse housing options while maintaining long-term affordability.</p>
-                    <p>The area features an intentional mix of housing tenures — <strong>co-operatives, non-market rentals, market rentals, strata residential, and city-owned properties</strong> — all coexisting within the same community. This diversity was deliberate: city planners designed the neighbourhood to avoid the social stratification common in single-tenure developments.</p>
-                    <p>Chaired by <strong>Robyn Chan</strong>, the False Creek South community continues to advocate for the preservation of this mixed-tenure model as the city considers redevelopment options.</p>
+                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this neighbourhood demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>
+                    <p>The City of Vancouver owns <strong>80% of False Creek South</strong>, making it a rare example of large-scale public land stewardship. The original vision committed to a tenure mix of one-third non-market rental housing, one-third co-ops, and one-third condominiums — a model designed to avoid the social stratification common in single-tenure developments.</p>
+                    <p><strong>Robyn Chan</strong>, Project Manager for the False Creek South Community Housing Trust, leads community planning efforts. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to establish a community land trust that would give residents more control over their housing future.</p>
                 `
             },
             {
@@ -47,10 +47,10 @@ const tourStops = [
                 icon: "document",
                 content: `
                     <h4>Mixed Tenure Breakdown</h4>
-                    <p>The False Creek South neighbourhood showcases six distinct tenure types, each serving different community needs:</p>
+                    <p>False Creek South showcases six distinct tenure types, each serving different community needs:</p>
                     <ul>
-                        <li><strong>Co-operatives (Co-Op):</strong> Member-owned housing where residents have secure tenure and participate in governance. Examples include Twin Rainbows Co-Op, Creek View Co-Op, Fountain Terrace, and Spruce Harbour Co-Op.</li>
-                        <li><strong>Non-Market Rental:</strong> Below-market housing typically operated by non-profit societies, ensuring affordability for lower-income residents.</li>
+                        <li><strong>Co-operatives:</strong> Six housing co-ops including Twin Rainbows (86 units, opened 1981), Creekview, Alder Bay, and others. Members have secure tenure and participate in democratic governance.</li>
+                        <li><strong>Non-Market Rental:</strong> Below-market housing operated by non-profit societies, ensuring affordability for lower-income residents.</li>
                         <li><strong>Market Rental:</strong> Rental housing at market rates, providing flexibility for those who prefer renting.</li>
                         <li><strong>Strata Residential:</strong> Privately-owned condominiums within the mixed community.</li>
                         <li><strong>City-Owned Properties:</strong> Land and buildings retained by the City of Vancouver.</li>
@@ -58,19 +58,22 @@ const tourStops = [
                     </ul>
 
                     <h4>The Land Lease Model</h4>
-                    <p>A key feature of False Creek South is that the <strong>land remains publicly owned</strong>. Housing operators lease the land from the city rather than purchasing it outright. This approach:</p>
+                    <p>Housing operators <strong>lease land from the city</strong> rather than purchasing it. All lease terms expire in the 2030s and 2040s, creating both opportunity and uncertainty. This model:</p>
                     <ul>
                         <li>Keeps land costs out of housing prices</li>
                         <li>Prevents speculation and land flipping</li>
                         <li>Maintains public control over development decisions</li>
                         <li>Allows the city to enforce affordability requirements</li>
                     </ul>
+
+                    <h4>Community Land Trust Initiative</h4>
+                    <p>In March 2024, Vancouver Council passed a motion supporting the construction of new co-ops on City-owned land through a <strong>community land trust model</strong>. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: "It's a way to have more control and to expand non-profit housing."</p>
                 `,
                 keyPoints: [
-                    "Land is leased, not sold — city retains ownership",
-                    "Six different tenure types create economic diversity",
-                    "Co-ops provide democratic, resident-controlled housing",
-                    "Non-market units ensure permanent affordability"
+                    "80% of neighbourhood is on City-owned land",
+                    "Six housing co-ops with democratic resident governance",
+                    "All land leases expire in 2030s-2040s — critical transition period",
+                    "March 2024 Council motion supports community land trust model"
                 ]
             },
             {
@@ -82,22 +85,22 @@ const tourStops = [
                     {
                         src: "images/fcs-map.jpg",
                         alt: "False Creek South tenure map showing different housing types",
-                        caption: "Tenure map by VIA Architecture showing the mix of housing types"
+                        caption: "Tenure map showing the mix of co-ops, non-market, market, and strata housing"
                     },
                     {
                         src: "images/fcs-coop.jpg",
                         alt: "Co-operative housing at False Creek South",
-                        caption: "Co-operative housing buildings along the seawall"
+                        caption: "Twin Rainbows Co-op — 86 units in two seven-storey buildings since 1981"
                     },
                     {
                         src: "images/fcs-community.jpg",
                         alt: "Community spaces at False Creek South",
-                        caption: "Shared community gardens and gathering spaces"
+                        caption: "Shared community spaces and seawall access"
                     },
                     {
                         src: "images/fcs-aerial.jpg",
                         alt: "Aerial view of False Creek South",
-                        caption: "The neighbourhood's relationship to downtown Vancouver"
+                        caption: "The neighbourhood's relationship to Granville Island and downtown"
                     }
                 ]
             },
@@ -108,24 +111,29 @@ const tourStops = [
                 type: "resources",
                 resources: [
                     {
-                        title: "False Creek South Neighbourhood Association",
+                        title: "False Creek South Neighbourhood Association (RePlan)",
                         url: "https://www.falsecreeksouth.org/",
-                        description: "Official community organization website"
+                        description: "Official community organization and housing trust information"
                     },
                     {
-                        title: "VIA Architecture — False Creek South Analysis",
-                        url: "https://via-architecture.com/",
-                        description: "Detailed tenure mapping and planning analysis"
+                        title: "False Creek South Community Housing Trust",
+                        url: "https://www.falsecreeksouth.org/community-housing-trust/",
+                        description: "About the community land trust initiative"
                     },
                     {
                         title: "City of Vancouver — False Creek South",
                         url: "https://vancouver.ca/home-property-development/false-creek-south.aspx",
-                        description: "Municipal information and planning documents"
+                        description: "Municipal planning information and policy documents"
                     },
                     {
-                        title: "Community Land Trust Overview — BC Housing",
-                        url: "https://www.bchousing.org/",
-                        description: "Provincial context for land trust models"
+                        title: "Globe and Mail — Are Land Trusts the Future?",
+                        url: "https://www.theglobeandmail.com/business/article-are-land-trusts-the-future-of-canadian-housing/",
+                        description: "Coverage of False Creek South's community land trust model"
+                    },
+                    {
+                        title: "CHF BC — Find a Co-op",
+                        url: "https://www.chf.bc.ca/find-co-op/",
+                        description: "Co-operative Housing Federation of BC directory"
                     }
                 ]
             }
@@ -142,13 +150,13 @@ const tourStops = [
         heroImage: {
             src: "images/senakw-hero.jpg",
             alt: "Rendering of Senákw development towers",
-            caption: "Senákw — The largest Indigenous-led urban development in Canada"
+            caption: "Senákw — The largest Indigenous-led urban development in Canadian history"
         },
 
         stats: [
-            { label: "Nation", value: "Squamish" },
-            { label: "Units", value: "6,000+" },
-            { label: "Towers", value: "11" }
+            { label: "Units", value: "6,000" },
+            { label: "Affordable", value: "1,200" },
+            { label: "Phase 1", value: "2026" }
         ],
 
         sections: [
@@ -157,9 +165,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>Senákw (pronounced "sen-AHK-w") is a landmark Indigenous-led development by the <strong>Squamish Nation</strong> on their reserve land near the south end of the Burrard Bridge. This project represents one of the largest Indigenous-led urban developments in Canadian history.</p>
-                    <p>The development will include approximately <strong>6,000 rental units</strong> across 11 towers, with a commitment that over half will be rented at below-market rates. The project demonstrates how Indigenous land rights can create new pathways for housing development outside traditional municipal constraints.</p>
-                    <p>Key figures involved include members of the Squamish Nation Council and development partner Westbank, with ongoing collaboration involving <strong>Alex Flynn</strong> and <strong>Nathan Lawster</strong> on housing policy dimensions.</p>
+                    <p>Senákw (pronounced "sen-AHK-w") is the <strong>largest Indigenous-led urban housing development in Canadian history</strong>. Located on 10.5 acres of Squamish Nation reserve land near the south end of the Burrard Bridge, this project demonstrates how Indigenous land rights can create new pathways for housing development.</p>
+                    <p>The development will include <strong>6,000 purpose-built rental units</strong> across 11 towers, with 4 million square feet of floor space. Critically, <strong>1,200 units will be designated affordable</strong>, and rents will be 30-40% below comparable market rates.</p>
+                    <p>In September 2022, Prime Minister Justin Trudeau announced a <strong>$1.4 billion federal loan</strong> to fund the first two phases. The first phase of ~1,408 rental homes targets occupancy in 2025-2026, with full completion expected by 2030.</p>
                 `
             },
             {
@@ -168,26 +176,26 @@ const tourStops = [
                 icon: "document",
                 content: `
                     <h4>Federal Jurisdiction & View Cones</h4>
-                    <p>The Senákw development gained significant attention due to Vancouver's "view cone" policies. The project's proposed height initially conflicted with municipal regulations designed to protect mountain views from various points in the city.</p>
-                    <p>However, as <strong>reserve land under federal jurisdiction</strong>, Senákw operates outside Vancouver's zoning bylaws. This jurisdictional distinction allows the Squamish Nation to develop the land according to their own priorities rather than municipal regulations.</p>
+                    <p>Senákw operates on <strong>federal reserve land</strong>, which exempts it from Vancouver's municipal zoning bylaws — including the city's "view cone" policies that restrict building heights to protect mountain views.</p>
+                    <p>Vancouver's view cones, established in 1989, identify 38 protected views from specific locations. The Senákw towers enter View Cone 20.0 (from West Broadway and Granville Street), but as reserve land, the project is not bound by these restrictions. In July 2024, Council approved major changes to the view cone policy, partly influenced by Senákw's development.</p>
+
+                    <h4>Ownership & Partnership</h4>
+                    <p>In August 2025, <strong>OPTrust</strong> — one of Canada's largest pension fund investors — acquired development partner Westbank's ownership stake in Phases One and Two. OPTrust and the Squamish Nation now each hold <strong>50% ownership</strong> in these phases, representing a significant Indigenous-led partnership model.</p>
 
                     <h4>Indigenous Land Development in BC</h4>
-                    <p>Senákw is part of a broader movement of Indigenous nations in British Columbia reclaiming and developing their traditional territories:</p>
+                    <p>Senákw is part of a broader movement of Indigenous nations using land development for economic self-determination:</p>
                     <ul>
-                        <li>Nations are increasingly using land development as a tool for economic self-determination</li>
-                        <li>Projects often prioritize community benefit over maximum profit</li>
-                        <li>Housing developments can include cultural spaces and community amenities</li>
-                        <li>Land is typically retained rather than sold, maintaining long-term nation ownership</li>
+                        <li>Land is retained rather than sold, maintaining long-term nation ownership</li>
+                        <li>Projects prioritize community benefit alongside economic returns</li>
+                        <li>Housing developments include cultural spaces and community amenities</li>
+                        <li>The 100% rental model prevents speculation and ensures ongoing control</li>
                     </ul>
-
-                    <h4>Rental Model</h4>
-                    <p>Unlike many market developments, Senákw is designed as a <strong>100% rental project</strong>. The Squamish Nation has committed to maintaining affordability, with plans for a significant portion of below-market units.</p>
                 `,
                 keyPoints: [
-                    "Federal reserve land — outside municipal zoning",
-                    "100% rental development, no condos for sale",
-                    "Over 50% of units at below-market rents",
-                    "Demonstrates Indigenous-led urban development model"
+                    "Federal reserve land — exempt from municipal zoning",
+                    "100% rental: 6,000 units with 1,200 affordable",
+                    "$1.4B federal loan announced September 2022",
+                    "50/50 Squamish Nation-OPTrust ownership (Phases 1-2)"
                 ]
             },
             {
@@ -199,17 +207,17 @@ const tourStops = [
                     {
                         src: "images/senakw-render.jpg",
                         alt: "Architectural rendering of Senákw towers",
-                        caption: "Planned development showing 11 towers"
+                        caption: "11 towers up to 56 storeys with 4 million sq ft of floor space"
                     },
                     {
                         src: "images/senakw-site.jpg",
                         alt: "Current Senákw development site",
-                        caption: "Development site near the Burrard Bridge"
+                        caption: "10.5 acres of Squamish Nation land at Kits Point"
                     },
                     {
                         src: "images/senakw-context.jpg",
                         alt: "Senákw in Vancouver context",
-                        caption: "Location relative to downtown and Kitsilano"
+                        caption: "Location relative to Burrard Bridge and downtown Vancouver"
                     }
                 ]
             },
@@ -222,17 +230,27 @@ const tourStops = [
                     {
                         title: "Senákw Official Website",
                         url: "https://www.senakw.com/",
-                        description: "Project information from the Squamish Nation"
+                        description: "Project timeline, unit information, and updates"
                     },
                     {
-                        title: "Squamish Nation",
-                        url: "https://www.squamish.net/",
-                        description: "Official Squamish Nation website"
+                        title: "Squamish Nation — Senákw Partnership",
+                        url: "https://www.squamish.net/partnerships-entities/partnerships/senakw/",
+                        description: "Squamish Nation's overview of the project"
                     },
                     {
-                        title: "Understanding Vancouver's View Cones",
-                        url: "https://vancouver.ca/home-property-development/view-cones.aspx",
-                        description: "City policy on protected views"
+                        title: "City of Vancouver — Senákw Development",
+                        url: "https://vancouver.ca/home-property-development/senakw-development.aspx",
+                        description: "City coordination and infrastructure planning"
+                    },
+                    {
+                        title: "CBC — Inside Canada's Largest Indigenous-Led Housing Development",
+                        url: "https://www.cbc.ca/news/canada/british-columbia/sen-%C3%A1%E1%B8%B5w-sneak-preview-1.7451499",
+                        description: "2025 media coverage with interior previews"
+                    },
+                    {
+                        title: "Vancouver Public Views Policy",
+                        url: "https://vancouver.ca/home-property-development/protecting-vancouvers-views.aspx",
+                        description: "Background on view cone regulations"
                     }
                 ]
             }
@@ -249,13 +267,13 @@ const tourStops = [
         heroImage: {
             src: "images/granville-hero.jpg",
             alt: "Granville Island public market and waterfront",
-            caption: "Granville Island — Federal public land since 1973"
+            caption: "Granville Island — 40 acres of federal public land, self-sustaining since 1973"
         },
 
         stats: [
-            { label: "Manager", value: "CMHC" },
-            { label: "Since", value: "1973" },
-            { label: "Model", value: "Land Lease" }
+            { label: "Size", value: "40 acres" },
+            { label: "Tenants", value: "300+" },
+            { label: "Govt Funding", value: "$0" }
         ],
 
         sections: [
@@ -264,9 +282,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>Granville Island offers a compelling model of <strong>public land stewardship</strong>. As federal land managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, Granville Island demonstrates how government-owned land can be leased rather than sold, maintaining public control while enabling diverse uses.</p>
-                    <p>UBC Professor <strong>Utyae Lee</strong> has documented this model in a mini-documentary exploring how Granville Island's approach to public land could inform housing policy. The key insight is that retaining public ownership while leasing land prevents speculation and maintains community benefit.</p>
-                    <p>The island's transformation from industrial land to a vibrant mixed-use destination happened without privatizing the land — a model that housing advocates argue could be applied to residential development.</p>
+                    <p>Granville Island is a <strong>40-acre federal property</strong> that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, the island is entirely <strong>self-sustaining with no government funding</strong> — operating solely on lease revenue and parking fees.</p>
+                    <p>As federal land, Granville Island operates outside Vancouver's municipal regulations, functioning essentially as <strong>its own jurisdiction</strong>. This flexibility has allowed for creative placemaking that wouldn't be possible under rigid municipal zoning.</p>
+                    <p>UBC Professor <strong>Utyae Lee</strong> has documented this model in a mini-documentary exploring how Granville Island's approach to public land could inform housing policy — particularly how separating land costs from building costs could improve affordability.</p>
                 `
             },
             {
@@ -275,32 +293,34 @@ const tourStops = [
                 icon: "document",
                 content: `
                     <h4>The Land Lease Approach</h4>
-                    <p>Granville Island operates on a <strong>land lease model</strong> where CMHC retains ownership of all land and leases it to various tenants including:</p>
+                    <p>CMHC owns all land on Granville Island and leases it to <strong>over 300 commercial, retail, cultural, artistic, and educational tenants</strong>. The island operates a <strong>subsidy model</strong> where market rents from some businesses support more affordable rents for:</p>
                     <ul>
-                        <li>The Public Market and food vendors</li>
+                        <li>Small businesses and artisans</li>
                         <li>Arts and cultural organizations</li>
-                        <li>Educational institutions (Emily Carr University was here until 2017)</li>
-                        <li>Marine and industrial businesses</li>
-                        <li>Restaurants and retail</li>
+                        <li>Free community spaces and public amenities</li>
+                        <li>The Public Market vendors</li>
                     </ul>
+
+                    <h4>Connection to False Creek South</h4>
+                    <p>In the late 1960s, the federal government tasked CMHC with developing False Creek's former industrial lands. CMHC built <strong>social housing, co-op housing (including a live-aboard marina co-op), market condos on leased land, and rental housing</strong> — creating the mixed-tenure False Creek South community. Granville Island was part of this broader vision.</p>
+
+                    <h4>Current Challenges</h4>
+                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are "no current plans for housing development." The island's future governance remains an active policy discussion.</p>
 
                     <h4>Why This Matters for Housing</h4>
-                    <p>The Granville Island model demonstrates several principles applicable to housing:</p>
+                    <p>Granville Island demonstrates key principles for housing policy:</p>
                     <ul>
-                        <li><strong>Public ownership prevents speculation:</strong> Land values don't inflate housing costs</li>
-                        <li><strong>Long-term leases provide security:</strong> Tenants can invest in improvements</li>
-                        <li><strong>Public benefit is prioritized:</strong> Uses serve community rather than maximizing land value</li>
-                        <li><strong>Mixed uses create vibrancy:</strong> Diversity of tenants creates a complete community</li>
+                        <li><strong>Public ownership prevents speculation</strong> — land value increases don't inflate costs</li>
+                        <li><strong>Cross-subsidy works</strong> — market tenants support affordable space</li>
+                        <li><strong>Self-sufficiency is possible</strong> — no ongoing government funding required</li>
+                        <li><strong>Flexibility enables innovation</strong> — outside municipal rules, creative solutions emerge</li>
                     </ul>
-
-                    <h4>Utyae Lee's Research</h4>
-                    <p>Professor Lee's mini-documentary explores how federal land management at Granville Island could provide a template for affordable housing development. The research examines how separating land costs from building costs could dramatically improve housing affordability.</p>
                 `,
                 keyPoints: [
-                    "Federal land managed by CMHC since 1973",
-                    "Land lease model preserves public ownership",
-                    "No privatization despite massive value increase",
-                    "Model could inform housing policy"
+                    "40 acres of federal land, self-sustaining on lease revenue",
+                    "300+ tenants with cross-subsidy model",
+                    "Operates outside municipal zoning as federal property",
+                    "$300M in infrastructure needs — future governance in discussion"
                 ]
             },
             {
@@ -317,12 +337,12 @@ const tourStops = [
                     {
                         src: "images/granville-aerial.jpg",
                         alt: "Aerial view of Granville Island",
-                        caption: "The island's relationship to False Creek and downtown"
+                        caption: "40 acres transformed from industrial land without privatization"
                     },
                     {
                         src: "images/granville-arts.jpg",
                         alt: "Arts and cultural spaces on Granville Island",
-                        caption: "Cultural institutions benefit from below-market land leases"
+                        caption: "Cultural institutions benefit from cross-subsidized leases"
                     }
                 ]
             },
@@ -333,24 +353,29 @@ const tourStops = [
                 type: "resources",
                 resources: [
                     {
+                        title: "Granville Island 2040",
+                        url: "https://granvilleisland2040.ca/",
+                        description: "Community visioning process for the island's future"
+                    },
+                    {
                         title: "Granville Island Official Website",
                         url: "https://granvilleisland.com/",
-                        description: "CMHC-managed destination information"
+                        description: "Visitor information and tenant directory"
                     },
                     {
-                        title: "History of Granville Island",
-                        url: "https://granvilleisland.com/about/history",
-                        description: "From industrial land to public space"
+                        title: "Heritage Vancouver — Granville Island",
+                        url: "https://heritagevancouver.org/2025/3-granville-island/",
+                        description: "Heritage context and preservation considerations"
                     },
                     {
-                        title: "CMHC — Granville Island",
-                        url: "https://www.cmhc-schl.gc.ca/",
-                        description: "Federal housing corporation overview"
+                        title: "CBC — Is Housing the Solution for Granville Island?",
+                        url: "https://www.cbc.ca/news/canada/british-columbia/granville-island-future-harcourt-housing-debate-1.7558992",
+                        description: "2024 coverage of infrastructure needs and housing debate"
                     },
                     {
-                        title: "Public Land for Public Good — CCPA",
-                        url: "https://www.policyalternatives.ca/",
-                        description: "Policy research on public land and housing"
+                        title: "Traveling Circus of Urbanism — Granville Island Model",
+                        url: "https://www.travelingcircusofurbanism.com/vancouver/granvilleisland/",
+                        description: "Analysis of the brownfield redevelopment model"
                     }
                 ]
             }
@@ -367,13 +392,13 @@ const tourStops = [
         heroImage: {
             src: "images/dtes-hero.jpg",
             alt: "Downtown Eastside community housing",
-            caption: "DTES CLT — Community-led housing in Vancouver's most vulnerable neighbourhood"
+            caption: "DTES — Over 4,000 residents in ~100 private SROs, the last stop before homelessness"
         },
 
         stats: [
-            { label: "Focus", value: "SRO Housing" },
-            { label: "Partners", value: "10+" },
-            { label: "Status", value: "Active" }
+            { label: "Private SROs", value: "~100" },
+            { label: "SRO Residents", value: "4,000+" },
+            { label: "Indigenous", value: "~33%" }
         ],
 
         sections: [
@@ -382,9 +407,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>The Downtown Eastside Community Land Trust (DTES CLT) represents community-led efforts to secure permanently affordable housing in one of Vancouver's most vulnerable neighbourhoods. The trust has <strong>recently acquired a key building</strong>, demonstrating the viability of community ownership in high-pressure real estate markets.</p>
-                    <p>The DTES CLT works alongside a network of community partners to preserve and expand affordable housing options, particularly Single Room Occupancy (SRO) hotels that provide essential housing for low-income residents.</p>
-                    <p>The organization is actively <strong>working on additional acquisitions</strong> to expand community-controlled housing in the neighbourhood.</p>
+                    <p>The Downtown Eastside (DTES) is home to <strong>over 4,000 residents living in approximately 100 privately-owned Single Room Occupancy (SRO) buildings</strong> — often the last rental option before homelessness. Approximately one-third of SRO residents are Indigenous.</p>
+                    <p>Community organizations are working to acquire buildings and convert them to <strong>permanent community ownership through land trust models</strong>, removing them from the speculative market while preserving affordable housing for current residents.</p>
+                    <p>In 2023, the Province provided an <strong>$11 million grant to the DTES SRO Collaborative Society</strong> to help improve services and supports for SRO residents — recognizing that tenant-led initiatives "empower tenants to improve habitability and help their neighbours."</p>
                 `
             },
             {
@@ -392,34 +417,38 @@ const tourStops = [
                 label: "Partners & Work",
                 icon: "document",
                 content: `
+                    <h4>The SRO Challenge</h4>
+                    <p>Vancouver has over <strong>6,500 SRO units</strong>, with 48% privately owned and 52% owned by the Province, City, or non-profits. In the DTES alone, there are 88 privately owned SRO hotels with approximately 3,600 beds. Conditions are often poor, with average rents around $600/month — though some landlords charge over $1,000.</p>
+                    <p>As <strong>Wendy Pedersen</strong>, Executive Director of the SRO Collaborative, explains: "Privately owned SRO hotels are a last resort before homelessness." The Collaborative's Tenant Overdose Response Organizers (TORO) project connects tenant organizers with naloxone supplies and education.</p>
+
                     <h4>Community Partners</h4>
-                    <p>The DTES CLT works within a broader ecosystem of community organizations:</p>
+                    <p>Multiple organizations work together to preserve and improve DTES housing:</p>
                     <ul>
-                        <li><strong>SRO Collaborative:</strong> Coalition working to preserve Single Room Occupancy hotels</li>
+                        <li><strong>DTES SRO Collaborative:</strong> Advocates for tenants, received $11M provincial grant in 2023</li>
+                        <li><strong>Hogan's Alley Society:</strong> Restoring Vancouver's historic Black neighbourhood, with projects on Union Street and Main Street</li>
                         <li><strong>Aboriginal Front Door:</strong> Indigenous-led support services</li>
-                        <li><strong>Carnegie Community Centre:</strong> Historic community hub and gathering space</li>
-                        <li><strong>Hogan's Alley Society:</strong> Working to restore Vancouver's historic Black neighbourhood, with buildings on Union Street and Main Street</li>
-                        <li><strong>United — Evictions and Tenure Project:</strong> Renter rights and eviction prevention support</li>
+                        <li><strong>Carnegie Community Centre:</strong> Historic community hub since 1903</li>
+                        <li><strong>DTES Neighbourhood House:</strong> Community programs and partnerships</li>
                         <li><strong>UBC Learning Exchange:</strong> University-community partnership</li>
                     </ul>
 
-                    <h4>Recent Acquisitions</h4>
-                    <p>The DTES CLT has successfully acquired properties to convert to permanent community ownership. This model:</p>
+                    <h4>Community Land Trust Model</h4>
+                    <p>The CLT approach in the DTES:</p>
                     <ul>
-                        <li>Removes buildings from the speculative market</li>
-                        <li>Ensures long-term affordability through CLT structure</li>
+                        <li>Removes buildings permanently from the speculative market</li>
+                        <li>Ensures long-term affordability through trust structure</li>
                         <li>Keeps housing decisions in community hands</li>
-                        <li>Prevents displacement of current residents</li>
+                        <li>Prevents displacement of current residents during acquisition</li>
                     </ul>
 
-                    <h4>Ongoing Work</h4>
-                    <p>The trust continues to identify acquisition opportunities and build partnerships with funders, government agencies, and community organizations to expand community-controlled housing.</p>
+                    <h4>Policy Context</h4>
+                    <p>In 2024, the Province took action to prevent evictions in the DTES, and the City is exploring policy changes to make it easier for governments, non-profits, and the private sector to build low-income housing and replace aging SROs.</p>
                 `,
                 keyPoints: [
-                    "Recently purchased building for community housing",
-                    "Working on additional property acquisitions",
-                    "Partners include SRO Collaborative and Aboriginal Front Door",
-                    "Connected to tenant rights work through United"
+                    "4,000+ residents in ~100 private SROs — last stop before homelessness",
+                    "$11M provincial grant to SRO Collaborative (2023)",
+                    "CLT acquisitions remove buildings from speculative market",
+                    "Tenant-led initiatives like TORO improve safety and habitability"
                 ]
             },
             {
@@ -431,17 +460,17 @@ const tourStops = [
                     {
                         src: "images/dtes-sro.jpg",
                         alt: "SRO hotel in the Downtown Eastside",
-                        caption: "Single Room Occupancy hotels provide essential housing"
+                        caption: "SRO hotels: small rooms, often shared bathrooms, no kitchens"
                     },
                     {
                         src: "images/dtes-carnegie.jpg",
                         alt: "Carnegie Community Centre",
-                        caption: "Carnegie Centre — heart of the DTES community"
+                        caption: "Carnegie Centre — community hub since 1903"
                     },
                     {
                         src: "images/dtes-community.jpg",
                         alt: "Community organizing in the DTES",
-                        caption: "Community members advocating for housing rights"
+                        caption: "Tenant organizing and community advocacy"
                     }
                 ]
             },
@@ -452,24 +481,29 @@ const tourStops = [
                 type: "resources",
                 resources: [
                     {
+                        title: "DTES SRO Collaborative",
+                        url: "https://srocollaborative.org/",
+                        description: "Tenant advocacy and support organization"
+                    },
+                    {
+                        title: "DTES Neighbourhood House — SRO Collaborative Profile",
+                        url: "https://www.dtesnhouse.ca/news-updates/partner-feature-sro-collaborative",
+                        description: "Background on the SRO Collaborative's work"
+                    },
+                    {
                         title: "Vancouver Community Land Trust Foundation",
                         url: "https://www.vcltf.ca/",
-                        description: "Regional CLT organization"
+                        description: "Regional community land trust organization"
                     },
                     {
-                        title: "SRO Collaborative",
-                        url: "https://www.srocollaborative.org/",
-                        description: "Coalition preserving SRO housing"
-                    },
-                    {
-                        title: "Carnegie Community Centre",
-                        url: "https://carnegiecentre.org/",
-                        description: "Historic community hub"
+                        title: "Right to Remain Research Collective",
+                        url: "https://www.righttoremain.ca/",
+                        description: "SRO histories and tenant stories"
                     },
                     {
                         title: "Hogan's Alley Society",
                         url: "https://www.hogansalleysociety.org/",
-                        description: "Restoring Vancouver's Black community"
+                        description: "Restoring Vancouver's historic Black community"
                     }
                 ]
             }

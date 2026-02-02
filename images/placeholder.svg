@@ -1,0 +1,12 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2b4a"/>
+      <stop offset="100%" stop-color="#edc95e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect x="140" y="140" width="1320" height="620" rx="28" fill="rgba(0,0,0,0.25)" stroke="rgba(255,255,255,0.25)"/>
+  <text x="50%" y="50%" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="white">Image Unavailable</text>
+  <text x="50%" y="58%" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500" fill="rgba(255,255,255,0.85)">Add a photo to replace this placeholder</text>
+</svg>

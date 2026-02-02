@@ -27,30 +27,46 @@
                 </div>
                 <h1>BSH Tour</h1>
                 <p class="subtitle">2026 Spring Workshop</p>
+                <div class="header-actions">
+                    <span class="stop-indicator" id="stopIndicator">Stop 1 of 4</span>
+                    <button class="stops-btn" id="openStops" type="button">
+                        All Stops
+                    </button>
+                </div>
+                <div class="header-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
             </header>
 
-            <!-- Progress indicator -->
-            <div class="progress-container">
-                <div class="progress-bar">
-                    <div class="progress-fill" id="progressFill"></div>
-                </div>
-                <span class="progress-text" id="progressText">Stop 1 of 4</span>
-            </div>
-
-            <!-- Stop content -->
             <div class="stop-content" id="stopContent">
                 <!-- Content will be injected by JavaScript -->
             </div>
 
+            <div class="stops-backdrop" id="stopsBackdrop" hidden></div>
+            <div class="stops-drawer" id="stopsDrawer" aria-hidden="true">
+                <div class="stops-drawer-header">
+                    <div>
+                        <h3>All Stops</h3>
+                        <p>Select a stop to open its full details.</p>
+                    </div>
+                    <button class="drawer-close" id="closeStops" type="button">Close</button>
+                </div>
+                <div class="stop-navigator-list" id="stopNavigator">
+                    <!-- Stop buttons injected by JavaScript -->
+                </div>
+            </div>
+
             <!-- Navigation -->
             <nav class="tour-nav">
-                <button class="nav-btn" id="prevBtn" disabled>
+                <button class="nav-btn prev" id="prevBtn" disabled>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M15 18l-6-6 6-6"/>
                     </svg>
                     Previous
                 </button>
-                <button class="nav-btn primary" id="nextBtn">
+                <button class="nav-btn next primary" id="nextBtn">
                     Next
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M9 18l6-6-6-6"/>
@@ -58,20 +74,30 @@
                 </button>
             </nav>
 
-            <!-- Stop selector dots -->
-            <div class="stop-dots" id="stopDots">
-                <!-- Dots will be injected by JavaScript -->
-            </div>
-
             <footer class="sidebar-footer">
-                <p>Balanced Supply of Housing</p>
-                <p>Peter A. Allard School of Law, UBC</p>
+                <p>Balanced Supply of Housing · Peter A. Allard School of Law, UBC</p>
             </footer>
         </aside>
 
         <!-- Map -->
         <main class="map-container">
             <div id="map"></div>
+
+            <div class="map-actions" role="group" aria-label="Map actions">
+                <button class="map-action" id="fitAllBtn" type="button" aria-label="Show all stops" title="Show all stops">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+                        <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+                    </svg>
+                </button>
+                <button class="map-action" id="centerStopBtn" type="button" aria-label="Center on current stop" title="Center on current stop">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/>
+                        <line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/>
+                        <line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/>
+                    </svg>
+                </button>
+            </div>
 
             <!-- Mobile toggle button -->
             <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle sidebar">

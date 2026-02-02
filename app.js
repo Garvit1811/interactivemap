@@ -15,18 +15,18 @@ const tourStops = [
         location: "False Creek South, Vancouver",
         coordinates: [49.2712, -123.1280],
 
-        // Hero image (placeholder for now)
+        // Hero image
         heroImage: {
-            src: "images/fcs-hero.jpg",
-            alt: "Aerial view of False Creek South mixed-tenure community",
-            caption: "False Creek South — A model of mixed-tenure housing since the 1970s"
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
+            alt: "Panoramic view of False Creek in Vancouver",
+            caption: "False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
         },
 
         // Quick stats for badges
         stats: [
             { label: "City-Owned", value: "80%" },
-            { label: "Co-ops", value: "6" },
-            { label: "Leases Expire", value: "2030s-40s" }
+            { label: "Units", value: "1,849" },
+            { label: "Leases", value: "2036-46" }
         ],
 
         // Content organized into sections/tabs
@@ -36,8 +36,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this neighbourhood demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>
-                    <p>The City of Vancouver owns <strong>80% of False Creek South</strong>, making it a rare example of large-scale public land stewardship. The original vision committed to a tenure mix of one-third non-market rental housing, one-third co-ops, and one-third condominiums — a model designed to avoid the social stratification common in single-tenure developments.</p>
+                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this <strong>136-acre waterfront neighbourhood</strong> demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>
+                    <p>The City of Vancouver owns <strong>80% of False Creek South</strong>, making it a rare example of large-scale public land stewardship. The original vision committed to a tenure mix of one-third non-market rental housing, one-third co-ops, and one-third strata leasehold — a model designed to avoid the social stratification common in single-tenure developments.</p>
+                    <p>Today, about <strong>5,500 residents live in 1,849 homes</strong>. The land is leased on 60-year terms that begin expiring between 2036 and 2046, creating a pivotal decision point about how to preserve affordability while renewing public assets.</p>
                     <p><strong>Robyn Chan</strong>, Project Manager for the False Creek South Community Housing Trust, leads community planning efforts. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to establish a community land trust that would give residents more control over their housing future.</p>
                 `
             },
@@ -66,13 +67,18 @@ const tourStops = [
                         <li>Allows the city to enforce affordability requirements</li>
                     </ul>
 
+                    <h4>The Lease Crisis</h4>
+                    <p>The original 60-year leases are approaching expiry, creating uncertainty for roughly <strong>3,200 residents</strong>. In 2021, City Council rejected a staff proposal to triple density and instead directed a community-led planning process. In January 2025, the City awarded a <strong>$4 million contract to Arup Group</strong> to prepare a landowner plan, sparking renewed debate about community involvement.</p>
+
                     <h4>Community Land Trust Initiative</h4>
                     <p>In March 2024, Vancouver Council passed a motion supporting the construction of new co-ops on City-owned land through a <strong>community land trust model</strong>. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: "It's a way to have more control and to expand non-profit housing."</p>
+                    <p>Recent grant-funded projects include an <strong>Embodied Carbon study</strong> (Vancity Envirofund) comparing demolition vs. lease extensions, and a <strong>capacity-building program</strong> to support governance, community engagement, and long-term financial planning.</p>
                 `,
                 keyPoints: [
                     "80% of neighbourhood is on City-owned land",
-                    "Six housing co-ops with democratic resident governance",
-                    "All land leases expire in 2030s-2040s — critical transition period",
+                    "1,849 homes with a one-third / one-third / one-third tenure mix",
+                    "All land leases expire in 2036-2046 — critical transition period",
+                    "2021 Council rejected wholesale demolition and density tripling",
                     "March 2024 Council motion supports community land trust model"
                 ]
             },
@@ -83,24 +89,14 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "images/fcs-map.jpg",
-                        alt: "False Creek South tenure map showing different housing types",
-                        caption: "Tenure map showing the mix of co-ops, non-market, market, and strata housing"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vancouver_-_False_Creek_near_Granville_Island_01.jpg/1280px-Vancouver_-_False_Creek_near_Granville_Island_01.jpg",
+                        alt: "False Creek near Granville Island in Vancouver",
+                        caption: "False Creek near Granville Island — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-                        src: "images/fcs-coop.jpg",
-                        alt: "Co-operative housing at False Creek South",
-                        caption: "Twin Rainbows Co-op — 86 units in two seven-storey buildings since 1981"
-                    },
-                    {
-                        src: "images/fcs-community.jpg",
-                        alt: "Community spaces at False Creek South",
-                        caption: "Shared community spaces and seawall access"
-                    },
-                    {
-                        src: "images/fcs-aerial.jpg",
-                        alt: "Aerial view of False Creek South",
-                        caption: "The neighbourhood's relationship to Granville Island and downtown"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vancouver_-_False_Creek_pano_03.jpg/1280px-Vancouver_-_False_Creek_pano_03.jpg",
+                        alt: "False Creek panorama in Vancouver",
+                        caption: "False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -148,9 +144,9 @@ const tourStops = [
         coordinates: [49.2735, -123.1375],
 
         heroImage: {
-            src: "images/senakw-hero.jpg",
-            alt: "Rendering of Senákw development towers",
-            caption: "Senákw — The largest Indigenous-led urban development in Canadian history"
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrard_Bridge_and_False_Creek_Vancouver.jpg/1280px-Burrard_Bridge_and_False_Creek_Vancouver.jpg",
+            alt: "Burrard Bridge and False Creek in Vancouver",
+            caption: "Burrard Bridge and False Creek — Photo: Darren Kirby (CC BY-SA 3.0)"
         },
 
         stats: [
@@ -167,7 +163,7 @@ const tourStops = [
                 content: `
                     <p>Senákw (pronounced "sen-AHK-w") is the <strong>largest Indigenous-led urban housing development in Canadian history</strong>. Located on 10.5 acres of Squamish Nation reserve land near the south end of the Burrard Bridge, this project demonstrates how Indigenous land rights can create new pathways for housing development.</p>
                     <p>The development will include <strong>6,000 purpose-built rental units</strong> across 11 towers, with 4 million square feet of floor space. Critically, <strong>1,200 units will be designated affordable</strong>, and rents will be 30-40% below comparable market rates.</p>
-                    <p>In September 2022, Prime Minister Justin Trudeau announced a <strong>$1.4 billion federal loan</strong> to fund the first two phases. The first phase of ~1,408 rental homes targets occupancy in 2025-2026, with full completion expected by 2030.</p>
+                    <p>In September 2022, Prime Minister Justin Trudeau announced a <strong>$1.4 billion federal loan</strong> to fund the first two phases. Phase One (1,409 units in three towers) targets completion in early 2026, with phased buildout continuing into the early 2030s.</p>
                 `
             },
             {
@@ -182,6 +178,13 @@ const tourStops = [
                     <h4>Ownership & Partnership</h4>
                     <p>In August 2025, <strong>OPTrust</strong> — one of Canada's largest pension fund investors — acquired development partner Westbank's ownership stake in Phases One and Two. OPTrust and the Squamish Nation now each hold <strong>50% ownership</strong> in these phases, representing a significant Indigenous-led partnership model.</p>
 
+                    <h4>Project Scope & Public Space</h4>
+                    <p>Senákw's unit mix includes <strong>2,688 studios, 2,046 one-bedrooms, 874 two-bedrooms, and 472 three-bedrooms</strong>. Over half the site (roughly six acres) is planned as publicly accessible green space and cultural gathering areas.</p>
+
+                    <h4>Services Agreement & Tenant Protections</h4>
+                    <p>A 120-year services agreement with the City of Vancouver (signed May 2022) covers water, sewer, fire, and police services, with the Squamish Nation paying the same rates as Vancouver property owners.</p>
+                    <p>The Squamish Nation adopted BC's Residential Tenancy Act through the First Nations Commercial and Industrial Development Act, ensuring rent increase limits and tenant protections, alongside an Indigenous-led dispute resolution process.</p>
+
                     <h4>Indigenous Land Development in BC</h4>
                     <p>Senákw is part of a broader movement of Indigenous nations using land development for economic self-determination:</p>
                     <ul>
@@ -195,7 +198,8 @@ const tourStops = [
                     "Federal reserve land — exempt from municipal zoning",
                     "100% rental: 6,000 units with 1,200 affordable",
                     "$1.4B federal loan announced September 2022",
-                    "50/50 Squamish Nation-OPTrust ownership (Phases 1-2)"
+                    "50/50 Squamish Nation-OPTrust ownership (Phases 1-2)",
+                    "Over half the site dedicated to public green space"
                 ]
             },
             {
@@ -205,19 +209,14 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "images/senakw-render.jpg",
-                        alt: "Architectural rendering of Senákw towers",
-                        caption: "11 towers up to 56 storeys with 4 million sq ft of floor space"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Vancouver_Burrard_Street_Bridge_%289971716326%29.jpg/1280px-Vancouver_Burrard_Street_Bridge_%289971716326%29.jpg",
+                        alt: "Burrard Street Bridge in Vancouver",
+                        caption: "Burrard Street Bridge — Photo: Wikimedia Commons (CC0)"
                     },
                     {
-                        src: "images/senakw-site.jpg",
-                        alt: "Current Senákw development site",
-                        caption: "10.5 acres of Squamish Nation land at Kits Point"
-                    },
-                    {
-                        src: "images/senakw-context.jpg",
-                        alt: "Senákw in Vancouver context",
-                        caption: "Location relative to Burrard Bridge and downtown Vancouver"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
+                        alt: "False Creek panorama near Kitsilano",
+                        caption: "False Creek near Kits Point — Photo: Joe Mabel (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -265,9 +264,9 @@ const tourStops = [
         coordinates: [49.2701, -123.1340],
 
         heroImage: {
-            src: "images/granville-hero.jpg",
-            alt: "Granville Island public market and waterfront",
-            caption: "Granville Island — 40 acres of federal public land, self-sustaining since 1973"
+            src: "https://upload.wikimedia.org/wikipedia/commons/6/62/Granville_Island.jpg",
+            alt: "Granville Island on False Creek in Vancouver",
+            caption: "Granville Island — Photo: Public domain"
         },
 
         stats: [
@@ -282,9 +281,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>Granville Island is a <strong>40-acre federal property</strong> that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, the island is entirely <strong>self-sustaining with no government funding</strong> — operating solely on lease revenue and parking fees.</p>
-                    <p>As federal land, Granville Island operates outside Vancouver's municipal regulations, functioning essentially as <strong>its own jurisdiction</strong>. This flexibility has allowed for creative placemaking that wouldn't be possible under rigid municipal zoning.</p>
-                    <p>UBC Professor <strong>Utyae Lee</strong> has documented this model in a mini-documentary exploring how Granville Island's approach to public land could inform housing policy — particularly how separating land costs from building costs could improve affordability.</p>
+                    <p>Granville Island is a <strong>40-acre federal property</strong> that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, the island is entirely <strong>self-sustaining with no government funding</strong> — operating solely on lease revenue, parking fees, and filming permits.</p>
+                    <p>Between 1973 and 1982, CMHC invested <strong>$24.7 million</strong> to transform the former industrial site into a public market, arts hub, and cultural destination. As federal land, Granville Island operates outside Vancouver's municipal regulations, functioning essentially as <strong>its own jurisdiction</strong> and enabling creative placemaking that wouldn't be possible under rigid municipal zoning.</p>
+                    <p>Urbanist and documentary creator <strong>Uytae Lee</strong> highlighted the island's governance model in a 2025 documentary, sparking renewed public debate about whether the site should pursue more development, public subsidy, or a new foundation model to fund repairs.</p>
                 `
             },
             {
@@ -305,7 +304,8 @@ const tourStops = [
                     <p>In the late 1960s, the federal government tasked CMHC with developing False Creek's former industrial lands. CMHC built <strong>social housing, co-op housing (including a live-aboard marina co-op), market condos on leased land, and rental housing</strong> — creating the mixed-tenure False Creek South community. Granville Island was part of this broader vision.</p>
 
                     <h4>Current Challenges</h4>
-                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are "no current plans for housing development." The island's future governance remains an active policy discussion.</p>
+                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>
+                    <p>Possible paths include: <strong>more development</strong>, a <strong>government subsidy model</strong>, a new <strong>Granville Island Foundation</strong>, or a <strong>cultural land trust</strong> proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are "no current plans for housing development."</p>
 
                     <h4>Why This Matters for Housing</h4>
                     <p>Granville Island demonstrates key principles for housing policy:</p>
@@ -330,19 +330,14 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "images/granville-market.jpg",
-                        alt: "Granville Island Public Market",
-                        caption: "The Public Market — anchor of the island's mixed-use development"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Granville_Island_Public_Market_2024.jpg/1280px-Granville_Island_Public_Market_2024.jpg",
+                        alt: "Granville Island Public Market exterior",
+                        caption: "Granville Island Public Market — Photo: On the road (CC BY 4.0)"
                     },
                     {
-                        src: "images/granville-aerial.jpg",
-                        alt: "Aerial view of Granville Island",
-                        caption: "40 acres transformed from industrial land without privatization"
-                    },
-                    {
-                        src: "images/granville-arts.jpg",
-                        alt: "Arts and cultural spaces on Granville Island",
-                        caption: "Cultural institutions benefit from cross-subsidized leases"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg/1280px-Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg",
+                        alt: "Granville Island waterfront and village area",
+                        caption: "Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)"
                     }
                 ]
             },
@@ -390,9 +385,9 @@ const tourStops = [
         coordinates: [49.2827, -123.0985],
 
         heroImage: {
-            src: "images/dtes-hero.jpg",
-            alt: "Downtown Eastside community housing",
-            caption: "DTES — Over 4,000 residents in ~100 private SROs, the last stop before homelessness"
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
+            alt: "East Hastings Street in Vancouver",
+            caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
         },
 
         stats: [
@@ -407,9 +402,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>The Downtown Eastside (DTES) is home to <strong>over 4,000 residents living in approximately 100 privately-owned Single Room Occupancy (SRO) buildings</strong> — often the last rental option before homelessness. Approximately one-third of SRO residents are Indigenous.</p>
-                    <p>Community organizations are working to acquire buildings and convert them to <strong>permanent community ownership through land trust models</strong>, removing them from the speculative market while preserving affordable housing for current residents.</p>
-                    <p>In 2023, the Province provided an <strong>$11 million grant to the DTES SRO Collaborative Society</strong> to help improve services and supports for SRO residents — recognizing that tenant-led initiatives "empower tenants to improve habitability and help their neighbours."</p>
+                    <p>The Downtown Eastside (DTES) is home to <strong>over 4,000 residents living in roughly 99 SRO buildings</strong> — often the last rental option before homelessness. Approximately one-third of SRO residents are Indigenous.</p>
+                    <p>Community organizations are working to acquire buildings and convert them to <strong>permanent community ownership through land trust models</strong>, removing them from the speculative market while preserving affordability for current residents.</p>
+                    <p>In 2023, the Province provided an <strong>$11 million grant to the DTES SRO Collaborative Society</strong> to support tenant-led programming and safety initiatives. The Downtown Eastside Community Land Trust (DTES CLT) was incorporated in 2023 to acquire buildings under Indigenous co-leadership and community governance.</p>
                 `
             },
             {
@@ -418,7 +413,7 @@ const tourStops = [
                 icon: "document",
                 content: `
                     <h4>The SRO Challenge</h4>
-                    <p>Vancouver has over <strong>6,500 SRO units</strong>, with 48% privately owned and 52% owned by the Province, City, or non-profits. In the DTES alone, there are 88 privately owned SRO hotels with approximately 3,600 beds. Conditions are often poor, with average rents around $600/month — though some landlords charge over $1,000.</p>
+                    <p>Vancouver's SRO stock is governed by the SRA by-law, with <strong>~99 buildings and ~4,000 rooms</strong> in the DTES alone. Average rents are roughly <strong>$680/month</strong> overall, while private SROs average closer to <strong>$740/month</strong>. The provincial shelter rate is $500/month, creating a persistent affordability gap.</p>
                     <p>As <strong>Wendy Pedersen</strong>, Executive Director of the SRO Collaborative, explains: "Privately owned SRO hotels are a last resort before homelessness." The Collaborative's Tenant Overdose Response Organizers (TORO) project connects tenant organizers with naloxone supplies and education.</p>
 
                     <h4>Community Partners</h4>
@@ -442,13 +437,13 @@ const tourStops = [
                     </ul>
 
                     <h4>Policy Context</h4>
-                    <p>In 2024, the Province took action to prevent evictions in the DTES, and the City is exploring policy changes to make it easier for governments, non-profits, and the private sector to build low-income housing and replace aging SROs.</p>
+                    <p>In 2024, Vancouver implemented <strong>vacancy control for SROs</strong>, preventing rent spikes between tenancies. DTES CLT's first acquisition, <strong>Powell Rooms (23 units)</strong>, is expected to close in January 2026, while <strong>Keefer Rooms (48 units)</strong> is reopening in spring 2025 through a BC Housing partnership and community programming model.</p>
                 `,
                 keyPoints: [
-                    "4,000+ residents in ~100 private SROs — last stop before homelessness",
+                    "4,000+ residents in ~99 SROs — last stop before homelessness",
                     "$11M provincial grant to SRO Collaborative (2023)",
                     "CLT acquisitions remove buildings from speculative market",
-                    "Tenant-led initiatives like TORO improve safety and habitability"
+                    "Vacancy control (2024) prevents rent hikes between tenancies"
                 ]
             },
             {
@@ -458,19 +453,14 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "images/dtes-sro.jpg",
-                        alt: "SRO hotel in the Downtown Eastside",
-                        caption: "SRO hotels: small rooms, often shared bathrooms, no kitchens"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/633_East_Hastings_02.JPG/1280px-633_East_Hastings_02.JPG",
+                        alt: "633 East Hastings building in Vancouver",
+                        caption: "633 East Hastings — Photo: Gordon Smith (CC BY-SA 3.0)"
                     },
                     {
-                        src: "images/dtes-carnegie.jpg",
-                        alt: "Carnegie Community Centre",
-                        caption: "Carnegie Centre — community hub since 1903"
-                    },
-                    {
-                        src: "images/dtes-community.jpg",
-                        alt: "Community organizing in the DTES",
-                        caption: "Tenant organizing and community advocacy"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
+                        alt: "Downtown Eastside neighbourhood view",
+                        caption: "Downtown Eastside — Photo: Public domain"
                     }
                 ]
             },
@@ -524,6 +514,7 @@ let markers = [];
 let lightboxActive = false;
 let lightboxImages = [];
 let lightboxIndex = 0;
+let stopsDrawerOpen = false;
 
 // ============================================
 // Icons
@@ -572,6 +563,30 @@ const icons = {
     </svg>`
 };
 
+function getFallbackSrc(src) {
+    if (!src) return '';
+    if (src.startsWith('http://') || src.startsWith('https://')) {
+        return 'images/placeholder.svg';
+    }
+    return src.replace(/\.[^.]+$/, '.svg');
+}
+
+function handleImageError(imgEl) {
+    if (!imgEl) return;
+    const fallback = imgEl.dataset.fallback;
+    if (fallback && !imgEl.src.includes(fallback)) {
+        imgEl.src = fallback;
+        return;
+    }
+
+    const wrapper = imgEl.parentElement;
+    if (wrapper) {
+        wrapper.classList.add('placeholder');
+        imgEl.remove();
+        wrapper.innerHTML = icons.placeholder;
+    }
+}
+
 // ============================================
 // Initialize Application
 // ============================================
@@ -581,11 +596,13 @@ document.addEventListener('DOMContentLoaded', () => {
     initNavigation();
     initMobileToggle();
     initKeyboardShortcuts();
+    initMapActions();
     renderStop(currentStopIndex);
     updateProgress();
-    createStopDots();
+    createStopNavigator();
+    initStopsDrawer();
+    updateNavButtons();
     createLightbox();
-    createKeyboardHint();
 });
 
 // ============================================
@@ -618,6 +635,15 @@ function initMap() {
     flyToStop(0);
 }
 
+function fitMapToStops() {
+    if (!map || !tourStops.length) return;
+    const bounds = L.latLngBounds(tourStops.map(stop => stop.coordinates));
+    map.fitBounds(bounds, {
+        padding: [60, 60],
+        animate: true
+    });
+}
+
 function createMarker(stop, index) {
     const icon = L.divIcon({
         className: 'custom-marker-wrapper',
@@ -627,6 +653,12 @@ function createMarker(stop, index) {
     });
 
     const marker = L.marker(stop.coordinates, { icon });
+    marker.bindTooltip(stop.title, {
+        direction: 'top',
+        offset: [0, -20],
+        opacity: 0.95,
+        className: 'marker-tooltip'
+    });
 
     marker.on('click', () => {
         goToStop(index);
@@ -707,9 +739,10 @@ function renderHeroImage(heroImage) {
         <div class="stop-hero">
             <img
                 src="${heroImage.src}"
+                data-fallback="${getFallbackSrc(heroImage.src)}"
                 alt="${heroImage.alt}"
                 loading="eager"
-                onerror="this.parentElement.classList.add('placeholder'); this.style.display='none'; this.parentElement.innerHTML='${icons.placeholder}';"
+                onerror="handleImageError(this)"
             />
             ${heroImage.caption ? `<div class="stop-hero-caption">${heroImage.caption}</div>` : ''}
         </div>
@@ -810,9 +843,10 @@ function renderGallery(images) {
                     ${image.src ? `
                         <img
                             src="${image.src}"
+                            data-fallback="${getFallbackSrc(image.src)}"
                             alt="${image.alt}"
                             loading="lazy"
-                            onerror="this.parentElement.classList.add('placeholder'); this.style.display='none'; this.parentElement.innerHTML='${icons.placeholder}';"
+                            onerror="handleImageError(this)"
                         />
                         <div class="gallery-item-overlay">
                             <span class="gallery-item-caption">${image.caption || ''}</span>
@@ -985,32 +1019,112 @@ function updateLightboxImage() {
 function updateProgress() {
     const progress = ((currentStopIndex + 1) / tourStops.length) * 100;
     document.getElementById('progressFill').style.width = `${progress}%`;
-    document.getElementById('progressText').textContent = `Stop ${currentStopIndex + 1} of ${tourStops.length}`;
+    const indicator = document.getElementById('stopIndicator');
+    if (indicator) {
+        indicator.textContent = `Stop ${currentStopIndex + 1} of ${tourStops.length}`;
+    }
 }
 
-function createStopDots() {
-    const container = document.getElementById('stopDots');
+function createStopNavigator() {
+    const container = document.getElementById('stopNavigator');
+    if (!container) return;
+
     container.innerHTML = tourStops.map((stop, index) => `
         <button
-            class="dot ${index === 0 ? 'active' : ''}"
+            class="stop-card ${index === 0 ? 'active' : ''}"
             data-index="${index}"
-            data-title="${stop.title}"
             aria-label="Go to ${stop.title}"
-        ></button>
+        >
+            <span class="stop-card-index">${index + 1}</span>
+            <span class="stop-card-text">
+                <span class="stop-card-title">${stop.title}</span>
+                <span class="stop-card-location">${stop.location}</span>
+            </span>
+            <span class="stop-card-arrow">${icons.arrowRight}</span>
+        </button>
     `).join('');
 
-    container.querySelectorAll('.dot').forEach(dot => {
-        dot.addEventListener('click', (e) => {
-            const index = parseInt(e.target.dataset.index);
+    container.querySelectorAll('.stop-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const index = parseInt(card.dataset.index, 10);
             goToStop(index);
+            closeStopsDrawer();
         });
     });
 }
 
-function updateDots() {
-    document.querySelectorAll('.dot').forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentStopIndex);
+function updateStopNavigator() {
+    const cards = document.querySelectorAll('.stop-card');
+    cards.forEach((card, index) => {
+        card.classList.toggle('active', index === currentStopIndex);
     });
+
+    if (stopsDrawerOpen && window.innerWidth <= 768) {
+        const activeCard = document.querySelector(`.stop-card[data-index="${currentStopIndex}"]`);
+        if (activeCard) {
+            activeCard.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });
+        }
+    }
+}
+
+function initStopsDrawer() {
+    const openBtn = document.getElementById('openStops');
+    const closeBtn = document.getElementById('closeStops');
+    const drawer = document.getElementById('stopsDrawer');
+    const backdrop = document.getElementById('stopsBackdrop');
+
+    if (!openBtn || !closeBtn || !drawer || !backdrop) return;
+
+    openBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openStopsDrawer();
+    });
+    closeBtn.addEventListener('click', () => closeStopsDrawer());
+    backdrop.addEventListener('click', () => closeStopsDrawer());
+}
+
+function openStopsDrawer() {
+    const drawer = document.getElementById('stopsDrawer');
+    const backdrop = document.getElementById('stopsBackdrop');
+    if (!drawer || !backdrop) return;
+
+    stopsDrawerOpen = true;
+    drawer.classList.add('open');
+    drawer.setAttribute('aria-hidden', 'false');
+    backdrop.hidden = false;
+    requestAnimationFrame(() => backdrop.classList.add('visible'));
+}
+
+function closeStopsDrawer() {
+    const drawer = document.getElementById('stopsDrawer');
+    const backdrop = document.getElementById('stopsBackdrop');
+    if (!drawer || !backdrop) return;
+
+    stopsDrawerOpen = false;
+    drawer.classList.remove('open');
+    drawer.setAttribute('aria-hidden', 'true');
+    backdrop.classList.remove('visible');
+    setTimeout(() => {
+        backdrop.hidden = true;
+    }, 200);
+}
+
+
+function initMapActions() {
+    const fitBtn = document.getElementById('fitAllBtn');
+    const centerBtn = document.getElementById('centerStopBtn');
+
+    if (fitBtn) {
+        fitBtn.addEventListener('click', () => {
+            fitMapToStops();
+        });
+    }
+
+    if (centerBtn) {
+        centerBtn.addEventListener('click', () => {
+            flyToStop(currentStopIndex);
+        });
+    }
 }
 
 function initNavigation() {
@@ -1035,8 +1149,8 @@ function goToStop(index) {
     renderStop(index);
     flyToStop(index);
     updateProgress();
-    updateDots();
     updateMarkers();
+    updateStopNavigator();
     updateNavButtons();
 
     // Collapse mobile sidebar
@@ -1048,23 +1162,47 @@ function goToStop(index) {
 function updateNavButtons() {
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
+    const prevStop = tourStops[currentStopIndex - 1];
+    const nextStop = tourStops[currentStopIndex + 1];
 
     prevBtn.disabled = currentStopIndex === 0;
     nextBtn.disabled = currentStopIndex === tourStops.length - 1;
 
+    prevBtn.innerHTML = `
+        <span class="nav-btn-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </span>
+        <span class="nav-btn-text">
+            <span class="nav-btn-label">Previous</span>
+            <span class="nav-btn-title">${prevStop ? prevStop.title : 'Start'}</span>
+        </span>
+    `;
+
     if (currentStopIndex === tourStops.length - 1) {
         nextBtn.innerHTML = `
-            Complete
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="20 6 9 17 4 12"/>
-            </svg>
+            <span class="nav-btn-text">
+                <span class="nav-btn-label">Complete</span>
+                <span class="nav-btn-title">End of tour</span>
+            </span>
+            <span class="nav-btn-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"/>
+                </svg>
+            </span>
         `;
     } else {
         nextBtn.innerHTML = `
-            Next
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M9 18l6-6-6-6"/>
-            </svg>
+            <span class="nav-btn-text">
+                <span class="nav-btn-label">Next</span>
+                <span class="nav-btn-title">${nextStop ? nextStop.title : 'Next stop'}</span>
+            </span>
+            <span class="nav-btn-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </span>
         `;
     }
 }
@@ -1078,9 +1216,12 @@ function initMobileToggle() {
     const header = document.querySelector('.sidebar-header');
     const toggle = document.getElementById('mobileToggle');
 
-    header.addEventListener('click', () => {
+    header.addEventListener('click', (e) => {
         if (window.innerWidth <= 768) {
-            sidebar.classList.toggle('expanded');
+            const isStopsButton = e.target?.closest?.('.stops-btn');
+            if (!isStopsButton) {
+                sidebar.classList.toggle('expanded');
+            }
         }
     });
 
@@ -1109,11 +1250,26 @@ function initKeyboardShortcuts() {
             return;
         }
 
+        if (stopsDrawerOpen && e.key === 'Escape') {
+            closeStopsDrawer();
+            return;
+        }
+
+        const key = e.key.toLowerCase();
+
         // Stop navigation
         if (e.key === 'ArrowLeft' && currentStopIndex > 0) {
             goToStop(currentStopIndex - 1);
         } else if (e.key === 'ArrowRight' && currentStopIndex < tourStops.length - 1) {
             goToStop(currentStopIndex + 1);
+        }
+
+        if (key === 'a') {
+            fitMapToStops();
+        }
+
+        if (key === 'c') {
+            flyToStop(currentStopIndex);
         }
 
         // Tab navigation with number keys
@@ -1125,17 +1281,6 @@ function initKeyboardShortcuts() {
             }
         }
     });
-}
-
-function createKeyboardHint() {
-    const mapContainer = document.querySelector('.map-container');
-    const hint = document.createElement('div');
-    hint.className = 'keyboard-hint';
-    hint.innerHTML = `
-        <span><kbd>←</kbd> <kbd>→</kbd> Navigate stops</span>
-        <span><kbd>1</kbd>-<kbd>4</kbd> Switch tabs</span>
-    `;
-    mapContainer.appendChild(hint);
 }
 
 // ============================================

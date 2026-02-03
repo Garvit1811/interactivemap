@@ -29,11 +29,7 @@
     --border-light: #f1f5f9;
 
     /* Layout */
-<<<<<<< HEAD
     --sidebar-width: clamp(560px, 40vw, 720px);
-=======
-    --sidebar-width: clamp(520px, 40vw, 720px);
->>>>>>> 53d2165 (Add Wikimedia images to False Creek)
 
     /* Shadows - Layered for depth */
     --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
@@ -483,13 +479,8 @@ body {
 /* Quick facts row */
 .stop-facts {
     padding: var(--space-md) var(--space-xl) var(--space-lg);
-<<<<<<< HEAD
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.85));
     border-bottom: 1px solid var(--border-color);
-=======
-    background: var(--surface);
-    border-top: 1px solid var(--border-color);
->>>>>>> 53d2165 (Add Wikimedia images to False Creek)
 }
 
 .stop-facts-title {
@@ -821,11 +812,7 @@ body {
 
 .gallery-item {
     position: relative;
-<<<<<<< HEAD
     aspect-ratio: 16 / 9;
-=======
-    aspect-ratio: 4 / 3;
->>>>>>> 53d2165 (Add Wikimedia images to False Creek)
     min-height: 240px;
     border-radius: var(--radius-md);
     overflow: hidden;
@@ -1558,6 +1545,7 @@ body {
 @media (max-width: 768px) {
     :root {
         --sidebar-width: 100%;
+        --mobile-map-height: 42vh;
         --space-lg: 1rem;
         --space-xl: 1.25rem;
     }
@@ -1567,35 +1555,26 @@ body {
     }
 
     .sidebar {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
+        position: relative;
         width: 100%;
-        height: 70vh;
-        max-height: 70vh;
-        border-radius: var(--radius-xl) var(--radius-xl) 0 0;
-        box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.15);
-        transform: translateY(calc(100% - 180px));
+        height: calc(100vh - var(--mobile-map-height));
+        max-height: calc(100vh - var(--mobile-map-height));
+        border-radius: 0;
+        box-shadow: var(--shadow-lg);
+        transform: none;
     }
 
     .sidebar.expanded {
-        transform: translateY(0);
+        transform: none;
     }
 
     /* Drag handle */
     .sidebar-header {
-        cursor: pointer;
+        cursor: default;
     }
 
     .sidebar-header::after {
-        content: '';
-        display: block;
-        width: 40px;
-        height: 4px;
-        background: rgba(255, 255, 255, 0.4);
-        border-radius: var(--radius-full);
-        margin: 0 auto var(--space-md);
+        content: none;
     }
 
     .sidebar-header h1 {
@@ -1603,11 +1582,11 @@ body {
     }
 
     .map-container {
-        height: 100vh;
+        height: var(--mobile-map-height);
     }
 
     .mobile-toggle {
-        display: flex;
+        display: none;
     }
 
     .keyboard-hint {

@@ -142,7 +142,7 @@ const tourStops = [
                         caption: "Granville Bridge over False Creek — Photo: McKay Savage (CC BY 2.0)"
                     },
                     {
-                        src: "https://commons.wikimedia.org/w/thumb.php?f=False_Creek%2C_Vancouver_%282025%29.jpg&width=1280",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/False_Creek%2C_Vancouver_%282025%29.jpg/1280px-False_Creek%2C_Vancouver_%282025%29.jpg",
                         alt: "Aerial view over False Creek with downtown Vancouver",
                         caption: "Aerial view over False Creek — Photo: Northwest (CC BY 4.0)"
                     }
@@ -305,7 +305,7 @@ const tourStops = [
                         caption: "Burrard Bridge — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://commons.wikimedia.org/w/thumb.php?f=Vanier-Park.jpg&width=1280",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Vanier-Park.jpg/1280px-Vanier-Park.jpg",
                         alt: "Downtown Vancouver skyline seen from Vanier Park",
                         caption: "Downtown skyline from Vanier Park — Photo: Xicotencatl (CC BY-SA 4.0)"
                     },
@@ -479,7 +479,7 @@ const tourStops = [
                         caption: "Granville Island waterfront — Photo: Public domain"
                     },
                     {
-                        src: "https://commons.wikimedia.org/w/thumb.php?f=Granville_Island%2C_Vancouver_%288002251017%29.jpg&width=1280",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Granville_Island%2C_Vancouver_%288002251017%29.jpg/1280px-Granville_Island%2C_Vancouver_%288002251017%29.jpg",
                         alt: "Granville Island street scene with shops",
                         caption: "Granville Island street scene — Photo: InSapphoWeTrust (CC BY-SA 2.0)"
                     }
@@ -645,7 +645,7 @@ const tourStops = [
                         caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 4.0)"
                     },
                     {
-                        src: "https://commons.wikimedia.org/w/thumb.php?f=Oppenheimer_Park_%285674465960%29.jpg&width=1280",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oppenheimer_Park_%285674465960%29.jpg/1280px-Oppenheimer_Park_%285674465960%29.jpg",
                         alt: "Oppenheimer Park in the Downtown Eastside",
                         caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
                     },

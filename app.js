@@ -115,7 +115,7 @@ const tourStops = [
                 label: "Gallery",
                 icon: "images",
                 type: "gallery",
-                images: [
+                                images: [
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vancouver_-_False_Creek_near_Granville_Island_01.jpg/1280px-Vancouver_-_False_Creek_near_Granville_Island_01.jpg",
                         alt: "False Creek near Granville Island in Vancouver",
@@ -127,11 +127,6 @@ const tourStops = [
                         caption: "False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-<<<<<<< HEAD
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vancouver_Burrard_Street_Bridge_and_False_Creek.jpg/1280px-Vancouver_Burrard_Street_Bridge_and_False_Creek.jpg",
-                        alt: "Burrard Street Bridge and False Creek from above",
-                        caption: "Burrard Street Bridge and False Creek — Photo: James Wheeler (CC BY 2.0)"
-=======
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/False_Creek_Vancouver.jpg/1280px-False_Creek_Vancouver.jpg",
                         alt: "False Creek waterfront with downtown Vancouver skyline",
                         caption: "False Creek waterfront — Photo: Wikimedia Commons (CC BY-SA 4.0)"
@@ -142,25 +137,14 @@ const tourStops = [
                         caption: "False Creek shoreline — Photo: Panoramio archive (CC BY 3.0)"
                     },
                     {
-                        src: "images/fcs-aerial.svg",
-                        alt: "Aerial illustration of the False Creek South area",
-                        caption: "False Creek South aerial view — Illustration"
->>>>>>> 53d2165 (Add Wikimedia images to False Creek)
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
-                        alt: "False Creek panorama with skyline",
-                        caption: "False Creek skyline panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
-                    },
-                    {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Granville_Bridge_Vancouver.jpg/1280px-Granville_Bridge_Vancouver.jpg",
                         alt: "Granville Bridge over False Creek",
                         caption: "Granville Bridge over False Creek — Photo: McKay Savage (CC BY 2.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/False_Creek%2C_Vancouver%2C_BC.jpg/1280px-False_Creek%2C_Vancouver%2C_BC.jpg",
-                        alt: "False Creek waterfront looking toward downtown",
-                        caption: "False Creek waterfront — Photo: GoToVan (CC BY-SA 3.0)"
+                        src: "https://commons.wikimedia.org/w/thumb.php?f=False_Creek%2C_Vancouver_%282025%29.jpg&width=1280",
+                        alt: "Aerial view over False Creek with downtown Vancouver",
+                        caption: "Aerial view over False Creek — Photo: Northwest (CC BY 4.0)"
                     }
                 ]
             },
@@ -299,7 +283,7 @@ const tourStops = [
                 label: "Gallery",
                 icon: "images",
                 type: "gallery",
-                images: [
+                                images: [
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Vancouver_Burrard_Street_Bridge_%289971716326%29.jpg/1280px-Vancouver_Burrard_Street_Bridge_%289971716326%29.jpg",
                         alt: "Burrard Street Bridge in Vancouver",
@@ -311,11 +295,6 @@ const tourStops = [
                         caption: "False Creek near Kits Point — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-<<<<<<< HEAD
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrard_Bridge_and_False_Creek_Vancouver.jpg/1280px-Burrard_Bridge_and_False_Creek_Vancouver.jpg",
-                        alt: "Burrard Bridge and False Creek view",
-                        caption: "Burrard Bridge and False Creek — Photo: Darren Kirby (CC BY-SA 3.0)"
-=======
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Kitsilano_Beach_2015.jpg/1280px-Kitsilano_Beach_2015.jpg",
                         alt: "Kitsilano Beach with the Vancouver skyline",
                         caption: "Kitsilano Beach — Photo: Wikimedia Commons (CC BY-SA 4.0)"
@@ -326,20 +305,9 @@ const tourStops = [
                         caption: "Burrard Bridge — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
                     {
-                        src: "images/senakw-render.svg",
-                        alt: "Architectural rendering of the Senakw development",
-                        caption: "Senákw massing study — Illustration"
->>>>>>> 53d2165 (Add Wikimedia images to False Creek)
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Kitsilano%2C_Vancouver.jpg/1280px-Kitsilano%2C_Vancouver.jpg",
-                        alt: "Kitsilano neighbourhood near Senakw",
-                        caption: "Kitsilano streetscape — Photo: GoToVan (CC BY-SA 3.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Vancouver_skyline_from_Kitsilano_Beach.jpg/1280px-Vancouver_skyline_from_Kitsilano_Beach.jpg",
-                        alt: "Vancouver skyline from Kitsilano Beach",
-                        caption: "Skyline from Kitsilano Beach — Photo: Steve Tsang (CC BY 2.0)"
+                        src: "https://commons.wikimedia.org/w/thumb.php?f=Vanier-Park.jpg&width=1280",
+                        alt: "Downtown Vancouver skyline seen from Vanier Park",
+                        caption: "Downtown skyline from Vanier Park — Photo: Xicotencatl (CC BY-SA 4.0)"
                     },
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Burrard_Bridge_%26_False_Creek_at_dusk.jpg/1280px-Burrard_Bridge_%26_False_Creek_at_dusk.jpg",
@@ -484,7 +452,7 @@ const tourStops = [
                 label: "Gallery",
                 icon: "images",
                 type: "gallery",
-                images: [
+                                images: [
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Granville_Island_Public_Market_2024.jpg/1280px-Granville_Island_Public_Market_2024.jpg",
                         alt: "Granville Island Public Market exterior",
@@ -496,11 +464,6 @@ const tourStops = [
                         caption: "Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)"
                     },
                     {
-<<<<<<< HEAD
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Granville_Island_Public_Market.jpg/1280px-Granville_Island_Public_Market.jpg",
-                        alt: "Granville Island Public Market signage",
-                        caption: "Public Market entrance — Photo: Wikimedia Commons (CC BY-SA 3.0)"
-=======
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Granville_Island_Public_Market_interior.jpg/1280px-Granville_Island_Public_Market_interior.jpg",
                         alt: "Interior of the Granville Island Public Market",
                         caption: "Public Market interior — Photo: Wikimedia Commons (CC BY-SA 4.0)"
@@ -511,25 +474,14 @@ const tourStops = [
                         caption: "Granville Island waterfront — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
                     {
-                        src: "images/granville-market.svg",
-                        alt: "Illustration of the Granville Island public market",
-                        caption: "Granville Island market focus — Illustration"
->>>>>>> 53d2165 (Add Wikimedia images to False Creek)
-                    },
-                    {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Granville_Island.jpg/1280px-Granville_Island.jpg",
                         alt: "Granville Island waterfront view",
                         caption: "Granville Island waterfront — Photo: Public domain"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Granville_Island_Waterfront.JPG/1280px-Granville_Island_Waterfront.JPG",
-                        alt: "Granville Island shoreline and boats",
-                        caption: "Granville Island shoreline — Photo: GoToVan (CC BY-SA 3.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Granville_Island_Public_Market_%2810410245185%29.jpg/1280px-Granville_Island_Public_Market_%2810410245185%29.jpg",
-                        alt: "Granville Island Public Market interior",
-                        caption: "Public Market interior — Photo: Steven Pavlov (CC BY-SA 2.0)"
+                        src: "https://commons.wikimedia.org/w/thumb.php?f=Granville_Island%2C_Vancouver_%288002251017%29.jpg&width=1280",
+                        alt: "Granville Island street scene with shops",
+                        caption: "Granville Island street scene — Photo: InSapphoWeTrust (CC BY-SA 2.0)"
                     }
                 ]
             },
@@ -671,7 +623,7 @@ const tourStops = [
                 label: "Gallery",
                 icon: "images",
                 type: "gallery",
-                images: [
+                                images: [
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/633_East_Hastings_02.JPG/1280px-633_East_Hastings_02.JPG",
                         alt: "633 East Hastings building in Vancouver",
@@ -683,11 +635,6 @@ const tourStops = [
                         caption: "Downtown Eastside — Photo: Public domain"
                     },
                     {
-<<<<<<< HEAD
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
-                        alt: "East Hastings Street in Vancouver",
-                        caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
-=======
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pigeon_Park%2C_Vancouver.jpg/1280px-Pigeon_Park%2C_Vancouver.jpg",
                         alt: "Pigeon Park in the Downtown Eastside",
                         caption: "Pigeon Park — Photo: Wikimedia Commons (CC BY-SA 4.0)"
@@ -698,20 +645,9 @@ const tourStops = [
                         caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 4.0)"
                     },
                     {
-                        src: "images/dtes-community.svg",
-                        alt: "Community illustration for Downtown Eastside",
-                        caption: "DTES community focus — Illustration"
->>>>>>> 53d2165 (Add Wikimedia images to False Creek)
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Vancouver_Downtown_Eastside_2012.jpg/1280px-Vancouver_Downtown_Eastside_2012.jpg",
-                        alt: "Downtown Eastside street scene",
-                        caption: "Downtown Eastside street scene — Photo: Ken Ohyama (CC BY-SA 2.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Carnegie_Centre_Vancouver_2019.jpg/1280px-Carnegie_Centre_Vancouver_2019.jpg",
-                        alt: "Carnegie Community Centre exterior",
-                        caption: "Carnegie Community Centre — Photo: GoToVan (CC BY-SA 3.0)"
+                        src: "https://commons.wikimedia.org/w/thumb.php?f=Oppenheimer_Park_%285674465960%29.jpg&width=1280",
+                        alt: "Oppenheimer Park in the Downtown Eastside",
+                        caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
                     },
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Hogan%27s_Alley_Mural%2C_Vancouver.jpg/1280px-Hogan%27s_Alley_Mural%2C_Vancouver.jpg",

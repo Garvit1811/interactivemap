@@ -29,7 +29,11 @@
     --border-light: #f1f5f9;
 
     /* Layout */
+<<<<<<< HEAD
     --sidebar-width: clamp(560px, 40vw, 720px);
+=======
+    --sidebar-width: clamp(520px, 40vw, 720px);
+>>>>>>> 53d2165 (Add Wikimedia images to False Creek)
 
     /* Shadows - Layered for depth */
     --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
@@ -479,8 +483,13 @@ body {
 /* Quick facts row */
 .stop-facts {
     padding: var(--space-md) var(--space-xl) var(--space-lg);
+<<<<<<< HEAD
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.85));
     border-bottom: 1px solid var(--border-color);
+=======
+    background: var(--surface);
+    border-top: 1px solid var(--border-color);
+>>>>>>> 53d2165 (Add Wikimedia images to False Creek)
 }
 
 .stop-facts-title {
@@ -812,7 +821,11 @@ body {
 
 .gallery-item {
     position: relative;
+<<<<<<< HEAD
     aspect-ratio: 16 / 9;
+=======
+    aspect-ratio: 4 / 3;
+>>>>>>> 53d2165 (Add Wikimedia images to False Creek)
     min-height: 240px;
     border-radius: var(--radius-md);
     overflow: hidden;

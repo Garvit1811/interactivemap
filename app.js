@@ -43,6 +43,34 @@ const tourStops = [
                 `
             },
             {
+                id: "highlights",
+                label: "At This Stop",
+                icon: "sparkles",
+                type: "highlights",
+                highlights: [
+                    {
+                        title: "Lease Renewal Timeline",
+                        description: "Locate the leasehold parcels expiring between 2036–2046 and discuss how renewal options affect long-term affordability.",
+                        meta: "Decision window"
+                    },
+                    {
+                        title: "Co-op Cluster",
+                        description: "Visit the co-op homes along the waterfront to see shared courtyards and resident-led governance in action.",
+                        meta: "Community-led"
+                    },
+                    {
+                        title: "Waterfront Greenway",
+                        description: "Follow the seawall to experience the public-realm improvements tied to public land stewardship.",
+                        meta: "Public realm"
+                    },
+                    {
+                        title: "Housing Trust Hub",
+                        description: "Review the community housing trust concept and how it could govern future redevelopment.",
+                        meta: "Future planning"
+                    }
+                ]
+            },
+            {
                 id: "details",
                 label: "Housing Model",
                 icon: "document",
@@ -99,14 +127,24 @@ const tourStops = [
                         caption: "False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-                        src: "images/fcs-aerial.svg",
-                        alt: "Aerial illustration of the False Creek South area",
-                        caption: "False Creek South aerial view — Illustration"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vancouver_Burrard_Street_Bridge_and_False_Creek.jpg/1280px-Vancouver_Burrard_Street_Bridge_and_False_Creek.jpg",
+                        alt: "Burrard Street Bridge and False Creek from above",
+                        caption: "Burrard Street Bridge and False Creek — Photo: James Wheeler (CC BY 2.0)"
                     },
                     {
-                        src: "images/fcs-community.svg",
-                        alt: "Community-focused illustration for False Creek South",
-                        caption: "False Creek South community focus — Illustration"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
+                        alt: "False Creek panorama with skyline",
+                        caption: "False Creek skyline panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Granville_Bridge_Vancouver.jpg/1280px-Granville_Bridge_Vancouver.jpg",
+                        alt: "Granville Bridge over False Creek",
+                        caption: "Granville Bridge over False Creek — Photo: McKay Savage (CC BY 2.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/False_Creek%2C_Vancouver%2C_BC.jpg/1280px-False_Creek%2C_Vancouver%2C_BC.jpg",
+                        alt: "False Creek waterfront looking toward downtown",
+                        caption: "False Creek waterfront — Photo: GoToVan (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -177,6 +215,34 @@ const tourStops = [
                 `
             },
             {
+                id: "highlights",
+                label: "At This Stop",
+                icon: "sparkles",
+                type: "highlights",
+                highlights: [
+                    {
+                        title: "Tower Cluster View",
+                        description: "Compare the 11-tower massing plan with surrounding Kitsilano scale to understand the density shift.",
+                        meta: "Design focus"
+                    },
+                    {
+                        title: "Public Green Space",
+                        description: "Walk the six-acre open space to see how public realm access is built into the development agreement.",
+                        meta: "Open space"
+                    },
+                    {
+                        title: "Transit Connections",
+                        description: "Note the proximity to Burrard Bridge, cycling routes, and future rapid transit plans.",
+                        meta: "Mobility"
+                    },
+                    {
+                        title: "Cultural Gathering",
+                        description: "Identify where cultural programming and Indigenous-led placemaking will be hosted.",
+                        meta: "Community"
+                    }
+                ]
+            },
+            {
                 id: "details",
                 label: "Land Rights",
                 icon: "document",
@@ -229,14 +295,24 @@ const tourStops = [
                         caption: "False Creek near Kits Point — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-                        src: "images/senakw-render.svg",
-                        alt: "Architectural rendering of the Senakw development",
-                        caption: "Senákw massing study — Illustration"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrard_Bridge_and_False_Creek_Vancouver.jpg/1280px-Burrard_Bridge_and_False_Creek_Vancouver.jpg",
+                        alt: "Burrard Bridge and False Creek view",
+                        caption: "Burrard Bridge and False Creek — Photo: Darren Kirby (CC BY-SA 3.0)"
                     },
                     {
-                        src: "images/senakw-site.svg",
-                        alt: "Site context illustration for Senakw near Burrard Bridge",
-                        caption: "Senákw site context — Illustration"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Kitsilano%2C_Vancouver.jpg/1280px-Kitsilano%2C_Vancouver.jpg",
+                        alt: "Kitsilano neighbourhood near Senakw",
+                        caption: "Kitsilano streetscape — Photo: GoToVan (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Vancouver_skyline_from_Kitsilano_Beach.jpg/1280px-Vancouver_skyline_from_Kitsilano_Beach.jpg",
+                        alt: "Vancouver skyline from Kitsilano Beach",
+                        caption: "Skyline from Kitsilano Beach — Photo: Steve Tsang (CC BY 2.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Burrard_Bridge_%26_False_Creek_at_dusk.jpg/1280px-Burrard_Bridge_%26_False_Creek_at_dusk.jpg",
+                        alt: "Burrard Bridge at dusk over False Creek",
+                        caption: "Burrard Bridge at dusk — Photo: Joe Mabel (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -307,6 +383,34 @@ const tourStops = [
                 `
             },
             {
+                id: "highlights",
+                label: "At This Stop",
+                icon: "sparkles",
+                type: "highlights",
+                highlights: [
+                    {
+                        title: "Public Market Hall",
+                        description: "Start at the Public Market to see how cross-subsidy supports local vendors and public amenities.",
+                        meta: "Must see"
+                    },
+                    {
+                        title: "Artist Studio Row",
+                        description: "Visit the artisan studios to experience the affordable creative space model.",
+                        meta: "Creative economy"
+                    },
+                    {
+                        title: "Waterfront Walk",
+                        description: "Follow the seawall edge to observe flexible public space programming and ferry access.",
+                        meta: "Public realm"
+                    },
+                    {
+                        title: "Future Sites",
+                        description: "Discuss aging infrastructure and where reinvestment could support long-term viability.",
+                        meta: "Reinvestment"
+                    }
+                ]
+            },
+            {
                 id: "details",
                 label: "Land Model",
                 icon: "document",
@@ -360,14 +464,24 @@ const tourStops = [
                         caption: "Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)"
                     },
                     {
-                        src: "images/granville-market.svg",
-                        alt: "Illustration of the Granville Island public market",
-                        caption: "Granville Island market focus — Illustration"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Granville_Island_Public_Market.jpg/1280px-Granville_Island_Public_Market.jpg",
+                        alt: "Granville Island Public Market signage",
+                        caption: "Public Market entrance — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
                     {
-                        src: "images/granville-arts.svg",
-                        alt: "Illustration highlighting Granville Island arts spaces",
-                        caption: "Granville Island arts district — Illustration"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Granville_Island.jpg/1280px-Granville_Island.jpg",
+                        alt: "Granville Island waterfront view",
+                        caption: "Granville Island waterfront — Photo: Public domain"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Granville_Island_Waterfront.JPG/1280px-Granville_Island_Waterfront.JPG",
+                        alt: "Granville Island shoreline and boats",
+                        caption: "Granville Island shoreline — Photo: GoToVan (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Granville_Island_Public_Market_%2810410245185%29.jpg/1280px-Granville_Island_Public_Market_%2810410245185%29.jpg",
+                        alt: "Granville Island Public Market interior",
+                        caption: "Public Market interior — Photo: Steven Pavlov (CC BY-SA 2.0)"
                     }
                 ]
             },
@@ -438,6 +552,34 @@ const tourStops = [
                 `
             },
             {
+                id: "highlights",
+                label: "At This Stop",
+                icon: "sparkles",
+                type: "highlights",
+                highlights: [
+                    {
+                        title: "Carnegie Community Centre",
+                        description: "Visit the historic centre to see wraparound services that anchor the neighbourhood.",
+                        meta: "Community hub"
+                    },
+                    {
+                        title: "SRO Support Loop",
+                        description: "Map the tenant support network connecting SRO buildings, outreach teams, and health resources.",
+                        meta: "Support services"
+                    },
+                    {
+                        title: "Hogan's Alley Sites",
+                        description: "Identify the restoration efforts honoring Vancouver’s historic Black neighbourhood.",
+                        meta: "Cultural heritage"
+                    },
+                    {
+                        title: "Future Acquisitions",
+                        description: "Review the Keefer and Powell Rooms timelines to understand CLT acquisition strategy.",
+                        meta: "Land trust"
+                    }
+                ]
+            },
+            {
                 id: "details",
                 label: "Partners & Work",
                 icon: "document",
@@ -493,14 +635,24 @@ const tourStops = [
                         caption: "Downtown Eastside — Photo: Public domain"
                     },
                     {
-                        src: "images/dtes-community.svg",
-                        alt: "Community illustration for Downtown Eastside",
-                        caption: "DTES community focus — Illustration"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
+                        alt: "East Hastings Street in Vancouver",
+                        caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
                     },
                     {
-                        src: "images/dtes-carnegie.svg",
-                        alt: "Illustration of the Carnegie Community Centre",
-                        caption: "Carnegie Community Centre — Illustration"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Vancouver_Downtown_Eastside_2012.jpg/1280px-Vancouver_Downtown_Eastside_2012.jpg",
+                        alt: "Downtown Eastside street scene",
+                        caption: "Downtown Eastside street scene — Photo: Ken Ohyama (CC BY-SA 2.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Carnegie_Centre_Vancouver_2019.jpg/1280px-Carnegie_Centre_Vancouver_2019.jpg",
+                        alt: "Carnegie Community Centre exterior",
+                        caption: "Carnegie Community Centre — Photo: GoToVan (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Hogan%27s_Alley_Mural%2C_Vancouver.jpg/1280px-Hogan%27s_Alley_Mural%2C_Vancouver.jpg",
+                        alt: "Hogan's Alley mural in Vancouver",
+                        caption: "Hogan's Alley mural — Photo: GoToVan (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -580,6 +732,11 @@ const icons = {
     link: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
         <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+    </svg>`,
+    sparkles: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 3l1.2 3.6L10 8l-3.8 1.4L5 13l-1.2-3.6L0 8l3.8-1.4L5 3z" transform="translate(2 2)"/>
+        <path d="M15 3l1.2 3.6L20 8l-3.8 1.4L15 13l-1.2-3.6L10 8l3.8-1.4L15 3z" transform="translate(2 6)"/>
+        <path d="M7 14l1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3z" transform="translate(10 -2)"/>
     </svg>`,
     location: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
@@ -851,6 +1008,8 @@ function renderSectionPanel(section, index) {
 
     if (section.type === 'gallery') {
         content = renderGallery(section.images);
+    } else if (section.type === 'highlights') {
+        content = renderHighlights(section.highlights);
     } else if (section.type === 'resources') {
         content = renderResources(section.resources);
     } else {
@@ -865,6 +1024,32 @@ function renderSectionPanel(section, index) {
     return `
         <div class="section-panel ${isActive}" id="panel-${section.id}" role="tabpanel">
             ${content}
+        </div>
+    `;
+}
+
+function renderHighlights(highlights) {
+    if (!highlights || highlights.length === 0) {
+        return `
+            <div class="gallery-empty">
+                ${icons.placeholder}
+                <p>Highlights coming soon</p>
+            </div>
+        `;
+    }
+
+    return `
+        <div class="highlights-grid">
+            ${highlights.map((item, index) => `
+                <div class="highlight-card">
+                    <div class="highlight-header">
+                        <span class="highlight-index">0${index + 1}</span>
+                        ${item.meta ? `<span class="highlight-meta">${item.meta}</span>` : ''}
+                    </div>
+                    <h3>${item.title}</h3>
+                    <p>${item.description}</p>
+                </div>
+            `).join('')}
         </div>
     `;
 }
@@ -1360,8 +1545,8 @@ function initKeyboardShortcuts() {
         }
 
         // Tab navigation with number keys
-        if (e.key >= '1' && e.key <= '4') {
-            const tabIndex = parseInt(e.key) - 1;
+        if (e.key >= '1' && e.key <= '9') {
+            const tabIndex = parseInt(e.key, 10) - 1;
             const tabs = document.querySelectorAll('.section-tab');
             if (tabs[tabIndex]) {
                 switchSection(tabIndex);

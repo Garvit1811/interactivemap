@@ -97,6 +97,16 @@ const tourStops = [
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vancouver_-_False_Creek_pano_03.jpg/1280px-Vancouver_-_False_Creek_pano_03.jpg",
                         alt: "False Creek panorama in Vancouver",
                         caption: "False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "images/fcs-aerial.svg",
+                        alt: "Aerial illustration of the False Creek South area",
+                        caption: "False Creek South aerial view — Illustration"
+                    },
+                    {
+                        src: "images/fcs-community.svg",
+                        alt: "Community-focused illustration for False Creek South",
+                        caption: "False Creek South community focus — Illustration"
                     }
                 ]
             },
@@ -217,6 +227,16 @@ const tourStops = [
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
                         alt: "False Creek panorama near Kitsilano",
                         caption: "False Creek near Kits Point — Photo: Joe Mabel (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "images/senakw-render.svg",
+                        alt: "Architectural rendering of the Senakw development",
+                        caption: "Senákw massing study — Illustration"
+                    },
+                    {
+                        src: "images/senakw-site.svg",
+                        alt: "Site context illustration for Senakw near Burrard Bridge",
+                        caption: "Senákw site context — Illustration"
                     }
                 ]
             },
@@ -338,6 +358,16 @@ const tourStops = [
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg/1280px-Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg",
                         alt: "Granville Island waterfront and village area",
                         caption: "Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)"
+                    },
+                    {
+                        src: "images/granville-market.svg",
+                        alt: "Illustration of the Granville Island public market",
+                        caption: "Granville Island market focus — Illustration"
+                    },
+                    {
+                        src: "images/granville-arts.svg",
+                        alt: "Illustration highlighting Granville Island arts spaces",
+                        caption: "Granville Island arts district — Illustration"
                     }
                 ]
             },
@@ -461,6 +491,16 @@ const tourStops = [
                         src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
                         alt: "Downtown Eastside neighbourhood view",
                         caption: "Downtown Eastside — Photo: Public domain"
+                    },
+                    {
+                        src: "images/dtes-community.svg",
+                        alt: "Community illustration for Downtown Eastside",
+                        caption: "DTES community focus — Illustration"
+                    },
+                    {
+                        src: "images/dtes-carnegie.svg",
+                        alt: "Illustration of the Carnegie Community Centre",
+                        caption: "Carnegie Community Centre — Illustration"
                     }
                 ]
             },
@@ -532,6 +572,10 @@ const icons = {
     images: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
         <circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
+    </svg>`,
+    expand: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/>
+        <line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/>
     </svg>`,
     link: `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
@@ -711,10 +755,10 @@ function renderStop(index) {
                 ${icons.location}
                 ${stop.location}
             </div>
-            ${renderStats(stop.stats)}
         </div>
 
         ${renderSectionTabs(stop.sections)}
+        ${renderFacts(stop.stats)}
 
         <div class="section-panels">
             ${stop.sections.map((section, idx) => renderSectionPanel(section, idx)).join('')}
@@ -736,7 +780,7 @@ function renderHeroImage(heroImage) {
     }
 
     return `
-        <div class="stop-hero">
+        <div class="stop-hero expandable" role="button" tabindex="0" aria-label="Expand hero image" data-hero="true">
             <img
                 src="${heroImage.src}"
                 data-fallback="${getFallbackSrc(heroImage.src)}"
@@ -744,6 +788,10 @@ function renderHeroImage(heroImage) {
                 loading="eager"
                 onerror="handleImageError(this)"
             />
+            <div class="stop-hero-action">
+                ${icons.expand}
+                Expand
+            </div>
             ${heroImage.caption ? `<div class="stop-hero-caption">${heroImage.caption}</div>` : ''}
         </div>
     `;
@@ -760,6 +808,17 @@ function renderStats(stats) {
                     <span class="stat-badge-value">${stat.value}</span>
                 </div>
             `).join('')}
+        </div>
+    `;
+}
+
+function renderFacts(stats) {
+    if (!stats || stats.length === 0) return '';
+
+    return `
+        <div class="stop-facts">
+            <div class="stop-facts-title">Quick Facts</div>
+            ${renderStats(stats)}
         </div>
     `;
 }
@@ -836,24 +895,34 @@ function renderGallery(images) {
         `;
     }
 
+    let lightboxIndex = 0;
+
     return `
         <div class="gallery-grid">
-            ${images.map((image, index) => `
-                <div class="gallery-item ${!image.src ? 'placeholder' : ''}" data-index="${index}" tabindex="0" role="button">
-                    ${image.src ? `
-                        <img
-                            src="${image.src}"
-                            data-fallback="${getFallbackSrc(image.src)}"
-                            alt="${image.alt}"
-                            loading="lazy"
-                            onerror="handleImageError(this)"
-                        />
-                        <div class="gallery-item-overlay">
-                            <span class="gallery-item-caption">${image.caption || ''}</span>
-                        </div>
-                    ` : icons.placeholder}
-                </div>
-            `).join('')}
+            ${images.map((image) => {
+                const hasSrc = Boolean(image.src);
+                const index = hasSrc ? lightboxIndex++ : -1;
+                return `
+                    <div class="gallery-item ${!hasSrc ? 'placeholder' : ''}" data-index="${index}" tabindex="0" role="button" aria-label="Expand photo">
+                        ${hasSrc ? `
+                            <img
+                                src="${image.src}"
+                                data-fallback="${getFallbackSrc(image.src)}"
+                                alt="${image.alt}"
+                                loading="lazy"
+                                onerror="handleImageError(this)"
+                            />
+                            <div class="gallery-item-overlay">
+                                <span class="gallery-item-caption">${image.caption || ''}</span>
+                                <span class="gallery-item-expand">
+                                    ${icons.expand}
+                                    Expand
+                                </span>
+                            </div>
+                        ` : icons.placeholder}
+                    </div>
+                `;
+            }).join('')}
         </div>
     `;
 }
@@ -916,21 +985,39 @@ function switchSection(sectionIndex) {
 
 function initGalleryHandlers(stop) {
     const gallerySection = stop.sections?.find(s => s.type === 'gallery');
-    if (!gallerySection || !gallerySection.images) return;
+    const galleryImages = gallerySection?.images || [];
+    const heroImage = stop.heroImage?.src ? stop.heroImage : null;
+    const heroOffset = heroImage ? 1 : 0;
 
-    lightboxImages = gallerySection.images;
+    lightboxImages = [
+        ...(heroImage ? [heroImage] : []),
+        ...galleryImages.filter(image => image?.src)
+    ];
+
+    const heroEl = document.querySelector('.stop-hero.expandable');
+    if (heroEl && heroImage) {
+        heroEl.addEventListener('click', () => openLightbox(0));
+        heroEl.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                openLightbox(0);
+            }
+        });
+    }
+
+    if (!galleryImages.length) return;
 
     document.querySelectorAll('.gallery-item:not(.placeholder)').forEach(item => {
         item.addEventListener('click', () => {
-            const index = parseInt(item.dataset.index);
-            openLightbox(index);
+            const index = parseInt(item.dataset.index, 10);
+            openLightbox(index + heroOffset);
         });
 
         item.addEventListener('keydown', (e) => {
             if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
-                const index = parseInt(item.dataset.index);
-                openLightbox(index);
+                const index = parseInt(item.dataset.index, 10);
+                openLightbox(index + heroOffset);
             }
         });
     });

@@ -3,116 +3,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BSH Tour</title>
-
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin="">
+    <title>BSH Interactive Maps</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --color-primary: #2563eb;
+            --color-primary-dark: #1d4ed8;
+            --color-text: #1e293b;
+            --color-text-muted: #64748b;
+            --color-bg: #f8fafc;
+            --color-card: #ffffff;
+            --color-border: #e2e8f0;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+            --radius: 12px;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            background: var(--color-primary);
+            color: white;
+            font-weight: 700;
+            font-size: 1.25rem;
+            border-radius: 16px;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+
+        .subtitle {
+            font-size: 1.125rem;
+            color: var(--color-text-muted);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .maps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .map-card {
+            background: var(--color-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .map-card:hover {
+            box-shadow: var(--shadow-lg);
+            border-color: var(--color-primary);
+            transform: translateY(-2px);
+        }
+
+        .map-card-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .map-card-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: var(--color-primary);
+            color: white;
+            font-weight: 600;
+            font-size: 1rem;
+            border-radius: 10px;
+            flex-shrink: 0;
+        }
+
+        .map-card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .map-card-location {
+            font-size: 0.875rem;
+            color: var(--color-text-muted);
+        }
+
+        .map-card-description {
+            color: var(--color-text-muted);
+            font-size: 0.9375rem;
+            margin-bottom: 1.25rem;
+            flex-grow: 1;
+        }
+
+        .map-card-stops {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .stop-tag {
+            background: var(--color-bg);
+            border: 1px solid var(--color-border);
+            padding: 0.25rem 0.625rem;
+            border-radius: 6px;
+            font-size: 0.8125rem;
+            color: var(--color-text-muted);
+        }
+
+        .map-card-action {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-primary);
+            font-weight: 500;
+            font-size: 0.9375rem;
+        }
+
+        .map-card-action svg {
+            transition: transform 0.2s ease;
+        }
+
+        .map-card:hover .map-card-action svg {
+            transform: translateX(4px);
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        footer p {
+            color: var(--color-text-muted);
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: var(--color-primary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 2rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .maps-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="tour-container">
-        <!-- Sidebar -->
-        <aside class="sidebar" id="sidebar">
-            <header class="sidebar-header">
-                <div class="logo">
-                    <span class="logo-text">BSH</span>
-                </div>
-                <h1>BSH Tour</h1>
-                <p class="subtitle">2026 Spring Workshop</p>
-                <div class="header-actions">
-                    <span class="stop-indicator" id="stopIndicator">Stop 1 of 4</span>
-                    <button class="stops-btn" id="openStops" type="button">
-                        All Stops
-                    </button>
-                </div>
-                <div class="header-progress">
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="progressFill"></div>
-                    </div>
-                </div>
-            </header>
+    <div class="container">
+        <header>
+            <div class="logo">BSH</div>
+            <h1>BSH Interactive Maps</h1>
+            <p class="subtitle">Explore Vancouver's non-profit housing landscape through interactive tours of community land trusts, co-operatives, and partner organizations.</p>
+        </header>
 
-            <div class="stop-content" id="stopContent">
-                <!-- Content will be injected by JavaScript -->
-            </div>
-
-            <div class="stops-backdrop" id="stopsBackdrop" hidden></div>
-            <div class="stops-drawer" id="stopsDrawer" aria-hidden="true">
-                <div class="stops-drawer-header">
+        <div class="maps-grid">
+            <a href="fscclt/" class="map-card">
+                <div class="map-card-header">
+                    <span class="map-card-number">1</span>
                     <div>
-                        <h3>All Stops</h3>
-                        <p>Select a stop to open its full details.</p>
+                        <h2 class="map-card-title">FSCCLT Tour</h2>
+                        <p class="map-card-location">False Creek South & Kitsilano</p>
                     </div>
-                    <button class="drawer-close" id="closeStops" type="button">Close</button>
                 </div>
-                <div class="stop-navigator-list" id="stopNavigator">
-                    <!-- Stop buttons injected by JavaScript -->
+                <p class="map-card-description">
+                    Explore the False Creek South Community Land Trust, Senakw Indigenous-led development, and Granville Island's federal land model.
+                </p>
+                <div class="map-card-stops">
+                    <span class="stop-tag">False Creek South CLT</span>
+                    <span class="stop-tag">Senakw</span>
+                    <span class="stop-tag">Granville Island</span>
                 </div>
-            </div>
-
-            <!-- Navigation -->
-            <nav class="tour-nav">
-                <button class="nav-btn prev" id="prevBtn" disabled>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M15 18l-6-6 6-6"/>
-                    </svg>
-                    Previous
-                </button>
-                <button class="nav-btn next primary" id="nextBtn">
-                    Next
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M9 18l6-6-6-6"/>
-                    </svg>
-                </button>
-            </nav>
-
-            <footer class="sidebar-footer">
-                <p>Balanced Supply of Housing · Peter A. Allard School of Law, UBC</p>
-            </footer>
-        </aside>
-
-        <!-- Map -->
-        <main class="map-container">
-            <div id="map"></div>
-
-            <div class="map-actions" role="group" aria-label="Map actions">
-                <button class="map-action" id="fitAllBtn" type="button" aria-label="Show all stops" title="Show all stops">
+                <div class="map-card-action">
+                    Start tour
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
-                        <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
                     </svg>
-                </button>
-                <button class="map-action" id="centerStopBtn" type="button" aria-label="Center on current stop" title="Center on current stop">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/>
-                        <line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/>
-                        <line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/>
-                    </svg>
-                </button>
-            </div>
+                </div>
+            </a>
 
-            <!-- Mobile toggle button -->
-            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle sidebar">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M3 12h18M3 6h18M3 18h18"/>
-                </svg>
-            </button>
-        </main>
+            <a href="community-orgs/" class="map-card">
+                <div class="map-card-header">
+                    <span class="map-card-number">2</span>
+                    <div>
+                        <h2 class="map-card-title">Community Organizations</h2>
+                        <p class="map-card-location">Downtown Eastside</p>
+                    </div>
+                </div>
+                <p class="map-card-description">
+                    Discover community-based organizations working on housing, tenant advocacy, and cultural preservation in the DTES.
+                </p>
+                <div class="map-card-stops">
+                    <span class="stop-tag">DTES CLT</span>
+                    <span class="stop-tag">First United</span>
+                    <span class="stop-tag">Hogan's Alley</span>
+                    <span class="stop-tag">SRO Collaborative</span>
+                    <span class="stop-tag">UBC Learning Exchange</span>
+                </div>
+                <div class="map-card-action">
+                    Start tour
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </div>
+            </a>
+        </div>
+
+        <footer>
+            <p>Balanced Supply of Housing · <a href="https://allard.ubc.ca/" target="_blank" rel="noopener">Peter A. Allard School of Law, UBC</a></p>
+        </footer>
     </div>
-
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
-
-    <script src="app.js"></script>
 </body>
 </html>

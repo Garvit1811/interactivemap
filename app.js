@@ -13,7 +13,7 @@ const tourStops = [
         id: 1,
         title: "False Creek South Community Land Trust",
         location: "False Creek South, Vancouver",
-        coordinates: [49.26639, -123.12361],
+        coordinates: [49.27045, -123.13030],
 
         // Hero image
         heroImage: {

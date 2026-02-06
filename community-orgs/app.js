@@ -159,14 +159,14 @@ const tourStops = [
                         description: "Background on the SRO Collaborative's work"
                     },
                     {
-                        title: "Vancouver Community Land Trust Foundation",
-                        url: "https://www.vcltf.ca/",
-                        description: "Regional community land trust organization"
+                        title: "Downtown Eastside Community Land Trust",
+                        url: "https://www.dtescommunitylandtrust.ca/",
+                        description: "Community land trust leadership and acquisition model in the DTES"
                     },
                     {
-                        title: "Right to Remain Research Collective",
-                        url: "https://www.righttoremain.ca/",
-                        description: "SRO histories and tenant stories"
+                        title: "SRO Collaborative Programs",
+                        url: "https://srocollaborative.org/programs/",
+                        description: "Tenant organizing, peer supports, and SRO-focused program directory"
                     },
                     {
                         title: "Hogan's Alley Society",
@@ -295,22 +295,22 @@ const tourStops = [
                     },
                     {
                         title: "Safe Shelter",
-                        url: "https://firstunited.ca/programs/safe-shelter/",
+                        url: "https://firstunited.ca/how-we-help/safe-shelter/",
                         description: "Current low-barrier shelter program details"
                     },
                     {
                         title: "Legal Advocacy",
-                        url: "https://firstunited.ca/programs/legal-advocacy/",
+                        url: "https://firstunited.ca/how-we-help/legal-advocacy/",
                         description: "Tenancy and income advocacy services"
                     },
                     {
                         title: "Redevelopment of FIRST UNITED",
-                        url: "https://firstunited.ca/projects/the-redevelopment-of-first-united/",
+                        url: "https://firstunited.ca/first-forward-redevelopment/",
                         description: "320 E Hastings redevelopment plan"
                     },
                     {
                         title: "Food Security Programs",
-                        url: "https://firstunited.ca/programs/food-security/",
+                        url: "https://firstunited.ca/how-we-help/food-security/",
                         description: "Meal access and food outreach programs"
                     }
                 ]
@@ -438,7 +438,7 @@ const tourStops = [
                     },
                     {
                         title: "Hogan's Alley Society - About",
-                        url: "https://www.hogansalleysociety.org/about-us",
+                        url: "https://www.hogansalleysociety.org/aboutus",
                         description: "Organization history, MOU context, and project pillars"
                     },
                     {
@@ -585,18 +585,18 @@ const tourStops = [
                         description: "Organization mission and tenant-led model"
                     },
                     {
-                        title: "Tenant Committees",
-                        url: "https://www.srocollaborative.org/tenant-committees",
-                        description: "Committee structure and building-level organizing"
+                        title: "SRO HUB Program",
+                        url: "https://www.srocollaborative.org/programs/sro-hub-program/",
+                        description: "Tenant committee support, advocacy, and building-level organizing"
                     },
                     {
                         title: "TORO Program",
-                        url: "https://www.srocollaborative.org/toro",
+                        url: "https://www.srocollaborative.org/programs/toro/",
                         description: "Tenant overdose response initiative details"
                     },
                     {
                         title: "BC Government Grant Announcement (2023)",
-                        url: "https://news.gov.bc.ca/releases/2023HOUS0111-001846",
+                        url: "https://news.gov.bc.ca/releases/2023hous0053-000772",
                         description: "One-time provincial funding announcement"
                     }
                 ]
@@ -729,17 +729,17 @@ const tourStops = [
                     },
                     {
                         title: "Who We Are",
-                        url: "https://www.learningexchange.ubc.ca/about/who-we-are",
+                        url: "https://learningexchange.ubc.ca/about-us/",
                         description: "Program model and reciprocal learning approach"
                     },
                     {
                         title: "Place-Based Learning in the DTES",
-                        url: "https://www.learningexchange.ubc.ca/about/place-based-learning",
+                        url: "https://learningexchange.ubc.ca/ubc-student-learning/",
                         description: "How 612 Main Street supports community learning"
                     },
                     {
                         title: "UBC Today: Learning Exchange at 20 Years",
-                        url: "https://news.ubc.ca/2020/11/18/learning-exchange/",
+                        url: "https://learningexchange.ubc.ca/ubc-learning-exchange-reopens-marks-20-years-in-the-downtown-eastside/",
                         description: "History and community impact profile"
                     }
                 ]

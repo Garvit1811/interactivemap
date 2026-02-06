@@ -5,189 +5,371 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BSH Interactive Maps</title>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        *, *::before, *::after {
+        :root {
+            --bg: #f3f7ff;
+            --paper: #ffffff;
+            --ink: #0d1a34;
+            --muted: #4f5f84;
+            --brand: #1859ff;
+            --brand-deep: #0f2d74;
+            --gold: #f2c14e;
+            --teal: #19a99d;
+            --line: #d9e4ff;
+            --shadow: 0 18px 50px rgba(17, 35, 84, 0.12);
+            --radius-lg: 22px;
+            --radius-md: 16px;
+        }
+
+        * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
 
-        :root {
-            --color-primary: #2563eb;
-            --color-primary-dark: #1d4ed8;
-            --color-text: #1e293b;
-            --color-text-muted: #64748b;
-            --color-bg: #f8fafc;
-            --color-card: #ffffff;
-            --color-border: #e2e8f0;
-            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
-            --radius: 12px;
-        }
-
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: var(--color-bg);
-            color: var(--color-text);
-            line-height: 1.6;
+            font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+            color: var(--ink);
+            background:
+                radial-gradient(circle at 90% -10%, #d8e5ff 0, transparent 36%),
+                radial-gradient(circle at 0% 40%, #dff8f4 0, transparent 35%),
+                var(--bg);
             min-height: 100vh;
+            line-height: 1.6;
         }
 
-        .container {
-            max-width: 1000px;
+        .shell {
+            max-width: 1100px;
             margin: 0 auto;
-            padding: 3rem 1.5rem;
+            padding: 2rem 1.25rem 3rem;
         }
 
-        header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .logo {
-            display: inline-flex;
+        .topbar {
+            display: flex;
+            justify-content: space-between;
             align-items: center;
-            justify-content: center;
-            width: 64px;
-            height: 64px;
-            background: var(--color-primary);
-            color: white;
-            font-weight: 700;
-            font-size: 1.25rem;
-            border-radius: 16px;
+            gap: 1rem;
             margin-bottom: 1.5rem;
         }
 
-        h1 {
-            font-size: 2.25rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            color: var(--color-text);
+        .brand-wrap {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
         }
 
-        .subtitle {
-            font-size: 1.125rem;
-            color: var(--color-text-muted);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .maps-grid {
+        .brand-mark {
+            width: 62px;
+            height: 62px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #1b68ff 0%, #0d2f7a 100%);
+            color: #fff;
+            font-family: "Sora", sans-serif;
+            font-weight: 800;
+            font-size: 1.3rem;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 3rem;
+            place-items: center;
+            box-shadow: 0 12px 26px rgba(17, 59, 154, 0.28);
         }
 
-        .map-card {
-            background: var(--color-card);
-            border: 1px solid var(--color-border);
-            border-radius: var(--radius);
-            padding: 1.5rem;
+        .kicker {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--muted);
+            font-weight: 700;
+        }
+
+        .brand-title {
+            font-family: "Sora", sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .top-link {
             text-decoration: none;
-            color: inherit;
-            transition: all 0.2s ease;
-            display: flex;
-            flex-direction: column;
+            color: var(--brand-deep);
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            padding: 0.6rem 0.95rem;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.75);
+            transition: 0.2s ease;
+            white-space: nowrap;
         }
 
-        .map-card:hover {
-            box-shadow: var(--shadow-lg);
-            border-color: var(--color-primary);
-            transform: translateY(-2px);
+        .top-link:hover {
+            border-color: #b6c9ff;
+            transform: translateY(-1px);
         }
 
-        .map-card-header {
+        .hero {
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(125deg, #0f2c6f 0%, #1e56de 56%, #2274ff 100%);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            margin-bottom: 1.35rem;
+            color: #eaf1ff;
+            box-shadow: var(--shadow);
+        }
+
+        .hero::before,
+        .hero::after {
+            content: "";
+            position: absolute;
+            border-radius: 999px;
+            pointer-events: none;
+        }
+
+        .hero::before {
+            width: 320px;
+            height: 320px;
+            background: radial-gradient(circle, rgba(242, 193, 78, 0.34) 0, rgba(242, 193, 78, 0) 65%);
+            top: -120px;
+            right: -90px;
+        }
+
+        .hero::after {
+            width: 380px;
+            height: 380px;
+            background: radial-gradient(circle, rgba(25, 169, 157, 0.25) 0, rgba(25, 169, 157, 0) 60%);
+            bottom: -180px;
+            left: -140px;
+        }
+
+        .hero-grid {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 1.2rem;
+            align-items: end;
+        }
+
+        .hero h1 {
+            font-family: "Sora", sans-serif;
+            font-size: clamp(1.9rem, 3.6vw, 3.1rem);
+            line-height: 1.08;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.9rem;
+            color: #fff;
+        }
+
+        .hero p {
+            max-width: 58ch;
+            color: #dce8ff;
+            margin-bottom: 1.2rem;
+        }
+
+        .metrics {
             display: flex;
-            align-items: flex-start;
+            gap: 0.65rem;
+            flex-wrap: wrap;
+        }
+
+        .metric {
+            border: 1px solid rgba(255, 255, 255, 0.28);
+            border-radius: 999px;
+            padding: 0.42rem 0.75rem;
+            font-size: 0.84rem;
+            color: #eff4ff;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .hero-panel {
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 14px;
+            padding: 1rem;
+            background: rgba(11, 33, 86, 0.42);
+            backdrop-filter: blur(4px);
+        }
+
+        .hero-panel h2 {
+            font-family: "Sora", sans-serif;
+            font-size: 0.95rem;
+            margin-bottom: 0.55rem;
+            color: #fff;
+        }
+
+        .hero-panel p {
+            margin-bottom: 0.4rem;
+            font-size: 0.9rem;
+            color: #dce8ff;
+        }
+
+        .hero-panel .tiny {
+            font-size: 0.8rem;
+            color: #bdd0ff;
+            margin-bottom: 0;
+        }
+
+        .tour-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
             gap: 1rem;
             margin-bottom: 1rem;
         }
 
-        .map-card-number {
+        .tour-card {
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            background: var(--paper);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            box-shadow: 0 8px 24px rgba(22, 39, 91, 0.08);
+            transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+            animation: rise 0.55s ease both;
+        }
+
+        .tour-card:nth-child(2) {
+            animation-delay: 0.12s;
+        }
+
+        .tour-card::before {
+            content: "";
+            position: absolute;
+            width: 180px;
+            height: 180px;
+            border-radius: 999px;
+            right: -70px;
+            top: -92px;
+            opacity: 0.22;
+            transition: transform 0.25s ease;
+        }
+
+        .tour-card--fscclt::before {
+            background: radial-gradient(circle, #2563eb 0, #93b4ff 75%, transparent 100%);
+        }
+
+        .tour-card--orgs::before {
+            background: radial-gradient(circle, #1fa192 0, #7ce2d6 75%, transparent 100%);
+        }
+
+        .tour-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 42px rgba(17, 35, 84, 0.16);
+            border-color: #b9cbff;
+        }
+
+        .tour-card:hover::before {
+            transform: scale(1.06);
+        }
+
+        .card-head {
             display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            background: var(--color-primary);
-            color: white;
-            font-weight: 600;
-            font-size: 1rem;
+            align-items: start;
+            gap: 0.8rem;
+            margin-bottom: 0.55rem;
+        }
+
+        .count {
+            width: 34px;
+            height: 34px;
             border-radius: 10px;
+            display: grid;
+            place-items: center;
+            font-family: "Sora", sans-serif;
+            font-size: 0.96rem;
+            font-weight: 700;
+            color: #fff;
             flex-shrink: 0;
         }
 
-        .map-card-title {
-            font-size: 1.25rem;
+        .tour-card--fscclt .count {
+            background: linear-gradient(145deg, #1d62ff, #0f2f80);
+        }
+
+        .tour-card--orgs .count {
+            background: linear-gradient(145deg, #24b6a6, #116e65);
+        }
+
+        .card-title {
+            font-family: "Sora", sans-serif;
+            font-weight: 700;
+            font-size: 1.2rem;
+            line-height: 1.2;
+            margin-bottom: 0.18rem;
+            color: var(--ink);
+        }
+
+        .card-loc {
+            color: var(--muted);
+            font-size: 0.88rem;
             font-weight: 600;
-            margin-bottom: 0.25rem;
         }
 
-        .map-card-location {
-            font-size: 0.875rem;
-            color: var(--color-text-muted);
+        .card-desc {
+            color: #31446f;
+            font-size: 0.93rem;
+            margin: 0.7rem 0 0.92rem;
         }
 
-        .map-card-description {
-            color: var(--color-text-muted);
-            font-size: 0.9375rem;
-            margin-bottom: 1.25rem;
-            flex-grow: 1;
-        }
-
-        .map-card-stops {
+        .chips {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
             margin-bottom: 1rem;
         }
 
-        .stop-tag {
-            background: var(--color-bg);
-            border: 1px solid var(--color-border);
-            padding: 0.25rem 0.625rem;
-            border-radius: 6px;
-            font-size: 0.8125rem;
-            color: var(--color-text-muted);
+        .chip {
+            font-size: 0.8rem;
+            border-radius: 999px;
+            border: 1px solid var(--line);
+            background: #f7faff;
+            color: #3f5687;
+            padding: 0.28rem 0.6rem;
         }
 
-        .map-card-action {
-            display: flex;
+        .cta {
+            display: inline-flex;
             align-items: center;
             gap: 0.5rem;
-            color: var(--color-primary);
-            font-weight: 500;
-            font-size: 0.9375rem;
+            font-weight: 700;
+            color: var(--brand);
+            font-size: 0.93rem;
         }
 
-        .map-card-action svg {
+        .cta svg {
             transition: transform 0.2s ease;
         }
 
-        .map-card:hover .map-card-action svg {
-            transform: translateX(4px);
+        .tour-card:hover .cta svg {
+            transform: translateX(3px);
+        }
+
+        .support {
+            border: 1px dashed #b4c9ff;
+            background: rgba(255, 255, 255, 0.62);
+            border-radius: 14px;
+            padding: 0.9rem 1rem;
+            color: #344d80;
+            font-size: 0.91rem;
+            margin-bottom: 1.4rem;
         }
 
         footer {
-            text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid var(--color-border);
-        }
-
-        footer p {
-            color: var(--color-text-muted);
-            font-size: 0.875rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.8rem;
+            padding-top: 1.1rem;
+            border-top: 1px solid #d4e1ff;
+            color: #4a6293;
+            font-size: 0.86rem;
         }
 
         footer a {
-            color: var(--color-primary);
+            color: var(--brand);
+            font-weight: 700;
             text-decoration: none;
         }
 
@@ -195,88 +377,133 @@
             text-decoration: underline;
         }
 
-        @media (max-width: 640px) {
-            .container {
-                padding: 2rem 1rem;
+        @keyframes rise {
+            from {
+                opacity: 0;
+                transform: translateY(8px);
             }
-
-            h1 {
-                font-size: 1.75rem;
+            to {
+                opacity: 1;
+                transform: translateY(0);
             }
+        }
 
-            .subtitle {
-                font-size: 1rem;
-            }
-
-            .maps-grid {
+        @media (max-width: 900px) {
+            .hero-grid {
                 grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 740px) {
+            .shell {
+                padding: 1rem 0.95rem 2rem;
+            }
+
+            .topbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .hero {
+                padding: 1.3rem;
+            }
+
+            .tour-grid {
+                grid-template-columns: 1fr;
+            }
+
+            footer {
+                flex-direction: column;
+                align-items: flex-start;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">BSH</div>
-            <h1>BSH Interactive Maps</h1>
-            <p class="subtitle">Explore Vancouver's non-profit housing landscape through interactive tours of community land trusts, co-operatives, and partner organizations.</p>
+    <main class="shell">
+        <header class="topbar">
+            <div class="brand-wrap">
+                <div class="brand-mark">BSH</div>
+                <div>
+                    <p class="kicker">Balanced Supply of Housing</p>
+                    <p class="brand-title">Interactive Maps</p>
+                </div>
+            </div>
+            <a class="top-link" href="https://allard.ubc.ca/" target="_blank" rel="noopener">Peter A. Allard School of Law, UBC</a>
         </header>
 
-        <div class="maps-grid">
-            <a href="fscclt/index.html" class="map-card">
-                <div class="map-card-header">
-                    <span class="map-card-number">1</span>
-                    <div>
-                        <h2 class="map-card-title">FSCCLT Tour</h2>
-                        <p class="map-card-location">False Creek South & Kitsilano</p>
+        <section class="hero">
+            <div class="hero-grid">
+                <div>
+                    <h1>Explore Vancouver housing through guided, place-based map tours.</h1>
+                    <p>Use BSH interactive maps to compare land stewardship models, community-led housing practice, and local organizing work across False Creek South, Kitsilano, and the Downtown Eastside.</p>
+                    <div class="metrics">
+                        <span class="metric">2 Tour Experiences</span>
+                        <span class="metric">8 Featured Stops</span>
+                        <span class="metric">Community + Policy Context</span>
                     </div>
                 </div>
-                <p class="map-card-description">
-                    Explore the False Creek South Community Land Trust, Senakw Indigenous-led development, and Granville Island's federal land model.
-                </p>
-                <div class="map-card-stops">
-                    <span class="stop-tag">False Creek South CLT</span>
-                    <span class="stop-tag">Senakw</span>
-                    <span class="stop-tag">Granville Island</span>
+                <aside class="hero-panel">
+                    <h2>BSH Tour Focus</h2>
+                    <p>Track how public, Indigenous, and community-controlled land models shape affordability outcomes.</p>
+                    <p>Each tour combines neighborhood context, key organizations, and map-based navigation.</p>
+                    <p class="tiny">Designed for classroom use, community learning, and public-interest research.</p>
+                </aside>
+            </div>
+        </section>
+
+        <section class="tour-grid">
+            <a href="fscclt/index.html" class="tour-card tour-card--fscclt" aria-label="Open FSCCLT Tour">
+                <div class="card-head">
+                    <span class="count">1</span>
+                    <div>
+                        <h2 class="card-title">FSCCLT Tour</h2>
+                        <p class="card-loc">False Creek South and Kitsilano</p>
+                    </div>
                 </div>
-                <div class="map-card-action">
-                    Start tour
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <p class="card-desc">Follow the housing story from False Creek South's leasehold co-op landscape to Senakw's Indigenous-led rental model and Granville Island's federal land stewardship framework.</p>
+                <div class="chips">
+                    <span class="chip">False Creek South CLT</span>
+                    <span class="chip">Senakw</span>
+                    <span class="chip">Granville Island</span>
+                </div>
+                <span class="cta">Start Tour
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M5 12h14M12 5l7 7-7 7"/>
                     </svg>
-                </div>
+                </span>
             </a>
 
-            <a href="community-orgs/index.html" class="map-card">
-                <div class="map-card-header">
-                    <span class="map-card-number">2</span>
+            <a href="community-orgs/index.html" class="tour-card tour-card--orgs" aria-label="Open Community Organizations Tour">
+                <div class="card-head">
+                    <span class="count">2</span>
                     <div>
-                        <h2 class="map-card-title">Community Organizations</h2>
-                        <p class="map-card-location">Downtown Eastside</p>
+                        <h2 class="card-title">Community Organizations</h2>
+                        <p class="card-loc">Downtown Eastside</p>
                     </div>
                 </div>
-                <p class="map-card-description">
-                    Discover community-based organizations working on housing, tenant advocacy, and cultural preservation in the DTES.
-                </p>
-                <div class="map-card-stops">
-                    <span class="stop-tag">DTES CLT</span>
-                    <span class="stop-tag">First United</span>
-                    <span class="stop-tag">Hogan's Alley</span>
-                    <span class="stop-tag">SRO Collaborative</span>
-                    <span class="stop-tag">UBC Learning Exchange</span>
+                <p class="card-desc">Navigate the DTES network of tenant advocacy, cultural restoration, frontline service delivery, and community-university partnerships working to protect housing security.</p>
+                <div class="chips">
+                    <span class="chip">DTES CLT</span>
+                    <span class="chip">First United</span>
+                    <span class="chip">Hogan's Alley</span>
+                    <span class="chip">SRO Collaborative</span>
+                    <span class="chip">UBC Learning Exchange</span>
                 </div>
-                <div class="map-card-action">
-                    Start tour
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <span class="cta">Start Tour
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M5 12h14M12 5l7 7-7 7"/>
                     </svg>
-                </div>
+                </span>
             </a>
-        </div>
+        </section>
+
+        <p class="support">Built by Balanced Supply of Housing (BSH) with community-centered mapping, policy context, and place-specific tour content for public-interest learning.</p>
 
         <footer>
-            <p>Balanced Supply of Housing · <a href="https://allard.ubc.ca/" target="_blank" rel="noopener">Peter A. Allard School of Law, UBC</a></p>
+            <span>Balanced Supply of Housing</span>
+            <a href="https://allard.ubc.ca/" target="_blank" rel="noopener">Peter A. Allard School of Law, UBC</a>
         </footer>
-    </div>
+    </main>
 </body>
 </html>

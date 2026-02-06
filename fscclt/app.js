@@ -12,7 +12,7 @@ const tourStops = [
         id: 1,
         title: "False Creek South Community Land Trust",
         location: "False Creek South, Vancouver",
-        coordinates: [49.27045, -123.13030],
+        coordinates: [49.2680, -123.1250],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
@@ -185,7 +185,7 @@ const tourStops = [
         id: 2,
         title: "Senakw Development",
         location: "Kitsilano, Vancouver (near Burrard Bridge)",
-        coordinates: [49.27257, -123.14289],
+        coordinates: [49.27361, -123.14265],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrard_Bridge_and_False_Creek_Vancouver.jpg/1280px-Burrard_Bridge_and_False_Creek_Vancouver.jpg",
@@ -353,7 +353,7 @@ const tourStops = [
         id: 3,
         title: "Granville Island",
         location: "Granville Island, Vancouver",
-        coordinates: [49.27056, -123.13417],
+        coordinates: [49.27250, -123.13520],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/6/62/Granville_Island.jpg",
@@ -640,7 +640,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function initMap() {
     map = L.map('map', {
-        center: [49.2720, -123.1320],
+        center: [49.2710, -123.1310],
         zoom: 14,
         zoomControl: true
     });

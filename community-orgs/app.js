@@ -54,11 +54,6 @@ const tourStops = [
                         meta: "Support services"
                     },
                     {
-                        title: "Hogan's Alley Sites",
-                        description: "Identify the restoration efforts honoring Vancouver's historic Black neighbourhood.",
-                        meta: "Cultural heritage"
-                    },
-                    {
                         title: "Future Acquisitions",
                         description: "Review the Keefer and Powell Rooms timelines to understand CLT acquisition strategy.",
                         meta: "Land trust"
@@ -78,7 +73,6 @@ const tourStops = [
                     <p>Multiple organizations work together to preserve and improve DTES housing:</p>
                     <ul>
                         <li><strong>DTES SRO Collaborative:</strong> Advocates for tenants, received $11M provincial grant in 2023</li>
-                        <li><strong>Hogan's Alley Society:</strong> Restoring Vancouver's historic Black neighbourhood, with projects on Union Street and Main Street</li>
                         <li><strong>Aboriginal Front Door:</strong> Indigenous-led support services</li>
                         <li><strong>Carnegie Community Centre:</strong> Historic community hub since 1903</li>
                         <li><strong>DTES Neighbourhood House:</strong> Community programs and partnerships</li>
@@ -116,29 +110,29 @@ const tourStops = [
                         caption: "633 East Hastings — Photo: Gordon Smith (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Downtown Eastside neighbourhood view",
-                        caption: "Downtown Eastside — Photo: Public domain"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Pigeon Park in the Downtown Eastside",
-                        caption: "Pigeon Park — Photo: Wikimedia Commons (CC BY-SA 4.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/f/f9/CarnegieCtr.jpg",
                         alt: "Carnegie Community Centre exterior in Vancouver",
-                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Vancouver_Chinatown_16.JPG/1280px-Vancouver_Chinatown_16.JPG",
+                        alt: "Chinatown street near Keefer in Vancouver",
+                        caption: "Chinatown near Keefer Street — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Balmoral_Hotel_Vancouver.JPG",
+                        alt: "Balmoral Hotel SRO building on East Hastings",
+                        caption: "Balmoral Hotel SRO — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/7/77/Oppenheimer_Park_%285674465960%29.jpg",
                         alt: "Oppenheimer Park in the Downtown Eastside",
                         caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Hogan's Alley mural in Vancouver",
-                        caption: "Hogan's Alley mural — Photo: GoToVan (CC BY-SA 3.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/4/44/East_Hastings.JPG",
+                        alt: "East Hastings Street in the DTES",
+                        caption: "East Hastings Street — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -168,11 +162,6 @@ const tourStops = [
                         url: "https://srocollaborative.org/programs/",
                         description: "Tenant organizing, peer supports, and SRO-focused program directory"
                     },
-                    {
-                        title: "Hogan's Alley Society",
-                        url: "https://www.hogansalleysociety.org/",
-                        description: "Restoring Vancouver's historic Black community"
-                    }
                 ]
             }
         ],
@@ -186,9 +175,9 @@ const tourStops = [
         coordinates: [49.28101, -123.09716],
 
         heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-            alt: "First United Church",
-            caption: "Carnegie area near First United — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+            src: "https://upload.wikimedia.org/wikipedia/commons/4/44/East_Hastings.JPG",
+            alt: "East Hastings Street near First United Church",
+            caption: "East Hastings Street near First United — Photo: Wikimedia Commons (CC BY-SA 3.0)"
         },
 
         stats: [
@@ -266,9 +255,9 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/f/f9/CarnegieCtr.jpg",
                         alt: "Carnegie Community Centre near First United",
-                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
@@ -276,9 +265,9 @@ const tourStops = [
                         caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Pigeon Park near First United",
-                        caption: "Pigeon Park — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/7/77/Oppenheimer_Park_%285674465960%29.jpg",
+                        alt: "Oppenheimer Park near First United",
+                        caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
                     }
                 ]
             },
@@ -321,144 +310,6 @@ const tourStops = [
     },
     {
         id: 3,
-        title: "Hogan's Alley Society",
-        location: "Union Street & Main Street, Vancouver",
-        coordinates: [49.27792, -123.09831],
-
-        heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-            alt: "Hogan's Alley mural in Vancouver",
-            caption: "Hogan's Alley mural — Photo: GoToVan (CC BY-SA 3.0)"
-        },
-
-        stats: [
-            { label: "Historic Era", value: "1935-67" },
-            { label: "Focus", value: "Black history" },
-            { label: "Nora Hendrix", value: "52 homes" }
-        ],
-
-        sections: [
-            {
-                id: "overview",
-                label: "Overview",
-                icon: "info",
-                content: `
-                    <p><strong>Hogan's Alley</strong> was the historic centre of Vancouver's Black community until the area was cleared during viaduct-era urban renewal. The Hogan's Alley Society (HAS) is a Black-led non-profit focused on cultural repair, anti-displacement work, and community-owned development.</p>
-                    <p>HAS and the City of Vancouver signed a formal <strong>Memorandum of Understanding in September 2022</strong> to guide a Hogan's Alley Land Trust and long-term planning in Northeast False Creek.</p>
-                    <p>Current projects include <strong>Nora Hendrix Place</strong> at 258 Union Street, a 52-home temporary modular housing project that includes culturally informed supports and onsite services.</p>
-                `
-            },
-            {
-                id: "highlights",
-                label: "At This Stop",
-                icon: "sparkles",
-                type: "highlights",
-                highlights: [
-                    {
-                        title: "Historic Site",
-                        description: "Walk the former alley footprint and connect present blocks to erased Black community history.",
-                        meta: "Heritage"
-                    },
-                    {
-                        title: "Nora Hendrix Place",
-                        description: "Review the 52-home project named for Jimi Hendrix's grandmother and its support model.",
-                        meta: "Housing"
-                    },
-                    {
-                        title: "Cultural Programming",
-                        description: "Explore Black cultural programming, storytelling, and place-keeping led by HAS.",
-                        meta: "Culture"
-                    },
-                    {
-                        title: "Future Development",
-                        description: "Track land trust and redevelopment planning tied to the Northeast False Creek process.",
-                        meta: "Planning"
-                    }
-                ]
-            },
-            {
-                id: "details",
-                label: "History & Plans",
-                icon: "document",
-                content: `
-                    <h4>Historical Context</h4>
-                    <p>Hogan's Alley became a cultural anchor for Black life in Vancouver through the mid-20th century. City documents now identify the district as a major site of displacement connected to viaduct-era planning decisions.</p>
-                    <h4>Current Housing and Land Work</h4>
-                    <p>HAS is advancing housing and cultural infrastructure through a land trust approach. The Society's planning framework highlights affordable rental housing, childcare, support for Black-owned businesses, and dedicated cultural space.</p>
-                    <h4>Nora Hendrix Place</h4>
-                    <p>At 258 Union Street, Nora Hendrix Place delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services.</p>
-                    <h4>Municipal Partnership</h4>
-                    <p>The City-HAS MOU (2022) sets a formal basis for co-development and governance conversations in Northeast False Creek as the viaduct removal area is rebuilt.</p>
-                    <ul>
-                        <li>Black-led community governance in project planning</li>
-                        <li>Housing, childcare, and enterprise space as linked anti-displacement tools</li>
-                        <li>Cultural redress integrated into redevelopment decisions</li>
-                    </ul>
-                `,
-                keyPoints: [
-                    "Historic heart of Vancouver's Black community",
-                    "City and HAS signed an MOU in September 2022",
-                    "Nora Hendrix Place provides 52 modular homes",
-                    "Land trust model ties housing with cultural redress"
-                ]
-            },
-            {
-                id: "gallery",
-                label: "Gallery",
-                icon: "images",
-                type: "gallery",
-                images: [
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Hogan's Alley mural in Vancouver",
-                        caption: "Hogan's Alley mural — Photo: GoToVan (CC BY-SA 3.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Oppenheimer Park near Hogan's Alley area",
-                        caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Downtown Eastside streetscape near Hogan's Alley",
-                        caption: "Downtown Eastside streetscape — Photo: Public domain"
-                    }
-                ]
-            },
-            {
-                id: "resources",
-                label: "Resources",
-                icon: "link",
-                type: "resources",
-                resources: [
-                    {
-                        title: "Hogan's Alley Society",
-                        url: "https://www.hogansalleysociety.org/",
-                        description: "Restoring Vancouver's historic Black community"
-                    },
-                    {
-                        title: "Hogan's Alley Society - About",
-                        url: "https://www.hogansalleysociety.org/aboutus",
-                        description: "Organization history, MOU context, and project pillars"
-                    },
-                    {
-                        title: "City of Vancouver - Hogan's Alley Society Block",
-                        url: "https://vancouver.ca/home-property-development/hogans-alley-society-block.aspx",
-                        description: "Municipal planning and implementation details"
-                    },
-                    {
-                        title: "City of Vancouver - 258 Union Street",
-                        url: "https://vancouver.ca/people-programs/258-union-street.aspx",
-                        description: "Nora Hendrix Place housing project profile"
-                    }
-                ]
-            }
-        ],
-
-        tags: ["black-history", "heritage", "housing", "culture"]
-    },
-    {
-        id: 4,
         title: "DTES SRO Collaborative",
         location: "268 Keefer St, Vancouver",
         coordinates: [49.27918, -123.09802],
@@ -557,9 +408,9 @@ const tourStops = [
                         caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Pigeon Park in the DTES",
-                        caption: "Pigeon Park — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Balmoral_Hotel_Vancouver.JPG",
+                        alt: "Balmoral Hotel SRO in the DTES",
+                        caption: "Balmoral Hotel SRO — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -606,15 +457,15 @@ const tourStops = [
         tags: ["tenant-advocacy", "sro", "harm-reduction", "dtes"]
     },
     {
-        id: 5,
+        id: 4,
         title: "UBC Learning Exchange",
         location: "612 Main St, Vancouver",
         coordinates: [49.27920, -123.09929],
 
         heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-            alt: "UBC Learning Exchange",
-            caption: "Downtown Eastside near Main and Keefer — Photo: Public domain"
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Vancouver_Chinatown_16.JPG/1280px-Vancouver_Chinatown_16.JPG",
+            alt: "Chinatown near UBC Learning Exchange on Main Street",
+            caption: "Chinatown near Main and Keefer — Photo: Wikimedia Commons (CC BY-SA 3.0)"
         },
 
         stats: [
@@ -695,14 +546,14 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Downtown Eastside near the Learning Exchange",
-                        caption: "Downtown Eastside streetscape — Photo: Public domain"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_Chinatown_13.JPG/1280px-Vancouver_Chinatown_13.JPG",
+                        alt: "Chinatown street view near the Learning Exchange",
+                        caption: "Chinatown street near Main Street — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/f/f9/CarnegieCtr.jpg",
                         alt: "Carnegie Community Centre near Main Street",
-                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
@@ -710,9 +561,9 @@ const tourStops = [
                         caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Oppenheimer Park near the Learning Exchange area",
-                        caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Millennium_Gate%2C_Vancouver%27s_Chinatown_National_Historic_Site_of_Canada%2C_WLM2012.jpg/1280px-Millennium_Gate%2C_Vancouver%27s_Chinatown_National_Historic_Site_of_Canada%2C_WLM2012.jpg",
+                        alt: "Millennium Gate in Vancouver's Chinatown",
+                        caption: "Millennium Gate, Chinatown — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     }
                 ]
             },

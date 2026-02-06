@@ -310,6 +310,144 @@ const tourStops = [
     },
     {
         id: 3,
+        title: "Hogan's Alley Society",
+        location: "Union Street & Main Street, Vancouver",
+        coordinates: [49.27792, -123.09831],
+
+        heroImage: {
+            src: "https://upload.wikimedia.org/wikipedia/commons/3/37/Hogans_Alley.JPG",
+            alt: "Hogan's Alley area in Vancouver",
+            caption: "Hogan's Alley — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+        },
+
+        stats: [
+            { label: "Historic Era", value: "1935-67" },
+            { label: "Focus", value: "Black history" },
+            { label: "Nora Hendrix", value: "52 homes" }
+        ],
+
+        sections: [
+            {
+                id: "overview",
+                label: "Overview",
+                icon: "info",
+                content: `
+                    <p><strong>Hogan's Alley</strong> was the historic centre of Vancouver's Black community until the area was cleared during viaduct-era urban renewal. The Hogan's Alley Society (HAS) is a Black-led non-profit focused on cultural repair, anti-displacement work, and community-owned development.</p>
+                    <p>HAS and the City of Vancouver signed a formal <strong>Memorandum of Understanding in September 2022</strong> to guide a Hogan's Alley Land Trust and long-term planning in Northeast False Creek.</p>
+                    <p>Current projects include <strong>Nora Hendrix Place</strong> at 258 Union Street, a 52-home temporary modular housing project that includes culturally informed supports and onsite services.</p>
+                `
+            },
+            {
+                id: "highlights",
+                label: "At This Stop",
+                icon: "sparkles",
+                type: "highlights",
+                highlights: [
+                    {
+                        title: "Historic Site",
+                        description: "Walk the former alley footprint and connect present blocks to erased Black community history.",
+                        meta: "Heritage"
+                    },
+                    {
+                        title: "Nora Hendrix Place",
+                        description: "Review the 52-home project named for Jimi Hendrix's grandmother and its support model.",
+                        meta: "Housing"
+                    },
+                    {
+                        title: "Cultural Programming",
+                        description: "Explore Black cultural programming, storytelling, and place-keeping led by HAS.",
+                        meta: "Culture"
+                    },
+                    {
+                        title: "Future Development",
+                        description: "Track land trust and redevelopment planning tied to the Northeast False Creek process.",
+                        meta: "Planning"
+                    }
+                ]
+            },
+            {
+                id: "details",
+                label: "History & Plans",
+                icon: "document",
+                content: `
+                    <h4>Historical Context</h4>
+                    <p>Hogan's Alley became a cultural anchor for Black life in Vancouver through the mid-20th century. City documents now identify the district as a major site of displacement connected to viaduct-era planning decisions.</p>
+                    <h4>Current Housing and Land Work</h4>
+                    <p>HAS is advancing housing and cultural infrastructure through a land trust approach. The Society's planning framework highlights affordable rental housing, childcare, support for Black-owned businesses, and dedicated cultural space.</p>
+                    <h4>Nora Hendrix Place</h4>
+                    <p>At 258 Union Street, Nora Hendrix Place delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services.</p>
+                    <h4>Municipal Partnership</h4>
+                    <p>The City-HAS MOU (2022) sets a formal basis for co-development and governance conversations in Northeast False Creek as the viaduct removal area is rebuilt.</p>
+                    <ul>
+                        <li>Black-led community governance in project planning</li>
+                        <li>Housing, childcare, and enterprise space as linked anti-displacement tools</li>
+                        <li>Cultural redress integrated into redevelopment decisions</li>
+                    </ul>
+                `,
+                keyPoints: [
+                    "Historic heart of Vancouver's Black community",
+                    "City and HAS signed an MOU in September 2022",
+                    "Nora Hendrix Place provides 52 modular homes",
+                    "Land trust model ties housing with cultural redress"
+                ]
+            },
+            {
+                id: "gallery",
+                label: "Gallery",
+                icon: "images",
+                type: "gallery",
+                images: [
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/3/37/Hogans_Alley.JPG",
+                        alt: "Hogan's Alley area in Vancouver",
+                        caption: "Hogan's Alley — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/7/77/Oppenheimer_Park_%285674465960%29.jpg",
+                        alt: "Oppenheimer Park near Hogan's Alley area",
+                        caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/4/44/East_Hastings.JPG",
+                        alt: "Downtown Eastside streetscape near Hogan's Alley",
+                        caption: "East Hastings Street — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+                    }
+                ]
+            },
+            {
+                id: "resources",
+                label: "Resources",
+                icon: "link",
+                type: "resources",
+                resources: [
+                    {
+                        title: "Hogan's Alley Society",
+                        url: "https://www.hogansalleysociety.org/",
+                        description: "Restoring Vancouver's historic Black community"
+                    },
+                    {
+                        title: "Hogan's Alley Society - About",
+                        url: "https://www.hogansalleysociety.org/aboutus",
+                        description: "Organization history, MOU context, and project pillars"
+                    },
+                    {
+                        title: "City of Vancouver - Hogan's Alley Society Block",
+                        url: "https://vancouver.ca/home-property-development/hogans-alley-society-block.aspx",
+                        description: "Municipal planning and implementation details"
+                    },
+                    {
+                        title: "City of Vancouver - 258 Union Street",
+                        url: "https://vancouver.ca/people-programs/258-union-street.aspx",
+                        description: "Nora Hendrix Place housing project profile"
+                    }
+                ]
+            }
+        ],
+
+        tags: ["black-history", "heritage", "housing", "culture"]
+    },
+    {
+        id: 4,
         title: "DTES SRO Collaborative",
         location: "268 Keefer St, Vancouver",
         coordinates: [49.27918, -123.09802],
@@ -457,7 +595,7 @@ const tourStops = [
         tags: ["tenant-advocacy", "sro", "harm-reduction", "dtes"]
     },
     {
-        id: 4,
+        id: 5,
         title: "UBC Learning Exchange",
         location: "612 Main St, Vancouver",
         coordinates: [49.27920, -123.09929],

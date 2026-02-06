@@ -1770,6 +1770,235 @@ button:focus:not(:focus-visible) {
     outline: none;
 }
 
+/* ── Progress Dots ── */
+.progress-dots {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0 0;
+    gap: 0.35rem;
+}
+
+.progress-dot {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.65rem;
+    font-weight: 700;
+    font-family: var(--font-brand);
+    cursor: pointer;
+    transition: all 200ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.progress-dot.active {
+    border-color: var(--accent-color);
+    background: var(--accent-color);
+    color: var(--primary-dark);
+    box-shadow: 0 0 0 3px rgba(237, 201, 94, 0.3);
+}
+
+.progress-dot:hover:not(.active) {
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* ── Active Tab Tint ── */
+.section-tab.active {
+    background: rgba(237, 201, 94, 0.08);
+    border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+}
+
+/* ── Rich Marker Tooltip ── */
+.leaflet-tooltip.marker-tooltip-rich {
+    background: white;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 0.55rem 0.75rem;
+    box-shadow: var(--shadow-lg);
+    font-size: var(--text-xs);
+    max-width: 230px;
+    opacity: 1 !important;
+}
+
+.leaflet-tooltip.marker-tooltip-rich::before {
+    border-top-color: white;
+}
+
+.marker-popup strong {
+    display: block;
+    font-size: var(--text-sm);
+    font-family: var(--font-brand);
+    margin-bottom: 2px;
+    color: var(--primary-color);
+}
+
+.marker-popup-location {
+    display: block;
+    color: var(--text-secondary);
+    font-size: var(--text-xs);
+    margin-bottom: 4px;
+}
+
+.marker-popup-stat {
+    display: inline-block;
+    background: var(--accent-soft);
+    padding: 2px 7px;
+    border-radius: var(--radius-full);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+}
+
+/* ── Map Action Labels ── */
+.map-action {
+    gap: 0.35rem;
+}
+
+.map-action-label {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* ── Onboarding Toast ── */
+.onboarding-toast {
+    position: absolute;
+    bottom: 60px;
+    right: 16px;
+    z-index: 700;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    font-size: var(--text-sm);
+    font-family: var(--font-body);
+    max-width: 280px;
+    line-height: 1.45;
+    transition: opacity 400ms ease, transform 400ms ease;
+}
+
+.onboarding-toast.fade-out {
+    opacity: 0;
+    transform: translateY(8px);
+}
+
+/* ── Tour Route Line ── */
+.tour-route {
+    pointer-events: none;
+}
+
+/* ── Tour Completion Panel ── */
+.tour-complete-panel {
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background: linear-gradient(135deg, var(--accent-soft), var(--surface-sunken));
+    border-radius: var(--radius-md);
+    margin: 1rem;
+}
+
+.tour-complete-panel h3 {
+    font-family: var(--font-brand);
+    font-size: var(--text-lg);
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.tour-complete-panel p {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.tour-complete-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.6rem 1.1rem;
+    border-radius: var(--radius-full);
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-brand);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.tour-complete-link:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+/* ── Content Readability ── */
+.section-content {
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+}
+
+.section-content p + p {
+    margin-top: 1.15rem;
+}
+
+.section-content h4 {
+    border-bottom-color: var(--accent-color);
+    border-bottom-width: 2px;
+}
+
+/* ── Scroll Indicator ── */
+.stop-content::before {
+    content: '';
+    position: sticky;
+    top: 0;
+    display: block;
+    height: 2px;
+    background: var(--accent-color);
+    opacity: 0;
+    transition: opacity 200ms ease;
+    z-index: 11;
+}
+
+.stop-content.scrolled::before {
+    opacity: 1;
+}
+
+/* ── Mobile Improvements ── */
+@media (max-width: 768px) {
+    .map-action-label {
+        display: none;
+    }
+
+    .map-action {
+        width: 42px;
+        height: 42px;
+        padding: 0;
+        gap: 0;
+    }
+
+    .onboarding-toast {
+        bottom: 16px;
+        right: 8px;
+        left: 8px;
+        max-width: none;
+        font-size: var(--text-xs);
+    }
+
+    .progress-dot {
+        width: 22px;
+        height: 22px;
+        font-size: 0.58rem;
+    }
+}
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
     *,

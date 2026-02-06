@@ -67,22 +67,22 @@
         }
 
         .logo-box {
-            width: 70px;
-            height: 70px;
+            width: 220px;
+            max-width: 56vw;
+            min-width: 160px;
             border-radius: 14px;
             border: 1px solid rgba(194, 160, 46, 0.4);
-            background: linear-gradient(145deg, #2b3648 0%, #181f2a 100%);
+            background: var(--bsh-white);
             display: grid;
             place-items: center;
-            box-shadow: 0 10px 24px rgba(24, 31, 42, 0.18);
+            padding: 0.35rem 0.55rem;
+            box-shadow: 0 10px 24px rgba(24, 31, 42, 0.12);
         }
 
-        .logo-box span {
-            font-family: var(--font-brand);
-            font-size: 1.4rem;
-            font-weight: 700;
-            letter-spacing: 0.02em;
-            color: var(--bsh-gold);
+        .logo-box img {
+            width: 100%;
+            height: auto;
+            display: block;
         }
 
         .kicker {
@@ -162,7 +162,7 @@
             position: relative;
             z-index: 1;
             display: grid;
-            grid-template-columns: 1.15fr 0.85fr;
+            grid-template-columns: 1.05fr 0.95fr;
             gap: 1rem;
             align-items: end;
         }
@@ -231,6 +231,27 @@
             grid-template-columns: repeat(2, minmax(0, 1fr));
             gap: 1rem;
             margin-bottom: 1rem;
+        }
+
+        .section-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            margin: 0.25rem 0 0.85rem;
+        }
+
+        .section-head h2 {
+            font-family: var(--font-brand);
+            font-size: 1.1rem;
+            color: var(--bsh-navy);
+            letter-spacing: 0.01em;
+        }
+
+        .section-head p {
+            font-size: 0.86rem;
+            color: #4f5f79;
+            max-width: 58ch;
         }
 
         .card {
@@ -364,16 +385,6 @@
             transform: translateX(3px);
         }
 
-        .note {
-            border: 1px dashed #b8a66a;
-            border-radius: 13px;
-            background: rgba(194, 160, 46, 0.08);
-            color: #5e532f;
-            padding: 0.85rem 0.95rem;
-            font-size: 0.9rem;
-            margin-bottom: 1.3rem;
-        }
-
         footer {
             display: flex;
             justify-content: space-between;
@@ -416,6 +427,11 @@
                 padding: 1.3rem;
             }
 
+            .section-head {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
             .grid {
                 grid-template-columns: 1fr;
             }
@@ -432,7 +448,7 @@
         <header class="masthead">
             <div class="brand">
                 <div class="logo-box">
-                    <span>BSH</span>
+                    <img src="images/bsh-logo.svg" alt="Balanced Supply of Housing logo">
                 </div>
                 <div>
                     <p class="kicker">Balanced Supply of Housing</p>
@@ -461,6 +477,11 @@
                 </aside>
             </div>
         </section>
+
+        <div class="section-head">
+            <h2>Choose a Tour</h2>
+            <p>Each tour is structured for the Spring 2026 workshop format with map-based discussion prompts and stop-by-stop facilitation.</p>
+        </div>
 
         <section class="grid">
             <a href="fscclt/index.html" class="card card-one" aria-label="Open FSCCLT Tour">
@@ -507,8 +528,6 @@
                 </span>
             </a>
         </section>
-
-        <p class="note">Spring 2026 workshop update: these tours are organized for live map walkthroughs, discussion, and policy-focused group sessions.</p>
 
         <footer>
             <span>Balanced Supply of Housing</span>

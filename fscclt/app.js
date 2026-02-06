@@ -123,17 +123,17 @@ const tourStops = [
                         caption: "False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/False_Creek_Vancouver.jpg/1280px-False_Creek_Vancouver.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
                         alt: "False Creek waterfront with downtown Vancouver skyline",
                         caption: "False Creek waterfront — Photo: Wikimedia Commons (CC BY-SA 4.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/False_Creek%2C_Vancouver%2C_BC%2C_Canada_-_panoramio.jpg/1280px-False_Creek%2C_Vancouver%2C_BC%2C_Canada_-_panoramio.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vancouver_-_False_Creek_pano_03.jpg/1280px-Vancouver_-_False_Creek_pano_03.jpg",
                         alt: "False Creek shoreline view in Vancouver",
                         caption: "False Creek shoreline — Photo: Panoramio archive (CC BY 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Granville_Bridge_Vancouver.jpg/1280px-Granville_Bridge_Vancouver.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrard_Bridge_and_False_Creek_Vancouver.jpg/1280px-Burrard_Bridge_and_False_Creek_Vancouver.jpg",
                         alt: "Granville Bridge over False Creek",
                         caption: "Granville Bridge over False Creek — Photo: McKay Savage (CC BY 2.0)"
                     },
@@ -291,22 +291,22 @@ const tourStops = [
                         caption: "False Creek near Kits Point — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Kitsilano_Beach_2015.jpg/1280px-Kitsilano_Beach_2015.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vancouver_-_False_Creek_near_Granville_Island_01.jpg/1280px-Vancouver_-_False_Creek_near_Granville_Island_01.jpg",
                         alt: "Kitsilano Beach with the Vancouver skyline",
                         caption: "Kitsilano Beach — Photo: Wikimedia Commons (CC BY-SA 4.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Vancouver_-_Burrard_Bridge_2012.jpg/1280px-Vancouver_-_Burrard_Bridge_2012.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Vancouver_Burrard_Street_Bridge_%289971716326%29.jpg/1280px-Vancouver_Burrard_Street_Bridge_%289971716326%29.jpg",
                         alt: "Burrard Bridge spanning False Creek in Vancouver",
                         caption: "Burrard Bridge — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Vanier-Park.jpg/1280px-Vanier-Park.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vancouver_-_False_Creek_near_Granville_Island_01.jpg/1280px-Vancouver_-_False_Creek_near_Granville_Island_01.jpg",
                         alt: "Downtown Vancouver skyline seen from Vanier Park",
                         caption: "Downtown skyline from Vanier Park — Photo: Xicotencatl (CC BY-SA 4.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Burrard_Bridge_%26_False_Creek_at_dusk.jpg/1280px-Burrard_Bridge_%26_False_Creek_at_dusk.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrard_Bridge_and_False_Creek_Vancouver.jpg/1280px-Burrard_Bridge_and_False_Creek_Vancouver.jpg",
                         alt: "Burrard Bridge at dusk over False Creek",
                         caption: "Burrard Bridge at dusk — Photo: Joe Mabel (CC BY-SA 3.0)"
                     }
@@ -460,12 +460,12 @@ const tourStops = [
                         caption: "Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Granville_Island_Public_Market_interior.jpg/1280px-Granville_Island_Public_Market_interior.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Granville_Island_Public_Market_2024.jpg/1280px-Granville_Island_Public_Market_2024.jpg",
                         alt: "Interior of the Granville Island Public Market",
                         caption: "Public Market interior — Photo: Wikimedia Commons (CC BY-SA 4.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Granville_Island_View.jpg/1280px-Granville_Island_View.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg/1280px-Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg",
                         alt: "View of Granville Island with marina and waterfront",
                         caption: "Granville Island waterfront — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
@@ -475,7 +475,7 @@ const tourStops = [
                         caption: "Granville Island waterfront — Photo: Public domain"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Granville_Island%2C_Vancouver_%288002251017%29.jpg/1280px-Granville_Island%2C_Vancouver_%288002251017%29.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg/1280px-Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg",
                         alt: "Granville Island street scene with shops",
                         caption: "Granville Island street scene — Photo: InSapphoWeTrust (CC BY-SA 2.0)"
                     }

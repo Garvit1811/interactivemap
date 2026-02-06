@@ -856,9 +856,12 @@ document.addEventListener('DOMContentLoaded', () => {
     renderStop(currentStopIndex);
     updateProgress();
     createStopNavigator();
+    createProgressDots();
     initStopsDrawer();
     updateNavButtons();
     createLightbox();
+    initScrollIndicator();
+    initSwipeNavigation();
 });
 
 // ============================================
@@ -884,7 +887,23 @@ function initMap() {
         marker.addTo(map);
     });
 
+    // Draw route line connecting stops
+    const routeCoords = tourStops.map(stop => stop.coordinates);
+    L.polyline(routeCoords, {
+        color: '#002145',
+        weight: 2,
+        opacity: 0.3,
+        dashArray: '8, 8',
+        className: 'tour-route'
+    }).addTo(map);
+
     flyToStop(0);
+
+    // Show onboarding toast on first visit
+    if (!localStorage.getItem('bsh-tour-onboarded')) {
+        showOnboardingToast();
+        localStorage.setItem('bsh-tour-onboarded', 'true');
+    }
 }
 
 function fitMapToStops() {
@@ -905,11 +924,20 @@ function createMarker(stop, index) {
     });
 
     const marker = L.marker(stop.coordinates, { icon });
-    marker.bindTooltip(stop.title, {
+
+    const tooltipContent = `
+        <div class="marker-popup">
+            <strong>${stop.title}</strong>
+            <span class="marker-popup-location">${stop.location}</span>
+            ${stop.stats[0] ? `<span class="marker-popup-stat">${stop.stats[0].label}: ${stop.stats[0].value}</span>` : ''}
+        </div>
+    `;
+    marker.bindTooltip(tooltipContent, {
         direction: 'top',
-        offset: [0, -20],
-        opacity: 0.95,
-        className: 'marker-tooltip'
+        offset: [0, -24],
+        opacity: 1,
+        className: 'marker-tooltip-rich',
+        permanent: false
     });
 
     marker.on('click', () => {
@@ -947,31 +975,42 @@ function renderStop(index) {
     const stop = tourStops[index];
     const container = document.getElementById('stopContent');
 
-    currentSectionIndex = 0;
-    container.scrollTop = 0;
+    // Fade out before swap
+    container.style.opacity = '0';
+    container.style.transform = 'translateY(8px)';
+    container.style.transition = 'opacity 150ms ease, transform 150ms ease';
 
-    container.innerHTML = `
-        ${renderHeroImage(stop.heroImage)}
-        ${renderSectionTabs(stop.sections)}
+    setTimeout(() => {
+        currentSectionIndex = 0;
+        container.scrollTop = 0;
 
-        <div class="stop-header">
-            <span class="stop-number">${stop.id}</span>
-            <h2 class="stop-title">${stop.title}</h2>
-            <div class="stop-location">
-                ${icons.location}
-                ${stop.location}
+        container.innerHTML = `
+            ${renderHeroImage(stop.heroImage)}
+            ${renderSectionTabs(stop.sections)}
+
+            <div class="stop-header">
+                <span class="stop-number">${stop.id}</span>
+                <h2 class="stop-title">${stop.title}</h2>
+                <div class="stop-location">
+                    ${icons.location}
+                    ${stop.location}
+                </div>
             </div>
-        </div>
 
-        <div class="section-panels">
-            ${stop.sections.map((section, idx) => renderSectionPanel(section, idx)).join('')}
-        </div>
+            <div class="section-panels">
+                ${stop.sections.map((section, idx) => renderSectionPanel(section, idx)).join('')}
+            </div>
 
-        ${renderFacts(stop.stats)}
-    `;
+            ${renderFacts(stop.stats)}
+        `;
 
-    initSectionTabs();
-    initGalleryHandlers(stop);
+        // Fade in
+        container.style.opacity = '1';
+        container.style.transform = 'translateY(0)';
+
+        initSectionTabs();
+        initGalleryHandlers(stop);
+    }, 160);
 }
 
 function renderHeroImage(heroImage) {
@@ -1339,6 +1378,7 @@ function updateProgress() {
     if (indicator) {
         indicator.textContent = `Stop ${currentStopIndex + 1} of ${tourStops.length}`;
     }
+    updateProgressDots();
 }
 
 function createStopNavigator() {
@@ -1456,6 +1496,8 @@ function initNavigation() {
     nextBtn.addEventListener('click', () => {
         if (currentStopIndex < tourStops.length - 1) {
             goToStop(currentStopIndex + 1);
+        } else {
+            showTourComplete();
         }
     });
 }
@@ -1496,10 +1538,11 @@ function updateNavButtons() {
     `;
 
     if (currentStopIndex === tourStops.length - 1) {
+        nextBtn.disabled = false;
         nextBtn.innerHTML = `
             <span class="nav-btn-text">
-                <span class="nav-btn-label">Complete</span>
-                <span class="nav-btn-title">End of tour</span>
+                <span class="nav-btn-label">Complete Tour</span>
+                <span class="nav-btn-title">View summary</span>
             </span>
             <span class="nav-btn-icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1593,6 +1636,131 @@ function initKeyboardShortcuts() {
             }
         }
     });
+}
+
+// ============================================
+// Progress Dots
+// ============================================
+
+function createProgressDots() {
+    const container = document.getElementById('progressDots');
+    if (!container) return;
+
+    container.innerHTML = tourStops.map((stop, index) => `
+        <button
+            class="progress-dot ${index === 0 ? 'active' : ''}"
+            data-index="${index}"
+            aria-label="Go to stop ${index + 1}: ${stop.title}"
+        >${index + 1}</button>
+    `).join('');
+
+    container.querySelectorAll('.progress-dot').forEach(dot => {
+        dot.addEventListener('click', () => {
+            const index = parseInt(dot.dataset.index, 10);
+            goToStop(index);
+        });
+    });
+}
+
+function updateProgressDots() {
+    document.querySelectorAll('.progress-dot').forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentStopIndex);
+    });
+}
+
+// ============================================
+// Onboarding Toast
+// ============================================
+
+function showOnboardingToast() {
+    const mapContainer = document.querySelector('.map-container');
+    if (!mapContainer) return;
+
+    const toast = document.createElement('div');
+    toast.className = 'onboarding-toast';
+    toast.textContent = 'Tip: Use arrow keys to navigate between stops, or click map markers to jump directly.';
+    mapContainer.appendChild(toast);
+
+    setTimeout(() => {
+        toast.classList.add('fade-out');
+        setTimeout(() => toast.remove(), 500);
+    }, 6000);
+}
+
+// ============================================
+// Scroll Indicator
+// ============================================
+
+function initScrollIndicator() {
+    const content = document.getElementById('stopContent');
+    if (!content) return;
+
+    content.addEventListener('scroll', () => {
+        content.classList.toggle('scrolled', content.scrollTop > 10);
+    });
+}
+
+// ============================================
+// Mobile Swipe Navigation
+// ============================================
+
+function initSwipeNavigation() {
+    if (window.innerWidth > 768) return;
+
+    const content = document.getElementById('stopContent');
+    if (!content) return;
+
+    let startX = 0;
+    let startY = 0;
+
+    content.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+    }, { passive: true });
+
+    content.addEventListener('touchend', (e) => {
+        const deltaX = e.changedTouches[0].clientX - startX;
+        const deltaY = e.changedTouches[0].clientY - startY;
+
+        if (Math.abs(deltaX) > 80 && Math.abs(deltaX) > Math.abs(deltaY) * 1.5) {
+            if (deltaX < 0 && currentStopIndex < tourStops.length - 1) {
+                goToStop(currentStopIndex + 1);
+            } else if (deltaX > 0 && currentStopIndex > 0) {
+                goToStop(currentStopIndex - 1);
+            }
+        }
+    }, { passive: true });
+}
+
+// ============================================
+// Tour Completion
+// ============================================
+
+function showTourComplete() {
+    const container = document.getElementById('stopContent');
+    if (!container) return;
+
+    container.style.opacity = '0';
+    container.style.transform = 'translateY(8px)';
+    container.style.transition = 'opacity 150ms ease, transform 150ms ease';
+
+    setTimeout(() => {
+        container.scrollTop = 0;
+        container.innerHTML = `
+            <div class="tour-complete-panel">
+                <h3>Tour Complete</h3>
+                <p>You've explored all ${tourStops.length} stops in this tour. Return to see other tours or revisit any stop using the dots above.</p>
+                <a href="../index.html" class="tour-complete-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                    Back to All Tours
+                </a>
+            </div>
+        `;
+        container.style.opacity = '1';
+        container.style.transform = 'translateY(0)';
+    }, 160);
 }
 
 // ============================================

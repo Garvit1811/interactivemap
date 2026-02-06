@@ -186,15 +186,15 @@ const tourStops = [
         coordinates: [49.2826, -123.0962],
 
         heroImage: {
-            src: null,
+            src: "https://admin.firstunited.ca/app/uploads/2021/11/first-united-Redevelopment-Hero.png",
             alt: "First United Church",
-            caption: null
+            caption: "FIRST UNITED redevelopment concept image — Photo: FIRST UNITED"
         },
 
         stats: [
             { label: "Founded", value: "1886" },
-            { label: "Services", value: "Multi" },
-            { label: "Focus", value: "Housing" }
+            { label: "Safe Shelter", value: "51 beds" },
+            { label: "Legal Cases", value: "1,400+/yr" }
         ],
 
         sections: [
@@ -203,9 +203,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p><strong>First United Church</strong> has been serving Vancouver's Downtown Eastside since 1886, making it one of the oldest continuously operating social service organizations in the city.</p>
-                    <p>The church provides a range of services including <strong>emergency shelter, meals, and community programs</strong> for residents experiencing poverty and homelessness.</p>
-                    <p class="placeholder-note"><em>Additional content to be added after research.</em></p>
+                    <p><strong>FIRST UNITED</strong> has worked in Vancouver's Downtown Eastside since 1886. Today it combines shelter, legal advocacy, and community food programs in one service model focused on reducing harm and preventing homelessness.</p>
+                    <p>Its Safe Shelter program currently operates <strong>51 low-barrier shelter beds</strong> at 467 Alexander Street. The Legal Advocacy program supports tenants and income-security clients and reports <strong>more than 1,400 unique cases each year</strong>.</p>
+                    <p>The organization is also leading a major redevelopment at 320 East Hastings with partner <strong>Lu'ma Native BCH Housing Society</strong>, planned to include <strong>100+ homes and roughly 40,000 sq ft</strong> of community-serving space.</p>
                 `
             },
             {
@@ -215,24 +215,24 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "Historic Building",
-                        description: "View the church building that has served the community for over a century.",
-                        meta: "Heritage"
+                        title: "Safe Shelter Program",
+                        description: "Review how the 51-bed low-barrier shelter supports people facing immediate housing instability.",
+                        meta: "Shelter"
                     },
                     {
-                        title: "Community Services",
-                        description: "Learn about the range of services provided to DTES residents.",
-                        meta: "Services"
+                        title: "Legal Advocacy",
+                        description: "Understand tenancy, social assistance, and disability advocacy support delivered at street level.",
+                        meta: "Tenant rights"
                     },
                     {
-                        title: "Housing Advocacy",
-                        description: "Understand First United's role in housing advocacy and policy.",
-                        meta: "Advocacy"
+                        title: "Food Access",
+                        description: "Track meal services including daily lunch and outreach food truck operations.",
+                        meta: "Food security"
                     },
                     {
-                        title: "Partnership Network",
-                        description: "See how First United connects with other community organizations.",
-                        meta: "Collaboration"
+                        title: "Redevelopment Site",
+                        description: "Connect the current site to plans for long-term affordable homes and integrated community space.",
+                        meta: "Housing delivery"
                     }
                 ]
             },
@@ -241,20 +241,22 @@ const tourStops = [
                 label: "Programs",
                 icon: "document",
                 content: `
-                    <h4>About First United</h4>
-                    <p>Content to be added after research on:</p>
+                    <h4>Core Programs</h4>
+                    <p>FIRST UNITED's front-line model combines shelter, legal support, and food access:</p>
                     <ul>
-                        <li>Current housing programs and initiatives</li>
-                        <li>Emergency services and shelter capacity</li>
-                        <li>Community partnerships</li>
-                        <li>Advocacy work and policy positions</li>
+                        <li><strong>Safe Shelter:</strong> 51 low-barrier beds currently operating at 467 Alexander Street</li>
+                        <li><strong>Legal Advocacy:</strong> more than 1,400 unique client cases annually focused on tenancy and income rights</li>
+                        <li><strong>Food Programs:</strong> daily meal services, lunch distribution, and a mobile food truck</li>
                     </ul>
+                    <h4>Redevelopment at 320 E Hastings</h4>
+                    <p>The redevelopment project is designed to preserve FIRST UNITED's service base while adding permanent housing supply. Public project materials describe a mixed-use community hub with 100+ homes and approximately 40,000 sq ft for social, cultural, and health-serving uses.</p>
+                    <p>The project partnership with Lu'ma Native BCH Housing Society also sets out Indigenous-led and community-accountable governance outcomes for long-term operations.</p>
                 `,
                 keyPoints: [
-                    "One of Vancouver's oldest social service organizations",
-                    "Provides emergency shelter and meals",
-                    "Active in housing advocacy",
-                    "Partners with DTES community organizations"
+                    "Operating in the DTES since 1886",
+                    "51 low-barrier shelter beds at the current safe shelter site",
+                    "1,400+ legal advocacy cases each year",
+                    "320 E Hastings redevelopment targets 100+ homes"
                 ]
             },
             {
@@ -262,7 +264,23 @@ const tourStops = [
                 label: "Gallery",
                 icon: "images",
                 type: "gallery",
-                images: []
+                images: [
+                    {
+                        src: "https://admin.firstunited.ca/app/uploads/2021/11/first-united-Redevelopment-Hero.png",
+                        alt: "First United redevelopment concept",
+                        caption: "Redevelopment concept at 320 E Hastings — Photo: FIRST UNITED"
+                    },
+                    {
+                        src: "https://admin.firstunited.ca/app/uploads/2021/11/Programs-Meal-Program.png",
+                        alt: "First United meal program",
+                        caption: "Meal program service image — Photo: FIRST UNITED"
+                    },
+                    {
+                        src: "https://admin.firstunited.ca/app/uploads/2021/11/FirstUnited_Campaign18.jpg",
+                        alt: "First United community campaign photo",
+                        caption: "Community campaign image — Photo: FIRST UNITED"
+                    }
+                ]
             },
             {
                 id: "resources",
@@ -273,7 +291,27 @@ const tourStops = [
                     {
                         title: "First United Church",
                         url: "https://firstunited.ca/",
-                        description: "Official website"
+                        description: "Official organization website"
+                    },
+                    {
+                        title: "Safe Shelter",
+                        url: "https://firstunited.ca/programs/safe-shelter/",
+                        description: "Current low-barrier shelter program details"
+                    },
+                    {
+                        title: "Legal Advocacy",
+                        url: "https://firstunited.ca/programs/legal-advocacy/",
+                        description: "Tenancy and income advocacy services"
+                    },
+                    {
+                        title: "Redevelopment of FIRST UNITED",
+                        url: "https://firstunited.ca/projects/the-redevelopment-of-first-united/",
+                        description: "320 E Hastings redevelopment plan"
+                    },
+                    {
+                        title: "Food Security Programs",
+                        url: "https://firstunited.ca/programs/food-security/",
+                        description: "Meal access and food outreach programs"
                     }
                 ]
             }
@@ -296,7 +334,7 @@ const tourStops = [
         stats: [
             { label: "Historic Era", value: "1935-67" },
             { label: "Focus", value: "Black history" },
-            { label: "Projects", value: "Multiple" }
+            { label: "Nora Hendrix", value: "52 homes" }
         ],
 
         sections: [
@@ -305,9 +343,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p><strong>Hogan's Alley</strong> was the heart of Vancouver's Black community from the 1930s to 1967, when it was destroyed to build the Georgia Viaduct. The Hogan's Alley Society works to restore and commemorate this important piece of Vancouver's history.</p>
-                    <p>The Society is leading efforts to develop <strong>affordable housing, cultural spaces, and community facilities</strong> on the historic Hogan's Alley site as part of the Northeast False Creek development.</p>
-                    <p class="placeholder-note"><em>Additional content to be added after research.</em></p>
+                    <p><strong>Hogan's Alley</strong> was the historic centre of Vancouver's Black community until the area was cleared during viaduct-era urban renewal. The Hogan's Alley Society (HAS) is a Black-led non-profit focused on cultural repair, anti-displacement work, and community-owned development.</p>
+                    <p>HAS and the City of Vancouver signed a formal <strong>Memorandum of Understanding in September 2022</strong> to guide a Hogan's Alley Land Trust and long-term planning in Northeast False Creek.</p>
+                    <p>Current projects include <strong>Nora Hendrix Place</strong> at 258 Union Street, a 52-home temporary modular housing project that includes culturally informed supports and onsite services.</p>
                 `
             },
             {
@@ -318,22 +356,22 @@ const tourStops = [
                 highlights: [
                     {
                         title: "Historic Site",
-                        description: "Walk the original footprint of Hogan's Alley and learn about its history.",
+                        description: "Walk the former alley footprint and connect present blocks to erased Black community history.",
                         meta: "Heritage"
                     },
                     {
                         title: "Nora Hendrix Place",
-                        description: "Visit the development named for Jimi Hendrix's grandmother.",
+                        description: "Review the 52-home project named for Jimi Hendrix's grandmother and its support model.",
                         meta: "Housing"
                     },
                     {
                         title: "Cultural Programming",
-                        description: "Learn about ongoing cultural initiatives and events.",
+                        description: "Explore Black cultural programming, storytelling, and place-keeping led by HAS.",
                         meta: "Culture"
                     },
                     {
                         title: "Future Development",
-                        description: "Review plans for the Northeast False Creek site.",
+                        description: "Track land trust and redevelopment planning tied to the Northeast False Creek process.",
                         meta: "Planning"
                     }
                 ]
@@ -343,21 +381,25 @@ const tourStops = [
                 label: "History & Plans",
                 icon: "document",
                 content: `
-                    <h4>Hogan's Alley History</h4>
-                    <p>Content to be added after research on:</p>
+                    <h4>Historical Context</h4>
+                    <p>Hogan's Alley became a cultural anchor for Black life in Vancouver through the mid-20th century. City documents now identify the district as a major site of displacement connected to viaduct-era planning decisions.</p>
+                    <h4>Current Housing and Land Work</h4>
+                    <p>HAS is advancing housing and cultural infrastructure through a land trust approach. The Society's planning framework highlights affordable rental housing, childcare, support for Black-owned businesses, and dedicated cultural space.</p>
+                    <h4>Nora Hendrix Place</h4>
+                    <p>At 258 Union Street, Nora Hendrix Place delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services.</p>
+                    <h4>Municipal Partnership</h4>
+                    <p>The City-HAS MOU (2022) sets a formal basis for co-development and governance conversations in Northeast False Creek as the viaduct removal area is rebuilt.</p>
                     <ul>
-                        <li>History of Vancouver's Black community</li>
-                        <li>Destruction of Hogan's Alley (1967)</li>
-                        <li>Current restoration and commemoration efforts</li>
-                        <li>Nora Hendrix Place and housing projects</li>
-                        <li>Northeast False Creek development plans</li>
+                        <li>Black-led community governance in project planning</li>
+                        <li>Housing, childcare, and enterprise space as linked anti-displacement tools</li>
+                        <li>Cultural redress integrated into redevelopment decisions</li>
                     </ul>
                 `,
                 keyPoints: [
                     "Historic heart of Vancouver's Black community",
-                    "Destroyed in 1967 for the Georgia Viaduct",
-                    "Active restoration and commemoration efforts",
-                    "Part of Northeast False Creek development"
+                    "City and HAS signed an MOU in September 2022",
+                    "Nora Hendrix Place provides 52 modular homes",
+                    "Land trust model ties housing with cultural redress"
                 ]
             },
             {
@@ -370,6 +412,16 @@ const tourStops = [
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Hogan%27s_Alley_Mural%2C_Vancouver.jpg/1280px-Hogan%27s_Alley_Mural%2C_Vancouver.jpg",
                         alt: "Hogan's Alley mural in Vancouver",
                         caption: "Hogan's Alley mural — Photo: GoToVan (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "https://images.squarespace-cdn.com/content/v1/60671f75f9f8f0563a610d24/6eb6b3c4-ef96-4d2e-a7ec-f7f905f1635d/IMG_9516.JPG?format=1500w",
+                        alt: "Nora Hendrix Place housing project",
+                        caption: "Nora Hendrix Place — Photo: Hogan's Alley Society"
+                    },
+                    {
+                        src: "https://images.squarespace-cdn.com/content/v1/60671f75f9f8f0563a610d24/bf593e3b-f7a8-4da7-868c-149dc349594e/HAS+Exterior+-+2.png?format=1500w",
+                        alt: "Hogan's Alley Society development rendering",
+                        caption: "Hogan's Alley Society project rendering — Photo: Hogan's Alley Society"
                     }
                 ]
             },
@@ -383,6 +435,21 @@ const tourStops = [
                         title: "Hogan's Alley Society",
                         url: "https://www.hogansalleysociety.org/",
                         description: "Restoring Vancouver's historic Black community"
+                    },
+                    {
+                        title: "Hogan's Alley Society - About",
+                        url: "https://www.hogansalleysociety.org/about-us",
+                        description: "Organization history, MOU context, and project pillars"
+                    },
+                    {
+                        title: "City of Vancouver - Hogan's Alley Society Block",
+                        url: "https://vancouver.ca/home-property-development/hogans-alley-society-block.aspx",
+                        description: "Municipal planning and implementation details"
+                    },
+                    {
+                        title: "City of Vancouver - 258 Union Street",
+                        url: "https://vancouver.ca/people-programs/258-union-street.aspx",
+                        description: "Nora Hendrix Place housing project profile"
                     }
                 ]
             }
@@ -397,9 +464,9 @@ const tourStops = [
         coordinates: [49.2832, -123.1000],
 
         heroImage: {
-            src: null,
+            src: "https://images.squarespace-cdn.com/content/v1/5f4ec60f2f7af648374b46ca/182f89f1-f6ed-4188-a462-9d24f8a637f1/2024+Survey.png?format=1500w",
             alt: "SRO Collaborative",
-            caption: null
+            caption: "DTES tenant survey outreach — Photo: DTES SRO Collaborative"
         },
 
         stats: [
@@ -414,9 +481,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>The <strong>DTES SRO Collaborative Society</strong> is a tenant-led organization that advocates for improved conditions in Single Room Occupancy (SRO) buildings throughout Vancouver's Downtown Eastside.</p>
-                    <p>In 2023, the Province provided an <strong>$11 million grant</strong> to support tenant-led programming and safety initiatives. The Collaborative runs the <strong>Tenant Overdose Response Organizers (TORO) project</strong>, which connects tenant organizers with naloxone supplies and education.</p>
-                    <p>As Executive Director <strong>Wendy Pedersen</strong> explains: "Privately owned SRO hotels are a last resort before homelessness."</p>
+                    <p>The <strong>DTES SRO Collaborative Society</strong> is a tenant-led organization focused on resident safety, tenancy rights, and policy change in privately owned SRO hotels.</p>
+                    <p>Its <strong>Tenant Overdose Response Organizers (TORO)</strong> initiative is active in around 40 private SRO hotels and supports residents through overdose prevention education, naloxone access, and peer organizing.</p>
+                    <p>In 2023, the Province of British Columbia announced a <strong>one-time $11 million grant</strong> to support tenant-led safety and stabilization work in the DTES. The Collaborative also co-led a 2024 tenant survey project with community partners and the City.</p>
                 `
             },
             {
@@ -452,21 +519,25 @@ const tourStops = [
                 label: "Programs",
                 icon: "document",
                 content: `
-                    <h4>SRO Collaborative Programs</h4>
-                    <p>Content to be added after research on:</p>
+                    <h4>How the Collaborative Works</h4>
+                    <p>The organization describes tenant committees as a core accountability structure. These committees identify building-level issues, connect residents to legal and health supports, and coordinate local safety planning.</p>
+                    <h4>TORO Program</h4>
+                    <p>TORO is designed as a tenant-led overdose response and harm-reduction model within SRO buildings. The program focuses on peer leadership and direct supply access to reduce preventable deaths.</p>
+                    <h4>Policy and Public Accountability</h4>
+                    <p>Recent efforts include coordinated tenant surveys and public documentation of SRO living conditions, helping shape city and provincial conversations on minimum standards, rent protections, and anti-displacement policy.</p>
+                    <h4>Funding Context</h4>
+                    <p>The 2023 provincial grant provides targeted support for tenant-led operations, outreach, and staffing for services tied to safety and stabilization in the private SRO stock.</p>
                     <ul>
-                        <li>TORO (Tenant Overdose Response Organizers) program details</li>
-                        <li>Tenant organizing and advocacy work</li>
-                        <li>Partnerships with other DTES organizations</li>
-                        <li>Policy advocacy and achievements</li>
-                        <li>Use of provincial grant funding</li>
+                        <li>Resident-led governance through tenant committees</li>
+                        <li>Harm reduction and overdose response capacity in SRO hotels</li>
+                        <li>Cross-partner survey and policy evidence gathering</li>
                     </ul>
                 `,
                 keyPoints: [
                     "Tenant-led advocacy organization",
                     "$11M provincial grant (2023)",
-                    "TORO program for overdose response",
-                    "Key role in vacancy control policy"
+                    "TORO active in around 40 private SRO hotels",
+                    "2024 tenant survey work with city and community partners"
                 ]
             },
             {
@@ -474,7 +545,23 @@ const tourStops = [
                 label: "Gallery",
                 icon: "images",
                 type: "gallery",
-                images: []
+                images: [
+                    {
+                        src: "https://images.squarespace-cdn.com/content/v1/5f4ec60f2f7af648374b46ca/182f89f1-f6ed-4188-a462-9d24f8a637f1/2024+Survey.png?format=1500w",
+                        alt: "DTES SRO Collaborative 2024 survey image",
+                        caption: "DTES survey project graphic — Photo: DTES SRO Collaborative"
+                    },
+                    {
+                        src: "https://images.squarespace-cdn.com/content/v1/5f4ec60f2f7af648374b46ca/1713285626459-XJCHP91THJQ6BZ3O4CC1/IMG_0050.jpg?format=2500w",
+                        alt: "DTES SRO Collaborative outreach scene",
+                        caption: "SRO outreach work — Photo: DTES SRO Collaborative"
+                    },
+                    {
+                        src: "https://images.squarespace-cdn.com/content/v1/5f4ec60f2f7af648374b46ca/1713285629932-BTLUSRXI02XG56NIK6T5/IMG_0045.jpg?format=2500w",
+                        alt: "DTES tenant support activity",
+                        caption: "Tenant support activity — Photo: DTES SRO Collaborative"
+                    }
+                ]
             },
             {
                 id: "resources",
@@ -491,6 +578,26 @@ const tourStops = [
                         title: "DTES Neighbourhood House — SRO Collaborative Profile",
                         url: "https://www.dtesnhouse.ca/news-updates/partner-feature-sro-collaborative",
                         description: "Background on the SRO Collaborative's work"
+                    },
+                    {
+                        title: "Mission Statement",
+                        url: "https://www.srocollaborative.org/mission-statement",
+                        description: "Organization mission and tenant-led model"
+                    },
+                    {
+                        title: "Tenant Committees",
+                        url: "https://www.srocollaborative.org/tenant-committees",
+                        description: "Committee structure and building-level organizing"
+                    },
+                    {
+                        title: "TORO Program",
+                        url: "https://www.srocollaborative.org/toro",
+                        description: "Tenant overdose response initiative details"
+                    },
+                    {
+                        title: "BC Government Grant Announcement (2023)",
+                        url: "https://news.gov.bc.ca/releases/2023HOUS0111-001846",
+                        description: "One-time provincial funding announcement"
                     }
                 ]
             }
@@ -505,15 +612,15 @@ const tourStops = [
         coordinates: [49.2825, -123.1005],
 
         heroImage: {
-            src: null,
+            src: "https://www.learningexchange.ubc.ca/sites/default/files/styles/panopoly_image_original/public/LE_7377_copy.jpg?itok=2NBYJ6z0",
             alt: "UBC Learning Exchange",
-            caption: null
+            caption: "UBC Learning Exchange in the Downtown Eastside — Photo: UBC Learning Exchange"
         },
 
         stats: [
-            { label: "Founded", value: "2000" },
+            { label: "Since", value: "2000" },
             { label: "Focus", value: "Education" },
-            { label: "Partner", value: "UBC" }
+            { label: "Location", value: "612 Main St" }
         ],
 
         sections: [
@@ -522,9 +629,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>The <strong>UBC Learning Exchange</strong> is a university-community partnership that has been operating in the Downtown Eastside since 2000. It provides free educational programming and resources to DTES residents while creating learning opportunities for UBC students and faculty.</p>
-                    <p>The Learning Exchange offers programs including <strong>computer access, literacy support, community-based research, and various workshops</strong> that connect university resources with community needs.</p>
-                    <p class="placeholder-note"><em>Additional content to be added after research.</em></p>
+                    <p>The <strong>UBC Learning Exchange</strong> is a long-running university-community hub in the Downtown Eastside. It has operated from 612 Main Street since the program launched in 2000 as part of UBC's Community Learning Initiative.</p>
+                    <p>Programming focuses on two-way learning: local residents access free educational opportunities while UBC students and faculty engage in community-informed teaching, volunteering, and research.</p>
+                    <p>Core activities include computer and digital literacy support, conversation and communication programming, and partnerships with local organizations on neighbourhood priorities.</p>
                 `
             },
             {
@@ -535,22 +642,22 @@ const tourStops = [
                 highlights: [
                     {
                         title: "Community Programs",
-                        description: "Visit the Learning Exchange to see community education in action.",
+                        description: "Observe free, resident-centered learning programs delivered at 612 Main Street.",
                         meta: "Education"
                     },
                     {
                         title: "Research Partnerships",
-                        description: "Learn about community-based research initiatives.",
+                        description: "Review how community priorities are integrated into UBC teaching and research projects.",
                         meta: "Research"
                     },
                     {
                         title: "Student Involvement",
-                        description: "Understand how UBC students engage with the community.",
+                        description: "See how students contribute through service learning and community-engaged coursework.",
                         meta: "Partnership"
                     },
                     {
                         title: "Resource Access",
-                        description: "See how the Learning Exchange provides access to university resources.",
+                        description: "Map pathways from the neighbourhood into UBC resources and public-facing services.",
                         meta: "Access"
                     }
                 ]
@@ -560,21 +667,25 @@ const tourStops = [
                 label: "Programs",
                 icon: "document",
                 content: `
-                    <h4>UBC Learning Exchange Programs</h4>
-                    <p>Content to be added after research on:</p>
+                    <h4>Program Model</h4>
+                    <p>The Learning Exchange frames its work as reciprocal community learning. Programs are built with community members and local organizations rather than delivered as one-way outreach.</p>
+                    <h4>Education and Skills</h4>
+                    <p>Public-facing activities include computer and internet support, literacy and communication programming, and workshops that respond to resident-identified interests.</p>
+                    <h4>University-Community Bridge</h4>
+                    <p>The site provides practical entry points for UBC students and faculty to participate in community-engaged learning and collaborative research in the DTES.</p>
+                    <h4>Neighbourhood Partnerships</h4>
+                    <p>Partnerships across the DTES shape how UBC resources are shared and how local knowledge is reflected in project design and evaluation.</p>
                     <ul>
-                        <li>Educational programming and workshops</li>
-                        <li>Community-based research initiatives</li>
-                        <li>Student volunteer and service-learning programs</li>
-                        <li>Partnerships with other DTES organizations</li>
-                        <li>Housing-related research and advocacy</li>
+                        <li>Resident-informed education and digital inclusion programming</li>
+                        <li>Community-engaged teaching and service learning pathways for students</li>
+                        <li>Long-term collaboration infrastructure between UBC and DTES organizations</li>
                     </ul>
                 `,
                 keyPoints: [
                     "University-community partnership since 2000",
                     "Free educational programming",
-                    "Community-based research",
-                    "Connects UBC resources with community needs"
+                    "Reciprocal model for research and teaching",
+                    "Based at 612 Main Street in the DTES"
                 ]
             },
             {
@@ -582,7 +693,28 @@ const tourStops = [
                 label: "Gallery",
                 icon: "images",
                 type: "gallery",
-                images: []
+                images: [
+                    {
+                        src: "https://www.learningexchange.ubc.ca/sites/default/files/styles/panopoly_image_original/public/LE_7377_copy.jpg?itok=2NBYJ6z0",
+                        alt: "UBC Learning Exchange community space",
+                        caption: "Learning Exchange community space — Photo: UBC Learning Exchange"
+                    },
+                    {
+                        src: "https://www.learningexchange.ubc.ca/sites/default/files/styles/panopoly_image_original/public/LE_Mural_105.jpg?itok=K8f6El98",
+                        alt: "UBC Learning Exchange mural",
+                        caption: "Learning Exchange mural and gathering area — Photo: UBC Learning Exchange"
+                    },
+                    {
+                        src: "https://www.learningexchange.ubc.ca/sites/default/files/styles/panopoly_image_original/public/Katie-Main-Street-LX.jpg?itok=vWr4Nn9A",
+                        alt: "Main Street view near UBC Learning Exchange",
+                        caption: "Main Street near the Learning Exchange — Photo: UBC Learning Exchange"
+                    },
+                    {
+                        src: "https://news.ubc.ca/files/2020/11/Koyczan.jpg",
+                        alt: "Community event at UBC Learning Exchange",
+                        caption: "Community event image — Photo: UBC"
+                    }
+                ]
             },
             {
                 id: "resources",
@@ -593,7 +725,22 @@ const tourStops = [
                     {
                         title: "UBC Learning Exchange",
                         url: "https://learningexchange.ubc.ca/",
-                        description: "Official website"
+                        description: "Official program website"
+                    },
+                    {
+                        title: "Who We Are",
+                        url: "https://www.learningexchange.ubc.ca/about/who-we-are",
+                        description: "Program model and reciprocal learning approach"
+                    },
+                    {
+                        title: "Place-Based Learning in the DTES",
+                        url: "https://www.learningexchange.ubc.ca/about/place-based-learning",
+                        description: "How 612 Main Street supports community learning"
+                    },
+                    {
+                        title: "UBC Today: Learning Exchange at 20 Years",
+                        url: "https://news.ubc.ca/2020/11/18/learning-exchange/",
+                        description: "History and community impact profile"
                     }
                 ]
             }

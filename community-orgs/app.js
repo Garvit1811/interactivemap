@@ -15,9 +15,9 @@ const tourStops = [
         coordinates: [49.27935, -123.09892],
 
         heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
-            alt: "East Hastings Street in Vancouver",
-            caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
+            src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/keefer_rooms.jpg",
+            alt: "Keefer Rooms building in the Downtown Eastside",
+            caption: "Keefer Rooms — Source: Downtown Eastside Community Land Trust"
         },
 
         stats: [
@@ -106,24 +106,24 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/633_East_Hastings_02.JPG/1280px-633_East_Hastings_02.JPG",
-                        alt: "633 East Hastings building in Vancouver",
-                        caption: "633 East Hastings — Photo: Gordon Smith (CC BY-SA 3.0)"
+                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/SROs_ScoutMagazine.jpg",
+                        alt: "Downtown Eastside SRO streetscape",
+                        caption: "DTES SRO streetscape — Source: Downtown Eastside Community Land Trust"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
-                        alt: "East Hastings Street in the Downtown Eastside",
-                        caption: "East Hastings Street — Photo: Canadian2006 (CC BY-SA 3.0)"
+                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/arlington.jpg",
+                        alt: "Arlington Hotel building in the Downtown Eastside",
+                        caption: "Arlington Hotel — Source: Downtown Eastside Community Land Trust"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
-                        alt: "Carnegie Community Centre exterior in Vancouver",
-                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA)"
+                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/laurel.jpg",
+                        alt: "Laurel Hotel building in the Downtown Eastside",
+                        caption: "Laurel Hotel — Source: Downtown Eastside Community Land Trust"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Oppenheimer_Park_%285674465960%29.jpg/1280px-Oppenheimer_Park_%285674465960%29.jpg",
-                        alt: "Oppenheimer Park in the Downtown Eastside",
-                        caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
+                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/empress.png",
+                        alt: "Empress Hotel building in the Downtown Eastside",
+                        caption: "Empress Hotel — Source: Downtown Eastside Community Land Trust"
                     }
                 ]
             },
@@ -171,9 +171,9 @@ const tourStops = [
         coordinates: [49.28148, -123.09688],
 
         heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
-            alt: "East Hastings Street near First United",
-            caption: "East Hastings Street near First United — Photo: Canadian2006 (CC BY-SA 3.0)"
+            src: "https://admin.firstunited.ca/app/uploads/2021/11/Web_Redevelopment_Info.jpg",
+            alt: "First United Church building in Vancouver",
+            caption: "FIRST UNITED redevelopment context — Source: FIRST UNITED"
         },
 
         stats: [
@@ -251,19 +251,19 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
-                        alt: "Carnegie Community Centre near First United",
-                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA)"
+                        src: "https://admin.firstunited.ca/app/uploads/2022/07/Community-Connection_Home-Page-1.jpg",
+                        alt: "First United community connection program participants",
+                        caption: "Community connection programming — Source: FIRST UNITED"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
-                        alt: "East Hastings near First United",
-                        caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
+                        src: "https://admin.firstunited.ca/app/uploads/2022/07/Essential-Services_Home-Page-1-1.jpg",
+                        alt: "First United essential services support participants",
+                        caption: "Essential services programming — Source: FIRST UNITED"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/633_East_Hastings_02.JPG/1280px-633_East_Hastings_02.JPG",
-                        alt: "East Hastings building in the DTES",
-                        caption: "East Hastings building — Photo: Gordon Smith (CC BY-SA 3.0)"
+                        src: "https://admin.firstunited.ca/app/uploads/2022/07/Healing_Home-Page-1.jpg",
+                        alt: "First United healing and support participant",
+                        caption: "Healing and support programming — Source: FIRST UNITED"
                     }
                 ]
             },
@@ -311,9 +311,9 @@ const tourStops = [
         coordinates: [49.27779, -123.09836],
 
         heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
-            alt: "Downtown Eastside near Hogan's Alley",
-            caption: "Downtown Eastside near Hogan's Alley — Photo: Canadian2006 (CC BY-SA 3.0)"
+            src: "https://images.squarespace-cdn.com/content/v1/654e87e4e6889372eafb1636/df1af275-da11-4c32-99a0-a4c439ffaa86/nora-hendrix-place-facebook-1-1024x535.jpg",
+            alt: "Nora Hendrix Place at 258 Union Street",
+            caption: "Nora Hendrix Place (258 Union Street) — Source: Hogan's Alley Society"
         },
 
         stats: [
@@ -394,19 +394,19 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/633_East_Hastings_02.JPG/1280px-633_East_Hastings_02.JPG",
-                        alt: "East Hastings building near Hogan's Alley area",
-                        caption: "East Hastings — Photo: Gordon Smith (CC BY-SA 3.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Oppenheimer_Park_%285674465960%29.jpg/1280px-Oppenheimer_Park_%285674465960%29.jpg",
-                        alt: "Oppenheimer Park near Hogan's Alley area",
-                        caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
-                    },
-                    {
                         src: "../images/hogans-alley-mural.webp",
                         alt: "Community group in front of Hogan's Alley mural at 258 Union Street",
                         caption: "Hogan's Alley mural at 258 Union Street"
+                    },
+                    {
+                        src: "https://images.squarespace-cdn.com/content/v1/654e87e4e6889372eafb1636/c971076a-580a-442f-b2b1-44e3289ea691/DSC08335.jpg",
+                        alt: "Community gathering near Hogan's Alley mural",
+                        caption: "Community gathering near Hogan's Alley mural — Source: Hogan's Alley Society"
+                    },
+                    {
+                        src: "https://images.squarespace-cdn.com/content/v1/654e87e4e6889372eafb1636/98a4fa2c-f3a9-4b7f-bdde-645b27d03761/WEBSIZE_Daylighting-blackness-in-Vancouver_Kaidra-Mitchell-0495-1080x720.jpg",
+                        alt: "Hogan's Alley Society event in the Downtown Eastside",
+                        caption: "Hogan's Alley Society event — Source: Hogan's Alley Society"
                     }
                 ]
             },
@@ -449,9 +449,9 @@ const tourStops = [
         coordinates: [49.27918, -123.09803],
 
         heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/633_East_Hastings_02.JPG/1280px-633_East_Hastings_02.JPG",
-            alt: "SRO Collaborative",
-            caption: "East Hastings SRO block context — Photo: Gordon Smith (CC BY-SA 3.0)"
+            src: "https://i0.wp.com/srocollaborative.org/wp-content/uploads/2025/02/20241004_132320.jpg",
+            alt: "DTES SRO Collaborative community meeting",
+            caption: "DTES SRO Collaborative community gathering — Source: SRO Collaborative"
         },
 
         stats: [
@@ -532,19 +532,19 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/633_East_Hastings_02.JPG/1280px-633_East_Hastings_02.JPG",
-                        alt: "SRO building on East Hastings",
-                        caption: "East Hastings SRO building — Photo: Gordon Smith (CC BY-SA 3.0)"
+                        src: "https://i0.wp.com/srocollaborative.org/wp-content/uploads/2025/02/IMG_9755.jpg",
+                        alt: "TORO outreach setup inside SRO HUB space",
+                        caption: "TORO outreach space — Source: SRO Collaborative"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
-                        alt: "East Hastings street view",
-                        caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
+                        src: "https://i0.wp.com/srocollaborative.org/wp-content/uploads/2025/02/IMG_9504.jpg",
+                        alt: "Overdose response and harm reduction supplies table",
+                        caption: "Harm reduction supplies in TORO program — Source: SRO Collaborative"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Balmoral_Hotel_Vancouver.JPG/1280px-Balmoral_Hotel_Vancouver.JPG",
-                        alt: "Balmoral Hotel SRO in the DTES",
-                        caption: "Balmoral Hotel SRO — Photo: Wikimedia Commons"
+                        src: "https://i0.wp.com/srocollaborative.org/wp-content/uploads/2023/04/20171011_195154_1024.jpg.png",
+                        alt: "Downtown Eastside SRO corridor streetscape",
+                        caption: "DTES SRO corridor streetscape — Source: SRO Collaborative"
                     }
                 ]
             },
@@ -597,9 +597,9 @@ const tourStops = [
         coordinates: [49.27920, -123.09929],
 
         heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
-            alt: "Downtown Eastside near the UBC Learning Exchange",
-            caption: "Downtown Eastside near Main Street — Photo: Canadian2006 (CC BY-SA 3.0)"
+            src: "https://learningexchange.ubc.ca/files/2018/08/le_homepage_main-1920x600.jpg",
+            alt: "UBC Learning Exchange in Vancouver's Downtown Eastside",
+            caption: "UBC Learning Exchange — Source: UBC Learning Exchange"
         },
 
         stats: [
@@ -680,14 +680,19 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
-                        alt: "Carnegie Community Centre near Main Street",
-                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA)"
+                        src: "https://learningexchange.ubc.ca/files/2026/01/UBC_20230307_PJ_2464-2-sm.jpg",
+                        alt: "Learning Exchange workshop participant presenting neighbourhood map",
+                        caption: "Community mapping workshop — Source: UBC Learning Exchange"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
-                        alt: "East Hastings and Main area",
-                        caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
+                        src: "https://learningexchange.ubc.ca/files/2025/12/ECP-Group-Photo-3-2000px.jpg",
+                        alt: "Learning Exchange community program group photo",
+                        caption: "Community program group session — Source: UBC Learning Exchange"
+                    },
+                    {
+                        src: "https://learningexchange.ubc.ca/files/2025/12/CW-group-alternate-scaled.jpg",
+                        alt: "Creative writing group at UBC Learning Exchange",
+                        caption: "Creative writing program participants — Source: UBC Learning Exchange"
                     }
                 ]
             },

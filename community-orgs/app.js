@@ -728,6 +728,8 @@ let currentStopIndex = 0;
 let currentSectionIndex = 0;
 let map = null;
 let markers = [];
+let routeCasingLayer = null;
+let routeDashLayer = null;
 let lightboxActive = false;
 let lightboxImages = [];
 let lightboxIndex = 0;
@@ -857,7 +859,7 @@ function initMap() {
         marker.addTo(map);
     });
 
-    // Draw route line connecting stops (follows DTES street grid)
+    // Seed route line connecting stops (follows DTES street grid)
     const routeCoords = [
         // Segment 1: DTES CLT → First United (east on Keefer, north on Gore)
         [49.27922, -123.09891],  // Stop 1: DTES CLT (222 Keefer)
@@ -874,13 +876,8 @@ function initMap() {
         // Segment 4: SRO Collaborative → UBC Learning Exchange
         [49.27920, -123.09929]   // Stop 5: UBC Learning Exchange (612 Main)
     ];
-    L.polyline(routeCoords, {
-        color: '#002145',
-        weight: 2,
-        opacity: 0.3,
-        dashArray: '8, 8',
-        className: 'tour-route'
-    }).addTo(map);
+    drawRoute(routeCoords);
+    void upgradeRouteWithOSRM(routeCoords);
 
     // Add informational pins for key DTES buildings
     const poiMarkerIcon = function(label) {
@@ -920,6 +917,84 @@ function fitMapToStops() {
         padding: [60, 60],
         animate: true
     });
+}
+
+function drawRoute(coords) {
+    if (!map || !Array.isArray(coords) || coords.length < 2) return;
+
+    if (routeCasingLayer) {
+        map.removeLayer(routeCasingLayer);
+        routeCasingLayer = null;
+    }
+    if (routeDashLayer) {
+        map.removeLayer(routeDashLayer);
+        routeDashLayer = null;
+    }
+
+    routeCasingLayer = L.polyline(coords, {
+        color: '#ffffff',
+        weight: 8,
+        opacity: 0.9,
+        lineCap: 'round',
+        lineJoin: 'round',
+        interactive: false
+    }).addTo(map);
+
+    routeDashLayer = L.polyline(coords, {
+        color: '#0057b8',
+        weight: 3,
+        opacity: 0.95,
+        dashArray: '7, 9',
+        lineCap: 'round',
+        lineJoin: 'round',
+        interactive: false,
+        className: 'tour-route'
+    }).addTo(map);
+}
+
+function dedupeRouteCoords(coords) {
+    const deduped = [];
+    coords.forEach((coord) => {
+        if (!Array.isArray(coord) || coord.length < 2) return;
+        const [lat, lng] = coord;
+        const prev = deduped[deduped.length - 1];
+        if (!prev || prev[0] !== lat || prev[1] !== lng) {
+            deduped.push([lat, lng]);
+        }
+    });
+    return deduped;
+}
+
+async function fetchOSRMRoute(coords, profile) {
+    const queryCoords = coords.map(([lat, lng]) => `${lng},${lat}`).join(';');
+    const url = `https://router.project-osrm.org/route/v1/${profile}/${queryCoords}?overview=full&geometries=geojson&steps=false&continue_straight=true`;
+    const response = await fetch(url);
+    if (!response.ok) return null;
+    const data = await response.json();
+    const geometry = data?.routes?.[0]?.geometry?.coordinates;
+    if (!Array.isArray(geometry) || geometry.length < 2) return null;
+    return geometry.map(([lng, lat]) => [lat, lng]);
+}
+
+async function upgradeRouteWithOSRM(seedCoords) {
+    const deduped = dedupeRouteCoords(seedCoords);
+    if (deduped.length < 2) return;
+
+    try {
+        // Prefer walking geometry for city grid tour segments; fall back to driving.
+        const walkingRoute = await fetchOSRMRoute(deduped, 'walking');
+        if (walkingRoute) {
+            drawRoute(walkingRoute);
+            return;
+        }
+
+        const drivingRoute = await fetchOSRMRoute(deduped, 'driving');
+        if (drivingRoute) {
+            drawRoute(drivingRoute);
+        }
+    } catch (error) {
+        console.warn('OSRM route upgrade failed; using fallback route.', error);
+    }
 }
 
 function createMarker(stop, index) {

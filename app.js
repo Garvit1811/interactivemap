@@ -630,27 +630,27 @@ const tourStops = [
                         caption: "633 East Hastings — Photo: Gordon Smith (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Eastside%20dusk%20view%202018.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
                         alt: "Downtown Eastside neighbourhood view",
                         caption: "Downtown Eastside — Photo: Public domain"
                     },
                     {
-                        src: "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Eastside%20dusk%20view%202018.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
                         alt: "Pigeon Park in the Downtown Eastside",
                         caption: "Pigeon Park — Photo: Wikimedia Commons (CC BY-SA 4.0)"
                     },
                     {
-                        src: "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Eastside%20dusk%20view%202018.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
                         alt: "Carnegie Community Centre exterior in Vancouver",
                         caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 4.0)"
                     },
                     {
-                        src: "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Eastside%20dusk%20view%202018.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
                         alt: "Oppenheimer Park in the Downtown Eastside",
                         caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
                     },
                     {
-                        src: "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Eastside%20dusk%20view%202018.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
                         alt: "Hogan's Alley mural in Vancouver",
                         caption: "Hogan's Alley mural — Photo: GoToVan (CC BY-SA 3.0)"
                     }

@@ -12,7 +12,7 @@ const tourStops = [
         id: 1,
         title: "False Creek South Community Land Trust",
         location: "False Creek South, Vancouver",
-        coordinates: [49.27045, -123.13030],
+        coordinates: [49.26695, -123.11870],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
@@ -637,7 +637,10 @@ function initMap() {
     // Seed route line connecting stops (follows seawall path)
     const routeCoords = [
         // Segment 1: False Creek South → Senakw (seawall west)
-        [49.27045, -123.13030],  // Stop 1: False Creek South
+        [49.26695, -123.11870],  // Stop 1: False Creek South (near 4th & Heather)
+        [49.26710, -123.12020],  // West along 4th Avenue
+        [49.26805, -123.12310],  // Transition toward False Creek waterfront
+        [49.26955, -123.12700],  // Joining seawall corridor
         [49.27105, -123.13165],  // Seawall near Stamps Landing dock
         [49.27155, -123.13340],  // Stamps Landing waterfront
         [49.27170, -123.13510],  // Charleson Park waterfront

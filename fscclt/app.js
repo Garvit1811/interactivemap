@@ -12,7 +12,7 @@ const tourStops = [
         id: 1,
         title: "False Creek South Community Land Trust",
         location: "False Creek South, Vancouver",
-        coordinates: [49.26695, -123.11870],
+        coordinates: [49.26715, -123.12615],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
@@ -637,10 +637,9 @@ function initMap() {
     // Seed route line connecting stops (follows seawall path)
     const routeCoords = [
         // Segment 1: False Creek South → Senakw (seawall west)
-        [49.26695, -123.11870],  // Stop 1: False Creek South (near 4th & Heather)
-        [49.26710, -123.12020],  // West along 4th Avenue
-        [49.26805, -123.12310],  // Transition toward False Creek waterfront
-        [49.26955, -123.12700],  // Joining seawall corridor
+        [49.26715, -123.12615],  // Stop 1: False Creek South (on land)
+        [49.26795, -123.12710],  // Through False Creek South street network
+        [49.26905, -123.12895],  // Approaching waterfront greenway
         [49.27105, -123.13165],  // Seawall near Stamps Landing dock
         [49.27155, -123.13340],  // Stamps Landing waterfront
         [49.27170, -123.13510],  // Charleson Park waterfront
@@ -658,7 +657,8 @@ function initMap() {
         [49.27056, -123.13417]   // Stop 3: Granville Island
     ];
     drawRoute(routeCoords);
-    void upgradeRouteWithOSRM(routeCoords);
+    const stopCoords = tourStops.map((stop) => stop.coordinates);
+    void upgradeRouteWithOSRM(stopCoords);
 
     // Add informational marker for 4th & Heather bus stop (tour starting point)
     const busStopIcon = L.divIcon({

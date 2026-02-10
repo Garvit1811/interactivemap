@@ -877,7 +877,8 @@ function initMap() {
         [49.27920, -123.09929]   // Stop 5: UBC Learning Exchange (612 Main)
     ];
     drawRoute(routeCoords);
-    void upgradeRouteWithOSRM(routeCoords);
+    const stopCoords = tourStops.map((stop) => stop.coordinates);
+    void upgradeRouteWithOSRM(stopCoords);
 
     // Add informational pins for key DTES buildings
     const poiMarkerIcon = function(label) {

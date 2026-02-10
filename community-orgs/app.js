@@ -111,29 +111,19 @@ const tourStops = [
                         caption: "633 East Hastings — Photo: Gordon Smith (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Downtown Eastside neighbourhood view",
-                        caption: "Downtown Eastside — Photo: Public domain"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
+                        alt: "East Hastings Street in the Downtown Eastside",
+                        caption: "East Hastings Street — Photo: Canadian2006 (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Pigeon Park in the Downtown Eastside",
-                        caption: "Pigeon Park — Photo: Wikimedia Commons (CC BY-SA 4.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
                         alt: "Carnegie Community Centre exterior in Vancouver",
-                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Oppenheimer_Park_%285674465960%29.jpg/1280px-Oppenheimer_Park_%285674465960%29.jpg",
                         alt: "Oppenheimer Park in the Downtown Eastside",
                         caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Hogan's Alley mural in Vancouver",
-                        caption: "Hogan's Alley mural — Photo: GoToVan (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -181,9 +171,9 @@ const tourStops = [
         coordinates: [49.28101, -123.09716],
 
         heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-            alt: "First United Church",
-            caption: "Carnegie area near First United — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
+            alt: "East Hastings Street near First United",
+            caption: "East Hastings Street near First United — Photo: Canadian2006 (CC BY-SA 3.0)"
         },
 
         stats: [
@@ -261,9 +251,9 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
                         alt: "Carnegie Community Centre near First United",
-                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA)"
                     },
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
@@ -271,9 +261,9 @@ const tourStops = [
                         caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Pigeon Park near First United",
-                        caption: "Pigeon Park — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/633_East_Hastings_02.JPG/1280px-633_East_Hastings_02.JPG",
+                        alt: "East Hastings building in the DTES",
+                        caption: "East Hastings building — Photo: Gordon Smith (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -321,9 +311,9 @@ const tourStops = [
         coordinates: [49.27792, -123.09831],
 
         heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-            alt: "Hogan's Alley mural in Vancouver",
-            caption: "Hogan's Alley mural — Photo: GoToVan (CC BY-SA 3.0)"
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
+            alt: "Downtown Eastside near Hogan's Alley",
+            caption: "Downtown Eastside near Hogan's Alley — Photo: Canadian2006 (CC BY-SA 3.0)"
         },
 
         stats: [
@@ -404,19 +394,14 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Hogan's Alley mural in Vancouver",
-                        caption: "Hogan's Alley mural — Photo: GoToVan (CC BY-SA 3.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/633_East_Hastings_02.JPG/1280px-633_East_Hastings_02.JPG",
+                        alt: "East Hastings building near Hogan's Alley area",
+                        caption: "East Hastings — Photo: Gordon Smith (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Oppenheimer_Park_%285674465960%29.jpg/1280px-Oppenheimer_Park_%285674465960%29.jpg",
                         alt: "Oppenheimer Park near Hogan's Alley area",
                         caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Downtown Eastside streetscape near Hogan's Alley",
-                        caption: "Downtown Eastside streetscape — Photo: Public domain"
                     }
                 ]
             },
@@ -552,9 +537,9 @@ const tourStops = [
                         caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Pigeon Park in the DTES",
-                        caption: "Pigeon Park — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Balmoral_Hotel_Vancouver.JPG/1280px-Balmoral_Hotel_Vancouver.JPG",
+                        alt: "Balmoral Hotel SRO in the DTES",
+                        caption: "Balmoral Hotel SRO — Photo: Wikimedia Commons"
                     }
                 ]
             },
@@ -607,9 +592,9 @@ const tourStops = [
         coordinates: [49.27920, -123.09929],
 
         heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-            alt: "UBC Learning Exchange",
-            caption: "Downtown Eastside near Main and Keefer — Photo: Public domain"
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
+            alt: "Downtown Eastside near the UBC Learning Exchange",
+            caption: "Downtown Eastside near Main Street — Photo: Canadian2006 (CC BY-SA 3.0)"
         },
 
         stats: [
@@ -690,24 +675,14 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Downtown Eastside near the Learning Exchange",
-                        caption: "Downtown Eastside streetscape — Photo: Public domain"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
                         alt: "Carnegie Community Centre near Main Street",
-                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA)"
                     },
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
                         alt: "East Hastings and Main area",
                         caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
-                        alt: "Oppenheimer Park near the Learning Exchange area",
-                        caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
                     }
                 ]
             },

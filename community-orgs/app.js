@@ -12,7 +12,7 @@ const tourStops = [
         id: 1,
         title: "Downtown Eastside Community Land Trust",
         location: "222 Keefer St, Vancouver",
-        coordinates: [49.27922, -123.09891],
+        coordinates: [49.27921, -123.09892],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
@@ -168,7 +168,7 @@ const tourStops = [
         id: 2,
         title: "First United Church",
         location: "320 E Hastings St, Vancouver",
-        coordinates: [49.28101, -123.09716],
+        coordinates: [49.28148, -123.09688],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
@@ -308,7 +308,7 @@ const tourStops = [
         id: 3,
         title: "Hogan's Alley Society",
         location: "Union Street & Main Street, Vancouver",
-        coordinates: [49.27792, -123.09831],
+        coordinates: [49.27779, -123.09836],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
@@ -441,7 +441,7 @@ const tourStops = [
         id: 4,
         title: "DTES SRO Collaborative",
         location: "268 Keefer St, Vancouver",
-        coordinates: [49.27918, -123.09802],
+        coordinates: [49.27918, -123.09803],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/633_East_Hastings_02.JPG/1280px-633_East_Hastings_02.JPG",
@@ -720,6 +720,21 @@ const tourStops = [
     }
 ];
 
+// Order stops for shortest practical walking tour flow.
+const preferredTourOrder = [
+    "Hogan's Alley Society",
+    "UBC Learning Exchange",
+    "Downtown Eastside Community Land Trust",
+    "DTES SRO Collaborative",
+    "First United Church"
+];
+
+const stopOrderRank = new Map(preferredTourOrder.map((title, index) => [title, index]));
+tourStops.sort((a, b) => (stopOrderRank.get(a.title) ?? 999) - (stopOrderRank.get(b.title) ?? 999));
+tourStops.forEach((stop, index) => {
+    stop.id = index + 1;
+});
+
 // ============================================
 // Application State
 // ============================================
@@ -859,23 +874,17 @@ function initMap() {
         marker.addTo(map);
     });
 
-    // Seed route line connecting stops (follows DTES street grid)
+    // Seed route line connecting stops in optimized tour order.
+    const coordsByTitle = Object.fromEntries(tourStops.map((stop) => [stop.title, stop.coordinates]));
     const routeCoords = [
-        // Segment 1: DTES CLT → First United (east on Keefer, north on Gore)
-        [49.27922, -123.09891],  // Stop 1: DTES CLT (222 Keefer)
-        [49.27922, -123.09716],  // East on Keefer to Gore Ave
-        [49.28101, -123.09716],  // Stop 2: First United (320 E Hastings)
-        // Segment 2: First United → Hogan's Alley (west on Hastings, south on Main)
-        [49.28101, -123.09930],  // West on Hastings to Main St
-        [49.27792, -123.09930],  // South on Main to Union
-        [49.27792, -123.09831],  // Stop 3: Hogan's Alley (Union & Main)
-        // Segment 3: Hogan's Alley → SRO Collaborative (west to Main, north on Main)
-        [49.27792, -123.09930],  // West to Main St
-        [49.27918, -123.09930],  // North on Main to Keefer
-        [49.27918, -123.09802],  // Stop 4: SRO Collaborative (268 Keefer)
-        // Segment 4: SRO Collaborative → UBC Learning Exchange
-        [49.27920, -123.09929]   // Stop 5: UBC Learning Exchange (612 Main)
-    ];
+        coordsByTitle["Hogan's Alley Society"],             // Stop 1
+        [49.27790, -123.09929],                             // Move west to Main St
+        coordsByTitle["UBC Learning Exchange"],             // Stop 2
+        coordsByTitle["Downtown Eastside Community Land Trust"], // Stop 3
+        coordsByTitle["DTES SRO Collaborative"],            // Stop 4
+        [49.28010, -123.09803],                             // North on Gore corridor
+        coordsByTitle["First United Church"]                // Stop 5
+    ].filter(Boolean);
     drawRoute(routeCoords);
     const stopCoords = tourStops.map((stop) => stop.coordinates);
     void upgradeRouteWithOSRM(stopCoords);

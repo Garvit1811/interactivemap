@@ -128,7 +128,7 @@ const tourStops = [
                         caption: "False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Granville_Street_Bridge_01.JPG/1280px-Granville_Street_Bridge_01.JPG",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Granville_Street_Bridge_01.JPG/1280px-Granville_Street_Bridge_01.JPG",
                         alt: "Granville Street Bridge over False Creek",
                         caption: "Granville Street Bridge — Photo: Xicotencatl (CC BY-SA 4.0)"
                     },
@@ -286,12 +286,12 @@ const tourStops = [
                         caption: "False Creek near Kits Point — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dusk_View_of_Downtown_and_West_End_from_Kitsilano_Beach_-_Vancouver_BC_-_Canada.jpg/1280px-Dusk_View_of_Downtown_and_West_End_from_Kitsilano_Beach_-_Vancouver_BC_-_Canada.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Dusk_View_of_Downtown_and_West_End_from_Kitsilano_Beach_-_Vancouver_BC_-_Canada.jpg/1280px-Dusk_View_of_Downtown_and_West_End_from_Kitsilano_Beach_-_Vancouver_BC_-_Canada.jpg",
                         alt: "Kitsilano Beach with the Vancouver skyline at dusk",
                         caption: "Kitsilano Beach — Photo: Adam Jones (CC BY-SA 2.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Vanier-Park.jpg/1280px-Vanier-Park.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Vanier-Park.jpg/1280px-Vanier-Park.jpg",
                         alt: "Downtown Vancouver skyline seen from Vanier Park",
                         caption: "Downtown skyline from Vanier Park — Photo: Wikimedia Commons (CC BY-SA)"
                     }
@@ -445,12 +445,12 @@ const tourStops = [
                         caption: "Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Granville_Island_Vancouver_01.JPG/1280px-Granville_Island_Vancouver_01.JPG",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Granville_Island_Vancouver_01.JPG/1280px-Granville_Island_Vancouver_01.JPG",
                         alt: "Granville Island overview",
                         caption: "Granville Island overview — Photo: Xicotencatl (CC BY-SA 4.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Granville_Island_-_ArtsClub_Theatre_Company.jpg/1280px-Granville_Island_-_ArtsClub_Theatre_Company.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Granville_Island_-_ArtsClub_Theatre_Company.jpg/1280px-Granville_Island_-_ArtsClub_Theatre_Company.jpg",
                         alt: "Arts Club Theatre Company on Granville Island",
                         caption: "Arts Club Theatre on Granville Island — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     }

@@ -116,12 +116,12 @@ const tourStops = [
                         caption: "East Hastings Street — Photo: Canadian2006 (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
                         alt: "Carnegie Community Centre exterior in Vancouver",
                         caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Oppenheimer_Park_%285674465960%29.jpg/1280px-Oppenheimer_Park_%285674465960%29.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Oppenheimer_Park_%285674465960%29.jpg/1280px-Oppenheimer_Park_%285674465960%29.jpg",
                         alt: "Oppenheimer Park in the Downtown Eastside",
                         caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
                     }
@@ -251,7 +251,7 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
                         alt: "Carnegie Community Centre near First United",
                         caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA)"
                     },
@@ -399,7 +399,7 @@ const tourStops = [
                         caption: "East Hastings — Photo: Gordon Smith (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Oppenheimer_Park_%285674465960%29.jpg/1280px-Oppenheimer_Park_%285674465960%29.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Oppenheimer_Park_%285674465960%29.jpg/1280px-Oppenheimer_Park_%285674465960%29.jpg",
                         alt: "Oppenheimer Park near Hogan's Alley area",
                         caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
                     }
@@ -537,7 +537,7 @@ const tourStops = [
                         caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Balmoral_Hotel_Vancouver.JPG/1280px-Balmoral_Hotel_Vancouver.JPG",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Balmoral_Hotel_Vancouver.JPG/1280px-Balmoral_Hotel_Vancouver.JPG",
                         alt: "Balmoral Hotel SRO in the DTES",
                         caption: "Balmoral Hotel SRO — Photo: Wikimedia Commons"
                     }
@@ -675,7 +675,7 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
                         alt: "Carnegie Community Centre near Main Street",
                         caption: "Carnegie Community Centre — Photo: Wikimedia Commons (CC BY-SA)"
                     },

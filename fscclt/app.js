@@ -705,18 +705,19 @@ function drawRoute(coords) {
 
     routeCasingLayer = L.polyline(coords, {
         color: '#ffffff',
-        weight: 8,
-        opacity: 0.9,
+        weight: 9,
+        opacity: 0.82,
         lineCap: 'round',
         lineJoin: 'round',
         interactive: false
     }).addTo(map);
 
     routeDashLayer = L.polyline(coords, {
-        color: '#0057b8',
-        weight: 3,
-        opacity: 0.95,
-        dashArray: '7, 9',
+        color: '#2f67dc',
+        weight: 3.5,
+        opacity: 0.98,
+        dashArray: '2, 9',
+        dashOffset: '0',
         lineCap: 'round',
         lineJoin: 'round',
         interactive: false,

@@ -12,7 +12,7 @@ const tourStops = [
         id: 1,
         title: "Downtown Eastside Community Land Trust",
         location: "222 Keefer St, Vancouver",
-        coordinates: [49.27921, -123.09892],
+        coordinates: [49.27935, -123.09892],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
@@ -402,6 +402,11 @@ const tourStops = [
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Oppenheimer_Park_%285674465960%29.jpg/1280px-Oppenheimer_Park_%285674465960%29.jpg",
                         alt: "Oppenheimer Park near Hogan's Alley area",
                         caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
+                    },
+                    {
+                        src: "../images/hogans-alley-mural.webp",
+                        alt: "Community group in front of Hogan's Alley mural at 258 Union Street",
+                        caption: "Hogan's Alley mural at 258 Union Street"
                     }
                 ]
             },
@@ -876,18 +881,24 @@ function initMap() {
 
     // Seed route line connecting stops in optimized tour order.
     const coordsByTitle = Object.fromEntries(tourStops.map((stop) => [stop.title, stop.coordinates]));
-    const routeCoords = [
-        coordsByTitle["Hogan's Alley Society"],             // Stop 1
-        [49.27790, -123.09929],                             // Move west to Main St
-        coordsByTitle["UBC Learning Exchange"],             // Stop 2
-        coordsByTitle["Downtown Eastside Community Land Trust"], // Stop 3
-        coordsByTitle["DTES SRO Collaborative"],            // Stop 4
-        [49.28010, -123.09803],                             // North on Gore corridor
-        coordsByTitle["First United Church"]                // Stop 5
-    ].filter(Boolean);
-    drawRoute(routeCoords);
-    const stopCoords = tourStops.map((stop) => stop.coordinates);
-    void upgradeRouteWithOSRM(stopCoords);
+    const mainKeeferTurn = [49.27934, -123.09929];
+    const keeferEastTurn = [49.27934, -123.09892];
+    const routeSegments = [
+        [
+            coordsByTitle["Hogan's Alley Society"],             // Stop 1
+            [49.27790, -123.09929],                             // Move west to Main St
+            coordsByTitle["UBC Learning Exchange"],             // Stop 2
+            mainKeeferTurn,                                     // North on Main St
+            keeferEastTurn,                                     // Turn east onto Keefer St
+            coordsByTitle["Downtown Eastside Community Land Trust"], // Stop 3
+            coordsByTitle["DTES SRO Collaborative"],            // Stop 4
+            [49.28010, -123.09803],                             // North on Gore corridor
+            coordsByTitle["First United Church"]                // Stop 5
+        ]
+    ].map(dedupeRouteCoords).filter(segment => segment.length >= 2);
+
+    drawRoute(routeSegments);
+    void upgradeRouteWithOSRM(routeSegments);
 
     // Add informational pins for key DTES buildings
     const poiMarkerIcon = function(label) {
@@ -929,8 +940,16 @@ function fitMapToStops() {
     });
 }
 
-function drawRoute(coords) {
-    if (!map || !Array.isArray(coords) || coords.length < 2) return;
+function drawRoute(coordsOrSegments) {
+    if (!map || !Array.isArray(coordsOrSegments)) return;
+
+    const segments = Array.isArray(coordsOrSegments[0]?.[0])
+        ? coordsOrSegments
+        : [coordsOrSegments];
+    const cleanSegments = segments
+        .map(dedupeRouteCoords)
+        .filter(segment => segment.length >= 2);
+    if (!cleanSegments.length) return;
 
     if (routeCasingLayer) {
         map.removeLayer(routeCasingLayer);
@@ -941,25 +960,30 @@ function drawRoute(coords) {
         routeDashLayer = null;
     }
 
-    routeCasingLayer = L.polyline(coords, {
-        color: '#ffffff',
-        weight: 8,
-        opacity: 0.9,
-        lineCap: 'round',
-        lineJoin: 'round',
-        interactive: false
-    }).addTo(map);
+    routeCasingLayer = L.layerGroup(
+        cleanSegments.map((segment) => L.polyline(segment, {
+            color: '#ffffff',
+            weight: 9,
+            opacity: 0.82,
+            lineCap: 'round',
+            lineJoin: 'round',
+            interactive: false
+        }))
+    ).addTo(map);
 
-    routeDashLayer = L.polyline(coords, {
-        color: '#0057b8',
-        weight: 3,
-        opacity: 0.95,
-        dashArray: '7, 9',
-        lineCap: 'round',
-        lineJoin: 'round',
-        interactive: false,
-        className: 'tour-route'
-    }).addTo(map);
+    routeDashLayer = L.layerGroup(
+        cleanSegments.map((segment) => L.polyline(segment, {
+            color: '#2f67dc',
+            weight: 3.5,
+            opacity: 0.98,
+            dashArray: '2, 9',
+            dashOffset: '0',
+            lineCap: 'round',
+            lineJoin: 'round',
+            interactive: false,
+            className: 'tour-route'
+        }))
+    ).addTo(map);
 }
 
 function dedupeRouteCoords(coords) {
@@ -986,22 +1010,26 @@ async function fetchOSRMRoute(coords, profile) {
     return geometry.map(([lng, lat]) => [lat, lng]);
 }
 
-async function upgradeRouteWithOSRM(seedCoords) {
-    const deduped = dedupeRouteCoords(seedCoords);
-    if (deduped.length < 2) return;
+async function upgradeRouteWithOSRM(seedSegments) {
+    if (!Array.isArray(seedSegments) || !seedSegments.length) return;
+
+    const dedupedSegments = seedSegments
+        .map(dedupeRouteCoords)
+        .filter(segment => segment.length >= 2);
+    if (!dedupedSegments.length) return;
 
     try {
-        // Prefer walking geometry for city grid tour segments; fall back to driving.
-        const walkingRoute = await fetchOSRMRoute(deduped, 'walking');
-        if (walkingRoute) {
-            drawRoute(walkingRoute);
-            return;
-        }
+        const routedSegments = await Promise.all(dedupedSegments.map(async (segment) => {
+            // Prefer road-constrained geometry per segment without connecting separate tour legs.
+            const drivingRoute = await fetchOSRMRoute(segment, 'driving');
+            if (drivingRoute) return dedupeRouteCoords(drivingRoute);
 
-        const drivingRoute = await fetchOSRMRoute(deduped, 'driving');
-        if (drivingRoute) {
-            drawRoute(drivingRoute);
-        }
+            const walkingRoute = await fetchOSRMRoute(segment, 'walking');
+            if (walkingRoute) return dedupeRouteCoords(walkingRoute);
+
+            return segment;
+        }));
+        drawRoute(routedSegments);
     } catch (error) {
         console.warn('OSRM route upgrade failed; using fallback route.', error);
     }

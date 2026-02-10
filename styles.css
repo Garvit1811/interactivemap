@@ -1921,6 +1921,19 @@ button:focus:not(:focus-visible) {
 /* ── Tour Route Line ── */
 .tour-route {
     pointer-events: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 2 9;
+    animation: routeDotsFlow 1.6s linear infinite;
+}
+
+@keyframes routeDotsFlow {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: -22;
+    }
 }
 
 /* ── Tour Completion Panel ── */

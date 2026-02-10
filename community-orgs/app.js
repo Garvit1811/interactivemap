@@ -17,7 +17,7 @@ const tourStops = [
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
             alt: "East Hastings Street in Vancouver",
-            caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
+            caption: "East Hastings Street — Photo: Canadian2006 (CC BY-SA 3.0)"
         },
 
         stats: [
@@ -273,7 +273,7 @@ const tourStops = [
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
                         alt: "East Hastings near First United",
-                        caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
+                        caption: "East Hastings Street — Photo: Canadian2006 (CC BY-SA 3.0)"
                     },
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
@@ -554,7 +554,7 @@ const tourStops = [
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
                         alt: "East Hastings street view",
-                        caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
+                        caption: "East Hastings Street — Photo: Canadian2006 (CC BY-SA 3.0)"
                     },
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
@@ -707,12 +707,16 @@ const tourStops = [
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
                         alt: "East Hastings and Main area",
+<<<<<<< ours
                         caption: "East Hastings Street — Photo: GoToVan (CC BY-SA 3.0)"
                     },
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/7/76/Vancouver_Downtown_Eastside.jpg",
                         alt: "Oppenheimer Park near the Learning Exchange area",
                         caption: "Oppenheimer Park — Photo: Guilhem Vellut (CC BY 2.0)"
+=======
+                        caption: "East Hastings Street — Photo: Canadian2006 (CC BY-SA 3.0)"
+>>>>>>> theirs
                     }
                 ]
             },

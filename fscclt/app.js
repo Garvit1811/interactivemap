@@ -1,5 +1,5 @@
 /**
- * FSCCLT Interactive Map Tour
+ * FCSCLT Interactive Map Tour
  * False Creek South, Senakw & Granville Island
  */
 
@@ -44,6 +44,11 @@ const tourStops = [
                 icon: "sparkles",
                 type: "highlights",
                 highlights: [
+                    {
+                        title: "Tour Start: 4th & Heather Bus Stop",
+                        description: "The tour begins at the bus stop at W 4th Avenue and Heather Street in False Creek South — a transit connection into the neighbourhood.",
+                        meta: "Starting point"
+                    },
                     {
                         title: "Lease Renewal Timeline",
                         description: "Locate the leasehold parcels expiring between 2036–2046 and discuss how renewal options affect long-term affordability.",
@@ -657,8 +662,26 @@ function initMap() {
         marker.addTo(map);
     });
 
-    // Draw route line connecting stops
-    const routeCoords = tourStops.map(stop => stop.coordinates);
+    // Draw route line connecting stops (follows seawall path)
+    const routeCoords = [
+        // Segment 1: False Creek South → Senakw (seawall west)
+        [49.27045, -123.13030],  // Stop 1: False Creek South
+        [49.27105, -123.13165],  // Seawall near Stamps Landing dock
+        [49.27155, -123.13340],  // Stamps Landing waterfront
+        [49.27170, -123.13510],  // Charleson Park waterfront
+        [49.27145, -123.13620],  // Under Granville Bridge
+        [49.27100, -123.13780],  // Island Park Walk
+        [49.27080, -123.13950],  // Alder Bay Walk
+        [49.27120, -123.14100],  // Approaching Burrard Bridge
+        [49.27257, -123.14289],  // Stop 2: Senakw
+        // Segment 2: Senakw → Granville Island (seawall east then south)
+        [49.27120, -123.14100],  // Back east along seawall
+        [49.27080, -123.13950],  // Alder Bay Walk
+        [49.27100, -123.13780],  // Island Park Walk
+        [49.27145, -123.13620],  // Granville Bridge area
+        [49.27100, -123.13550],  // Turning south to Granville Island
+        [49.27056, -123.13417]   // Stop 3: Granville Island
+    ];
     L.polyline(routeCoords, {
         color: '#002145',
         weight: 2,
@@ -666,6 +689,19 @@ function initMap() {
         dashArray: '8, 8',
         className: 'tour-route'
     }).addTo(map);
+
+    // Add informational marker for 4th & Heather bus stop (tour starting point)
+    const busStopIcon = L.divIcon({
+        className: 'poi-marker-wrapper',
+        html: '<div class="poi-marker" title="4th &amp; Heather Bus Stop">B</div>',
+        iconSize: [24, 24],
+        iconAnchor: [12, 12]
+    });
+    L.marker([49.2668, -123.1085], { icon: busStopIcon })
+        .bindTooltip('Tour Start: 4th & Heather Bus Stop', {
+            direction: 'top', offset: [0, -16], className: 'marker-tooltip'
+        })
+        .addTo(map);
 
     flyToStop(0);
 

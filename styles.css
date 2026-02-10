@@ -143,49 +143,54 @@ body {
 
 .logo {
     position: relative;
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    gap: var(--space-sm);
+    justify-content: space-between;
+    gap: var(--space-md);
+    margin: calc(-1 * var(--space-lg)) calc(-1 * var(--space-xl)) var(--space-md);
+    padding: 0.72rem var(--space-xl);
+    background: rgba(250, 248, 242, 0.98);
+    border-bottom: 1px solid rgba(0, 33, 69, 0.12);
     margin-bottom: var(--space-md);
 }
 
 .logo-link {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    padding: 0.3rem 0.45rem;
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: var(--radius-sm);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    justify-content: flex-start;
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+    border: none;
     box-shadow: none;
-    transition: transform var(--duration-fast) ease, box-shadow var(--duration-fast) ease;
+    transition: opacity var(--duration-fast) ease;
 }
 
 .logo-link:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0.88;
 }
 
 .logo-image {
     display: block;
-    width: 144px;
+    width: 186px;
     height: auto;
 }
 
 .logo-back-link {
-    color: rgba(255, 255, 255, 0.92);
-    font-size: var(--text-xs);
-    font-weight: 600;
-    letter-spacing: 0.04em;
+    color: var(--primary-dark);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
-    transition: color var(--duration-fast) ease, border-color var(--duration-fast) ease;
+    border-bottom: none;
+    transition: color var(--duration-fast) ease, opacity var(--duration-fast) ease;
+    opacity: 0.8;
 }
 
 .logo-back-link:hover {
-    color: #fff;
-    border-color: var(--accent-color);
+    color: var(--primary-color);
+    opacity: 1;
 }
 
 .sidebar-header h1 {
@@ -1665,11 +1670,11 @@ body {
     }
 
     .logo-image {
-        width: 124px;
+        width: 148px;
     }
 
     .logo-back-link {
-        font-size: 0.65rem;
+        font-size: 0.62rem;
     }
 
     .map-container {

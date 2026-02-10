@@ -1,5 +1,5 @@
 /**
- * FSCCLT Interactive Map Tour
+ * FCSCLT Interactive Map Tour
  * False Creek South, Senakw & Granville Island
  */
 
@@ -44,6 +44,11 @@ const tourStops = [
                 icon: "sparkles",
                 type: "highlights",
                 highlights: [
+                    {
+                        title: "Tour Start: 4th & Heather Bus Stop",
+                        description: "The tour begins at the bus stop at W 4th Avenue and Heather Street in False Creek South — a transit connection into the neighbourhood.",
+                        meta: "Starting point"
+                    },
                     {
                         title: "Lease Renewal Timeline",
                         description: "Locate the leasehold parcels expiring between 2036–2046 and discuss how renewal options affect long-term affordability.",
@@ -123,19 +128,9 @@ const tourStops = [
                         caption: "False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
-                        alt: "False Creek waterfront with downtown Vancouver skyline",
-                        caption: "False Creek waterfront — Photo: Wikimedia Commons (CC BY-SA 4.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vancouver_-_False_Creek_pano_03.jpg/1280px-Vancouver_-_False_Creek_pano_03.jpg",
-                        alt: "False Creek shoreline view in Vancouver",
-                        caption: "False Creek shoreline — Photo: Panoramio archive (CC BY 3.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrard_Bridge_and_False_Creek_Vancouver.jpg/1280px-Burrard_Bridge_and_False_Creek_Vancouver.jpg",
-                        alt: "Granville Bridge over False Creek",
-                        caption: "Granville Bridge over False Creek — Photo: McKay Savage (CC BY 2.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Granville_Street_Bridge_01.JPG/1280px-Granville_Street_Bridge_01.JPG",
+                        alt: "Granville Street Bridge over False Creek",
+                        caption: "Granville Street Bridge — Photo: Xicotencatl (CC BY-SA 4.0)"
                     },
                     {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/False_Creek%2C_Vancouver_%282025%29.jpg/1280px-False_Creek%2C_Vancouver_%282025%29.jpg",
@@ -291,24 +286,14 @@ const tourStops = [
                         caption: "False Creek near Kits Point — Photo: Joe Mabel (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vancouver_-_False_Creek_near_Granville_Island_01.jpg/1280px-Vancouver_-_False_Creek_near_Granville_Island_01.jpg",
-                        alt: "Kitsilano Beach with the Vancouver skyline",
-                        caption: "Kitsilano Beach — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dusk_View_of_Downtown_and_West_End_from_Kitsilano_Beach_-_Vancouver_BC_-_Canada.jpg/1280px-Dusk_View_of_Downtown_and_West_End_from_Kitsilano_Beach_-_Vancouver_BC_-_Canada.jpg",
+                        alt: "Kitsilano Beach with the Vancouver skyline at dusk",
+                        caption: "Kitsilano Beach — Photo: Adam Jones (CC BY-SA 2.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Vancouver_Burrard_Street_Bridge_%289971716326%29.jpg/1280px-Vancouver_Burrard_Street_Bridge_%289971716326%29.jpg",
-                        alt: "Burrard Bridge spanning False Creek in Vancouver",
-                        caption: "Burrard Bridge — Photo: Wikimedia Commons (CC BY-SA 3.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vancouver_-_False_Creek_near_Granville_Island_01.jpg/1280px-Vancouver_-_False_Creek_near_Granville_Island_01.jpg",
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Vanier-Park.jpg/1280px-Vanier-Park.jpg",
                         alt: "Downtown Vancouver skyline seen from Vanier Park",
-                        caption: "Downtown skyline from Vanier Park — Photo: Xicotencatl (CC BY-SA 4.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrard_Bridge_and_False_Creek_Vancouver.jpg/1280px-Burrard_Bridge_and_False_Creek_Vancouver.jpg",
-                        alt: "Burrard Bridge at dusk over False Creek",
-                        caption: "Burrard Bridge at dusk — Photo: Joe Mabel (CC BY-SA 3.0)"
+                        caption: "Downtown skyline from Vanier Park — Photo: Wikimedia Commons (CC BY-SA)"
                     }
                 ]
             },
@@ -460,24 +445,14 @@ const tourStops = [
                         caption: "Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Granville_Island_Public_Market_2024.jpg/1280px-Granville_Island_Public_Market_2024.jpg",
-                        alt: "Interior of the Granville Island Public Market",
-                        caption: "Public Market interior — Photo: Wikimedia Commons (CC BY-SA 4.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Granville_Island_Vancouver_01.JPG/1280px-Granville_Island_Vancouver_01.JPG",
+                        alt: "Granville Island overview",
+                        caption: "Granville Island overview — Photo: Xicotencatl (CC BY-SA 4.0)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg/1280px-Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg",
-                        alt: "View of Granville Island with marina and waterfront",
-                        caption: "Granville Island waterfront — Photo: Wikimedia Commons (CC BY-SA 3.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/6/62/Granville_Island.jpg",
-                        alt: "Granville Island waterfront view",
-                        caption: "Granville Island waterfront — Photo: Public domain"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg/1280px-Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg",
-                        alt: "Granville Island street scene with shops",
-                        caption: "Granville Island street scene — Photo: InSapphoWeTrust (CC BY-SA 2.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Granville_Island_-_ArtsClub_Theatre_Company.jpg/1280px-Granville_Island_-_ArtsClub_Theatre_Company.jpg",
+                        alt: "Arts Club Theatre Company on Granville Island",
+                        caption: "Arts Club Theatre on Granville Island — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -657,8 +632,26 @@ function initMap() {
         marker.addTo(map);
     });
 
-    // Draw route line connecting stops
-    const routeCoords = tourStops.map(stop => stop.coordinates);
+    // Draw route line connecting stops (follows seawall path)
+    const routeCoords = [
+        // Segment 1: False Creek South → Senakw (seawall west)
+        [49.27045, -123.13030],  // Stop 1: False Creek South
+        [49.27105, -123.13165],  // Seawall near Stamps Landing dock
+        [49.27155, -123.13340],  // Stamps Landing waterfront
+        [49.27170, -123.13510],  // Charleson Park waterfront
+        [49.27145, -123.13620],  // Under Granville Bridge
+        [49.27100, -123.13780],  // Island Park Walk
+        [49.27080, -123.13950],  // Alder Bay Walk
+        [49.27120, -123.14100],  // Approaching Burrard Bridge
+        [49.27257, -123.14289],  // Stop 2: Senakw
+        // Segment 2: Senakw → Granville Island (seawall east then south)
+        [49.27120, -123.14100],  // Back east along seawall
+        [49.27080, -123.13950],  // Alder Bay Walk
+        [49.27100, -123.13780],  // Island Park Walk
+        [49.27145, -123.13620],  // Granville Bridge area
+        [49.27100, -123.13550],  // Turning south to Granville Island
+        [49.27056, -123.13417]   // Stop 3: Granville Island
+    ];
     L.polyline(routeCoords, {
         color: '#002145',
         weight: 2,
@@ -666,6 +659,19 @@ function initMap() {
         dashArray: '8, 8',
         className: 'tour-route'
     }).addTo(map);
+
+    // Add informational marker for 4th & Heather bus stop (tour starting point)
+    const busStopIcon = L.divIcon({
+        className: 'poi-marker-wrapper',
+        html: '<div class="poi-marker" title="4th &amp; Heather Bus Stop">B</div>',
+        iconSize: [24, 24],
+        iconAnchor: [12, 12]
+    });
+    L.marker([49.2668, -123.1185], { icon: busStopIcon })
+        .bindTooltip('Tour Start: 4th & Heather Bus Stop', {
+            direction: 'top', offset: [0, -16], className: 'marker-tooltip'
+        })
+        .addTo(map);
 
     flyToStop(0);
 

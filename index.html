@@ -748,7 +748,7 @@
             <div class="map-legend">
                 <div class="legend-item">
                     <span class="legend-dot blue"></span>
-                    FSCCLT Tour
+                    FCSCLT Tour
                 </div>
                 <div class="legend-item">
                     <span class="legend-dot gold"></span>
@@ -764,7 +764,7 @@
         </div>
 
         <section class="grid">
-            <a href="fscclt/index.html" class="card card-one" aria-label="Start FSCCLT Tour: False Creek South and Kitsilano — 3 stops">
+            <a href="fscclt/index.html" class="card card-one" aria-label="Start FCSCLT Tour: False Creek South and Kitsilano — 3 stops">
                 <div class="card-preview">
                     <svg class="card-preview-icon" width="140" height="140" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" aria-hidden="true">
                         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
@@ -782,7 +782,7 @@
                             </svg>
                             3 stops
                         </span>
-                        <span class="loc">FSCCLT Tour</span>
+                        <span class="loc">FCSCLT Tour</span>
                     </div>
                     <p class="desc">Examine public land stewardship at False Creek South, the Senakw Indigenous-led rental model, and federal land governance on Granville Island.</p>
                     <div class="chips">
@@ -862,7 +862,7 @@
                 maxZoom: 19
             }).addTo(map);
 
-            // FSCCLT Tour stops (blue)
+            // FCSCLT Tour stops (blue)
             var fsccltStops = [
                 { title: "False Creek South CLT", coords: [49.27045, -123.13030] },
                 { title: "Senakw Development", coords: [49.27257, -123.14289] },
@@ -878,15 +878,26 @@
                 { title: "UBC Learning Exchange", coords: [49.27920, -123.09929] }
             ];
 
-            // Draw route lines
-            var fsccltCoords = fsccltStops.map(function(s) { return s.coords; });
-            var communityCoords = communityStops.map(function(s) { return s.coords; });
+            // Draw route lines (following streets/seawall)
+            var fsccltRouteCoords = [
+                [49.27045, -123.13030], [49.27105, -123.13165], [49.27155, -123.13340],
+                [49.27170, -123.13510], [49.27145, -123.13620], [49.27100, -123.13780],
+                [49.27080, -123.13950], [49.27120, -123.14100], [49.27257, -123.14289],
+                [49.27120, -123.14100], [49.27080, -123.13950], [49.27100, -123.13780],
+                [49.27145, -123.13620], [49.27100, -123.13550], [49.27056, -123.13417]
+            ];
+            var communityRouteCoords = [
+                [49.27922, -123.09891], [49.27922, -123.09716], [49.28101, -123.09716],
+                [49.28101, -123.09930], [49.27792, -123.09930], [49.27792, -123.09831],
+                [49.27792, -123.09930], [49.27918, -123.09930], [49.27918, -123.09802],
+                [49.27920, -123.09929]
+            ];
 
-            L.polyline(fsccltCoords, {
+            L.polyline(fsccltRouteCoords, {
                 color: '#002145', weight: 2, opacity: 0.25, dashArray: '6, 6'
             }).addTo(map);
 
-            L.polyline(communityCoords, {
+            L.polyline(communityRouteCoords, {
                 color: '#c2a02e', weight: 2, opacity: 0.25, dashArray: '6, 6'
             }).addTo(map);
 

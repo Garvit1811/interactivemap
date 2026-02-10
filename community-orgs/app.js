@@ -44,11 +44,6 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "Carnegie Community Centre",
-                        description: "Visit the historic centre to see wraparound services that anchor the neighbourhood.",
-                        meta: "Community hub"
-                    },
-                    {
                         title: "SRO Support Loop",
                         description: "Map the tenant support network connecting SRO buildings, outreach teams, and health resources.",
                         meta: "Support services"
@@ -887,8 +882,23 @@ function initMap() {
         marker.addTo(map);
     });
 
-    // Draw route line connecting stops
-    const routeCoords = tourStops.map(stop => stop.coordinates);
+    // Draw route line connecting stops (follows DTES street grid)
+    const routeCoords = [
+        // Segment 1: DTES CLT → First United (east on Keefer, north on Gore)
+        [49.27922, -123.09891],  // Stop 1: DTES CLT (222 Keefer)
+        [49.27922, -123.09716],  // East on Keefer to Gore Ave
+        [49.28101, -123.09716],  // Stop 2: First United (320 E Hastings)
+        // Segment 2: First United → Hogan's Alley (west on Hastings, south on Main)
+        [49.28101, -123.09930],  // West on Hastings to Main St
+        [49.27792, -123.09930],  // South on Main to Union
+        [49.27792, -123.09831],  // Stop 3: Hogan's Alley (Union & Main)
+        // Segment 3: Hogan's Alley → SRO Collaborative (west to Main, north on Main)
+        [49.27792, -123.09930],  // West to Main St
+        [49.27918, -123.09930],  // North on Main to Keefer
+        [49.27918, -123.09802],  // Stop 4: SRO Collaborative (268 Keefer)
+        // Segment 4: SRO Collaborative → UBC Learning Exchange
+        [49.27920, -123.09929]   // Stop 5: UBC Learning Exchange (612 Main)
+    ];
     L.polyline(routeCoords, {
         color: '#002145',
         weight: 2,
@@ -896,6 +906,28 @@ function initMap() {
         dashArray: '8, 8',
         className: 'tour-route'
     }).addTo(map);
+
+    // Add informational pins for key DTES buildings
+    const poiMarkerIcon = function(label) {
+        return L.divIcon({
+            className: 'poi-marker-wrapper',
+            html: '<div class="poi-marker">' + label + '</div>',
+            iconSize: [24, 24],
+            iconAnchor: [12, 12]
+        });
+    };
+
+    L.marker([49.2793, -123.0996], { icon: poiMarkerIcon('K') })
+        .bindTooltip('Keefer Rooms (48 units)', {
+            direction: 'top', offset: [0, -16], className: 'marker-tooltip'
+        })
+        .addTo(map);
+
+    L.marker([49.2832, -123.0975], { icon: poiMarkerIcon('P') })
+        .bindTooltip('Powell Rooms (23 units) — DTES CLT acquisition', {
+            direction: 'top', offset: [0, -16], className: 'marker-tooltip'
+        })
+        .addTo(map);
 
     flyToStop(0);
 

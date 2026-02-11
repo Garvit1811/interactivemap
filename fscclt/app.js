@@ -634,26 +634,51 @@ function initMap() {
         marker.addTo(map);
     });
 
-    // Seed route line connecting stops (follows seawall path)
+    // Seed route line connecting stops (follows seawall path).
+    // Waypoints go NORTH from Stop 1 to the seawall, then WEST along
+    // the waterfront.  Dense spacing prevents any straight-line segment
+    // from cutting across the water even if OSRM is unavailable.
     const routeCoords = [
         // Segment 1: False Creek South → Senakw (seawall west)
-        [49.26995, -123.13005],  // Stop 1: False Creek South (seawall edge, on land)
-        [49.27085, -123.13100],  // Seawall by False Creek South shoreline
-        [49.27120, -123.13180],  // Stamps Landing waterfront
-        [49.27150, -123.13280],  // Charleson Bay edge
-        [49.27165, -123.13385],  // Seawall bend toward Granville Bridge
-        [49.27170, -123.13510],  // Charleson Park waterfront
-        [49.27145, -123.13620],  // Under Granville Bridge
-        [49.27100, -123.13780],  // Island Park Walk
-        [49.27080, -123.13950],  // Alder Bay Walk
-        [49.27120, -123.14100],  // Approaching Burrard Bridge
+        [49.26715, -123.12615],  // Stop 1: False Creek South CLT
+        [49.26800, -123.12615],  // North on Moberly Rd
+        [49.26900, -123.12620],  // Continue north through FCS neighbourhood
+        [49.27000, -123.12630],  // Approaching 1st Ave / waterfront
+        [49.27050, -123.12640],  // Seawall access point
+        [49.27060, -123.12720],  // On seawall, heading west
+        [49.27040, -123.12800],  // Leg-in-Boot Square area
+        [49.27020, -123.12880],  // West of Leg-in-Boot
+        [49.27050, -123.12960],  // Seawall continues west
+        [49.27080, -123.13050],  // Creek-side walk
+        [49.27110, -123.13140],  // Approaching Stamps Landing
+        [49.27140, -123.13220],  // Stamps Landing east
+        [49.27160, -123.13300],  // Stamps Landing dock
+        [49.27170, -123.13380],  // Stamps Landing west
+        [49.27160, -123.13450],  // East Charleson Park
+        [49.27150, -123.13530],  // Charleson Park waterfront
+        [49.27140, -123.13610],  // West Charleson Park
+        [49.27120, -123.13680],  // Approaching Granville Bridge
+        [49.27100, -123.13750],  // Under Granville Bridge
+        [49.27080, -123.13830],  // West of Granville Bridge
+        [49.27060, -123.13900],  // Island Park Walk east
+        [49.27040, -123.13970],  // Island Park Walk west
+        [49.27030, -123.14040],  // Alder Bay Walk east
+        [49.27040, -123.14110],  // Alder Bay Walk west
+        [49.27080, -123.14180],  // Approaching Burrard Bridge
+        [49.27150, -123.14240],  // Near Burrard Bridge south end
         [49.27257, -123.14289],  // Stop 2: Senakw
         // Segment 2: Senakw → Granville Island (seawall east then south)
-        [49.27120, -123.14100],  // Back east along seawall
-        [49.27080, -123.13950],  // Alder Bay Walk
-        [49.27100, -123.13780],  // Island Park Walk
-        [49.27145, -123.13620],  // Granville Bridge area
-        [49.27100, -123.13550],  // Seawall bend toward Granville Island
+        [49.27150, -123.14240],  // Back east from Senakw
+        [49.27080, -123.14180],  // East along seawall
+        [49.27040, -123.14110],  // Alder Bay
+        [49.27030, -123.14040],  // Alder Bay Walk
+        [49.27040, -123.13970],  // Island Park Walk west
+        [49.27060, -123.13900],  // Island Park Walk east
+        [49.27080, -123.13830],  // East of Granville Bridge
+        [49.27100, -123.13750],  // Near Granville Bridge
+        [49.27120, -123.13680],  // Granville Bridge south
+        [49.27100, -123.13600],  // Turning south toward Granville Island
+        [49.27070, -123.13500],  // Approaching Granville Island
         [49.27056, -123.13417]   // Stop 3: Granville Island
     ];
     drawRoute(routeCoords);
@@ -716,7 +741,7 @@ function drawRoute(coords) {
         color: '#2f67dc',
         weight: 3.5,
         opacity: 0.98,
-        dashArray: '2, 9',
+        dashArray: '6, 10',
         dashOffset: '0',
         lineCap: 'round',
         lineJoin: 'round',
@@ -754,19 +779,15 @@ async function upgradeRouteWithOSRM(seedCoords) {
     if (deduped.length < 2) return;
 
     try {
-        // Prefer walking geometry for seawall sections; fall back to driving.
+        // Only use walking profile so the route stays on the seawall.
+        // Driving profile would route through roads/bridges, not the
+        // waterfront path, so we skip it entirely.
         const walkingRoute = await fetchOSRMRoute(deduped, 'walking');
         if (walkingRoute) {
             drawRoute(walkingRoute);
-            return;
-        }
-
-        const drivingRoute = await fetchOSRMRoute(deduped, 'driving');
-        if (drivingRoute) {
-            drawRoute(drivingRoute);
         }
     } catch (error) {
-        console.warn('OSRM route upgrade failed; using fallback route.', error);
+        console.warn('OSRM route upgrade failed; using seed route.', error);
     }
 }
 

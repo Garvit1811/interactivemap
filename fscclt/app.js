@@ -12,7 +12,7 @@ const tourStops = [
         id: 1,
         title: "False Creek South Community Land Trust",
         location: "False Creek South, Vancouver",
-        coordinates: [49.26715, -123.12615],
+        coordinates: [49.26995, -123.13005],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
@@ -46,7 +46,7 @@ const tourStops = [
                 highlights: [
                     {
                         title: "Tour Start: 4th & Heather Bus Stop",
-                        description: "The tour begins at the bus stop at W 4th Avenue and Heather Street in False Creek South — a transit connection into the neighbourhood.",
+                        description: "The tour begins on the False Creek seawall near W 6th Avenue, a short walk from the W 4th Avenue and Heather Street bus stop.",
                         meta: "Starting point"
                     },
                     {
@@ -682,9 +682,8 @@ function initMap() {
         [49.27056, -123.13417]   // Stop 3: Granville Island
     ];
     drawRoute(routeCoords);
-    // Keep the upgraded route aligned to the seawall by routing through
-    // the seeded waterfront waypoints, not just the stop markers.
-    void upgradeRouteWithOSRM(routeCoords);
+    // Keep a curated walking route along the seawall.
+    // OSRM can snap to nearby arterials (for example W 4th), which we avoid here.
 
     // Add informational marker for 4th & Heather bus stop (tour starting point)
     const busStopIcon = L.divIcon({

@@ -885,16 +885,17 @@ function initMap() {
     });
 
     // Seed route line connecting stops in optimized tour order.
+    // Two separate segments — no line drawn between stops 2 and 3.
     const coordsByTitle = Object.fromEntries(tourStops.map((stop) => [stop.title, stop.coordinates]));
-    const mainKeeferTurn = [49.27934, -123.09929];
-    const keeferEastTurn = [49.27934, -123.09892];
     const routeSegments = [
+        // Segment 1: Hogan's Alley → UBC Learning Exchange
         [
             coordsByTitle["Hogan's Alley Society"],             // Stop 1
             [49.27790, -123.09929],                             // Move west to Main St
-            coordsByTitle["UBC Learning Exchange"],             // Stop 2
-            mainKeeferTurn,                                     // North on Main St
-            keeferEastTurn,                                     // Turn east onto Keefer St
+            coordsByTitle["UBC Learning Exchange"]              // Stop 2
+        ],
+        // Segment 2: DTES CLT → SRO Collaborative → First United
+        [
             coordsByTitle["Downtown Eastside Community Land Trust"], // Stop 3
             coordsByTitle["DTES SRO Collaborative"],            // Stop 4
             [49.28010, -123.09803],                             // North on Gore corridor

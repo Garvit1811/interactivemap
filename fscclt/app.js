@@ -12,7 +12,7 @@ const tourStops = [
         id: 1,
         title: "False Creek South Community Land Trust",
         location: "False Creek South, Vancouver",
-        coordinates: [49.26715, -123.12615],
+        coordinates: [49.26995, -123.13005],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
@@ -46,7 +46,7 @@ const tourStops = [
                 highlights: [
                     {
                         title: "Tour Start: 4th & Heather Bus Stop",
-                        description: "The tour begins at the bus stop at W 4th Avenue and Heather Street in False Creek South — a transit connection into the neighbourhood.",
+                        description: "The tour begins on the False Creek seawall near W 6th Avenue, a short walk from the W 4th Avenue and Heather Street bus stop.",
                         meta: "Starting point"
                     },
                     {
@@ -637,11 +637,11 @@ function initMap() {
     // Seed route line connecting stops (follows seawall path)
     const routeCoords = [
         // Segment 1: False Creek South → Senakw (seawall west)
-        [49.26715, -123.12615],  // Stop 1: False Creek South (on land)
-        [49.26795, -123.12710],  // Through False Creek South street network
-        [49.26905, -123.12895],  // Approaching waterfront greenway
-        [49.27105, -123.13165],  // Seawall near Stamps Landing dock
-        [49.27155, -123.13340],  // Stamps Landing waterfront
+        [49.26995, -123.13005],  // Stop 1: False Creek South (seawall edge, on land)
+        [49.27085, -123.13100],  // Seawall by False Creek South shoreline
+        [49.27120, -123.13180],  // Stamps Landing waterfront
+        [49.27150, -123.13280],  // Charleson Bay edge
+        [49.27165, -123.13385],  // Seawall bend toward Granville Bridge
         [49.27170, -123.13510],  // Charleson Park waterfront
         [49.27145, -123.13620],  // Under Granville Bridge
         [49.27100, -123.13780],  // Island Park Walk
@@ -653,13 +653,12 @@ function initMap() {
         [49.27080, -123.13950],  // Alder Bay Walk
         [49.27100, -123.13780],  // Island Park Walk
         [49.27145, -123.13620],  // Granville Bridge area
-        [49.27100, -123.13550],  // Turning south to Granville Island
+        [49.27100, -123.13550],  // Seawall bend toward Granville Island
         [49.27056, -123.13417]   // Stop 3: Granville Island
     ];
     drawRoute(routeCoords);
-    // Keep the upgraded route aligned to the seawall by routing through
-    // the seeded waterfront waypoints, not just the stop markers.
-    void upgradeRouteWithOSRM(routeCoords);
+    // Keep a curated walking route along the seawall.
+    // OSRM can snap to nearby arterials (for example W 4th), which we avoid here.
 
     // Add informational marker for 4th & Heather bus stop (tour starting point)
     const busStopIcon = L.divIcon({

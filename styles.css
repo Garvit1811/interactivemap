@@ -1923,8 +1923,8 @@ button:focus:not(:focus-visible) {
     pointer-events: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke-dasharray: 2 9;
-    animation: routeDotsFlow 1.6s linear infinite;
+    stroke-dasharray: 6 10;
+    animation: routeDotsFlow 2s linear infinite;
 }
 
 @keyframes routeDotsFlow {
@@ -1932,7 +1932,7 @@ button:focus:not(:focus-visible) {
         stroke-dashoffset: 0;
     }
     to {
-        stroke-dashoffset: -22;
+        stroke-dashoffset: -32;
     }
 }
 

@@ -635,25 +635,43 @@ function initMap() {
     });
 
     // Seed route line connecting stops (follows seawall path)
+    // Dense waypoints keep OSRM snapped to the waterfront seawall
+    // instead of routing through the inland street grid.
     const routeCoords = [
         // Segment 1: False Creek South → Senakw (seawall west)
-        [49.26715, -123.12615],  // Stop 1: False Creek South (on land)
-        [49.26795, -123.12710],  // Through False Creek South street network
-        [49.26905, -123.12895],  // Approaching waterfront greenway
-        [49.27105, -123.13165],  // Seawall near Stamps Landing dock
-        [49.27155, -123.13340],  // Stamps Landing waterfront
-        [49.27170, -123.13510],  // Charleson Park waterfront
-        [49.27145, -123.13620],  // Under Granville Bridge
-        [49.27100, -123.13780],  // Island Park Walk
-        [49.27080, -123.13950],  // Alder Bay Walk
-        [49.27120, -123.14100],  // Approaching Burrard Bridge
+        [49.26715, -123.12615],  // Stop 1: False Creek South CLT
+        [49.26780, -123.12680],  // North through FCS residential streets
+        [49.26860, -123.12780],  // Approaching waterfront greenway
+        [49.26980, -123.12880],  // Seawall at Leg-in-Boot Square
+        [49.27050, -123.12980],  // Seawall heading west
+        [49.27090, -123.13060],  // Creek-side walk
+        [49.27130, -123.13150],  // Approaching Stamps Landing
+        [49.27170, -123.13250],  // Stamps Landing dock
+        [49.27200, -123.13330],  // Stamps Landing point
+        [49.27190, -123.13410],  // West Stamps Landing
+        [49.27180, -123.13490],  // East Charleson Park
+        [49.27170, -123.13560],  // Charleson Park waterfront
+        [49.27150, -123.13640],  // Approaching Granville Bridge
+        [49.27120, -123.13720],  // Under Granville Bridge
+        [49.27100, -123.13800],  // West of Granville Bridge
+        [49.27080, -123.13880],  // Island Park Walk east
+        [49.27060, -123.13960],  // Island Park Walk west
+        [49.27050, -123.14030],  // Alder Bay Walk east
+        [49.27060, -123.14100],  // Alder Bay Walk west
+        [49.27100, -123.14170],  // Approaching Burrard Bridge
+        [49.27180, -123.14240],  // Near Burrard Bridge south end
         [49.27257, -123.14289],  // Stop 2: Senakw
         // Segment 2: Senakw → Granville Island (seawall east then south)
-        [49.27120, -123.14100],  // Back east along seawall
-        [49.27080, -123.13950],  // Alder Bay Walk
-        [49.27100, -123.13780],  // Island Park Walk
-        [49.27145, -123.13620],  // Granville Bridge area
-        [49.27100, -123.13550],  // Turning south to Granville Island
+        [49.27180, -123.14240],  // Back east from Senakw
+        [49.27100, -123.14170],  // East along seawall
+        [49.27060, -123.14100],  // Alder Bay
+        [49.27050, -123.14030],  // Alder Bay Walk
+        [49.27060, -123.13960],  // Island Park Walk
+        [49.27080, -123.13880],  // Island Park Walk east
+        [49.27100, -123.13800],  // West of Granville Bridge
+        [49.27120, -123.13720],  // Under Granville Bridge
+        [49.27140, -123.13640],  // Granville Bridge south end
+        [49.27100, -123.13550],  // Turning onto Granville Island
         [49.27056, -123.13417]   // Stop 3: Granville Island
     ];
     drawRoute(routeCoords);
@@ -717,7 +735,7 @@ function drawRoute(coords) {
         color: '#2f67dc',
         weight: 3.5,
         opacity: 0.98,
-        dashArray: '2, 9',
+        dashArray: '6, 10',
         dashOffset: '0',
         lineCap: 'round',
         lineJoin: 'round',

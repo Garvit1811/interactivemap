@@ -981,7 +981,7 @@ function drawRoute(coordsOrSegments) {
             color: '#2f67dc',
             weight: 3.5,
             opacity: 0.98,
-            dashArray: '2, 9',
+            dashArray: '6, 10',
             dashOffset: '0',
             lineCap: 'round',
             lineJoin: 'round',

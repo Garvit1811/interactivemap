@@ -15,9 +15,9 @@ const tourStops = [
         coordinates: [49.27935, -123.09892],
 
         heroImage: {
-            src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/keefer_rooms.jpg",
-            alt: "Keefer Rooms building in the Downtown Eastside",
-            caption: "Keefer Rooms — Source: Downtown Eastside Community Land Trust"
+            src: "../images/community-orgs/dtes-clt-community-ownership.jpg",
+            alt: "Community ownership group outside Chinese Community Library Services Association in the Downtown Eastside",
+            caption: "Community ownership action in the DTES — Source: user-provided photo"
         },
 
         stats: [
@@ -106,24 +106,14 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/SROs_ScoutMagazine.jpg",
+                        src: "../images/community-orgs/dtes-streetscape.jpg",
                         alt: "Downtown Eastside SRO streetscape",
-                        caption: "DTES SRO streetscape — Source: Downtown Eastside Community Land Trust"
+                        caption: "DTES streetscape — Source: user-provided photo"
                     },
                     {
-                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/arlington.jpg",
-                        alt: "Arlington Hotel building in the Downtown Eastside",
-                        caption: "Arlington Hotel — Source: Downtown Eastside Community Land Trust"
-                    },
-                    {
-                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/laurel.jpg",
-                        alt: "Laurel Hotel building in the Downtown Eastside",
-                        caption: "Laurel Hotel — Source: Downtown Eastside Community Land Trust"
-                    },
-                    {
-                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/empress.png",
-                        alt: "Empress Hotel building in the Downtown Eastside",
-                        caption: "Empress Hotel — Source: Downtown Eastside Community Land Trust"
+                        src: "../images/community-orgs/dtes-clt-powell-rooms.jpg",
+                        alt: "Powell Rooms SRO building in the Downtown Eastside",
+                        caption: "Powell Rooms SRO — Source: user-provided photo"
                     }
                 ]
             },
@@ -311,9 +301,9 @@ const tourStops = [
         coordinates: [49.27779, -123.09836],
 
         heroImage: {
-            src: "https://images.squarespace-cdn.com/content/v1/654e87e4e6889372eafb1636/df1af275-da11-4c32-99a0-a4c439ffaa86/nora-hendrix-place-facebook-1-1024x535.jpg",
+            src: "../images/community-orgs/has-union-street-building.jpg",
             alt: "Nora Hendrix Place at 258 Union Street",
-            caption: "Nora Hendrix Place (258 Union Street) — Source: Hogan's Alley Society"
+            caption: "258 Union Street (Nora Hendrix Place) — Source: user-provided photo"
         },
 
         stats: [
@@ -394,19 +384,9 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "../images/hogans-alley-mural.webp",
-                        alt: "Community group in front of Hogan's Alley mural at 258 Union Street",
-                        caption: "Hogan's Alley mural at 258 Union Street"
-                    },
-                    {
-                        src: "https://images.squarespace-cdn.com/content/v1/654e87e4e6889372eafb1636/c971076a-580a-442f-b2b1-44e3289ea691/DSC08335.jpg",
-                        alt: "Community gathering near Hogan's Alley mural",
-                        caption: "Community gathering near Hogan's Alley mural — Source: Hogan's Alley Society"
-                    },
-                    {
-                        src: "https://images.squarespace-cdn.com/content/v1/654e87e4e6889372eafb1636/98a4fa2c-f3a9-4b7f-bdde-645b27d03761/WEBSIZE_Daylighting-blackness-in-Vancouver_Kaidra-Mitchell-0495-1080x720.jpg",
-                        alt: "Hogan's Alley Society event in the Downtown Eastside",
-                        caption: "Hogan's Alley Society event — Source: Hogan's Alley Society"
+                        src: "../images/community-orgs/has-nora-hendrix-mural.jpg",
+                        alt: "Hogan's Alley mural at Nora Hendrix Place",
+                        caption: "Nora Hendrix Place mural (258 Union Street) — Source: user-provided photo"
                     }
                 ]
             },

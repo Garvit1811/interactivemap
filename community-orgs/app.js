@@ -251,19 +251,19 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://admin.firstunited.ca/app/uploads/2022/07/Community-Connection_Home-Page-1.jpg",
-                        alt: "First United community connection program participants",
-                        caption: "Community connection programming — Source: FIRST UNITED"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
+                        alt: "East Hastings Street in Vancouver's Downtown Eastside",
+                        caption: "East Hastings Street — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://admin.firstunited.ca/app/uploads/2022/07/Essential-Services_Home-Page-1-1.jpg",
-                        alt: "First United essential services support participants",
-                        caption: "Essential services programming — Source: FIRST UNITED"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
+                        alt: "Carnegie Community Centre at Main and Hastings",
+                        caption: "Carnegie Community Centre at Main and Hastings — Photo: Wikimedia Commons (CC BY-SA)"
                     },
                     {
-                        src: "https://admin.firstunited.ca/app/uploads/2022/07/Healing_Home-Page-1.jpg",
-                        alt: "First United healing and support participant",
-                        caption: "Healing and support programming — Source: FIRST UNITED"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vancouver_Pennsylvania_Hotel_Woods_Hotel_2011.jpg/1280px-Vancouver_Pennsylvania_Hotel_Woods_Hotel_2011.jpg",
+                        alt: "Pennsylvania Hotel, a heritage SRO building in the Downtown Eastside",
+                        caption: "Pennsylvania Hotel (heritage SRO) — Photo: Wikimedia Commons (CC BY-SA)"
                     }
                 ]
             },
@@ -394,19 +394,19 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "../images/hogans-alley-mural.webp",
-                        alt: "Community group in front of Hogan's Alley mural at 258 Union Street",
-                        caption: "Hogan's Alley mural at 258 Union Street"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vancouver_Downtown_Eastside.jpg/1280px-Vancouver_Downtown_Eastside.jpg",
+                        alt: "Downtown Eastside neighbourhood streetscape near Hogan's Alley",
+                        caption: "Downtown Eastside neighbourhood — Photo: Wikimedia Commons (CC BY-SA)"
                     },
                     {
-                        src: "https://images.squarespace-cdn.com/content/v1/654e87e4e6889372eafb1636/c971076a-580a-442f-b2b1-44e3289ea691/DSC08335.jpg",
-                        alt: "Community gathering near Hogan's Alley mural",
-                        caption: "Community gathering near Hogan's Alley mural — Source: Hogan's Alley Society"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Vancouver_Holden_Building_Tellier_Tower_2011.jpg/1280px-Vancouver_Holden_Building_Tellier_Tower_2011.jpg",
+                        alt: "Holden Building and Tellier Tower in the Downtown Eastside",
+                        caption: "Holden Building / Tellier Tower — Photo: Wikimedia Commons (CC BY-SA)"
                     },
                     {
-                        src: "https://images.squarespace-cdn.com/content/v1/654e87e4e6889372eafb1636/98a4fa2c-f3a9-4b7f-bdde-645b27d03761/WEBSIZE_Daylighting-blackness-in-Vancouver_Kaidra-Mitchell-0495-1080x720.jpg",
-                        alt: "Hogan's Alley Society event in the Downtown Eastside",
-                        caption: "Hogan's Alley Society event — Source: Hogan's Alley Society"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Vancouver_Chinatown_17.JPG/1280px-Vancouver_Chinatown_17.JPG",
+                        alt: "Chinatown streetscape near Hogan's Alley",
+                        caption: "Chinatown near Main and Keefer — Photo: Wikimedia Commons (CC BY-SA 3.0)"
                     }
                 ]
             },
@@ -449,9 +449,9 @@ const tourStops = [
         coordinates: [49.27918, -123.09803],
 
         heroImage: {
-            src: "https://i0.wp.com/srocollaborative.org/wp-content/uploads/2025/02/20241004_132320.jpg",
-            alt: "DTES SRO Collaborative community meeting",
-            caption: "DTES SRO Collaborative community gathering — Source: SRO Collaborative"
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Washington_Hotel_Vancouver.jpg/1280px-Washington_Hotel_Vancouver.jpg",
+            alt: "Washington Hotel SRO building in the Downtown Eastside",
+            caption: "Washington Hotel SRO — Photo: Wikimedia Commons (CC BY-SA)"
         },
 
         stats: [
@@ -680,19 +680,19 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://learningexchange.ubc.ca/files/2026/01/UBC_20230307_PJ_2464-2-sm.jpg",
-                        alt: "Learning Exchange workshop participant presenting neighbourhood map",
-                        caption: "Community mapping workshop — Source: UBC Learning Exchange"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/796_Main_-_Flickr_-_Edna_Winti.jpg/1280px-796_Main_-_Flickr_-_Edna_Winti.jpg",
+                        alt: "Building at 796 Main Street in the Downtown Eastside",
+                        caption: "Main Street building near the Learning Exchange — Photo: Edna Winti (CC BY-SA)"
                     },
                     {
-                        src: "https://learningexchange.ubc.ca/files/2025/12/ECP-Group-Photo-3-2000px.jpg",
-                        alt: "Learning Exchange community program group photo",
-                        caption: "Community program group session — Source: UBC Learning Exchange"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dominion_Building_-_207_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG/1280px-Dominion_Building_-_207_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG",
+                        alt: "Dominion Building at 207 West Hastings Street",
+                        caption: "Dominion Building (207 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)"
                     },
                     {
-                        src: "https://learningexchange.ubc.ca/files/2025/12/CW-group-alternate-scaled.jpg",
-                        alt: "Creative writing group at UBC Learning Exchange",
-                        caption: "Creative writing program participants — Source: UBC Learning Exchange"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flack_Block_-_163_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG/1280px-Flack_Block_-_163_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG",
+                        alt: "Flack Block heritage building at 163 West Hastings Street",
+                        caption: "Flack Block (163 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)"
                     }
                 ]
             },

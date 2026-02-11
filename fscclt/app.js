@@ -657,8 +657,9 @@ function initMap() {
         [49.27056, -123.13417]   // Stop 3: Granville Island
     ];
     drawRoute(routeCoords);
-    const stopCoords = tourStops.map((stop) => stop.coordinates);
-    void upgradeRouteWithOSRM(stopCoords);
+    // Keep the upgraded route aligned to the seawall by routing through
+    // the seeded waterfront waypoints, not just the stop markers.
+    void upgradeRouteWithOSRM(routeCoords);
 
     // Add informational marker for 4th & Heather bus stop (tour starting point)
     const busStopIcon = L.divIcon({

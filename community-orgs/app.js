@@ -266,6 +266,11 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
+                        src: "../images/community-orgs/first-united-church.webp",
+                        alt: "First United Church building at East Hastings Street in Vancouver",
+                        caption: "First United Church at East Hastings and Gore — Source: user-provided photo"
+                    },
+                    {
                         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
                         alt: "East Hastings Street in Vancouver's Downtown Eastside",
                         caption: "East Hastings Street — Photo: Wikimedia Commons (CC BY-SA 3.0)"

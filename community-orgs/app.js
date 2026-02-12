@@ -106,14 +106,39 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "../images/community-orgs/dtes-streetscape.jpg",
+                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/SROs_ScoutMagazine.jpg",
                         alt: "Downtown Eastside SRO streetscape",
-                        caption: "DTES streetscape — Source: user-provided photo"
+                        caption: "DTES SRO streetscape — Source: Downtown Eastside Community Land Trust"
+                    },
+                    {
+                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/arlington.jpg",
+                        alt: "Arlington Hotel building in the Downtown Eastside",
+                        caption: "Arlington Hotel — Source: Downtown Eastside Community Land Trust"
+                    },
+                    {
+                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/laurel.jpg",
+                        alt: "Laurel Hotel building in the Downtown Eastside",
+                        caption: "Laurel Hotel — Source: Downtown Eastside Community Land Trust"
+                    },
+                    {
+                        src: "https://dtescommunitylandtrust.ca/wp-content/uploads/2023/02/empress.png",
+                        alt: "Empress Hotel building in the Downtown Eastside",
+                        caption: "Empress Hotel — Source: Downtown Eastside Community Land Trust"
+                    },
+                    {
+                        src: "../images/community-orgs/dtes-clt-community-ownership.jpg",
+                        alt: "Community ownership group outside Chinese Community Library Services Association in the Downtown Eastside",
+                        caption: "Community ownership action in the DTES — Source: user-provided photo"
                     },
                     {
                         src: "../images/community-orgs/dtes-clt-powell-rooms.jpg",
                         alt: "Powell Rooms SRO building in the Downtown Eastside",
                         caption: "Powell Rooms SRO — Source: user-provided photo"
+                    },
+                    {
+                        src: "../images/community-orgs/dtes-streetscape.jpg",
+                        alt: "Downtown Eastside streetscape",
+                        caption: "DTES streetscape — Source: user-provided photo"
                     }
                 ]
             },
@@ -384,9 +409,29 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vancouver_Downtown_Eastside.jpg/1280px-Vancouver_Downtown_Eastside.jpg",
+                        alt: "Downtown Eastside neighbourhood streetscape near Hogan's Alley",
+                        caption: "Downtown Eastside neighbourhood — Photo: Wikimedia Commons (CC BY-SA)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Vancouver_Holden_Building_Tellier_Tower_2011.jpg/1280px-Vancouver_Holden_Building_Tellier_Tower_2011.jpg",
+                        alt: "Holden Building and Tellier Tower in the Downtown Eastside",
+                        caption: "Holden Building / Tellier Tower — Photo: Wikimedia Commons (CC BY-SA)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Vancouver_Chinatown_17.JPG/1280px-Vancouver_Chinatown_17.JPG",
+                        alt: "Chinatown streetscape near Hogan's Alley",
+                        caption: "Chinatown near Main and Keefer — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+                    },
+                    {
                         src: "../images/community-orgs/has-nora-hendrix-mural.jpg",
                         alt: "Hogan's Alley mural at Nora Hendrix Place",
                         caption: "Nora Hendrix Place mural (258 Union Street) — Source: user-provided photo"
+                    },
+                    {
+                        src: "../images/community-orgs/has-union-street-building.jpg",
+                        alt: "Nora Hendrix Place building at 258 Union Street",
+                        caption: "258 Union Street building — Source: user-provided photo"
                     }
                 ]
             },
@@ -512,6 +557,21 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
+                        src: "https://i0.wp.com/srocollaborative.org/wp-content/uploads/2025/02/IMG_9755.jpg",
+                        alt: "TORO outreach setup inside SRO HUB space",
+                        caption: "TORO outreach space — Source: SRO Collaborative"
+                    },
+                    {
+                        src: "https://i0.wp.com/srocollaborative.org/wp-content/uploads/2025/02/IMG_9504.jpg",
+                        alt: "Overdose response and harm reduction supplies table",
+                        caption: "Harm reduction supplies in TORO program — Source: SRO Collaborative"
+                    },
+                    {
+                        src: "https://i0.wp.com/srocollaborative.org/wp-content/uploads/2023/04/20171011_195154_1024.jpg.png",
+                        alt: "Downtown Eastside SRO corridor streetscape",
+                        caption: "DTES SRO corridor streetscape — Source: SRO Collaborative"
+                    },
+                    {
                         src: "../images/community-orgs/dtes-clt-community-ownership.jpg",
                         alt: "Community ownership action in the Downtown Eastside",
                         caption: "Community ownership action — Source: user-provided photo"
@@ -520,6 +580,11 @@ const tourStops = [
                         src: "../images/community-orgs/dtes-clt-powell-rooms.jpg",
                         alt: "Powell Rooms SRO building in the Downtown Eastside",
                         caption: "Powell Rooms SRO — Source: user-provided photo"
+                    },
+                    {
+                        src: "../images/community-orgs/dtes-streetscape.jpg",
+                        alt: "Downtown Eastside streetscape",
+                        caption: "DTES streetscape — Source: user-provided photo"
                     }
                 ]
             },

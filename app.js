@@ -841,9 +841,9 @@ const tourStops = [
         },
 
         stats: [
-            { label: "Historic Era", value: "1935-67" },
-            { label: "Focus", value: "Black history" },
-            { label: "Nora Hendrix", value: "52 homes" }
+            { label: "CLT Site", value: "3.5 acres" },
+            { label: "Cultural Centre", value: "27,000 sq ft" },
+            { label: "Nora Hendrix Place", value: "52 homes" }
         ],
 
         sections: [
@@ -852,9 +852,10 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p><strong>Hogan's Alley</strong> was the historic centre of Vancouver's Black community until the area was cleared during viaduct-era urban renewal. The Hogan's Alley Society (HAS) is a Black-led non-profit focused on cultural repair, anti-displacement work, and community-owned development.</p>
-                    <p>HAS and the City of Vancouver signed a formal <strong>Memorandum of Understanding in September 2022</strong> to guide a Hogan's Alley Land Trust and long-term planning in Northeast False Creek.</p>
-                    <p>Current projects include <strong>Nora Hendrix Place</strong> at 258 Union Street, a 52-home temporary modular housing project that includes culturally informed supports and onsite services.</p>
+                    <p><strong>Hogan's Alley</strong> — the informal name for Park Lane between Union and Prior streets — was the centre of Vancouver's Black community from the early 1900s through the 1960s. At its peak the neighbourhood included as many as 800 Black residents, many of whom were immigrants from the western United States and railway porters employed by the Great Northern Railway. The community supported Black-owned businesses, churches (including the African Methodist Episcopal Fountain Chapel), and social institutions until the City cleared the area for Georgia and Dunsmuir viaduct construction in 1967–72.</p>
+                    <p>The <strong>Hogan's Alley Society (HAS)</strong>, formed in 2018, is a Black-led non-profit focused on cultural repair, anti-displacement work, and community-owned development. Under inaugural Executive Director Djaka Blais — who co-founded the Foundation for Black Communities, Canada's first philanthropic foundation for Black communities — HAS operates across three strategic pillars: <strong>culturally informed housing</strong>, <strong>non-profit housing development</strong>, and <strong>community engagement</strong>.</p>
+                    <p>In <strong>September 2022</strong>, HAS and the City of Vancouver signed a Memorandum of Understanding for the <strong>898 Main Street block</strong> (bounded by Main, Union, Gore, and Prior streets), a 3.5-acre site within the Northeast False Creek Plan area. The MOU sets terms for negotiating a long-term lease to deliver affordable housing, a <strong>27,000-square-foot Black cultural centre</strong>, childcare facilities, artist production space, and small-business units through a Black-led Community Land Trust.</p>
+                    <p>HAS currently operates <strong>Nora Hendrix Place</strong> at 258 Union Street: 52 temporary modular homes with private kitchens and washrooms, prioritizing Black and Indigenous residents at risk of or experiencing homelessness. HAS has been in a mentorship and capacity-building partnership with Atira to eventually assume full operations.</p>
                 `
             },
             {
@@ -864,24 +865,24 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "Historic Site",
-                        description: "Walk the former alley footprint and connect present blocks to erased Black community history.",
-                        meta: "Heritage"
+                        title: "898 Main Street Block",
+                        description: "3.5-acre CLT site within the Northeast False Creek Plan: long-term lease under negotiation since the 2022 MOU with the City.",
+                        meta: "Land Trust"
                     },
                     {
-                        title: "Nora Hendrix Place",
-                        description: "Review the 52-home project named for Jimi Hendrix's grandmother and its support model.",
-                        meta: "Housing"
-                    },
-                    {
-                        title: "Cultural Programming",
-                        description: "Explore Black cultural programming, storytelling, and place-keeping led by HAS.",
+                        title: "27,000 sq ft Cultural Centre",
+                        description: "Planned focal point for Vancouver's Black community: food, gathering, education, art, music, dance, and research into Black Canadian history.",
                         meta: "Culture"
                     },
                     {
-                        title: "Future Development",
-                        description: "Track land trust and redevelopment planning tied to the Northeast False Creek process.",
-                        meta: "Planning"
+                        title: "Nora Hendrix Place",
+                        description: "52-home temporary modular housing project at 258 Union Street, prioritizing Black and Indigenous residents with culturally grounded supports.",
+                        meta: "Housing"
+                    },
+                    {
+                        title: "Afrocentric Governance",
+                        description: "Black-led governance informed by Ubuntu and communal decision-making principles, developed through community consultation with elders and diaspora organizations.",
+                        meta: "Governance"
                     }
                 ]
             },
@@ -890,29 +891,37 @@ const tourStops = [
                 label: "History & Plans",
                 icon: "document",
                 content: `
-                    <h4>Historical Context</h4>
-                    <p>Hogan's Alley became a cultural anchor for Black life in Vancouver through the mid-20th century. City documents now identify the district as a major site of displacement connected to viaduct-era planning decisions.</p>
-                    <h4>Current Housing and Land Work</h4>
-                    <p>HAS is advancing housing and cultural infrastructure through a land trust approach. The Society's planning framework highlights affordable rental housing, childcare, support for Black-owned businesses, and dedicated cultural space.</p>
-                    <p>In recent public webinars and community forums, HAS has framed this work as more than a single-site housing project: the land trust strategy links tenancy security, Black-led governance, and long-term control over cultural assets so redevelopment does not repeat the displacement of the viaduct era.</p>
-                    <h4>Nora Hendrix Place</h4>
-                    <p>At 258 Union Street, Nora Hendrix Place delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services.</p>
-                    <h4>Municipal Partnership</h4>
-                    <p>The City-HAS MOU (2022) sets a formal basis for co-development and governance conversations in Northeast False Creek as the viaduct removal area is rebuilt.</p>
-                    <h4>Governance and CLT Vision</h4>
-                    <p>HAS describes governance as Black-led and community-accountable: planning priorities are informed by residents, elders, cultural workers, and partner organizations. Through this model, the proposed land trust is intended to keep future housing and cultural infrastructure in community control over the long term.</p>
+                    <h4>Historical Displacement</h4>
+                    <p>From the early 1900s, Hogan's Alley anchored Black social, cultural, and economic life in Vancouver's Strathcona neighbourhood. The community included families, businesses, the African Methodist Episcopal Fountain Chapel, and gathering places like Vie's Chicken and Steak House. City officials cleared the area for the Georgia and Dunsmuir viaducts (1967–72), displacing the roughly 800-person Black community and demolishing its institutions as part of a broader freeway plan that was ultimately abandoned.</p>
+
+                    <h4>The 898 Main Street Block and CLT Strategy</h4>
+                    <p>HAS's central project is the redevelopment of the <strong>898 Main Street block</strong>, a 3.5-acre City-owned site bounded by Main Street, Union Street, Gore Avenue, and Prior Street. A 2017 preliminary concept by Perkins & Will proposed six buildings reaching up to 14 storeys on this site. The broader Northeast False Creek Plan envisions 12,000 new residents, 1,800 units of social housing, 32 acres of parks, 8,000 new jobs, and $1.7 billion in public benefits across the plan area.</p>
+                    <p>Under the 2022 MOU, HAS is responsible for design, construction, programming, operation, maintenance, and capital costs of the block's redevelopment. Planned deliverables include:</p>
                     <ul>
-                        <li>Black-led community governance in project planning</li>
-                        <li>Housing, childcare, and enterprise space as linked anti-displacement tools</li>
-                        <li>Cultural redress integrated into redevelopment decisions</li>
-                        <li>Land trust model connects housing security with cultural self-determination</li>
+                        <li><strong>Affordable housing:</strong> ~300 social housing units targeted on the two blocks between Prior and Union, with 50% required to be two- and three-bedroom family units</li>
+                        <li><strong>Cultural centre:</strong> a 27,000-square-foot facility for food, gathering, celebration, education, art, music, dance, and Black Canadian history research</li>
+                        <li><strong>Childcare:</strong> dedicated childcare facilities within the block</li>
+                        <li><strong>Enterprise space:</strong> Black-owned retail, restaurants, and artist production studios drawing on African diaspora design influences</li>
                     </ul>
+                    <p>Physical redevelopment depends on viaduct demolition and a new street network, which have progressed more slowly than anticipated due to the NEFC Plan's reliance on development-driven revenues. HAS is currently engaged in community consultation, fundraising with senior government agencies, and developing detailed business and financial plans for the block.</p>
+
+                    <h4>Nora Hendrix Place</h4>
+                    <p>At 258 Union Street, Nora Hendrix Place — named for Jimi Hendrix's grandmother, a Vancouver resident — delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services. The project prioritizes Black and Indigenous people who are at risk of or currently experiencing homelessness. HAS has been in a mentorship and capacity-building partnership with Atira, with the goal of HAS assuming full operational control.</p>
+
+                    <h4>Governance: Afrocentric and Community-Accountable</h4>
+                    <p>HAS governance is Black-led and community-accountable. The Society has engaged in a structured process — including community learning sessions and consultation with African diaspora organizations and elders — to develop an Afrocentric governance framework. This draws on principles such as Ubuntu ("I am because we are"), shifting from an individualistic decision-making model to a communal one rooted in African diaspora traditions.</p>
+                    <p>Through the proposed Community Land Trust, land and assets are held in community ownership and removed from the speculative real estate market. Governance priorities are informed by residents, elders, cultural workers, and partner organizations, so that housing and cultural infrastructure remain under community control over the long term — a direct response to the viaduct-era displacement that this project seeks to redress.</p>
+
+                    <h4>BSH Partnership and CNCLT Network</h4>
+                    <p>HAS is a BSH (Balanced Supply of Housing) research partner. The October 2025 BSH Research in Progress webinar featured both HAS and the DTES CLT discussing their community work and its role in expanding affordable housing. BSH's "Reclaim, Remain" paper documents six BIPOC-led CLTs across Canada — including HAS — examining how these projects forge pathways for collective land stewardship and decolonized land practices.</p>
+                    <p>At the <strong>CNCLT Summit</strong> (October 18–20, 2024, Vancouver), HAS was one of three Vancouver CLT site tours (alongside DTES CLT and CLT British Columbia). The summit drew 200+ delegates — CLT practitioners, funders, policymakers, researchers, and activists — and HAS has also offered public "CLT 101" sessions explaining how the Hogan's Alley Community Land Trust supports Black self-determination and housing justice across Metro Vancouver.</p>
                 `,
                 keyPoints: [
-                    "Historic heart of Vancouver's Black community",
-                    "City and HAS signed an MOU in September 2022",
-                    "Nora Hendrix Place provides 52 modular homes",
-                    "Land trust model ties housing with cultural redress and Black-led governance"
+                    "898 Main Street block: 3.5-acre CLT site under long-term lease negotiation (MOU signed September 2022)",
+                    "Planned: ~300 social housing units (50% family-sized), 27,000 sq ft Black cultural centre, childcare, enterprise space",
+                    "Nora Hendrix Place: 52 modular homes prioritizing Black and Indigenous residents",
+                    "Afrocentric, community-accountable governance model developed through structured diaspora consultation",
+                    "BSH research partner; featured at CNCLT Summit (October 2024, 200+ delegates)"
                 ]
             },
             {
@@ -970,14 +979,24 @@ const tourStops = [
                         description: "Nora Hendrix Place housing project profile"
                     },
                     {
-                        title: "CNCLT Summit — Vancouver Community Land Trusts",
-                        url: "https://www.youtube.com/watch?v=KevcrQW11T4",
-                        description: "Canadian Network of Community Land Trusts summit presentation from Vancouver"
+                        title: "City of Vancouver — Hogan's Alley MOU",
+                        url: "https://vancouver.ca/people-programs/hogan-s-alley-mou.aspx",
+                        description: "MOU details, Northeast False Creek Plan context, and cultural redress framework"
                     },
                     {
-                        title: "BSH Research in Progress Webinar — Vancouver CLTs",
-                        url: "https://bsh.ubc.ca/research/evictions-and-security-of-tenure/",
-                        description: "BSH webinar series on BIPOC CLTs and resisting gentrification"
+                        title: "CNCLT Summit — Vancouver Community Land Trusts",
+                        url: "https://www.youtube.com/watch?v=KevcrQW11T4",
+                        description: "Canadian Network of Community Land Trusts summit presentation featuring Vancouver CLT site tours"
+                    },
+                    {
+                        title: "BSH Research in Progress — Vancouver's Growing CLT Movement",
+                        url: "https://bsh.ubc.ca/research-in-progress-on-vancouvers-growing-clt-movement/",
+                        description: "October 2025 BSH webinar featuring HAS and DTES CLT on affordable housing and community land stewardship"
+                    },
+                    {
+                        title: "BSH — Reclaim, Remain: BIPOC-Led CLTs in Canada",
+                        url: "https://bsh.ubc.ca/research/policy-report-profile-series-on-canadian-community-land-trusts/",
+                        description: "Research profiles of six BIPOC-led CLTs including HAS, examining collective land stewardship and anti-displacement strategies"
                     }
                 ]
             }
@@ -998,9 +1017,9 @@ const tourStops = [
         },
 
         stats: [
-            { label: "Provincial Grant", value: "$11M" },
             { label: "Active SROs", value: "~40" },
-            { label: "Tenants Supported", value: "2,700+" }
+            { label: "Tenants Supported", value: "2,700+" },
+            { label: "Provincial Grant", value: "$11M" }
         ],
 
         sections: [

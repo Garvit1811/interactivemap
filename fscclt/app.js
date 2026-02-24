@@ -1392,9 +1392,10 @@ function initNavigation() {
 }
 
 function goToStop(index) {
-    currentStopIndex = index;
-    renderStop(index);
-    flyToStop(index);
+    const safeIndex = Math.max(0, Math.min(index, tourStops.length - 1));
+    currentStopIndex = safeIndex;
+    renderStop(safeIndex);
+    flyToStop(safeIndex);
     updateProgress();
     updateMarkers();
     updateStopNavigator();
@@ -1540,6 +1541,7 @@ function createProgressDots() {
             class="progress-dot ${index === 0 ? 'active' : ''}"
             data-index="${index}"
             aria-label="Go to stop ${index + 1}: ${stop.title}"
+            type="button"
         >${index + 1}</button>
     `).join('');
 
@@ -1549,11 +1551,15 @@ function createProgressDots() {
             goToStop(index);
         });
     });
+
+    updateProgressDots();
 }
 
 function updateProgressDots() {
     document.querySelectorAll('.progress-dot').forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentStopIndex);
+        const isActive = index === currentStopIndex;
+        dot.classList.toggle('active', isActive);
+        dot.setAttribute('aria-current', isActive ? 'step' : 'false');
     });
 }
 

@@ -44,9 +44,9 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "SRO Support Loop",
-                        description: "Map the tenant support network connecting SRO buildings, outreach teams, and health resources.",
-                        meta: "Support services"
+                        title: "Community Ownership Model",
+                        description: "DTES CLT acquires and stewards SRO buildings as permanently community-owned housing.",
+                        meta: "Land trust"
                     },
                     {
                         title: "Powell Rooms (23 units)",
@@ -395,21 +395,25 @@ const tourStops = [
                     <p>Hogan's Alley became a cultural anchor for Black life in Vancouver through the mid-20th century. City documents now identify the district as a major site of displacement connected to viaduct-era planning decisions.</p>
                     <h4>Current Housing and Land Work</h4>
                     <p>HAS is advancing housing and cultural infrastructure through a land trust approach. The Society's planning framework highlights affordable rental housing, childcare, support for Black-owned businesses, and dedicated cultural space.</p>
+                    <p>In recent public webinars and community forums, HAS has framed this work as more than a single-site housing project: the land trust strategy links tenancy security, Black-led governance, and long-term control over cultural assets so redevelopment does not repeat the displacement of the viaduct era.</p>
                     <h4>Nora Hendrix Place</h4>
                     <p>At 258 Union Street, Nora Hendrix Place delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services.</p>
                     <h4>Municipal Partnership</h4>
                     <p>The City-HAS MOU (2022) sets a formal basis for co-development and governance conversations in Northeast False Creek as the viaduct removal area is rebuilt.</p>
+                    <h4>Governance and CLT Vision</h4>
+                    <p>HAS describes governance as Black-led and community-accountable: planning priorities are informed by residents, elders, cultural workers, and partner organizations. Through this model, the proposed land trust is intended to keep future housing and cultural infrastructure in community control over the long term.</p>
                     <ul>
                         <li>Black-led community governance in project planning</li>
                         <li>Housing, childcare, and enterprise space as linked anti-displacement tools</li>
                         <li>Cultural redress integrated into redevelopment decisions</li>
+                        <li>Land trust model connects housing security with cultural self-determination</li>
                     </ul>
                 `,
                 keyPoints: [
                     "Historic heart of Vancouver's Black community",
                     "City and HAS signed an MOU in September 2022",
                     "Nora Hendrix Place provides 52 modular homes",
-                    "Land trust model ties housing with cultural redress"
+                    "Land trust model ties housing with cultural redress and Black-led governance"
                 ]
             },
             {
@@ -801,23 +805,113 @@ const tourStops = [
         ],
 
         tags: ["education", "university", "community", "dtes"]
+    },
+    {
+        id: 6,
+        title: "Carnegie Community Centre",
+        location: "401 Main St, Vancouver",
+        coordinates: [49.28086, -123.09965],
+
+        heroImage: {
+            src: "../images/placeholder.svg",
+            alt: "Carnegie Community Centre at 401 Main Street",
+            caption: "Carnegie Community Centre (401 Main St)"
+        },
+
+        stats: [
+            { label: "Heritage Building", value: "1903" },
+            { label: "Community Centre", value: "Since 1980" },
+            { label: "Location", value: "401 Main St" }
+        ],
+
+        sections: [
+            {
+                id: "overview",
+                label: "Overview",
+                icon: "info",
+                content: `
+                    <p><strong>Carnegie Community Centre</strong> is a long-standing Downtown Eastside hub at 401 Main Street. The site began as the Carnegie Public Library (opened in 1903) and was later redeveloped as a community centre that has operated since 1980.</p>
+                    <p>Today, the centre supports residents through low-cost meals, recreation and arts programming, learning opportunities, and connections to social supports. Its role is practical and place-based: people use Carnegie for daily needs, social connection, and community-led activity in the heart of the DTES.</p>
+                    <p>Because it sits within the same neighbourhood ecosystem as the CLT, SRO Collaborative, and Hogan's Alley planning area, Carnegie functions as a key public institution linking housing justice, health, and civic participation.</p>
+                `
+            },
+            {
+                id: "highlights",
+                label: "At This Stop",
+                icon: "sparkles",
+                type: "highlights",
+                highlights: [
+                    {
+                        title: "Heritage Building Reuse",
+                        description: "The 1903 Carnegie library building was adapted into a community centre that continues to serve local residents.",
+                        meta: "Heritage"
+                    },
+                    {
+                        title: "Daily Supports",
+                        description: "Carnegie offers low-cost food access, recreation, and social programming designed for regular neighbourhood use.",
+                        meta: "Community services"
+                    },
+                    {
+                        title: "Outreach Interface",
+                        description: "The Carnegie Outreach Team connects at-risk residents to services and support systems across the DTES.",
+                        meta: "Outreach"
+                    },
+                    {
+                        title: "Neighbourhood Anchor",
+                        description: "The centre remains a consistent gathering space for civic, cultural, and community organizing activities.",
+                        meta: "Public institution"
+                    }
+                ]
+            },
+            {
+                id: "details",
+                label: "Programs & Role",
+                icon: "document",
+                content: `
+                    <h4>Historic Building, Ongoing Public Role</h4>
+                    <p>The Carnegie building was established as a public library in 1903 and later reactivated as a community centre in 1980. This continuity matters in the DTES context: the site has remained publicly oriented for more than a century, even as neighbourhood pressures and demographics changed.</p>
+                    <h4>Programs and Daily Access</h4>
+                    <p>Programming combines practical supports and social infrastructure, including meals, recreation, arts and cultural activities, learning opportunities, and drop-in access. Together, these services help residents maintain stability and social connection.</p>
+                    <h4>Outreach and Service Navigation</h4>
+                    <p>The Carnegie Outreach Team works with residents facing acute barriers, helping connect people to housing, health, and social services. This outreach role links Carnegie's in-building programming to wider DTES support networks.</p>
+                    <h4>Community Governance Context</h4>
+                    <p>Carnegie's impact is shaped through collaboration between city staff, community organizations, and resident participation structures. In practice, the centre functions as both a service site and a civic space where policy impacts are experienced, discussed, and organized around.</p>
+                `,
+                keyPoints: [
+                    "1903 Carnegie building repurposed as a community centre in 1980",
+                    "Public DTES anchor at 401 Main Street",
+                    "Daily programming includes food, recreation, and social connection",
+                    "Carnegie Outreach Team links residents to broader support systems"
+                ]
+            },
+            {
+                id: "resources",
+                label: "Resources",
+                icon: "link",
+                type: "resources",
+                resources: [
+                    {
+                        title: "City of Vancouver — Carnegie Community Centre",
+                        url: "https://vancouver.ca/parks-recreation-culture/carnegie-community-centre.aspx",
+                        description: "Programs, services, location, and operating information"
+                    },
+                    {
+                        title: "City of Vancouver — Carnegie Outreach Team",
+                        url: "https://vancouver.ca/people-programs/carnegie-outreach-team.aspx",
+                        description: "Street-level outreach and service-connection overview"
+                    },
+                    {
+                        title: "Vancouver Heritage Site Finder — 401 Main Street",
+                        url: "https://www.heritagesitefinder.ca/location/401-main-street-vancouver-bc/",
+                        description: "Historic site profile for the Carnegie building"
+                    }
+                ]
+            }
+        ],
+
+        tags: ["community-centre", "dtes", "heritage", "public-services"]
     }
 ];
-
-// Order stops for shortest practical walking tour flow.
-const preferredTourOrder = [
-    "Hogan's Alley Society",
-    "UBC Learning Exchange",
-    "Downtown Eastside Community Land Trust",
-    "DTES SRO Collaborative",
-    "First United Church"
-];
-
-const stopOrderRank = new Map(preferredTourOrder.map((title, index) => [title, index]));
-tourStops.sort((a, b) => (stopOrderRank.get(a.title) ?? 999) - (stopOrderRank.get(b.title) ?? 999));
-tourStops.forEach((stop, index) => {
-    stop.id = index + 1;
-});
 
 // ============================================
 // Application State
@@ -958,24 +1052,9 @@ function initMap() {
         marker.addTo(map);
     });
 
-    // Seed route line connecting stops in optimized tour order.
-    // Two separate segments — no line drawn between stops 2 and 3.
-    const coordsByTitle = Object.fromEntries(tourStops.map((stop) => [stop.title, stop.coordinates]));
-    const routeSegments = [
-        // Segment 1: Hogan's Alley → UBC Learning Exchange
-        [
-            coordsByTitle["Hogan's Alley Society"],             // Stop 1
-            [49.27790, -123.09929],                             // Move west to Main St
-            coordsByTitle["UBC Learning Exchange"]              // Stop 2
-        ],
-        // Segment 2: DTES CLT → SRO Collaborative → First United
-        [
-            coordsByTitle["Downtown Eastside Community Land Trust"], // Stop 3
-            coordsByTitle["DTES SRO Collaborative"],            // Stop 4
-            [49.28010, -123.09803],                             // North on Gore corridor
-            coordsByTitle["First United Church"]                // Stop 5
-        ]
-    ].map(dedupeRouteCoords).filter(segment => segment.length >= 2);
+    // Connect stops in tour order so the path stays aligned with navigation.
+    const routeSegments = [dedupeRouteCoords(tourStops.map((stop) => stop.coordinates))]
+        .filter((segment) => segment.length >= 2);
 
     drawRoute(routeSegments);
     void upgradeRouteWithOSRM(routeSegments);
@@ -1703,9 +1782,10 @@ function initNavigation() {
 }
 
 function goToStop(index) {
-    currentStopIndex = index;
-    renderStop(index);
-    flyToStop(index);
+    const safeIndex = Math.max(0, Math.min(index, tourStops.length - 1));
+    currentStopIndex = safeIndex;
+    renderStop(safeIndex);
+    flyToStop(safeIndex);
     updateProgress();
     updateMarkers();
     updateStopNavigator();
@@ -1851,6 +1931,7 @@ function createProgressDots() {
             class="progress-dot ${index === 0 ? 'active' : ''}"
             data-index="${index}"
             aria-label="Go to stop ${index + 1}: ${stop.title}"
+            type="button"
         >${index + 1}</button>
     `).join('');
 
@@ -1860,11 +1941,15 @@ function createProgressDots() {
             goToStop(index);
         });
     });
+
+    updateProgressDots();
 }
 
 function updateProgressDots() {
     document.querySelectorAll('.progress-dot').forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentStopIndex);
+        const isActive = index === currentStopIndex;
+        dot.classList.toggle('active', isActive);
+        dot.setAttribute('aria-current', isActive ? 'step' : 'false');
     });
 }
 

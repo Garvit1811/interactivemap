@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,26 @@
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin="">
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 
     <!-- BSH Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="../styles.css">
 </head>
+
 <body>
     <div class="tour-container">
         <!-- Sidebar -->
         <aside class="sidebar" id="sidebar">
             <header class="sidebar-header">
                 <div class="logo">
-                    <a href="../index.html" class="logo-link" title="Back to all map tours" aria-label="Back to all map tours">
+                    <a href="../index.html" class="logo-link" title="Back to all map tours"
+                        aria-label="Back to all map tours">
                         <img src="../images/bsh-logo.svg" alt="Balanced Supply of Housing" class="logo-image">
                     </a>
                     <a href="../index.html" class="logo-back-link">Back to tours</a>
@@ -66,14 +70,14 @@
             <nav class="tour-nav">
                 <button class="nav-btn prev" id="prevBtn" disabled>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M15 18l-6-6 6-6"/>
+                        <path d="M15 18l-6-6 6-6" />
                     </svg>
                     Previous
                 </button>
                 <button class="nav-btn next primary" id="nextBtn">
                     Next
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M9 18l6-6-6-6"/>
+                        <path d="M9 18l6-6-6-6" />
                     </svg>
                 </button>
             </nav>
@@ -88,18 +92,25 @@
             <div id="map"></div>
 
             <div class="map-actions" role="group" aria-label="Map actions">
-                <button class="map-action" id="fitAllBtn" type="button" aria-label="Show all stops" title="Show all stops">
+                <button class="map-action" id="fitAllBtn" type="button" aria-label="Show all stops"
+                    title="Show all stops">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
-                        <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+                        <rect x="3" y="3" width="7" height="7" />
+                        <rect x="14" y="3" width="7" height="7" />
+                        <rect x="14" y="14" width="7" height="7" />
+                        <rect x="3" y="14" width="7" height="7" />
                     </svg>
                     <span class="map-action-label">All Stops</span>
                 </button>
-                <button class="map-action" id="centerStopBtn" type="button" aria-label="Center on current stop" title="Center on current stop">
+                <button class="map-action" id="centerStopBtn" type="button" aria-label="Center on current stop"
+                    title="Center on current stop">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/>
-                        <line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/>
-                        <line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/>
+                        <circle cx="12" cy="12" r="7" />
+                        <circle cx="12" cy="12" r="2" />
+                        <line x1="12" y1="2" x2="12" y2="5" />
+                        <line x1="12" y1="19" x2="12" y2="22" />
+                        <line x1="2" y1="12" x2="5" y2="12" />
+                        <line x1="19" y1="12" x2="22" y2="12" />
                     </svg>
                     <span class="map-action-label">Center</span>
                 </button>
@@ -108,7 +119,7 @@
             <!-- Mobile toggle button -->
             <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle sidebar">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M3 12h18M3 6h18M3 18h18"/>
+                    <path d="M3 12h18M3 6h18M3 18h18" />
                 </svg>
             </button>
         </main>
@@ -116,9 +127,10 @@
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
+    <script src="../js/map-core.js"></script>
     <script src="app.js?v=20260224-2"></script>
 </body>
+
 </html>

@@ -1951,6 +1951,14 @@ button:focus:not(:focus-visible) {
     animation: routeDotsFlow 2s linear infinite;
 }
 
+.tour-route-past {
+    pointer-events: none;
+    stroke-linejoin: round !important;
+    stroke-dasharray: 8 10 !important;
+    animation: none;
+    opacity: 0.6 !important;
+}
+
 @keyframes routeDotsFlow {
     from {
         stroke-dashoffset: 0;

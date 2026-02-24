@@ -51,22 +51,22 @@ const tourStops = [
                     },
                     {
                         title: "Lease Renewal Timeline",
-                        description: "Locate the leasehold parcels expiring between 2036–2046 and discuss how renewal options affect long-term affordability.",
+                        description: "Leasehold parcels expire between 2036–2046, demonstrating how renewal options affect long-term affordability.",
                         meta: "Decision window"
                     },
                     {
                         title: "Co-op Cluster",
-                        description: "Visit the co-op homes along the waterfront to see shared courtyards and resident-led governance in action.",
+                        description: "Co-op homes along the waterfront feature shared courtyards and resident-led governance.",
                         meta: "Community-led"
                     },
                     {
                         title: "Waterfront Greenway",
-                        description: "Follow the seawall to experience the public-realm improvements tied to public land stewardship.",
+                        description: "The seawall showcases public-realm improvements tied to public land stewardship.",
                         meta: "Public realm"
                     },
                     {
                         title: "Housing Trust Hub",
-                        description: "Review the community housing trust concept and how it could govern future redevelopment.",
+                        description: "The community housing trust concept offers a model for governing future redevelopment.",
                         meta: "Future planning"
                     }
                 ]
@@ -140,8 +140,8 @@ const tourStops = [
                 ]
             },
             {
-                id: "resources",
-                label: "Resources",
+                id: "learn-more",
+                label: "Learn More",
                 icon: "link",
                 type: "resources",
                 resources: [
@@ -214,22 +214,22 @@ const tourStops = [
                 highlights: [
                     {
                         title: "Tower Cluster View",
-                        description: "Compare the 11-tower massing plan with surrounding Kitsilano scale to understand the density shift.",
+                        description: "The 11-tower massing plan contrasts with the surrounding Kitsilano scale, illustrating a significant density shift.",
                         meta: "Design focus"
                     },
                     {
                         title: "Public Green Space",
-                        description: "Walk the six-acre open space to see how public realm access is built into the development agreement.",
+                        description: "The six-acre open space demonstrates how public realm access is integrated into the development agreement.",
                         meta: "Open space"
                     },
                     {
                         title: "Transit Connections",
-                        description: "Note the proximity to Burrard Bridge, cycling routes, and future rapid transit plans.",
+                        description: "The site is located in close proximity to the Burrard Bridge, cycling routes, and future rapid transit plans.",
                         meta: "Mobility"
                     },
                     {
                         title: "Cultural Gathering",
-                        description: "Identify where cultural programming and Indigenous-led placemaking will be hosted.",
+                        description: "Designated areas will host cultural programming and Indigenous-led placemaking.",
                         meta: "Community"
                     }
                 ]
@@ -299,8 +299,8 @@ const tourStops = [
                 ]
             },
             {
-                id: "resources",
-                label: "Resources",
+                id: "learn-more",
+                label: "Learn More",
                 icon: "link",
                 type: "resources",
                 resources: [
@@ -387,22 +387,22 @@ const tourStops = [
                 highlights: [
                     {
                         title: "Public Market Hall",
-                        description: "Start at the Public Market to see how cross-subsidy supports local vendors and public amenities.",
+                        description: "The Public Market relies on cross-subsidy to support local vendors and public amenities.",
                         meta: "Must see"
                     },
                     {
                         title: "Artist Studio Row",
-                        description: "Visit the artisan studios to experience the affordable creative space model.",
+                        description: "Artisan studios operate under an affordable creative space model.",
                         meta: "Creative economy"
                     },
                     {
                         title: "Waterfront Walk",
-                        description: "Follow the seawall edge to observe flexible public space programming and ferry access.",
+                        description: "The seawall edge features flexible public space programming and ferry access.",
                         meta: "Public realm"
                     },
                     {
                         title: "Future Sites",
-                        description: "Discuss aging infrastructure and where reinvestment could support long-term viability.",
+                        description: "Aging infrastructure highlights areas where reinvestment is required for long-term viability.",
                         meta: "Reinvestment"
                     }
                 ]
@@ -470,8 +470,8 @@ const tourStops = [
                 ]
             },
             {
-                id: "resources",
-                label: "Resources",
+                id: "learn-more",
+                label: "Learn More",
                 icon: "link",
                 type: "resources",
                 resources: [
@@ -752,9 +752,9 @@ function drawRoute(coords) {
 
     routeDashLayer = L.polyline(coords, {
         color: '#2f67dc',
-        weight: 3.5,
+        weight: 6,
         opacity: 0.98,
-        dashArray: '6, 10',
+        dashArray: '0, 12',
         dashOffset: '0',
         lineCap: 'round',
         lineJoin: 'round',

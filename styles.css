@@ -1933,7 +1933,7 @@ button:focus:not(:focus-visible) {
     pointer-events: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke-dasharray: 6 10;
+    stroke-dasharray: 0 12 !important;
     animation: routeDotsFlow 2s linear infinite;
 }
 
@@ -1942,7 +1942,7 @@ button:focus:not(:focus-visible) {
         stroke-dashoffset: 0;
     }
     to {
-        stroke-dashoffset: -32;
+        stroke-dashoffset: -24;
     }
 }
 

@@ -147,8 +147,8 @@ const tourStops = [
                 ]
             },
             {
-                id: "resources",
-                label: "Resources",
+                id: "learn-more",
+                label: "Learn More",
                 icon: "link",
                 type: "resources",
                 resources: [
@@ -222,22 +222,22 @@ const tourStops = [
                 highlights: [
                     {
                         title: "Safe Shelter Program",
-                        description: "Review how the 51-bed low-barrier shelter supports people facing immediate housing instability.",
+                        description: "The 51-bed low-barrier shelter supports individuals facing immediate housing instability.",
                         meta: "Shelter"
                     },
                     {
                         title: "Legal Advocacy",
-                        description: "Understand tenancy, social assistance, and disability advocacy support delivered at street level.",
+                        description: "Tenancy, social assistance, and disability advocacy support are delivered at the street level.",
                         meta: "Tenant rights"
                     },
                     {
                         title: "Food Access",
-                        description: "Track meal services including daily lunch and outreach food truck operations.",
+                        description: "Meal services include daily lunch and outreach food truck operations.",
                         meta: "Food security"
                     },
                     {
                         title: "Redevelopment Site",
-                        description: "Connect the current site to plans for long-term affordable homes and integrated community space.",
+                        description: "The current site is planned for long-term affordable homes and an integrated community space.",
                         meta: "Housing delivery"
                     }
                 ]
@@ -298,8 +298,8 @@ const tourStops = [
                 ]
             },
             {
-                id: "resources",
-                label: "Resources",
+                id: "learn-more",
+                label: "Learn More",
                 icon: "link",
                 type: "resources",
                 resources: [
@@ -459,8 +459,8 @@ const tourStops = [
                 ]
             },
             {
-                id: "resources",
-                label: "Resources",
+                id: "learn-more",
+                label: "Learn More",
                 icon: "link",
                 type: "resources",
                 resources: [
@@ -542,22 +542,22 @@ const tourStops = [
                 highlights: [
                     {
                         title: "Tenant Organizing",
-                        description: "Learn about tenant-led organizing and advocacy strategies.",
+                        description: "Tenant-led organizing and advocacy strategies empower residents.",
                         meta: "Advocacy"
                     },
                     {
                         title: "TORO Program",
-                        description: "Understand the Tenant Overdose Response Organizers initiative.",
+                        description: "The Tenant Overdose Response Organizers initiative operates across multiple SROs.",
                         meta: "Harm reduction"
                     },
                     {
                         title: "SRO Conditions",
-                        description: "Discuss challenges and opportunities in SRO housing.",
+                        description: "The Collaborative documents challenges and opportunities in SRO housing.",
                         meta: "Housing"
                     },
                     {
                         title: "Policy Impact",
-                        description: "Review the Collaborative's role in vacancy control policy.",
+                        description: "The Collaborative played a central role in advancing vacancy control policy.",
                         meta: "Policy"
                     }
                 ]
@@ -631,8 +631,8 @@ const tourStops = [
                 ]
             },
             {
-                id: "resources",
-                label: "Resources",
+                id: "learn-more",
+                label: "Learn More",
                 icon: "link",
                 type: "resources",
                 resources: [
@@ -719,22 +719,22 @@ const tourStops = [
                 highlights: [
                     {
                         title: "Community Programs",
-                        description: "Observe free, resident-centered learning programs delivered at 612 Main Street.",
+                        description: "Free, resident-centered learning programs are delivered at 612 Main Street.",
                         meta: "Education"
                     },
                     {
                         title: "Research Partnerships",
-                        description: "Review how community priorities are integrated into UBC teaching and research projects.",
+                        description: "Community priorities are integrated into UBC teaching and research projects.",
                         meta: "Research"
                     },
                     {
                         title: "Student Involvement",
-                        description: "See how students contribute through service learning and community-engaged coursework.",
+                        description: "Students contribute through service learning and community-engaged coursework.",
                         meta: "Partnership"
                     },
                     {
                         title: "Resource Access",
-                        description: "Map pathways from the neighbourhood into UBC resources and public-facing services.",
+                        description: "Pathways connect the neighbourhood to UBC resources and public-facing services.",
                         meta: "Access"
                     }
                 ]
@@ -789,8 +789,8 @@ const tourStops = [
                 ]
             },
             {
-                id: "resources",
-                label: "Resources",
+                id: "learn-more",
+                label: "Learn More",
                 icon: "link",
                 type: "resources",
                 resources: [
@@ -827,20 +827,20 @@ const tourStops = [
     },
     {
         id: 6,
-        title: "Carnegie Community Centre",
-        location: "401 Main St, Vancouver",
-        coordinates: [49.28086, -123.09965],
+        title: "Aboriginal Front Door Society",
+        location: "384 Main St, Vancouver",
+        coordinates: [49.2812, -123.0996],
 
         heroImage: {
             src: "../images/placeholder.svg",
-            alt: "Carnegie Community Centre at 401 Main Street",
-            caption: "Carnegie Community Centre (401 Main St)"
+            alt: "Aboriginal Front Door Society at 384 Main Street",
+            caption: "Aboriginal Front Door Society (384 Main St)"
         },
 
         stats: [
-            { label: "Heritage Building", value: "1903" },
-            { label: "Community Centre", value: "Since 1980" },
-            { label: "Location", value: "401 Main St" }
+            { label: "Cultural Space", value: "DTES Hub" },
+            { label: "Focus", value: "Indigenous-led support" },
+            { label: "Location", value: "384 Main St" }
         ],
 
         sections: [
@@ -849,9 +849,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p><strong>Carnegie Community Centre</strong> is a long-standing Downtown Eastside hub at 401 Main Street. The site began as the Carnegie Public Library (opened in 1903) and was later redeveloped as a community centre that has operated since 1980.</p>
-                    <p>Today, the centre supports residents through low-cost meals, recreation and arts programming, learning opportunities, and connections to social supports. Its role is practical and place-based: people use Carnegie for daily needs, social connection, and community-led activity in the heart of the DTES.</p>
-                    <p>Because it sits within the same neighbourhood ecosystem as the CLT, SRO Collaborative, and Hogan's Alley planning area, Carnegie functions as a key public institution linking housing justice, health, and civic participation.</p>
+                    <p>The <strong>Aboriginal Front Door Society</strong> offers a supportive space for Indigenous and non-Indigenous people in the Downtown Eastside, focusing on traditional approaches to community and healing.</p>
+                    <p>Operating as a drop-in centre, they provide Elder and family cultural guidance, community meetings, social and recreational activities, and culturally safe referrals for drug and alcohol treatment.</p>
+                    <p>Their mission is to foster, encourage, and support marginalized people to live with love, honor, respect, and compassion by reconnecting them to their culture and to each other through traditional ways.</p>
                 `
             },
             {
@@ -861,24 +861,24 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "Heritage Building Reuse",
-                        description: "The 1903 Carnegie library building was adapted into a community centre that continues to serve local residents.",
-                        meta: "Heritage"
+                        title: "Cultural Programming",
+                        description: "Provides talking circles, drumming, singing, beadwork, cedar bark weaving, and bannock making.",
+                        meta: "Culture"
                     },
                     {
-                        title: "Daily Supports",
-                        description: "Carnegie offers low-cost food access, recreation, and social programming designed for regular neighbourhood use.",
+                        title: "Drop-in Centre",
+                        description: "A safe entry point for community connection, education, and language learning.",
                         meta: "Community services"
                     },
                     {
-                        title: "Outreach Interface",
-                        description: "The Carnegie Outreach Team connects at-risk residents to services and support systems across the DTES.",
-                        meta: "Outreach"
+                        title: "Homeless Storage Program",
+                        description: "Secure bin storage for individuals experiencing homelessness or precarious housing.",
+                        meta: "Support"
                     },
                     {
-                        title: "Neighbourhood Anchor",
-                        description: "The centre remains a consistent gathering space for civic, cultural, and community organizing activities.",
-                        meta: "Public institution"
+                        title: "Food Security",
+                        description: "A weekly food bank and daily morning coffee with Elder Coordinators.",
+                        meta: "Basic needs"
                     }
                 ]
             },
@@ -887,48 +887,39 @@ const tourStops = [
                 label: "Programs & Role",
                 icon: "document",
                 content: `
-                    <h4>Historic Building, Ongoing Public Role</h4>
-                    <p>The Carnegie building was established as a public library in 1903 and later reactivated as a community centre in 1980. This continuity matters in the DTES context: the site has remained publicly oriented for more than a century, even as neighbourhood pressures and demographics changed.</p>
-                    <h4>Programs and Daily Access</h4>
-                    <p>Programming combines practical supports and social infrastructure, including meals, recreation, arts and cultural activities, learning opportunities, and drop-in access. Together, these services help residents maintain stability and social connection.</p>
-                    <h4>Outreach and Service Navigation</h4>
-                    <p>The Carnegie Outreach Team works with residents facing acute barriers, helping connect people to housing, health, and social services. This outreach role links Carnegie's in-building programming to wider DTES support networks.</p>
-                    <h4>Community Governance Context</h4>
-                    <p>Carnegie's impact is shaped through collaboration between city staff, community organizations, and resident participation structures. In practice, the centre functions as both a service site and a civic space where policy impacts are experienced, discussed, and organized around.</p>
+                    <h4>Cultural Reconnection</h4>
+                    <p>The organization champions the implementation of an Indigenous-specific drug and alcohol strategy in the DTES, grounding its approach in Aboriginal traditions and teachings.</p>
+                    <h4>Daily Supports</h4>
+                    <p>Programming includes morning coffee starting at 8:00 AM, a Wednesday food bank, and regular cultural workshops. These activities help anchor individuals needing connection and cultural resonance in the neighborhood.</p>
                 `,
                 keyPoints: [
-                    "1903 Carnegie building repurposed as a community centre in 1980",
-                    "Public DTES anchor at 401 Main Street",
-                    "Daily programming includes food, recreation, and social connection",
-                    "Carnegie Outreach Team links residents to broader support systems"
+                    "Located at 384 Main Street, serving the DTES community",
+                    "Provides cultural activities, Elder guidance, and safe referrals",
+                    "Operates a homeless storage program and regular food bank",
+                    "A critical Indigenous-led organization in the neighborhood"
                 ]
             },
             {
-                id: "resources",
-                label: "Resources",
+                id: "learn-more",
+                label: "Learn More",
                 icon: "link",
                 type: "resources",
                 resources: [
                     {
-                        title: "City of Vancouver — Carnegie Community Centre",
-                        url: "https://vancouver.ca/parks-recreation-culture/carnegie-community-centre.aspx",
-                        description: "Programs, services, location, and operating information"
+                        title: "Aboriginal Front Door - BC 211",
+                        url: "https://bc.211.ca/agencies/aboriginal-front-door-society/",
+                        description: "Services overview and access information"
                     },
                     {
-                        title: "City of Vancouver — Carnegie Outreach Team",
-                        url: "https://vancouver.ca/people-programs/carnegie-outreach-team.aspx",
-                        description: "Street-level outreach and service-connection overview"
-                    },
-                    {
-                        title: "Vancouver Heritage Site Finder — 401 Main Street",
-                        url: "https://www.heritagesitefinder.ca/location/401-main-street-vancouver-bc/",
-                        description: "Historic site profile for the Carnegie building"
+                        title: "LinkVan - Aboriginal Front Door",
+                        url: "https://linkvan.ca/resources/aboriginal-front-door-society",
+                        description: "Drop-in hours and current program schedule"
                     }
                 ]
             }
         ],
 
-        tags: ["community-centre", "dtes", "heritage", "public-services"]
+        tags: ["indigenous", "community-centre", "dtes", "cultural-services"]
     }
 ];
 
@@ -1079,7 +1070,7 @@ function initMap() {
     void upgradeRouteWithOSRM(routeSegments);
 
     // Add informational pins for key DTES buildings
-    const poiMarkerIcon = function(label) {
+    const poiMarkerIcon = function (label) {
         return L.divIcon({
             className: 'poi-marker-wrapper',
             html: '<div class="poi-marker">' + label + '</div>',
@@ -1152,9 +1143,9 @@ function drawRoute(coordsOrSegments) {
     routeDashLayer = L.layerGroup(
         cleanSegments.map((segment) => L.polyline(segment, {
             color: '#2f67dc',
-            weight: 3.5,
+            weight: 6,
             opacity: 0.98,
-            dashArray: '6, 10',
+            dashArray: '0, 12',
             dashOffset: '0',
             lineCap: 'round',
             lineJoin: 'round',
@@ -1469,9 +1460,9 @@ function renderGallery(images) {
     return `
         <div class="gallery-grid">
             ${images.map((image) => {
-                const hasSrc = Boolean(image.src);
-                const index = hasSrc ? lightboxIndex++ : -1;
-                return `
+        const hasSrc = Boolean(image.src);
+        const index = hasSrc ? lightboxIndex++ : -1;
+        return `
                     <div class="gallery-item ${!hasSrc ? 'placeholder' : ''}" data-index="${index}" tabindex="0" role="button" aria-label="Expand photo">
                         ${hasSrc ? `
                             <img
@@ -1491,7 +1482,7 @@ function renderGallery(images) {
                         ` : icons.placeholder}
                     </div>
                 `;
-            }).join('')}
+    }).join('')}
         </div>
     `;
 }

@@ -9,7 +9,7 @@
 // ============================================
 
 const tourStops = [
-{
+    {
         id: 1,
         title: "False Creek South Community Land Trust",
         location: "False Creek South, Vancouver",
@@ -507,7 +507,7 @@ const tourStops = [
 
         tags: ["public-land", "federal", "land-lease", "cmhc"]
     },
-{
+    {
         id: 1,
         title: "Downtown Eastside Community Land Trust",
         location: "222 Keefer St, Vancouver",
@@ -1326,20 +1326,20 @@ const tourStops = [
     },
     {
         id: 6,
-        title: "Carnegie Community Centre",
-        location: "401 Main St, Vancouver",
-        coordinates: [49.28086, -123.09965],
+        title: "Aboriginal Front Door Society",
+        location: "384 Main St, Vancouver",
+        coordinates: [49.2812, -123.0996],
 
         heroImage: {
             src: "../images/placeholder.svg",
-            alt: "Carnegie Community Centre at 401 Main Street",
-            caption: "Carnegie Community Centre (401 Main St)"
+            alt: "Aboriginal Front Door Society at 384 Main Street",
+            caption: "Aboriginal Front Door Society (384 Main St)"
         },
 
         stats: [
-            { label: "Heritage Building", value: "1903" },
-            { label: "Community Centre", value: "Since 1980" },
-            { label: "Location", value: "401 Main St" }
+            { label: "Cultural Space", value: "DTES Hub" },
+            { label: "Focus", value: "Indigenous-led support" },
+            { label: "Location", value: "384 Main St" }
         ],
 
         sections: [
@@ -1348,9 +1348,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p><strong>Carnegie Community Centre</strong> is a long-standing Downtown Eastside hub at 401 Main Street. The site began as the Carnegie Public Library (opened in 1903) and was later redeveloped as a community centre that has operated since 1980.</p>
-                    <p>Today, the centre supports residents through low-cost meals, recreation and arts programming, learning opportunities, and connections to social supports. Its role is practical and place-based: people use Carnegie for daily needs, social connection, and community-led activity in the heart of the DTES.</p>
-                    <p>Because it sits within the same neighbourhood ecosystem as the CLT, SRO Collaborative, and Hogan's Alley planning area, Carnegie functions as a key public institution linking housing justice, health, and civic participation.</p>
+                    <p>The <strong>Aboriginal Front Door Society</strong> offers a supportive space for Indigenous and non-Indigenous people in the Downtown Eastside, focusing on traditional approaches to community and healing.</p>
+                    <p>Operating as a drop-in centre, they provide Elder and family cultural guidance, community meetings, social and recreational activities, and culturally safe referrals for drug and alcohol treatment.</p>
+                    <p>Their mission is to foster, encourage, and support marginalized people to live with love, honor, respect, and compassion by reconnecting them to their culture and to each other through traditional ways.</p>
                 `
             },
             {
@@ -1360,24 +1360,24 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "Heritage Building Reuse",
-                        description: "The 1903 Carnegie library building was adapted into a community centre that continues to serve local residents.",
-                        meta: "Heritage"
+                        title: "Cultural Programming",
+                        description: "Provides talking circles, drumming, singing, beadwork, cedar bark weaving, and bannock making.",
+                        meta: "Culture"
                     },
                     {
-                        title: "Daily Supports",
-                        description: "Carnegie offers low-cost food access, recreation, and social programming designed for regular neighbourhood use.",
+                        title: "Drop-in Centre",
+                        description: "A safe entry point for community connection, education, and language learning.",
                         meta: "Community services"
                     },
                     {
-                        title: "Outreach Interface",
-                        description: "The Carnegie Outreach Team connects at-risk residents to services and support systems across the DTES.",
-                        meta: "Outreach"
+                        title: "Homeless Storage Program",
+                        description: "Secure bin storage for individuals experiencing homelessness or precarious housing.",
+                        meta: "Support"
                     },
                     {
-                        title: "Neighbourhood Anchor",
-                        description: "The centre remains a consistent gathering space for civic, cultural, and community organizing activities.",
-                        meta: "Public institution"
+                        title: "Food Security",
+                        description: "A weekly food bank and daily morning coffee with Elder Coordinators.",
+                        meta: "Basic needs"
                     }
                 ]
             },
@@ -1386,20 +1386,16 @@ const tourStops = [
                 label: "Programs & Role",
                 icon: "document",
                 content: `
-                    <h4>Historic Building, Ongoing Public Role</h4>
-                    <p>The Carnegie building was established as a public library in 1903 and later reactivated as a community centre in 1980. This continuity matters in the DTES context: the site has remained publicly oriented for more than a century, even as neighbourhood pressures and demographics changed.</p>
-                    <h4>Programs and Daily Access</h4>
-                    <p>Programming combines practical supports and social infrastructure, including meals, recreation, arts and cultural activities, learning opportunities, and drop-in access. Together, these services help residents maintain stability and social connection.</p>
-                    <h4>Outreach and Service Navigation</h4>
-                    <p>The Carnegie Outreach Team works with residents facing acute barriers, helping connect people to housing, health, and social services. This outreach role links Carnegie's in-building programming to wider DTES support networks.</p>
-                    <h4>Community Governance Context</h4>
-                    <p>Carnegie's impact is shaped through collaboration between city staff, community organizations, and resident participation structures. In practice, the centre functions as both a service site and a civic space where policy impacts are experienced, discussed, and organized around.</p>
+                    <h4>Cultural Reconnection</h4>
+                    <p>The organization champions the implementation of an Indigenous-specific drug and alcohol strategy in the DTES, grounding its approach in Aboriginal traditions and teachings.</p>
+                    <h4>Daily Supports</h4>
+                    <p>Programming includes morning coffee starting at 8:00 AM, a Wednesday food bank, and regular cultural workshops. These activities help anchor individuals needing connection and cultural resonance in the neighborhood.</p>
                 `,
                 keyPoints: [
-                    "1903 Carnegie building repurposed as a community centre in 1980",
-                    "Public DTES anchor at 401 Main Street",
-                    "Daily programming includes food, recreation, and social connection",
-                    "Carnegie Outreach Team links residents to broader support systems"
+                    "Located at 384 Main Street, serving the DTES community",
+                    "Provides cultural activities, Elder guidance, and safe referrals",
+                    "Operates a homeless storage program and regular food bank",
+                    "A critical Indigenous-led organization in the neighborhood"
                 ]
             },
             {
@@ -1409,25 +1405,20 @@ const tourStops = [
                 type: "resources",
                 resources: [
                     {
-                        title: "City of Vancouver — Carnegie Community Centre",
-                        url: "https://vancouver.ca/parks-recreation-culture/carnegie-community-centre.aspx",
-                        description: "Programs, services, location, and operating information"
+                        title: "Aboriginal Front Door - BC 211",
+                        url: "https://bc.211.ca/agencies/aboriginal-front-door-society/",
+                        description: "Services overview and access information"
                     },
                     {
-                        title: "City of Vancouver — Carnegie Outreach Team",
-                        url: "https://vancouver.ca/people-programs/carnegie-outreach-team.aspx",
-                        description: "Street-level outreach and service-connection overview"
-                    },
-                    {
-                        title: "Vancouver Heritage Site Finder — 401 Main Street",
-                        url: "https://www.heritagesitefinder.ca/location/401-main-street-vancouver-bc/",
-                        description: "Historic site profile for the Carnegie building"
+                        title: "LinkVan - Aboriginal Front Door",
+                        url: "https://linkvan.ca/resources/aboriginal-front-door-society",
+                        description: "Drop-in hours and current program schedule"
                     }
                 ]
             }
         ],
 
-        tags: ["community-centre", "dtes", "heritage", "public-services"]
+        tags: ["indigenous", "community-centre", "dtes", "cultural-services"]
     }
 ];
 
@@ -1821,9 +1812,9 @@ function renderGallery(images) {
     return `
         <div class="gallery-grid">
             ${images.map((image) => {
-                const hasSrc = Boolean(image.src);
-                const index = hasSrc ? lightboxIndex++ : -1;
-                return `
+        const hasSrc = Boolean(image.src);
+        const index = hasSrc ? lightboxIndex++ : -1;
+        return `
                     <div class="gallery-item ${!hasSrc ? 'placeholder' : ''}" data-index="${index}" tabindex="0" role="button" aria-label="Expand photo">
                         ${hasSrc ? `
                             <img
@@ -1843,7 +1834,7 @@ function renderGallery(images) {
                         ` : icons.placeholder}
                     </div>
                 `;
-            }).join('')}
+    }).join('')}
         </div>
     `;
 }

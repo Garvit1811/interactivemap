@@ -10,6 +10,391 @@
 const tourStops = [
     {
         id: 1,
+        title: "First United Church",
+        location: "320 E Hastings St, Vancouver",
+        coordinates: [49.28148, -123.09688],
+
+        heroImage: {
+            src: "https://admin.firstunited.ca/app/uploads/2021/11/Web_Redevelopment_Info.jpg",
+            alt: "First United Church building in Vancouver",
+            caption: "FIRST UNITED redevelopment context — Source: FIRST UNITED"
+        },
+
+        stats: [
+            { label: "Founded", value: "1886" },
+            { label: "Safe Shelter", value: "51 beds" },
+            { label: "Legal Cases", value: "1,400+/yr" }
+        ],
+
+        sections: [
+            {
+                id: "overview",
+                label: "Overview",
+                icon: "info",
+                content: `
+                    <p><strong>FIRST UNITED</strong> has operated in Vancouver's Downtown Eastside since 1886. The organization works from a harm reduction perspective across three pillars: <strong>Essential Services</strong>, <strong>Community Connection</strong>, and <strong>Systems Change</strong>.</p>
+                    <p><strong>Essential Services</strong> meet basic human needs: the Safe Shelter program operates <strong>51 low-barrier beds</strong> at 467 Alexander Street; food security programs serve daily meals and run a mobile food truck; and the Community Help Desk provides direct harm reduction supplies.</p>
+                    <p><strong>Community Connection</strong> keeps people linked to supports: Legal Advocacy handles <strong>over 1,400 cases annually</strong> focused on tenancy and income security; the Tax Clinic and Mail &amp; Phone programs maintain practical lifelines; and spiritual care fosters healing and belonging.</p>
+                    <p><strong>Systems Change</strong> tackles structural causes of poverty: the Law Reform program addresses policy gaps; and the <strong>BC Eviction Mapping</strong> project — a partnership with BSH's Evictions and Security of Tenure research — collects critical data on what happens to BC tenants after eviction. Over 1,100 tenants have completed this survey, providing information not collected anywhere else in Canada.</p>
+                    <p>FIRST UNITED is also leading a major <strong>redevelopment at 320 East Hastings</strong> in partnership with Lu'ma Native Housing Society, planned to include over 100 below-market homes for Indigenous peoples and approximately 40,000 sq ft of universally accessible, purpose-built community space.</p>
+                `
+            },
+            {
+                id: "highlights",
+                label: "At This Stop",
+                icon: "sparkles",
+                type: "highlights",
+                highlights: [
+                    {
+                        title: "Safe Shelter Program",
+                        description: "The 51-bed low-barrier shelter supports individuals facing immediate housing instability.",
+                        meta: "Shelter"
+                    },
+                    {
+                        title: "Legal Advocacy",
+                        description: "Tenancy, social assistance, and disability advocacy support are delivered at the street level.",
+                        meta: "Tenant rights"
+                    },
+                    {
+                        title: "Food Access",
+                        description: "Meal services include daily lunch and outreach food truck operations.",
+                        meta: "Food security"
+                    },
+                    {
+                        title: "Redevelopment Site",
+                        description: "The current site is planned for long-term affordable homes and an integrated community space.",
+                        meta: "Housing delivery"
+                    }
+                ]
+            },
+            {
+                id: "details",
+                label: "Programs",
+                icon: "document",
+                content: `
+                    <h4>First Forward Redevelopment — 320 E Hastings</h4>
+                    <p>The First Forward project will transform the 320 East Hastings site into a universally accessible, purpose-built facility: <strong>four floors of community amenities</strong> topped by <strong>seven floors of below-market rental housing</strong> (over 100 studio and one-bedroom units) operated by Lu'ma Native Housing Society.</p>
+                    <p>The new facility will nearly <strong>triple First United's program space to ~40,000 sq ft</strong>, incorporating:</p>
+                    <ul>
+                        <li>Expanded food security and meal service infrastructure</li>
+                        <li>Dedicated legal advocacy and tenant support offices</li>
+                        <li>Culturally grounded healing and spiritual care spaces</li>
+                        <li>Community gathering and drop-in areas</li>
+                        <li>Indigenous-led governance with Musqueam, Squamish, and Tsleil-Waututh artwork integrated into the building design</li>
+                    </ul>
+                    <p>The project is developed in partnership with Lu'ma Native Housing Society, ensuring <strong>Indigenous-led and community-accountable governance</strong> for long-term operations. The building is targeted for completion in 2026.</p>
+
+                    <h4>BSH Research Partnership</h4>
+                    <p>First United is a key partner in BSH's <strong>Evictions and Security of Tenure</strong> research project. Through this collaboration, First United has collected eviction survey data from over 1,100 BC tenants, providing critical evidence on who is being evicted and the downstream impacts on households — data not being collected anywhere else in Canada. The project also includes research on Indigenous tenant rights and model legislation for Indigenous housing justice.</p>
+                `,
+                keyPoints: [
+                    "Operating in the DTES since 1886",
+                    "51 low-barrier shelter beds at the current safe shelter site",
+                    "1,400+ legal advocacy cases each year",
+                    "320 E Hastings redevelopment targets 100+ homes"
+                ]
+            },
+            {
+                id: "gallery",
+                label: "Gallery",
+                icon: "images",
+                type: "gallery",
+                images: [
+                    {
+                        src: "../images/community-orgs/first-united-church.webp",
+                        alt: "First United Church building at East Hastings Street in Vancouver",
+                        caption: "First United Church at East Hastings and Gore — Source: user-provided photo"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
+                        alt: "East Hastings Street in Vancouver's Downtown Eastside",
+                        caption: "East Hastings Street — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
+                        alt: "Carnegie Community Centre at Main and Hastings",
+                        caption: "Carnegie Community Centre at Main and Hastings — Photo: Wikimedia Commons (CC BY-SA)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vancouver_Pennsylvania_Hotel_Woods_Hotel_2011.jpg/1280px-Vancouver_Pennsylvania_Hotel_Woods_Hotel_2011.jpg",
+                        alt: "Pennsylvania Hotel, a heritage SRO building in the Downtown Eastside",
+                        caption: "Pennsylvania Hotel (heritage SRO) — Photo: Wikimedia Commons (CC BY-SA)"
+                    }
+                ]
+            },
+            {
+                id: "learn-more",
+                label: "Learn More",
+                icon: "link",
+                type: "resources",
+                resources: [
+                    {
+                        title: "First United Church Community Ministry Society",
+                        url: "https://firstunited.ca/",
+                        description: "Official website — programs, redevelopment plans, and community impact"
+                    },
+                    {
+                        title: "BSH — Evictions and Security of Tenure",
+                        url: "https://bsh.ubc.ca/research/evictions-and-security-of-tenure/",
+                        description: "BSH research project partnering with First United on BC eviction data"
+                    },
+                    {
+                        title: "First United — BC Eviction Mapping",
+                        url: "https://firstunited.ca/how-we-help/bc-eviction-mapping/",
+                        description: "Eviction survey collecting data from 1,100+ BC tenants"
+                    },
+                    {
+                        title: "First Forward Redevelopment",
+                        url: "https://firstunited.ca/first-forward-redevelopment/",
+                        description: "Plans for the 320 E Hastings mixed-use community hub and housing"
+                    }
+                ]
+            }
+        ],
+
+        tags: ["church", "shelter", "services", "dtes"]
+    },
+    {
+        id: 2,
+        title: "Aboriginal Front Door Society",
+        location: "384 Main St, Vancouver",
+        coordinates: [49.2812, -123.0996],
+
+        heroImage: {
+            src: "../images/placeholder.svg",
+            alt: "Aboriginal Front Door Society at 384 Main Street",
+            caption: "Aboriginal Front Door Society (384 Main St)"
+        },
+
+        stats: [
+            { label: "Cultural Space", value: "DTES Hub" },
+            { label: "Focus", value: "Indigenous-led support" },
+            { label: "Location", value: "384 Main St" }
+        ],
+
+        sections: [
+            {
+                id: "overview",
+                label: "Overview",
+                icon: "info",
+                content: `
+                    <p>The <strong>Aboriginal Front Door Society</strong> offers a supportive space for Indigenous and non-Indigenous people in the Downtown Eastside, focusing on traditional approaches to community and healing.</p>
+                    <p>Operating as a drop-in centre, they provide Elder and family cultural guidance, community meetings, social and recreational activities, and culturally safe referrals for drug and alcohol treatment.</p>
+                    <p>Their mission is to foster, encourage, and support marginalized people to live with love, honor, respect, and compassion by reconnecting them to their culture and to each other through traditional ways.</p>
+                `
+            },
+            {
+                id: "highlights",
+                label: "At This Stop",
+                icon: "sparkles",
+                type: "highlights",
+                highlights: [
+                    {
+                        title: "Cultural Programming",
+                        description: "Provides talking circles, drumming, singing, beadwork, cedar bark weaving, and bannock making.",
+                        meta: "Culture"
+                    },
+                    {
+                        title: "Drop-in Centre",
+                        description: "A safe entry point for community connection, education, and language learning.",
+                        meta: "Community services"
+                    },
+                    {
+                        title: "Homeless Storage Program",
+                        description: "Secure bin storage for individuals experiencing homelessness or precarious housing.",
+                        meta: "Support"
+                    },
+                    {
+                        title: "Food Security",
+                        description: "A weekly food bank and daily morning coffee with Elder Coordinators.",
+                        meta: "Basic needs"
+                    }
+                ]
+            },
+            {
+                id: "details",
+                label: "Programs & Role",
+                icon: "document",
+                content: `
+                    <h4>Cultural Reconnection</h4>
+                    <p>The organization champions the implementation of an Indigenous-specific drug and alcohol strategy in the DTES, grounding its approach in Aboriginal traditions and teachings.</p>
+                    <h4>Daily Supports</h4>
+                    <p>Programming includes morning coffee starting at 8:00 AM, a Wednesday food bank, and regular cultural workshops. These activities help anchor individuals needing connection and cultural resonance in the neighborhood.</p>
+                `,
+                keyPoints: [
+                    "Located at 384 Main Street, serving the DTES community",
+                    "Provides cultural activities, Elder guidance, and safe referrals",
+                    "Operates a homeless storage program and regular food bank",
+                    "A critical Indigenous-led organization in the neighborhood"
+                ]
+            },
+            {
+                id: "learn-more",
+                label: "Learn More",
+                icon: "link",
+                type: "resources",
+                resources: [
+                    {
+                        title: "Aboriginal Front Door - BC 211",
+                        url: "https://bc.211.ca/agencies/aboriginal-front-door-society/",
+                        description: "Services overview and access information"
+                    },
+                    {
+                        title: "LinkVan - Aboriginal Front Door",
+                        url: "https://linkvan.ca/resources/aboriginal-front-door-society",
+                        description: "Drop-in hours and current program schedule"
+                    }
+                ]
+            }
+        ],
+
+        tags: ["indigenous", "community-centre", "dtes", "cultural-services"]
+    },
+    {
+        id: 3,
+        title: "UBC Learning Exchange",
+        location: "612 Main St, Vancouver",
+        coordinates: [49.27920, -123.09929],
+
+        heroImage: {
+            src: "https://learningexchange.ubc.ca/files/2018/08/le_homepage_main-1920x600.jpg",
+            alt: "UBC Learning Exchange in Vancouver's Downtown Eastside",
+            caption: "UBC Learning Exchange — Source: UBC Learning Exchange"
+        },
+
+        stats: [
+            { label: "Since", value: "2000" },
+            { label: "Focus", value: "Education" },
+            { label: "Location", value: "612 Main St" }
+        ],
+
+        sections: [
+            {
+                id: "overview",
+                label: "Overview",
+                icon: "info",
+                content: `
+                    <p>The <strong>UBC Learning Exchange</strong> has operated at 612 Main Street since 2000, serving as a bridge between UBC and the Downtown Eastside community. Programming is grounded in <strong>reciprocal learning</strong>: residents access free educational opportunities, while UBC students and faculty engage in community-informed teaching and research.</p>
+                    <p>Core programs include computer and digital literacy support, conversation and communication workshops, and collaborative projects shaped by resident-identified priorities. The Learning Exchange also serves as a venue for community-engaged research events.</p>
+                    <p>In June 2025, UBC's Housing Research Collaborative held <strong>"Confronting Sweeps: Reimagining Advocacy for Tent Cities"</strong> at the Learning Exchange. The workshop brought together 40 participants — legal experts, frontline workers, community organizers, and individuals with lived experience — to examine how municipal bylaws and zoning policies continue to displace unhoused residents. The resulting report proposes classifying encampment supports as core policy decisions and shifting toward legal tools that emphasize human dignity and community accountability.</p>
+                `
+            },
+            {
+                id: "highlights",
+                label: "At This Stop",
+                icon: "sparkles",
+                type: "highlights",
+                highlights: [
+                    {
+                        title: "Community Programs",
+                        description: "Free, resident-centered learning programs are delivered at 612 Main Street.",
+                        meta: "Education"
+                    },
+                    {
+                        title: "Research Partnerships",
+                        description: "Community priorities are integrated into UBC teaching and research projects.",
+                        meta: "Research"
+                    },
+                    {
+                        title: "Student Involvement",
+                        description: "Students contribute through service learning and community-engaged coursework.",
+                        meta: "Partnership"
+                    },
+                    {
+                        title: "Resource Access",
+                        description: "Pathways connect the neighbourhood to UBC resources and public-facing services.",
+                        meta: "Access"
+                    }
+                ]
+            },
+            {
+                id: "details",
+                label: "Programs",
+                icon: "document",
+                content: `
+                    <h4>Program Model</h4>
+                    <p>The Learning Exchange builds all programs with community members and local organizations — not as one-way outreach. Residents shape program priorities, and their knowledge is reflected in project design and evaluation.</p>
+                    <h4>Education and Skills</h4>
+                    <p>Activities include computer and digital literacy support, communication and conversation workshops, and sessions responding to resident-identified interests. These programs prioritize equitable access and digital inclusion for DTES residents.</p>
+                    <h4>Research and Events</h4>
+                    <p>The Learning Exchange hosts community-engaged research events. In 2025, the Housing Research Collaborative's <strong>Confronting Sweeps</strong> workshop convened legal experts, frontline workers, and community members to develop policy recommendations on encampment responses grounded in human dignity rather than punitive enforcement.</p>
+                    <h4>Community Integration</h4>
+                    <p>Partnerships across the DTES ensure UBC resources are shared equitably:</p>
+                    <ul>
+                        <li>Resident-informed programming shapes digital inclusion and education offerings</li>
+                        <li>Service learning pathways connect UBC students with community priorities</li>
+                        <li>Research collaborations bridge academic analysis with lived experience and frontline knowledge</li>
+                    </ul>
+                `,
+                keyPoints: [
+                    "Reciprocal learning hub at 612 Main Street since 2000",
+                    "Free digital literacy, communication, and education programs",
+                    "Hosted HRC's 'Confronting Sweeps' workshop in June 2025",
+                    "Research collaborations bridging academic and community knowledge"
+                ]
+            },
+            {
+                id: "gallery",
+                label: "Gallery",
+                icon: "images",
+                type: "gallery",
+                images: [
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/796_Main_-_Flickr_-_Edna_Winti.jpg/1280px-796_Main_-_Flickr_-_Edna_Winti.jpg",
+                        alt: "Building at 796 Main Street in the Downtown Eastside",
+                        caption: "Main Street building near the Learning Exchange — Photo: Edna Winti (CC BY-SA)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dominion_Building_-_207_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG/1280px-Dominion_Building_-_207_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG",
+                        alt: "Dominion Building at 207 West Hastings Street",
+                        caption: "Dominion Building (207 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flack_Block_-_163_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG/1280px-Flack_Block_-_163_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG",
+                        alt: "Flack Block heritage building at 163 West Hastings Street",
+                        caption: "Flack Block (163 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)"
+                    }
+                ]
+            },
+            {
+                id: "learn-more",
+                label: "Learn More",
+                icon: "link",
+                type: "resources",
+                resources: [
+                    {
+                        title: "UBC Learning Exchange",
+                        url: "https://learningexchange.ubc.ca/",
+                        description: "Official website — reciprocal learning model, programs, and community partnerships"
+                    },
+                    {
+                        title: "HRC — Confronting Sweeps Report",
+                        url: "https://www.hrc.ubc.ca/wp-content/uploads/2025/07/Confronting-Sweeps-Report.pdf",
+                        description: "2025 report from the Housing Research Collaborative workshop held at the Learning Exchange"
+                    },
+                    {
+                        title: "Housing Research Collaborative (HRC)",
+                        url: "https://www.hrc.ubc.ca/",
+                        description: "UBC's parent research centre for BSH — community-based housing research and events"
+                    },
+                    {
+                        title: "Place-Based Learning in the DTES",
+                        url: "https://learningexchange.ubc.ca/ubc-student-learning/",
+                        description: "How 612 Main Street supports community learning"
+                    },
+                    {
+                        title: "UBC Today: Learning Exchange at 20 Years",
+                        url: "https://learningexchange.ubc.ca/ubc-learning-exchange-reopens-marks-20-years-in-the-downtown-eastside/",
+                        description: "History and community impact profile"
+                    }
+                ]
+            }
+        ],
+
+        tags: ["education", "university", "community", "dtes"]
+    },
+    {
+        id: 4,
         title: "Downtown Eastside Community Land Trust",
         location: "222 Keefer St, Vancouver",
         coordinates: [49.27935, -123.09892],
@@ -184,329 +569,7 @@ const tourStops = [
         tags: ["community-land-trust", "sro", "dtes", "affordable"]
     },
     {
-        id: 2,
-        title: "First United Church",
-        location: "320 E Hastings St, Vancouver",
-        coordinates: [49.28148, -123.09688],
-
-        heroImage: {
-            src: "https://admin.firstunited.ca/app/uploads/2021/11/Web_Redevelopment_Info.jpg",
-            alt: "First United Church building in Vancouver",
-            caption: "FIRST UNITED redevelopment context — Source: FIRST UNITED"
-        },
-
-        stats: [
-            { label: "Founded", value: "1886" },
-            { label: "Safe Shelter", value: "51 beds" },
-            { label: "Legal Cases", value: "1,400+/yr" }
-        ],
-
-        sections: [
-            {
-                id: "overview",
-                label: "Overview",
-                icon: "info",
-                content: `
-                    <p><strong>FIRST UNITED</strong> has operated in Vancouver's Downtown Eastside since 1886. The organization works from a harm reduction perspective across three pillars: <strong>Essential Services</strong>, <strong>Community Connection</strong>, and <strong>Systems Change</strong>.</p>
-                    <p><strong>Essential Services</strong> meet basic human needs: the Safe Shelter program operates <strong>51 low-barrier beds</strong> at 467 Alexander Street; food security programs serve daily meals and run a mobile food truck; and the Community Help Desk provides direct harm reduction supplies.</p>
-                    <p><strong>Community Connection</strong> keeps people linked to supports: Legal Advocacy handles <strong>over 1,400 cases annually</strong> focused on tenancy and income security; the Tax Clinic and Mail &amp; Phone programs maintain practical lifelines; and spiritual care fosters healing and belonging.</p>
-                    <p><strong>Systems Change</strong> tackles structural causes of poverty: the Law Reform program addresses policy gaps; and the <strong>BC Eviction Mapping</strong> project — a partnership with BSH's Evictions and Security of Tenure research — collects critical data on what happens to BC tenants after eviction. Over 1,100 tenants have completed this survey, providing information not collected anywhere else in Canada.</p>
-                    <p>FIRST UNITED is also leading a major <strong>redevelopment at 320 East Hastings</strong> in partnership with Lu'ma Native Housing Society, planned to include over 100 below-market homes for Indigenous peoples and approximately 40,000 sq ft of universally accessible, purpose-built community space.</p>
-                `
-            },
-            {
-                id: "highlights",
-                label: "At This Stop",
-                icon: "sparkles",
-                type: "highlights",
-                highlights: [
-                    {
-                        title: "Safe Shelter Program",
-                        description: "The 51-bed low-barrier shelter supports individuals facing immediate housing instability.",
-                        meta: "Shelter"
-                    },
-                    {
-                        title: "Legal Advocacy",
-                        description: "Tenancy, social assistance, and disability advocacy support are delivered at the street level.",
-                        meta: "Tenant rights"
-                    },
-                    {
-                        title: "Food Access",
-                        description: "Meal services include daily lunch and outreach food truck operations.",
-                        meta: "Food security"
-                    },
-                    {
-                        title: "Redevelopment Site",
-                        description: "The current site is planned for long-term affordable homes and an integrated community space.",
-                        meta: "Housing delivery"
-                    }
-                ]
-            },
-            {
-                id: "details",
-                label: "Programs",
-                icon: "document",
-                content: `
-                    <h4>First Forward Redevelopment — 320 E Hastings</h4>
-                    <p>The First Forward project will transform the 320 East Hastings site into a universally accessible, purpose-built facility: <strong>four floors of community amenities</strong> topped by <strong>seven floors of below-market rental housing</strong> (over 100 studio and one-bedroom units) operated by Lu'ma Native Housing Society.</p>
-                    <p>The new facility will nearly <strong>triple First United's program space to ~40,000 sq ft</strong>, incorporating:</p>
-                    <ul>
-                        <li>Expanded food security and meal service infrastructure</li>
-                        <li>Dedicated legal advocacy and tenant support offices</li>
-                        <li>Culturally grounded healing and spiritual care spaces</li>
-                        <li>Community gathering and drop-in areas</li>
-                        <li>Indigenous-led governance with Musqueam, Squamish, and Tsleil-Waututh artwork integrated into the building design</li>
-                    </ul>
-                    <p>The project is developed in partnership with Lu'ma Native Housing Society, ensuring <strong>Indigenous-led and community-accountable governance</strong> for long-term operations. The building is targeted for completion in 2026.</p>
-
-                    <h4>BSH Research Partnership</h4>
-                    <p>First United is a key partner in BSH's <strong>Evictions and Security of Tenure</strong> research project. Through this collaboration, First United has collected eviction survey data from over 1,100 BC tenants, providing critical evidence on who is being evicted and the downstream impacts on households — data not being collected anywhere else in Canada. The project also includes research on Indigenous tenant rights and model legislation for Indigenous housing justice.</p>
-                `,
-                keyPoints: [
-                    "Operating in the DTES since 1886",
-                    "51 low-barrier shelter beds at the current safe shelter site",
-                    "1,400+ legal advocacy cases each year",
-                    "320 E Hastings redevelopment targets 100+ homes"
-                ]
-            },
-            {
-                id: "gallery",
-                label: "Gallery",
-                icon: "images",
-                type: "gallery",
-                images: [
-                    {
-                        src: "../images/community-orgs/first-united-church.webp",
-                        alt: "First United Church building at East Hastings Street in Vancouver",
-                        caption: "First United Church at East Hastings and Gore — Source: user-provided photo"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/East_Hastings_Street_Vancouver.JPG/1280px-East_Hastings_Street_Vancouver.JPG",
-                        alt: "East Hastings Street in Vancouver's Downtown Eastside",
-                        caption: "East Hastings Street — Photo: Wikimedia Commons (CC BY-SA 3.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/41551-Vancouver_%2837509844511%29.jpg/1280px-41551-Vancouver_%2837509844511%29.jpg",
-                        alt: "Carnegie Community Centre at Main and Hastings",
-                        caption: "Carnegie Community Centre at Main and Hastings — Photo: Wikimedia Commons (CC BY-SA)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vancouver_Pennsylvania_Hotel_Woods_Hotel_2011.jpg/1280px-Vancouver_Pennsylvania_Hotel_Woods_Hotel_2011.jpg",
-                        alt: "Pennsylvania Hotel, a heritage SRO building in the Downtown Eastside",
-                        caption: "Pennsylvania Hotel (heritage SRO) — Photo: Wikimedia Commons (CC BY-SA)"
-                    }
-                ]
-            },
-            {
-                id: "learn-more",
-                label: "Learn More",
-                icon: "link",
-                type: "resources",
-                resources: [
-                    {
-                        title: "First United Church Community Ministry Society",
-                        url: "https://firstunited.ca/",
-                        description: "Official website — programs, redevelopment plans, and community impact"
-                    },
-                    {
-                        title: "BSH — Evictions and Security of Tenure",
-                        url: "https://bsh.ubc.ca/research/evictions-and-security-of-tenure/",
-                        description: "BSH research project partnering with First United on BC eviction data"
-                    },
-                    {
-                        title: "First United — BC Eviction Mapping",
-                        url: "https://firstunited.ca/how-we-help/bc-eviction-mapping/",
-                        description: "Eviction survey collecting data from 1,100+ BC tenants"
-                    },
-                    {
-                        title: "First Forward Redevelopment",
-                        url: "https://firstunited.ca/first-forward-redevelopment/",
-                        description: "Plans for the 320 E Hastings mixed-use community hub and housing"
-                    }
-                ]
-            }
-        ],
-
-        tags: ["church", "shelter", "services", "dtes"]
-    },
-    {
-        id: 3,
-        title: "Hogan's Alley Society",
-        location: "Union Street & Main Street, Vancouver",
-        coordinates: [49.27779, -123.09836],
-
-        heroImage: {
-            src: "../images/community-orgs/has-union-street-building.jpg",
-            alt: "Nora Hendrix Place at 258 Union Street",
-            caption: "258 Union Street (Nora Hendrix Place) — Source: user-provided photo"
-        },
-
-        stats: [
-            { label: "CLT Site", value: "3.5 acres" },
-            { label: "Cultural Centre", value: "27,000 sq ft" },
-            { label: "Nora Hendrix Place", value: "52 homes" }
-        ],
-
-        sections: [
-            {
-                id: "overview",
-                label: "Overview",
-                icon: "info",
-                content: `
-                    <p><strong>Hogan's Alley</strong> — the informal name for Park Lane between Union and Prior streets — was the centre of Vancouver's Black community from the early 1900s through the 1960s. At its peak the neighbourhood included as many as 800 Black residents, many of whom were immigrants from the western United States and railway porters employed by the Great Northern Railway. The community supported Black-owned businesses, churches (including the African Methodist Episcopal Fountain Chapel), and social institutions until the City cleared the area for Georgia and Dunsmuir viaduct construction in 1967–72.</p>
-                    <p>The <strong>Hogan's Alley Society (HAS)</strong>, formed in 2018, is a Black-led non-profit focused on cultural repair, anti-displacement work, and community-owned development. Under inaugural Executive Director Djaka Blais — who co-founded the Foundation for Black Communities, Canada's first philanthropic foundation for Black communities — HAS operates across three strategic pillars: <strong>culturally informed housing</strong>, <strong>non-profit housing development</strong>, and <strong>community engagement</strong>.</p>
-                    <p>In <strong>September 2022</strong>, HAS and the City of Vancouver signed a Memorandum of Understanding for the <strong>898 Main Street block</strong> (bounded by Main, Union, Gore, and Prior streets), a 3.5-acre site within the Northeast False Creek Plan area. The MOU sets terms for negotiating a long-term lease to deliver affordable housing, a <strong>27,000-square-foot Black cultural centre</strong>, childcare facilities, artist production space, and small-business units through a Black-led Community Land Trust.</p>
-                    <p>HAS currently operates <strong>Nora Hendrix Place</strong> at 258 Union Street: 52 temporary modular homes with private kitchens and washrooms, prioritizing Black and Indigenous residents at risk of or experiencing homelessness. HAS has been in a mentorship and capacity-building partnership with Atira to eventually assume full operations.</p>
-                `
-            },
-            {
-                id: "highlights",
-                label: "At This Stop",
-                icon: "sparkles",
-                type: "highlights",
-                highlights: [
-                    {
-                        title: "898 Main Street Block",
-                        description: "3.5-acre CLT site within the Northeast False Creek Plan: long-term lease under negotiation since the 2022 MOU with the City.",
-                        meta: "Land Trust"
-                    },
-                    {
-                        title: "27,000 sq ft Cultural Centre",
-                        description: "Planned focal point for Vancouver's Black community: food, gathering, education, art, music, dance, and research into Black Canadian history.",
-                        meta: "Culture"
-                    },
-                    {
-                        title: "Nora Hendrix Place",
-                        description: "52-home temporary modular housing project at 258 Union Street, prioritizing Black and Indigenous residents with culturally grounded supports.",
-                        meta: "Housing"
-                    },
-                    {
-                        title: "Afrocentric Governance",
-                        description: "Black-led governance informed by Ubuntu and communal decision-making principles, developed through community consultation with elders and diaspora organizations.",
-                        meta: "Governance"
-                    }
-                ]
-            },
-            {
-                id: "details",
-                label: "History & Plans",
-                icon: "document",
-                content: `
-                    <h4>Historical Displacement</h4>
-                    <p>From the early 1900s, Hogan's Alley anchored Black social, cultural, and economic life in Vancouver's Strathcona neighbourhood. The community included families, businesses, the African Methodist Episcopal Fountain Chapel, and gathering places like Vie's Chicken and Steak House. City officials cleared the area for the Georgia and Dunsmuir viaducts (1967–72), displacing the roughly 800-person Black community and demolishing its institutions as part of a broader freeway plan that was ultimately abandoned.</p>
-
-                    <h4>The 898 Main Street Block and CLT Strategy</h4>
-                    <p>HAS's central project is the redevelopment of the <strong>898 Main Street block</strong>, a 3.5-acre City-owned site bounded by Main Street, Union Street, Gore Avenue, and Prior Street. A 2017 preliminary concept by Perkins & Will proposed six buildings reaching up to 14 storeys on this site. The broader Northeast False Creek Plan envisions 12,000 new residents, 1,800 units of social housing, 32 acres of parks, 8,000 new jobs, and $1.7 billion in public benefits across the plan area.</p>
-                    <p>Under the 2022 MOU, HAS is responsible for design, construction, programming, operation, maintenance, and capital costs of the block's redevelopment. Planned deliverables include:</p>
-                    <ul>
-                        <li><strong>Affordable housing:</strong> ~300 social housing units targeted on the two blocks between Prior and Union, with 50% required to be two- and three-bedroom family units</li>
-                        <li><strong>Cultural centre:</strong> a 27,000-square-foot facility for food, gathering, celebration, education, art, music, dance, and Black Canadian history research</li>
-                        <li><strong>Childcare:</strong> dedicated childcare facilities within the block</li>
-                        <li><strong>Enterprise space:</strong> Black-owned retail, restaurants, and artist production studios drawing on African diaspora design influences</li>
-                    </ul>
-                    <p>Physical redevelopment depends on viaduct demolition and a new street network, which have progressed more slowly than anticipated due to the NEFC Plan's reliance on development-driven revenues. HAS is currently engaged in community consultation, fundraising with senior government agencies, and developing detailed business and financial plans for the block.</p>
-
-                    <h4>Nora Hendrix Place</h4>
-                    <p>At 258 Union Street, Nora Hendrix Place — named for Jimi Hendrix's grandmother, a Vancouver resident — delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services. The project prioritizes Black and Indigenous people who are at risk of or currently experiencing homelessness. HAS has been in a mentorship and capacity-building partnership with Atira, with the goal of HAS assuming full operational control.</p>
-
-                    <h4>Governance: Afrocentric and Community-Accountable</h4>
-                    <p>HAS governance is Black-led and community-accountable. The Society has engaged in a structured process — including community learning sessions and consultation with African diaspora organizations and elders — to develop an Afrocentric governance framework. This draws on principles such as Ubuntu ("I am because we are"), shifting from an individualistic decision-making model to a communal one rooted in African diaspora traditions.</p>
-                    <p>Through the proposed Community Land Trust, land and assets are held in community ownership and removed from the speculative real estate market. Governance priorities are informed by residents, elders, cultural workers, and partner organizations, so that housing and cultural infrastructure remain under community control over the long term — a direct response to the viaduct-era displacement that this project seeks to redress.</p>
-
-                    <h4>BSH Partnership and CNCLT Network</h4>
-                    <p>HAS is a BSH (Balanced Supply of Housing) research partner. The October 2025 BSH Research in Progress webinar featured both HAS and the DTES CLT discussing their community work and its role in expanding affordable housing. BSH's "Reclaim, Remain" paper documents six BIPOC-led CLTs across Canada — including HAS — examining how these projects forge pathways for collective land stewardship and decolonized land practices.</p>
-                    <p>At the <strong>CNCLT Summit</strong> (October 18–20, 2024, Vancouver), HAS was one of three Vancouver CLT site tours (alongside DTES CLT and CLT British Columbia). The summit drew 200+ delegates — CLT practitioners, funders, policymakers, researchers, and activists — and HAS has also offered public "CLT 101" sessions explaining how the Hogan's Alley Community Land Trust supports Black self-determination and housing justice across Metro Vancouver.</p>
-                `,
-                keyPoints: [
-                    "898 Main Street block: 3.5-acre CLT site under long-term lease negotiation (MOU signed September 2022)",
-                    "Planned: ~300 social housing units (50% family-sized), 27,000 sq ft Black cultural centre, childcare, enterprise space",
-                    "Nora Hendrix Place: 52 modular homes prioritizing Black and Indigenous residents",
-                    "Afrocentric, community-accountable governance model developed through structured diaspora consultation",
-                    "BSH research partner; featured at CNCLT Summit (October 2024, 200+ delegates)"
-                ]
-            },
-            {
-                id: "gallery",
-                label: "Gallery",
-                icon: "images",
-                type: "gallery",
-                images: [
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vancouver_Downtown_Eastside.jpg/1280px-Vancouver_Downtown_Eastside.jpg",
-                        alt: "Downtown Eastside neighbourhood streetscape near Hogan's Alley",
-                        caption: "Downtown Eastside neighbourhood — Photo: Wikimedia Commons (CC BY-SA)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Vancouver_Holden_Building_Tellier_Tower_2011.jpg/1280px-Vancouver_Holden_Building_Tellier_Tower_2011.jpg",
-                        alt: "Holden Building and Tellier Tower in the Downtown Eastside",
-                        caption: "Holden Building / Tellier Tower — Photo: Wikimedia Commons (CC BY-SA)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Vancouver_Chinatown_17.JPG/1280px-Vancouver_Chinatown_17.JPG",
-                        alt: "Chinatown streetscape near Hogan's Alley",
-                        caption: "Chinatown near Main and Keefer — Photo: Wikimedia Commons (CC BY-SA 3.0)"
-                    },
-                    {
-                        src: "../images/community-orgs/has-nora-hendrix-mural.jpg",
-                        alt: "Hogan's Alley mural at Nora Hendrix Place",
-                        caption: "Nora Hendrix Place mural (258 Union Street) — Source: user-provided photo"
-                    },
-                    {
-                        src: "../images/community-orgs/has-union-street-building.jpg",
-                        alt: "Nora Hendrix Place building at 258 Union Street",
-                        caption: "258 Union Street building — Source: user-provided photo"
-                    }
-                ]
-            },
-            {
-                id: "learn-more",
-                label: "Learn More",
-                icon: "link",
-                type: "resources",
-                resources: [
-                    {
-                        title: "Hogan's Alley Society",
-                        url: "https://www.hogansalleysociety.org/",
-                        description: "Organization history, MOU context, cultural restoration, and project pillars"
-                    },
-                    {
-                        title: "City of Vancouver - Hogan's Alley Society Block",
-                        url: "https://vancouver.ca/home-property-development/hogans-alley-society-block.aspx",
-                        description: "Municipal planning and implementation details"
-                    },
-                    {
-                        title: "City of Vancouver - 258 Union Street",
-                        url: "https://vancouver.ca/people-programs/258-union-street.aspx",
-                        description: "Nora Hendrix Place housing project profile"
-                    },
-                    {
-                        title: "City of Vancouver — Hogan's Alley MOU",
-                        url: "https://vancouver.ca/people-programs/hogan-s-alley-mou.aspx",
-                        description: "MOU details, Northeast False Creek Plan context, and cultural redress framework"
-                    },
-                    {
-                        title: "CNCLT Summit — Vancouver Community Land Trusts",
-                        url: "https://www.youtube.com/watch?v=KevcrQW11T4",
-                        description: "Canadian Network of Community Land Trusts summit presentation featuring Vancouver CLT site tours"
-                    },
-                    {
-                        title: "BSH Research in Progress — Vancouver's Growing CLT Movement",
-                        url: "https://bsh.ubc.ca/research-in-progress-on-vancouvers-growing-clt-movement/",
-                        description: "October 2025 BSH webinar featuring HAS and DTES CLT on affordable housing and community land stewardship"
-                    },
-                    {
-                        title: "BSH — Reclaim, Remain: BIPOC-Led CLTs in Canada",
-                        url: "https://bsh.ubc.ca/research/policy-report-profile-series-on-canadian-community-land-trusts/",
-                        description: "Research profiles of six BIPOC-led CLTs including HAS, examining collective land stewardship and anti-displacement strategies"
-                    }
-                ]
-            }
-        ],
-
-        tags: ["black-history", "heritage", "housing", "culture"]
-    },
-    {
-        id: 4,
+        id: 5,
         title: "DTES SRO Collaborative",
         location: "268 Keefer St, Vancouver",
         coordinates: [49.27918, -123.09803],
@@ -683,21 +746,21 @@ const tourStops = [
         tags: ["tenant-advocacy", "sro", "harm-reduction", "dtes"]
     },
     {
-        id: 5,
-        title: "UBC Learning Exchange",
-        location: "612 Main St, Vancouver",
-        coordinates: [49.27920, -123.09929],
+        id: 6,
+        title: "Hogan's Alley Society",
+        location: "Union Street & Main Street, Vancouver",
+        coordinates: [49.27779, -123.09836],
 
         heroImage: {
-            src: "https://learningexchange.ubc.ca/files/2018/08/le_homepage_main-1920x600.jpg",
-            alt: "UBC Learning Exchange in Vancouver's Downtown Eastside",
-            caption: "UBC Learning Exchange — Source: UBC Learning Exchange"
+            src: "../images/community-orgs/has-union-street-building.jpg",
+            alt: "Nora Hendrix Place at 258 Union Street",
+            caption: "258 Union Street (Nora Hendrix Place) — Source: user-provided photo"
         },
 
         stats: [
-            { label: "Since", value: "2000" },
-            { label: "Focus", value: "Education" },
-            { label: "Location", value: "612 Main St" }
+            { label: "CLT Site", value: "3.5 acres" },
+            { label: "Cultural Centre", value: "27,000 sq ft" },
+            { label: "Nora Hendrix Place", value: "52 homes" }
         ],
 
         sections: [
@@ -706,9 +769,10 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>The <strong>UBC Learning Exchange</strong> has operated at 612 Main Street since 2000, serving as a bridge between UBC and the Downtown Eastside community. Programming is grounded in <strong>reciprocal learning</strong>: residents access free educational opportunities, while UBC students and faculty engage in community-informed teaching and research.</p>
-                    <p>Core programs include computer and digital literacy support, conversation and communication workshops, and collaborative projects shaped by resident-identified priorities. The Learning Exchange also serves as a venue for community-engaged research events.</p>
-                    <p>In June 2025, UBC's Housing Research Collaborative held <strong>"Confronting Sweeps: Reimagining Advocacy for Tent Cities"</strong> at the Learning Exchange. The workshop brought together 40 participants — legal experts, frontline workers, community organizers, and individuals with lived experience — to examine how municipal bylaws and zoning policies continue to displace unhoused residents. The resulting report proposes classifying encampment supports as core policy decisions and shifting toward legal tools that emphasize human dignity and community accountability.</p>
+                    <p><strong>Hogan's Alley</strong> — the informal name for Park Lane between Union and Prior streets — was the centre of Vancouver's Black community from the early 1900s through the 1960s. At its peak the neighbourhood included as many as 800 Black residents, many of whom were immigrants from the western United States and railway porters employed by the Great Northern Railway. The community supported Black-owned businesses, churches (including the African Methodist Episcopal Fountain Chapel), and social institutions until the City cleared the area for Georgia and Dunsmuir viaduct construction in 1967–72.</p>
+                    <p>The <strong>Hogan's Alley Society (HAS)</strong>, formed in 2018, is a Black-led non-profit focused on cultural repair, anti-displacement work, and community-owned development. Under inaugural Executive Director Djaka Blais — who co-founded the Foundation for Black Communities, Canada's first philanthropic foundation for Black communities — HAS operates across three strategic pillars: <strong>culturally informed housing</strong>, <strong>non-profit housing development</strong>, and <strong>community engagement</strong>.</p>
+                    <p>In <strong>September 2022</strong>, HAS and the City of Vancouver signed a Memorandum of Understanding for the <strong>898 Main Street block</strong> (bounded by Main, Union, Gore, and Prior streets), a 3.5-acre site within the Northeast False Creek Plan area. The MOU sets terms for negotiating a long-term lease to deliver affordable housing, a <strong>27,000-square-foot Black cultural centre</strong>, childcare facilities, artist production space, and small-business units through a Black-led Community Land Trust.</p>
+                    <p>HAS currently operates <strong>Nora Hendrix Place</strong> at 258 Union Street: 52 temporary modular homes with private kitchens and washrooms, prioritizing Black and Indigenous residents at risk of or experiencing homelessness. HAS has been in a mentorship and capacity-building partnership with Atira to eventually assume full operations.</p>
                 `
             },
             {
@@ -718,51 +782,63 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "Community Programs",
-                        description: "Free, resident-centered learning programs are delivered at 612 Main Street.",
-                        meta: "Education"
+                        title: "898 Main Street Block",
+                        description: "3.5-acre CLT site within the Northeast False Creek Plan: long-term lease under negotiation since the 2022 MOU with the City.",
+                        meta: "Land Trust"
                     },
                     {
-                        title: "Research Partnerships",
-                        description: "Community priorities are integrated into UBC teaching and research projects.",
-                        meta: "Research"
+                        title: "27,000 sq ft Cultural Centre",
+                        description: "Planned focal point for Vancouver's Black community: food, gathering, education, art, music, dance, and research into Black Canadian history.",
+                        meta: "Culture"
                     },
                     {
-                        title: "Student Involvement",
-                        description: "Students contribute through service learning and community-engaged coursework.",
-                        meta: "Partnership"
+                        title: "Nora Hendrix Place",
+                        description: "52-home temporary modular housing project at 258 Union Street, prioritizing Black and Indigenous residents with culturally grounded supports.",
+                        meta: "Housing"
                     },
                     {
-                        title: "Resource Access",
-                        description: "Pathways connect the neighbourhood to UBC resources and public-facing services.",
-                        meta: "Access"
+                        title: "Afrocentric Governance",
+                        description: "Black-led governance informed by Ubuntu and communal decision-making principles, developed through community consultation with elders and diaspora organizations.",
+                        meta: "Governance"
                     }
                 ]
             },
             {
                 id: "details",
-                label: "Programs",
+                label: "History & Plans",
                 icon: "document",
                 content: `
-                    <h4>Program Model</h4>
-                    <p>The Learning Exchange builds all programs with community members and local organizations — not as one-way outreach. Residents shape program priorities, and their knowledge is reflected in project design and evaluation.</p>
-                    <h4>Education and Skills</h4>
-                    <p>Activities include computer and digital literacy support, communication and conversation workshops, and sessions responding to resident-identified interests. These programs prioritize equitable access and digital inclusion for DTES residents.</p>
-                    <h4>Research and Events</h4>
-                    <p>The Learning Exchange hosts community-engaged research events. In 2025, the Housing Research Collaborative's <strong>Confronting Sweeps</strong> workshop convened legal experts, frontline workers, and community members to develop policy recommendations on encampment responses grounded in human dignity rather than punitive enforcement.</p>
-                    <h4>Community Integration</h4>
-                    <p>Partnerships across the DTES ensure UBC resources are shared equitably:</p>
+                    <h4>Historical Displacement</h4>
+                    <p>From the early 1900s, Hogan's Alley anchored Black social, cultural, and economic life in Vancouver's Strathcona neighbourhood. The community included families, businesses, the African Methodist Episcopal Fountain Chapel, and gathering places like Vie's Chicken and Steak House. City officials cleared the area for the Georgia and Dunsmuir viaducts (1967–72), displacing the roughly 800-person Black community and demolishing its institutions as part of a broader freeway plan that was ultimately abandoned.</p>
+
+                    <h4>The 898 Main Street Block and CLT Strategy</h4>
+                    <p>HAS's central project is the redevelopment of the <strong>898 Main Street block</strong>, a 3.5-acre City-owned site bounded by Main Street, Union Street, Gore Avenue, and Prior Street. A 2017 preliminary concept by Perkins & Will proposed six buildings reaching up to 14 storeys on this site. The broader Northeast False Creek Plan envisions 12,000 new residents, 1,800 units of social housing, 32 acres of parks, 8,000 new jobs, and $1.7 billion in public benefits across the plan area.</p>
+                    <p>Under the 2022 MOU, HAS is responsible for design, construction, programming, operation, maintenance, and capital costs of the block's redevelopment. Planned deliverables include:</p>
                     <ul>
-                        <li>Resident-informed programming shapes digital inclusion and education offerings</li>
-                        <li>Service learning pathways connect UBC students with community priorities</li>
-                        <li>Research collaborations bridge academic analysis with lived experience and frontline knowledge</li>
+                        <li><strong>Affordable housing:</strong> ~300 social housing units targeted on the two blocks between Prior and Union, with 50% required to be two- and three-bedroom family units</li>
+                        <li><strong>Cultural centre:</strong> a 27,000-square-foot facility for food, gathering, celebration, education, art, music, dance, and Black Canadian history research</li>
+                        <li><strong>Childcare:</strong> dedicated childcare facilities within the block</li>
+                        <li><strong>Enterprise space:</strong> Black-owned retail, restaurants, and artist production studios drawing on African diaspora design influences</li>
                     </ul>
+                    <p>Physical redevelopment depends on viaduct demolition and a new street network, which have progressed more slowly than anticipated due to the NEFC Plan's reliance on development-driven revenues. HAS is currently engaged in community consultation, fundraising with senior government agencies, and developing detailed business and financial plans for the block.</p>
+
+                    <h4>Nora Hendrix Place</h4>
+                    <p>At 258 Union Street, Nora Hendrix Place — named for Jimi Hendrix's grandmother, a Vancouver resident — delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services. The project prioritizes Black and Indigenous people who are at risk of or currently experiencing homelessness. HAS has been in a mentorship and capacity-building partnership with Atira, with the goal of HAS assuming full operational control.</p>
+
+                    <h4>Governance: Afrocentric and Community-Accountable</h4>
+                    <p>HAS governance is Black-led and community-accountable. The Society has engaged in a structured process — including community learning sessions and consultation with African diaspora organizations and elders — to develop an Afrocentric governance framework. This draws on principles such as Ubuntu ("I am because we are"), shifting from an individualistic decision-making model to a communal one rooted in African diaspora traditions.</p>
+                    <p>Through the proposed Community Land Trust, land and assets are held in community ownership and removed from the speculative real estate market. Governance priorities are informed by residents, elders, cultural workers, and partner organizations, so that housing and cultural infrastructure remain under community control over the long term — a direct response to the viaduct-era displacement that this project seeks to redress.</p>
+
+                    <h4>BSH Partnership and CNCLT Network</h4>
+                    <p>HAS is a BSH (Balanced Supply of Housing) research partner. The October 2025 BSH Research in Progress webinar featured both HAS and the DTES CLT discussing their community work and its role in expanding affordable housing. BSH's "Reclaim, Remain" paper documents six BIPOC-led CLTs across Canada — including HAS — examining how these projects forge pathways for collective land stewardship and decolonized land practices.</p>
+                    <p>At the <strong>CNCLT Summit</strong> (October 18–20, 2024, Vancouver), HAS was one of three Vancouver CLT site tours (alongside DTES CLT and CLT British Columbia). The summit drew 200+ delegates — CLT practitioners, funders, policymakers, researchers, and activists — and HAS has also offered public "CLT 101" sessions explaining how the Hogan's Alley Community Land Trust supports Black self-determination and housing justice across Metro Vancouver.</p>
                 `,
                 keyPoints: [
-                    "Reciprocal learning hub at 612 Main Street since 2000",
-                    "Free digital literacy, communication, and education programs",
-                    "Hosted HRC's 'Confronting Sweeps' workshop in June 2025",
-                    "Research collaborations bridging academic and community knowledge"
+                    "898 Main Street block: 3.5-acre CLT site under long-term lease negotiation (MOU signed September 2022)",
+                    "Planned: ~300 social housing units (50% family-sized), 27,000 sq ft Black cultural centre, childcare, enterprise space",
+                    "Nora Hendrix Place: 52 modular homes prioritizing Black and Indigenous residents",
+                    "Afrocentric, community-accountable governance model developed through structured diaspora consultation",
+                    "BSH research partner; featured at CNCLT Summit (October 2024, 200+ delegates)"
                 ]
             },
             {
@@ -772,19 +848,29 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/796_Main_-_Flickr_-_Edna_Winti.jpg/1280px-796_Main_-_Flickr_-_Edna_Winti.jpg",
-                        alt: "Building at 796 Main Street in the Downtown Eastside",
-                        caption: "Main Street building near the Learning Exchange — Photo: Edna Winti (CC BY-SA)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vancouver_Downtown_Eastside.jpg/1280px-Vancouver_Downtown_Eastside.jpg",
+                        alt: "Downtown Eastside neighbourhood streetscape near Hogan's Alley",
+                        caption: "Downtown Eastside neighbourhood — Photo: Wikimedia Commons (CC BY-SA)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dominion_Building_-_207_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG/1280px-Dominion_Building_-_207_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG",
-                        alt: "Dominion Building at 207 West Hastings Street",
-                        caption: "Dominion Building (207 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Vancouver_Holden_Building_Tellier_Tower_2011.jpg/1280px-Vancouver_Holden_Building_Tellier_Tower_2011.jpg",
+                        alt: "Holden Building and Tellier Tower in the Downtown Eastside",
+                        caption: "Holden Building / Tellier Tower — Photo: Wikimedia Commons (CC BY-SA)"
                     },
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flack_Block_-_163_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG/1280px-Flack_Block_-_163_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG",
-                        alt: "Flack Block heritage building at 163 West Hastings Street",
-                        caption: "Flack Block (163 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)"
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Vancouver_Chinatown_17.JPG/1280px-Vancouver_Chinatown_17.JPG",
+                        alt: "Chinatown streetscape near Hogan's Alley",
+                        caption: "Chinatown near Main and Keefer — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+                    },
+                    {
+                        src: "../images/community-orgs/has-nora-hendrix-mural.jpg",
+                        alt: "Hogan's Alley mural at Nora Hendrix Place",
+                        caption: "Nora Hendrix Place mural (258 Union Street) — Source: user-provided photo"
+                    },
+                    {
+                        src: "../images/community-orgs/has-union-street-building.jpg",
+                        alt: "Nora Hendrix Place building at 258 Union Street",
+                        caption: "258 Union Street building — Source: user-provided photo"
                     }
                 ]
             },
@@ -795,131 +881,46 @@ const tourStops = [
                 type: "resources",
                 resources: [
                     {
-                        title: "UBC Learning Exchange",
-                        url: "https://learningexchange.ubc.ca/",
-                        description: "Official website — reciprocal learning model, programs, and community partnerships"
+                        title: "Hogan's Alley Society",
+                        url: "https://www.hogansalleysociety.org/",
+                        description: "Organization history, MOU context, cultural restoration, and project pillars"
                     },
                     {
-                        title: "HRC — Confronting Sweeps Report",
-                        url: "https://www.hrc.ubc.ca/wp-content/uploads/2025/07/Confronting-Sweeps-Report.pdf",
-                        description: "2025 report from the Housing Research Collaborative workshop held at the Learning Exchange"
+                        title: "City of Vancouver - Hogan's Alley Society Block",
+                        url: "https://vancouver.ca/home-property-development/hogans-alley-society-block.aspx",
+                        description: "Municipal planning and implementation details"
                     },
                     {
-                        title: "Housing Research Collaborative (HRC)",
-                        url: "https://www.hrc.ubc.ca/",
-                        description: "UBC's parent research centre for BSH — community-based housing research and events"
+                        title: "City of Vancouver - 258 Union Street",
+                        url: "https://vancouver.ca/people-programs/258-union-street.aspx",
+                        description: "Nora Hendrix Place housing project profile"
                     },
                     {
-                        title: "Place-Based Learning in the DTES",
-                        url: "https://learningexchange.ubc.ca/ubc-student-learning/",
-                        description: "How 612 Main Street supports community learning"
+                        title: "City of Vancouver — Hogan's Alley MOU",
+                        url: "https://vancouver.ca/people-programs/hogan-s-alley-mou.aspx",
+                        description: "MOU details, Northeast False Creek Plan context, and cultural redress framework"
                     },
                     {
-                        title: "UBC Today: Learning Exchange at 20 Years",
-                        url: "https://learningexchange.ubc.ca/ubc-learning-exchange-reopens-marks-20-years-in-the-downtown-eastside/",
-                        description: "History and community impact profile"
+                        title: "CNCLT Summit — Vancouver Community Land Trusts",
+                        url: "https://www.youtube.com/watch?v=KevcrQW11T4",
+                        description: "Canadian Network of Community Land Trusts summit presentation featuring Vancouver CLT site tours"
+                    },
+                    {
+                        title: "BSH Research in Progress — Vancouver's Growing CLT Movement",
+                        url: "https://bsh.ubc.ca/research-in-progress-on-vancouvers-growing-clt-movement/",
+                        description: "October 2025 BSH webinar featuring HAS and DTES CLT on affordable housing and community land stewardship"
+                    },
+                    {
+                        title: "BSH — Reclaim, Remain: BIPOC-Led CLTs in Canada",
+                        url: "https://bsh.ubc.ca/research/policy-report-profile-series-on-canadian-community-land-trusts/",
+                        description: "Research profiles of six BIPOC-led CLTs including HAS, examining collective land stewardship and anti-displacement strategies"
                     }
                 ]
             }
         ],
 
-        tags: ["education", "university", "community", "dtes"]
-    },
-    {
-        id: 6,
-        title: "Aboriginal Front Door Society",
-        location: "384 Main St, Vancouver",
-        coordinates: [49.2812, -123.0996],
-
-        heroImage: {
-            src: "../images/placeholder.svg",
-            alt: "Aboriginal Front Door Society at 384 Main Street",
-            caption: "Aboriginal Front Door Society (384 Main St)"
-        },
-
-        stats: [
-            { label: "Cultural Space", value: "DTES Hub" },
-            { label: "Focus", value: "Indigenous-led support" },
-            { label: "Location", value: "384 Main St" }
-        ],
-
-        sections: [
-            {
-                id: "overview",
-                label: "Overview",
-                icon: "info",
-                content: `
-                    <p>The <strong>Aboriginal Front Door Society</strong> offers a supportive space for Indigenous and non-Indigenous people in the Downtown Eastside, focusing on traditional approaches to community and healing.</p>
-                    <p>Operating as a drop-in centre, they provide Elder and family cultural guidance, community meetings, social and recreational activities, and culturally safe referrals for drug and alcohol treatment.</p>
-                    <p>Their mission is to foster, encourage, and support marginalized people to live with love, honor, respect, and compassion by reconnecting them to their culture and to each other through traditional ways.</p>
-                `
-            },
-            {
-                id: "highlights",
-                label: "At This Stop",
-                icon: "sparkles",
-                type: "highlights",
-                highlights: [
-                    {
-                        title: "Cultural Programming",
-                        description: "Provides talking circles, drumming, singing, beadwork, cedar bark weaving, and bannock making.",
-                        meta: "Culture"
-                    },
-                    {
-                        title: "Drop-in Centre",
-                        description: "A safe entry point for community connection, education, and language learning.",
-                        meta: "Community services"
-                    },
-                    {
-                        title: "Homeless Storage Program",
-                        description: "Secure bin storage for individuals experiencing homelessness or precarious housing.",
-                        meta: "Support"
-                    },
-                    {
-                        title: "Food Security",
-                        description: "A weekly food bank and daily morning coffee with Elder Coordinators.",
-                        meta: "Basic needs"
-                    }
-                ]
-            },
-            {
-                id: "details",
-                label: "Programs & Role",
-                icon: "document",
-                content: `
-                    <h4>Cultural Reconnection</h4>
-                    <p>The organization champions the implementation of an Indigenous-specific drug and alcohol strategy in the DTES, grounding its approach in Aboriginal traditions and teachings.</p>
-                    <h4>Daily Supports</h4>
-                    <p>Programming includes morning coffee starting at 8:00 AM, a Wednesday food bank, and regular cultural workshops. These activities help anchor individuals needing connection and cultural resonance in the neighborhood.</p>
-                `,
-                keyPoints: [
-                    "Located at 384 Main Street, serving the DTES community",
-                    "Provides cultural activities, Elder guidance, and safe referrals",
-                    "Operates a homeless storage program and regular food bank",
-                    "A critical Indigenous-led organization in the neighborhood"
-                ]
-            },
-            {
-                id: "learn-more",
-                label: "Learn More",
-                icon: "link",
-                type: "resources",
-                resources: [
-                    {
-                        title: "Aboriginal Front Door - BC 211",
-                        url: "https://bc.211.ca/agencies/aboriginal-front-door-society/",
-                        description: "Services overview and access information"
-                    },
-                    {
-                        title: "LinkVan - Aboriginal Front Door",
-                        url: "https://linkvan.ca/resources/aboriginal-front-door-society",
-                        description: "Drop-in hours and current program schedule"
-                    }
-                ]
-            }
-        ],
-
-        tags: ["indigenous", "community-centre", "dtes", "cultural-services"]
+        tags: ["black-history", "heritage", "housing", "culture"]
+    }
     }
 ];
 
@@ -1045,7 +1046,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function initMap() {
     map = L.map('map', {
-        center: [49.2820, -123.0990],
+        center: [49.2800, -123.0985],
         zoom: 16,
         zoomControl: true
     });
@@ -1145,8 +1146,6 @@ function drawRoute(coordsOrSegments) {
             color: '#2f67dc',
             weight: 6,
             opacity: 0.98,
-            dashArray: '0, 12',
-            dashOffset: '0',
             lineCap: 'round',
             lineJoin: 'round',
             interactive: false,

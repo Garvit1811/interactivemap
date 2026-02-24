@@ -178,6 +178,162 @@ const tourStops = [
     },
     {
         id: 2,
+        title: "Granville Island",
+        location: "Granville Island, Vancouver",
+        coordinates: [49.27056, -123.13417],
+
+        heroImage: {
+            src: "https://upload.wikimedia.org/wikipedia/commons/6/62/Granville_Island.jpg",
+            alt: "Granville Island on False Creek in Vancouver",
+            caption: "Granville Island — Photo: Public domain"
+        },
+
+        stats: [
+            { label: "Size", value: "40 acres" },
+            { label: "Tenants", value: "300+" },
+            { label: "Govt Funding", value: "$0" }
+        ],
+
+        sections: [
+            {
+                id: "overview",
+                label: "Overview",
+                icon: "info",
+                content: `
+                    <p>Granville Island is a <strong>40-acre federal property</strong> that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, the island is entirely <strong>self-sustaining with no government funding</strong> — operating solely on lease revenue, parking fees, and filming permits.</p>
+                    <p>Between 1973 and 1982, CMHC invested <strong>$24.7 million</strong> to transform the former industrial site into a public market, arts hub, and cultural destination. As federal land, Granville Island operates outside Vancouver's municipal regulations, functioning essentially as <strong>its own jurisdiction</strong> and enabling creative placemaking that wouldn't be possible under rigid municipal zoning.</p>
+                    <p>Urbanist and documentary creator <strong>Uytae Lee</strong> highlighted the island's governance model in a 2025 documentary, sparking renewed public debate about whether the site should pursue more development, public subsidy, or a new foundation model to fund repairs.</p>
+                `
+            },
+            {
+                id: "highlights",
+                label: "At This Stop",
+                icon: "sparkles",
+                type: "highlights",
+                highlights: [
+                    {
+                        title: "Public Market Hall",
+                        description: "The Public Market relies on cross-subsidy to support local vendors and public amenities.",
+                        meta: "Must see"
+                    },
+                    {
+                        title: "Artist Studio Row",
+                        description: "Artisan studios operate under an affordable creative space model.",
+                        meta: "Creative economy"
+                    },
+                    {
+                        title: "Waterfront Walk",
+                        description: "The seawall edge features flexible public space programming and ferry access.",
+                        meta: "Public realm"
+                    },
+                    {
+                        title: "Future Sites",
+                        description: "Aging infrastructure highlights areas where reinvestment is required for long-term viability.",
+                        meta: "Reinvestment"
+                    }
+                ]
+            },
+            {
+                id: "details",
+                label: "Land Model",
+                icon: "document",
+                content: `
+                    <h4>The Land Lease Approach</h4>
+                    <p>CMHC owns all land on Granville Island and leases it to <strong>over 300 commercial, retail, cultural, artistic, and educational tenants</strong>. The island operates a <strong>subsidy model</strong> where market rents from some businesses support more affordable rents for:</p>
+                    <ul>
+                        <li>Small businesses and artisans</li>
+                        <li>Arts and cultural organizations</li>
+                        <li>Free community spaces and public amenities</li>
+                        <li>The Public Market vendors</li>
+                    </ul>
+
+                    <h4>Current Challenges</h4>
+                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>
+                    <p>Possible paths include: <strong>more development</strong>, a <strong>government subsidy model</strong>, a new <strong>Granville Island Foundation</strong>, or a <strong>cultural land trust</strong> proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are "no current plans for housing development."</p>
+
+                    <h4>Why This Matters for Housing</h4>
+                    <p>Granville Island demonstrates key principles for housing policy:</p>
+                    <ul>
+                        <li><strong>Public ownership prevents speculation</strong> — land value increases don't inflate costs</li>
+                        <li><strong>Cross-subsidy works</strong> — market tenants support affordable space</li>
+                        <li><strong>Self-sufficiency is possible</strong> — no ongoing government funding required</li>
+                        <li><strong>Flexibility enables innovation</strong> — outside municipal rules, creative solutions emerge</li>
+                    </ul>
+                `,
+                keyPoints: [
+                    "40 acres of federal land, self-sustaining on lease revenue",
+                    "300+ tenants with cross-subsidy model",
+                    "Operates outside municipal zoning as federal property",
+                    "$300M in infrastructure needs — future governance in discussion"
+                ]
+            },
+            {
+                id: "gallery",
+                label: "Gallery",
+                icon: "images",
+                type: "gallery",
+                images: [
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Granville_Island_Public_Market_2024.jpg/1280px-Granville_Island_Public_Market_2024.jpg",
+                        alt: "Granville Island Public Market exterior",
+                        caption: "Granville Island Public Market — Photo: On the road (CC BY 4.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg/1280px-Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg",
+                        alt: "Granville Island waterfront and village area",
+                        caption: "Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Granville_Island_Vancouver_01.JPG/1280px-Granville_Island_Vancouver_01.JPG",
+                        alt: "Granville Island overview",
+                        caption: "Granville Island overview — Photo: Xicotencatl (CC BY-SA 4.0)"
+                    },
+                    {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Granville_Island_-_ArtsClub_Theatre_Company.jpg/1280px-Granville_Island_-_ArtsClub_Theatre_Company.jpg",
+                        alt: "Arts Club Theatre Company on Granville Island",
+                        caption: "Arts Club Theatre on Granville Island — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+                    }
+                ]
+            },
+            {
+                id: "learn-more",
+                label: "Learn More",
+                icon: "link",
+                type: "resources",
+                resources: [
+                    {
+                        title: "Granville Island 2040",
+                        url: "https://granvilleisland2040.ca/",
+                        description: "Community visioning process for the island's future"
+                    },
+                    {
+                        title: "Granville Island Official Website",
+                        url: "https://granvilleisland.com/",
+                        description: "Visitor information and tenant directory"
+                    },
+                    {
+                        title: "Heritage Vancouver — Granville Island",
+                        url: "https://heritagevancouver.org/2025/3-granville-island/",
+                        description: "Heritage context and preservation considerations"
+                    },
+                    {
+                        title: "CBC — Is Housing the Solution for Granville Island?",
+                        url: "https://www.cbc.ca/news/canada/british-columbia/granville-island-future-harcourt-housing-debate-1.7558992",
+                        description: "2024 coverage of infrastructure needs and housing debate"
+                    },
+                    {
+                        title: "Traveling Circus of Urbanism — Granville Island Model",
+                        url: "https://www.travelingcircusofurbanism.com/vancouver/granvilleisland/",
+                        description: "Analysis of the brownfield redevelopment model"
+                    }
+                ]
+            }
+        ],
+
+        tags: ["public-land", "federal", "land-lease", "cmhc"]
+    },
+    {
+        id: 3,
         title: "Senakw Development",
         location: "Kitsilano, Vancouver (near Burrard Bridge)",
         coordinates: [49.27257, -123.14289],
@@ -349,162 +505,6 @@ const tourStops = [
         ],
 
         tags: ["indigenous", "rental", "federal-land", "squamish-nation"]
-    },
-    {
-        id: 3,
-        title: "Granville Island",
-        location: "Granville Island, Vancouver",
-        coordinates: [49.27056, -123.13417],
-
-        heroImage: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/6/62/Granville_Island.jpg",
-            alt: "Granville Island on False Creek in Vancouver",
-            caption: "Granville Island — Photo: Public domain"
-        },
-
-        stats: [
-            { label: "Size", value: "40 acres" },
-            { label: "Tenants", value: "300+" },
-            { label: "Govt Funding", value: "$0" }
-        ],
-
-        sections: [
-            {
-                id: "overview",
-                label: "Overview",
-                icon: "info",
-                content: `
-                    <p>Granville Island is a <strong>40-acre federal property</strong> that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, the island is entirely <strong>self-sustaining with no government funding</strong> — operating solely on lease revenue, parking fees, and filming permits.</p>
-                    <p>Between 1973 and 1982, CMHC invested <strong>$24.7 million</strong> to transform the former industrial site into a public market, arts hub, and cultural destination. As federal land, Granville Island operates outside Vancouver's municipal regulations, functioning essentially as <strong>its own jurisdiction</strong> and enabling creative placemaking that wouldn't be possible under rigid municipal zoning.</p>
-                    <p>Urbanist and documentary creator <strong>Uytae Lee</strong> highlighted the island's governance model in a 2025 documentary, sparking renewed public debate about whether the site should pursue more development, public subsidy, or a new foundation model to fund repairs.</p>
-                `
-            },
-            {
-                id: "highlights",
-                label: "At This Stop",
-                icon: "sparkles",
-                type: "highlights",
-                highlights: [
-                    {
-                        title: "Public Market Hall",
-                        description: "The Public Market relies on cross-subsidy to support local vendors and public amenities.",
-                        meta: "Must see"
-                    },
-                    {
-                        title: "Artist Studio Row",
-                        description: "Artisan studios operate under an affordable creative space model.",
-                        meta: "Creative economy"
-                    },
-                    {
-                        title: "Waterfront Walk",
-                        description: "The seawall edge features flexible public space programming and ferry access.",
-                        meta: "Public realm"
-                    },
-                    {
-                        title: "Future Sites",
-                        description: "Aging infrastructure highlights areas where reinvestment is required for long-term viability.",
-                        meta: "Reinvestment"
-                    }
-                ]
-            },
-            {
-                id: "details",
-                label: "Land Model",
-                icon: "document",
-                content: `
-                    <h4>The Land Lease Approach</h4>
-                    <p>CMHC owns all land on Granville Island and leases it to <strong>over 300 commercial, retail, cultural, artistic, and educational tenants</strong>. The island operates a <strong>subsidy model</strong> where market rents from some businesses support more affordable rents for:</p>
-                    <ul>
-                        <li>Small businesses and artisans</li>
-                        <li>Arts and cultural organizations</li>
-                        <li>Free community spaces and public amenities</li>
-                        <li>The Public Market vendors</li>
-                    </ul>
-
-                    <h4>Current Challenges</h4>
-                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>
-                    <p>Possible paths include: <strong>more development</strong>, a <strong>government subsidy model</strong>, a new <strong>Granville Island Foundation</strong>, or a <strong>cultural land trust</strong> proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are "no current plans for housing development."</p>
-
-                    <h4>Why This Matters for Housing</h4>
-                    <p>Granville Island demonstrates key principles for housing policy:</p>
-                    <ul>
-                        <li><strong>Public ownership prevents speculation</strong> — land value increases don't inflate costs</li>
-                        <li><strong>Cross-subsidy works</strong> — market tenants support affordable space</li>
-                        <li><strong>Self-sufficiency is possible</strong> — no ongoing government funding required</li>
-                        <li><strong>Flexibility enables innovation</strong> — outside municipal rules, creative solutions emerge</li>
-                    </ul>
-                `,
-                keyPoints: [
-                    "40 acres of federal land, self-sustaining on lease revenue",
-                    "300+ tenants with cross-subsidy model",
-                    "Operates outside municipal zoning as federal property",
-                    "$300M in infrastructure needs — future governance in discussion"
-                ]
-            },
-            {
-                id: "gallery",
-                label: "Gallery",
-                icon: "images",
-                type: "gallery",
-                images: [
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Granville_Island_Public_Market_2024.jpg/1280px-Granville_Island_Public_Market_2024.jpg",
-                        alt: "Granville Island Public Market exterior",
-                        caption: "Granville Island Public Market — Photo: On the road (CC BY 4.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg/1280px-Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg",
-                        alt: "Granville Island waterfront and village area",
-                        caption: "Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Granville_Island_Vancouver_01.JPG/1280px-Granville_Island_Vancouver_01.JPG",
-                        alt: "Granville Island overview",
-                        caption: "Granville Island overview — Photo: Xicotencatl (CC BY-SA 4.0)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Granville_Island_-_ArtsClub_Theatre_Company.jpg/1280px-Granville_Island_-_ArtsClub_Theatre_Company.jpg",
-                        alt: "Arts Club Theatre Company on Granville Island",
-                        caption: "Arts Club Theatre on Granville Island — Photo: Wikimedia Commons (CC BY-SA 3.0)"
-                    }
-                ]
-            },
-            {
-                id: "learn-more",
-                label: "Learn More",
-                icon: "link",
-                type: "resources",
-                resources: [
-                    {
-                        title: "Granville Island 2040",
-                        url: "https://granvilleisland2040.ca/",
-                        description: "Community visioning process for the island's future"
-                    },
-                    {
-                        title: "Granville Island Official Website",
-                        url: "https://granvilleisland.com/",
-                        description: "Visitor information and tenant directory"
-                    },
-                    {
-                        title: "Heritage Vancouver — Granville Island",
-                        url: "https://heritagevancouver.org/2025/3-granville-island/",
-                        description: "Heritage context and preservation considerations"
-                    },
-                    {
-                        title: "CBC — Is Housing the Solution for Granville Island?",
-                        url: "https://www.cbc.ca/news/canada/british-columbia/granville-island-future-harcourt-housing-debate-1.7558992",
-                        description: "2024 coverage of infrastructure needs and housing debate"
-                    },
-                    {
-                        title: "Traveling Circus of Urbanism — Granville Island Model",
-                        url: "https://www.travelingcircusofurbanism.com/vancouver/granvilleisland/",
-                        description: "Analysis of the brownfield redevelopment model"
-                    }
-                ]
-            }
-        ],
-
-        tags: ["public-land", "federal", "land-lease", "cmhc"]
     }
 ];
 
@@ -651,48 +651,32 @@ function initMap() {
     // Waypoints go NORTH from Stop 1 to the seawall, then WEST along
     // the waterfront.  Dense spacing prevents any straight-line segment
     // from cutting across the water even if OSRM is unavailable.
+    // Keep a curated walking route along the seawall connecting the new order.
     const routeCoords = [
-        // Segment 1: False Creek South → Senakw (seawall west)
-        [49.26715, -123.12615],  // Stop 1: False Creek South CLT
+        // Stop 1: False Creek South CLT
+        [49.26715, -123.12615],  // Start
         [49.26800, -123.12615],  // North on Moberly Rd
-        [49.26900, -123.12620],  // Continue north through FCS neighbourhood
-        [49.27000, -123.12630],  // Approaching 1st Ave / waterfront
+        [49.26900, -123.12620],  // North through FCS
+        [49.27000, -123.12630],  // Approaching 1st Ave
         [49.27050, -123.12640],  // Seawall access point
         [49.27060, -123.12720],  // On seawall, heading west
         [49.27040, -123.12800],  // Leg-in-Boot Square area
-        [49.27020, -123.12880],  // West of Leg-in-Boot
         [49.27050, -123.12960],  // Seawall continues west
-        [49.27080, -123.13050],  // Creek-side walk
-        [49.27110, -123.13140],  // Approaching Stamps Landing
-        [49.27140, -123.13220],  // Stamps Landing east
+        [49.27110, -123.13140],  // Stamps Landing approach
         [49.27160, -123.13300],  // Stamps Landing dock
         [49.27170, -123.13380],  // Stamps Landing west
-        [49.27160, -123.13450],  // East Charleson Park
-        [49.27150, -123.13530],  // Charleson Park waterfront
-        [49.27140, -123.13610],  // West Charleson Park
-        [49.27120, -123.13680],  // Approaching Granville Bridge
-        [49.27100, -123.13750],  // Under Granville Bridge
-        [49.27080, -123.13830],  // West of Granville Bridge
-        [49.27060, -123.13900],  // Island Park Walk east
-        [49.27040, -123.13970],  // Island Park Walk west
-        [49.27030, -123.14040],  // Alder Bay Walk east
-        [49.27040, -123.14110],  // Alder Bay Walk west
-        [49.27080, -123.14180],  // Approaching Burrard Bridge
-        [49.27150, -123.14240],  // Near Burrard Bridge south end
-        [49.27257, -123.14289],  // Stop 2: Senakw
-        // Segment 2: Senakw → Granville Island (seawall east then south)
-        [49.27150, -123.14240],  // Back east from Senakw
-        [49.27080, -123.14180],  // East along seawall
-        [49.27040, -123.14110],  // Alder Bay
+        // Stop 2: Granville Island
+        [49.27056, -123.13417],  // Granville Island
+        // Continue to Senakw
+        [49.27056, -123.13417],  // Granville Island
+        [49.27100, -123.13600],  // Turning north toward seawall
+        [49.27120, -123.13680],  // Under Granville Bridge
+        [49.27100, -123.13750],  // West of Granville Bridge
+        [49.27060, -123.13900],  // Island Park Walk
         [49.27030, -123.14040],  // Alder Bay Walk
-        [49.27040, -123.13970],  // Island Park Walk west
-        [49.27060, -123.13900],  // Island Park Walk east
-        [49.27080, -123.13830],  // East of Granville Bridge
-        [49.27100, -123.13750],  // Near Granville Bridge
-        [49.27120, -123.13680],  // Granville Bridge south
-        [49.27100, -123.13600],  // Turning south toward Granville Island
-        [49.27070, -123.13500],  // Approaching Granville Island
-        [49.27056, -123.13417]   // Stop 3: Granville Island
+        [49.27080, -123.14180],  // Approaching Burrard Bridge
+        // Stop 3: Senakw
+        [49.27257, -123.14289]   // Senakw
     ];
     drawRoute(routeCoords);
     // Keep a curated walking route along the seawall.
@@ -754,8 +738,6 @@ function drawRoute(coords) {
         color: '#2f67dc',
         weight: 6,
         opacity: 0.98,
-        dashArray: '0, 12',
-        dashOffset: '0',
         lineCap: 'round',
         lineJoin: 'round',
         interactive: false,
@@ -1060,9 +1042,9 @@ function renderGallery(images) {
     return `
         <div class="gallery-grid">
             ${images.map((image) => {
-                const hasSrc = Boolean(image.src);
-                const index = hasSrc ? lightboxIndex++ : -1;
-                return `
+        const hasSrc = Boolean(image.src);
+        const index = hasSrc ? lightboxIndex++ : -1;
+        return `
                     <div class="gallery-item ${!hasSrc ? 'placeholder' : ''}" data-index="${index}" tabindex="0" role="button" aria-label="Expand photo">
                         ${hasSrc ? `
                             <img
@@ -1082,7 +1064,7 @@ function renderGallery(images) {
                         ` : icons.placeholder}
                     </div>
                 `;
-            }).join('')}
+    }).join('')}
         </div>
     `;
 }

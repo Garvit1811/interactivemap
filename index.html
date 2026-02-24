@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,13 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Leaflet CSS for preview map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin="">
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 
     <style>
         :root {
@@ -326,11 +328,16 @@
             height: 10px;
             border-radius: 50%;
             border: 2px solid white;
-            box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
         }
 
-        .legend-dot.blue { background: var(--bsh-blue); }
-        .legend-dot.gold { background: var(--bsh-gold); }
+        .legend-dot.blue {
+            background: var(--bsh-blue);
+        }
+
+        .legend-dot.gold {
+            background: var(--bsh-gold);
+        }
 
         .legend-label {
             font-size: 0.76rem;
@@ -633,12 +640,12 @@
         /* Leaflet overrides for preview map */
         #preview-map .leaflet-control-attribution {
             font-size: 9px;
-            background: rgba(255,255,255,0.85) !important;
+            background: rgba(255, 255, 255, 0.85) !important;
         }
 
         #preview-map .leaflet-control-zoom {
             border: none !important;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.12) !important;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12) !important;
             border-radius: 8px !important;
             overflow: hidden;
         }
@@ -662,7 +669,7 @@
             color: white;
             font-weight: 700;
             font-size: 11px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
             cursor: pointer;
             transition: transform 0.15s ease;
         }
@@ -683,7 +690,7 @@
             background: var(--bsh-navy);
             color: white;
             border: none;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
             padding: 4px 8px;
             border-radius: 6px;
             font-size: 0.72rem;
@@ -696,6 +703,7 @@
         }
     </style>
 </head>
+
 <body>
     <a href="#tours" class="skip-link">Skip to tours</a>
 
@@ -717,7 +725,9 @@
             <div class="hero-grid">
                 <div>
                     <h1>Explore Vancouver's housing landscape through guided, place-based tours.</h1>
-                    <p class="hero-desc">Use map narratives developed through Balanced Supply of Housing research to compare tenure models, Indigenous-led development, tenant organizing, and nonprofit service infrastructure across Vancouver neighbourhoods.</p>
+                    <p class="hero-desc">Use map narratives developed through Balanced Supply of Housing research to
+                        compare tenure models, Indigenous-led development, tenant organizing, and nonprofit service
+                        infrastructure across Vancouver neighbourhoods.</p>
                     <div class="meta">
                         <span>2 Guided Tours</span>
                         <span>8 Stops</span>
@@ -725,8 +735,9 @@
                     </div>
                     <a href="#tours" class="hero-cta">
                         Start Exploring
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" aria-hidden="true">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg>
                     </a>
                 </div>
@@ -760,10 +771,13 @@
         </div>
 
         <section class="grid">
-            <a href="fscclt/index.html" class="card card-one" aria-label="Start FCSCLT Tour: False Creek South and Kitsilano — 3 stops">
+            <a href="fscclt/index.html" class="card card-one"
+                aria-label="Start FCSCLT Tour: False Creek South and Kitsilano — 3 stops">
                 <div class="card-preview">
-                    <svg class="card-preview-icon" width="140" height="140" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" aria-hidden="true">
-                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+                    <svg class="card-preview-icon" width="140" height="140" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="0.5" aria-hidden="true">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                        <circle cx="12" cy="10" r="3" />
                     </svg>
                     <div class="card-preview-text">
                         <p class="tour-label">Tour 1</p>
@@ -774,30 +788,35 @@
                     <div class="card-head">
                         <span class="badge">
                             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
                             </svg>
                             3 stops
                         </span>
                         <span class="loc">FCSCLT Tour</span>
                     </div>
-                    <p class="desc">Examine public land stewardship at False Creek South, the Senakw Indigenous-led rental model, and federal land governance on Granville Island.</p>
+                    <p class="desc">Examine public land stewardship at False Creek South, the Senakw Indigenous-led
+                        rental model, and federal land governance on Granville Island.</p>
                     <div class="chips">
                         <span class="chip">False Creek South CLT</span>
                         <span class="chip">Senakw</span>
                         <span class="chip">Granville Island</span>
                     </div>
                     <span class="cta-btn">Start Tour
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" aria-hidden="true">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </span>
                 </div>
             </a>
 
-            <a href="community-orgs/index.html" class="card card-two" aria-label="Start Community Organizations Tour: Downtown Eastside — 6 stops">
+            <a href="community-orgs/index.html" class="card card-two"
+                aria-label="Start Community Organizations Tour: Downtown Eastside — 6 stops">
                 <div class="card-preview">
-                    <svg class="card-preview-icon" width="140" height="140" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" aria-hidden="true">
-                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+                    <svg class="card-preview-icon" width="140" height="140" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="0.5" aria-hidden="true">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                        <circle cx="12" cy="10" r="3" />
                     </svg>
                     <div class="card-preview-text">
                         <p class="tour-label">Tour 2</p>
@@ -808,13 +827,14 @@
                     <div class="card-head">
                         <span class="badge">
                             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
                             </svg>
                             6 stops
                         </span>
                         <span class="loc">Community Organizations</span>
                     </div>
-                    <p class="desc">Follow the DTES network of tenant advocates, cultural restoration groups, frontline services, and university-community partnerships.</p>
+                    <p class="desc">Follow the DTES network of tenant advocates, cultural restoration groups, frontline
+                        services, and university-community partnerships.</p>
                     <div class="chips">
                         <span class="chip">DTES CLT</span>
                         <span class="chip">First United</span>
@@ -824,7 +844,8 @@
                         <span class="chip">Aboriginal Front Door</span>
                     </div>
                     <span class="cta-btn">Start Tour
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" aria-hidden="true">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </span>
@@ -840,12 +861,11 @@
 
     <!-- Leaflet JS for preview map -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
     <script>
         // Preview map with all 9 tour stops
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             var map = L.map('preview-map', {
                 center: [49.2760, -123.1150],
                 zoom: 13,
@@ -862,50 +882,53 @@
             // FCSCLT Tour stops (blue)
             var fsccltStops = [
                 { title: "False Creek South CLT", coords: [49.26715, -123.12615] },
-                { title: "Senakw Development", coords: [49.27257, -123.14289] },
-                { title: "Granville Island", coords: [49.27056, -123.13417] }
+                { title: "Granville Island", coords: [49.27056, -123.13417] },
+                { title: "Senakw Development", coords: [49.27257, -123.14289] }
             ];
 
             // Community Orgs stops (gold)
             var communityStops = [
-                { title: "DTES Community Land Trust", coords: [49.27922, -123.09891] },
                 { title: "First United Church", coords: [49.28101, -123.09716] },
-                { title: "Hogan's Alley Society", coords: [49.27792, -123.09831] },
-                { title: "DTES SRO Collaborative", coords: [49.27918, -123.09802] },
+                { title: "Aboriginal Front Door Society", coords: [49.2812, -123.0996] },
                 { title: "UBC Learning Exchange", coords: [49.27920, -123.09929] },
-                { title: "Aboriginal Front Door Society", coords: [49.2812, -123.0996] }
+                { title: "DTES Community Land Trust", coords: [49.27922, -123.09891] },
+                { title: "DTES SRO Collaborative", coords: [49.27918, -123.09802] },
+                { title: "Hogan's Alley Society", coords: [49.27792, -123.09831] }
             ];
 
-            // Draw route lines (following streets/seawall)
             var fsccltRouteCoords = [
-                // North from FCS CLT to seawall, then west along waterfront
+                // False Creek South to Granville Island
                 [49.26715, -123.12615], [49.26900, -123.12620], [49.27050, -123.12640],
                 [49.27060, -123.12720], [49.27040, -123.12800], [49.27050, -123.12960],
                 [49.27110, -123.13140], [49.27160, -123.13300], [49.27170, -123.13380],
-                [49.27150, -123.13530], [49.27120, -123.13680], [49.27100, -123.13750],
-                [49.27060, -123.13900], [49.27030, -123.14040], [49.27080, -123.14180],
-                [49.27257, -123.14289],
-                // Return east to Granville Island
-                [49.27080, -123.14180], [49.27030, -123.14040], [49.27060, -123.13900],
-                [49.27100, -123.13750], [49.27120, -123.13680], [49.27100, -123.13600],
-                [49.27056, -123.13417]
+                [49.27056, -123.13417],
+                // Granville Island to Senakw
+                [49.27056, -123.13417], [49.27090, -123.13600], [49.27120, -123.13680],
+                [49.27100, -123.13750], [49.27060, -123.13900], [49.27030, -123.14040],
+                [49.27080, -123.14180], [49.27257, -123.14289]
             ];
             var communityRouteCoords = [
-                [49.27922, -123.09891], [49.27922, -123.09716], [49.28101, -123.09716],
-                [49.28101, -123.09930], [49.27792, -123.09930], [49.27792, -123.09831],
-                [49.27792, -123.09930], [49.27918, -123.09930], [49.27918, -123.09802],
-                [49.27920, -123.09929], [49.28010, -123.09930], [49.2812, -123.0996]
+                // First United
+                [49.28101, -123.09716],
+                // Aboriginal Front Door
+                [49.28101, -123.09960], [49.28120, -123.09960],
+                // UBC Learning Exchange
+                [49.28100, -123.09930], [49.27920, -123.09929],
+                // DTES CLT / SRO Collab
+                [49.27922, -123.09891], [49.27918, -123.09802],
+                // Hogan's Alley
+                [49.27792, -123.09802], [49.27792, -123.09831]
             ];
 
             L.polyline(fsccltRouteCoords, {
-                color: '#002145', weight: 2, opacity: 0.25, dashArray: '6, 6'
+                color: '#002145', weight: 4, opacity: 0.8, lineCap: 'round', lineJoin: 'round'
             }).addTo(map);
 
             L.polyline(communityRouteCoords, {
-                color: '#c2a02e', weight: 2, opacity: 0.25, dashArray: '6, 6'
+                color: '#c2a02e', weight: 4, opacity: 0.8, lineCap: 'round', lineJoin: 'round'
             }).addTo(map);
 
-            fsccltStops.forEach(function(stop, i) {
+            fsccltStops.forEach(function (stop, i) {
                 var icon = L.divIcon({
                     className: '',
                     html: '<div class="preview-marker blue">' + (i + 1) + '</div>',
@@ -916,12 +939,12 @@
                 marker.bindTooltip(stop.title, {
                     direction: 'top', offset: [0, -16], className: 'preview-tooltip'
                 });
-                marker.on('click', function() {
+                marker.on('click', function () {
                     window.location.href = 'fscclt/index.html';
                 });
             });
 
-            communityStops.forEach(function(stop, i) {
+            communityStops.forEach(function (stop, i) {
                 var icon = L.divIcon({
                     className: '',
                     html: '<div class="preview-marker gold">' + (i + 1) + '</div>',
@@ -932,7 +955,7 @@
                 marker.bindTooltip(stop.title, {
                     direction: 'top', offset: [0, -16], className: 'preview-tooltip'
                 });
-                marker.on('click', function() {
+                marker.on('click', function () {
                     window.location.href = 'community-orgs/index.html';
                 });
             });
@@ -943,4 +966,5 @@
         });
     </script>
 </body>
+
 </html>

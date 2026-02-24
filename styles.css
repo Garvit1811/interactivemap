@@ -1946,9 +1946,8 @@ button:focus:not(:focus-visible) {
 /* ── Tour Route Line ── */
 .tour-route {
     pointer-events: none;
-    stroke-linecap: round !important;
     stroke-linejoin: round !important;
-    stroke-dasharray: 0 12 !important;
+    stroke-dasharray: 8 10 !important;
     animation: routeDotsFlow 2s linear infinite;
 }
 
@@ -1958,7 +1957,7 @@ button:focus:not(:focus-visible) {
     }
 
     to {
-        stroke-dashoffset: -24;
+        stroke-dashoffset: -18;
     }
 }
 

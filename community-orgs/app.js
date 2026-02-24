@@ -921,7 +921,6 @@ const tourStops = [
 
         tags: ["black-history", "heritage", "housing", "culture"]
     }
-    }
 ];
 
 // ============================================

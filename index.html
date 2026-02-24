@@ -921,11 +921,11 @@
             ];
 
             L.polyline(fsccltRouteCoords, {
-                color: '#002145', weight: 4, opacity: 0.8, lineCap: 'round', lineJoin: 'round'
+                color: '#002145', weight: 3, opacity: 0.6, dashArray: '8, 8'
             }).addTo(map);
 
             L.polyline(communityRouteCoords, {
-                color: '#c2a02e', weight: 4, opacity: 0.8, lineCap: 'round', lineJoin: 'round'
+                color: '#c2a02e', weight: 3, opacity: 0.8, dashArray: '8, 8'
             }).addTo(map);
 
             fsccltStops.forEach(function (stop, i) {

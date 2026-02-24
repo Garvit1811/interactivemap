@@ -21,9 +21,9 @@ const tourStops = [
         },
 
         stats: [
-            { label: "Private SROs", value: "~100" },
-            { label: "SRO Residents", value: "4,000+" },
-            { label: "Indigenous", value: "~33%" }
+            { label: "CLT Buildings", value: "2" },
+            { label: "First Acquisition", value: "2026" },
+            { label: "Governance", value: "Community-led" }
         ],
 
         sections: [
@@ -32,9 +32,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>The Downtown Eastside (DTES) is home to <strong>over 4,000 residents living in roughly 99 SRO buildings</strong> — often the last rental option before homelessness. Approximately one-third of SRO residents are Indigenous.</p>
-                    <p>Community organizations are working to acquire buildings and convert them to <strong>permanent community ownership through land trust models</strong>, removing them from the speculative market while preserving affordability for current residents.</p>
-                    <p>In 2023, the Province provided an <strong>$11 million grant to the DTES SRO Collaborative Society</strong> to support tenant-led programming and safety initiatives. The Downtown Eastside Community Land Trust (DTES CLT) was incorporated in 2023 to acquire buildings under Indigenous co-leadership and community governance.</p>
+                    <p>The <strong>Downtown Eastside Community Land Trust (DTES CLT)</strong> is a community-governed non-profit that acquires privately owned buildings and transfers them into permanent community ownership. Founded in 2020 and formally incorporated in January 2023, the CLT operates under <strong>Indigenous co-leadership</strong> with a decolonized governance model co-led by Indigenous peoples and those with lived experience of housing precarity.</p>
+                    <p>The CLT's governance structure includes a <strong>community-elected board</strong> and a <strong>tenant and elder sub-committee</strong> that meets monthly to provide input on building acquisitions, renovations, and operations. This model ensures that those most affected by housing instability have direct decision-making power.</p>
+                    <p>In February 2026, DTES CLT <strong>officially took possession of Powell Rooms</strong> — its first building acquisition. The CLT is also the operating partner for <strong>Keefer Rooms (48 units)</strong>, purchased by BC Housing in October 2023.</p>
                 `
             },
             {
@@ -49,14 +49,19 @@ const tourStops = [
                         meta: "Support services"
                     },
                     {
-                        title: "Hogan's Alley Sites",
-                        description: "Identify the restoration efforts honoring Vancouver's historic Black neighbourhood.",
-                        meta: "Cultural heritage"
+                        title: "Powell Rooms (23 units)",
+                        description: "DTES CLT's first acquisition, completed February 2026. Funded through a $1M Reaching Home federal grant, City SRO upgrade funding, and philanthropic donations. Total cost: ~$2.5M. Includes ground-floor childcare by Promise Vancouver.",
+                        meta: "First acquisition"
                     },
                     {
-                        title: "Future Acquisitions",
-                        description: "Review the Keefer and Powell Rooms timelines to understand CLT acquisition strategy.",
-                        meta: "Land trust"
+                        title: "Keefer Rooms (48 units)",
+                        description: "Purchased by BC Housing for $8.2M in October 2023 after a 2022 fire displaced 39 residents. DTES CLT operates the building in partnership with BC Housing; over time, the lease may transfer fully to DTES CLT. Renovations included window, electrical, and fire-system upgrades.",
+                        meta: "BC Housing partnership"
+                    },
+                    {
+                        title: "CLT Governance Model",
+                        description: "Community-elected board with Indigenous co-leadership. A tenant and elder sub-committee meets monthly to guide acquisition decisions, building design, and operations. Grounded in decolonized, non-hierarchical governance.",
+                        meta: "Community governance"
                     }
                 ]
             },
@@ -65,38 +70,37 @@ const tourStops = [
                 label: "Partners & Work",
                 icon: "document",
                 content: `
-                    <h4>The SRO Challenge</h4>
-                    <p>Vancouver's SRO stock is governed by the SRA by-law, with <strong>~99 buildings and ~4,000 rooms</strong> in the DTES alone. Average rents are roughly <strong>$680/month</strong> overall, while private SROs average closer to <strong>$740/month</strong>. The provincial shelter rate is $500/month, creating a persistent affordability gap.</p>
-                    <p>As <strong>Wendy Pedersen</strong>, Executive Director of the SRO Collaborative, explains: "Privately owned SRO hotels are a last resort before homelessness." The Collaborative's Tenant Overdose Response Organizers (TORO) project connects tenant organizers with naloxone supplies and education.</p>
+                    <h4>Powell Rooms — First CLT Acquisition</h4>
+                    <p>In February 2026, DTES CLT completed its first building acquisition: <strong>Powell Rooms</strong>, a 23-unit SRO with ground-floor childcare operated by Promise Vancouver. The previous owner, Rob Harden, sold the property after owning it since 2005.</p>
+                    <p>The ~$2.5 million acquisition was funded through a <strong>$1 million Reaching Home federal grant</strong>, approximately $230,000 from a City of Vancouver SRO upgrade program, and philanthropic donations. The CLT had secured approximately 85% of required funds before closing.</p>
 
-                    <h4>Community Partners</h4>
-                    <p>Multiple organizations work together to preserve and improve DTES housing:</p>
+                    <h4>Keefer Rooms — BC Housing Partnership</h4>
+                    <p>In October 2023, BC Housing purchased Keefer Rooms (48 SRO units at 222 Keefer St) for <strong>$8.2 million</strong> after a September 2022 fire displaced 39 residents. The building had been vacant for over a year. DTES CLT was named the <strong>operating partner</strong>, with the DTES SRO Collaborative overseeing tenant-led programming including harm reduction and fire safety.</p>
+                    <p>Renovations included window replacements and electrical and fire-system upgrades. The building was targeted for reopening in spring 2025. Over time, <strong>BC Housing may transfer the lease to DTES CLT</strong>, but for now management operates as a partnership between BC Housing, the CLT, and the SRO Collaborative.</p>
+
+                    <h4>Governance Model</h4>
+                    <p>The CLT uses a <strong>decolonized, non-hierarchical governance model</strong> co-led by Indigenous peoples and people with lived experience:</p>
                     <ul>
-                        <li><strong>DTES SRO Collaborative:</strong> Advocates for tenants, received $11M provincial grant in 2023</li>
-                        <li><strong>Hogan's Alley Society:</strong> Restoring Vancouver's historic Black neighbourhood, with projects on Union Street and Main Street</li>
-                        <li><strong>Aboriginal Front Door:</strong> Indigenous-led support services</li>
-                        <li><strong>Carnegie Community Centre:</strong> Historic community hub since 1903</li>
-                        <li><strong>DTES Neighbourhood House:</strong> Community programs and partnerships</li>
-                        <li><strong>UBC Learning Exchange:</strong> University-community partnership</li>
+                        <li><strong>Community-elected board of directors</strong> with Indigenous co-leadership</li>
+                        <li><strong>Tenant and elder sub-committee</strong> meets monthly to guide decisions on acquisitions, furnishings, and building operations</li>
+                        <li>Profits are reinvested into buildings and community benefit — not extracted</li>
+                        <li>Properties are permanently removed from the speculative market through the trust structure</li>
                     </ul>
 
-                    <h4>Community Land Trust Model</h4>
-                    <p>The CLT approach in the DTES:</p>
+                    <h4>The CLT Model</h4>
+                    <p>Community land trusts are non-profit corporations that acquire and hold land in perpetuity for community use. In the DTES context, the CLT model:</p>
                     <ul>
-                        <li>Removes buildings permanently from the speculative market</li>
-                        <li>Ensures long-term affordability through trust structure</li>
-                        <li>Keeps housing decisions in community hands</li>
-                        <li>Prevents displacement of current residents during acquisition</li>
+                        <li>Acquires privately owned SROs before they are lost to speculation or neglect</li>
+                        <li>Ensures rents remain permanently affordable — tied to income levels, not market rates</li>
+                        <li>Integrates <strong>holistic, tenant-centred housing</strong> designed by and for the community</li>
+                        <li>Partners with DTES SRO Collaborative for tenant-based initiatives in each building</li>
                     </ul>
-
-                    <h4>Policy Context</h4>
-                    <p>In 2024, Vancouver implemented <strong>vacancy control for SROs</strong>, preventing rent spikes between tenancies. DTES CLT's first acquisition, <strong>Powell Rooms (23 units)</strong>, is expected to close in January 2026, while <strong>Keefer Rooms (48 units)</strong> is reopening in spring 2025 through a BC Housing partnership and community programming model.</p>
                 `,
                 keyPoints: [
-                    "4,000+ residents in ~99 SROs — last stop before homelessness",
-                    "$11M provincial grant to SRO Collaborative (2023)",
-                    "CLT acquisitions remove buildings from speculative market",
-                    "Vacancy control (2024) prevents rent hikes between tenancies"
+                    "First acquisition (Powell Rooms, 23 units) completed February 2026",
+                    "Keefer Rooms (48 units) operated in partnership with BC Housing",
+                    "Indigenous co-leadership with tenant and elder sub-committee governance",
+                    "Buildings permanently removed from speculative market through trust structure"
                 ]
             },
             {
@@ -149,29 +153,29 @@ const tourStops = [
                 type: "resources",
                 resources: [
                     {
-                        title: "DTES SRO Collaborative",
-                        url: "https://srocollaborative.org/",
-                        description: "Tenant advocacy and support organization"
-                    },
-                    {
-                        title: "DTES Neighbourhood House — SRO Collaborative Profile",
-                        url: "https://www.dtesnhouse.ca/news-updates/partner-feature-sro-collaborative",
-                        description: "Background on the SRO Collaborative's work"
-                    },
-                    {
                         title: "Downtown Eastside Community Land Trust",
                         url: "https://www.dtescommunitylandtrust.ca/",
-                        description: "Community land trust leadership and acquisition model in the DTES"
+                        description: "Official website — governance model, acquisition strategy, and community vision"
                     },
                     {
-                        title: "SRO Collaborative Programs",
-                        url: "https://srocollaborative.org/programs/",
-                        description: "Tenant organizing, peer supports, and SRO-focused program directory"
+                        title: "CMHC — DTES CLT Demonstration Project",
+                        url: "https://www.cmhc-schl.gc.ca/nhs/nhs-project-profiles/2021-nhs-projects/vancouver-downtown-eastside-community-land-trust",
+                        description: "National Housing Strategy project profile on the CLT's foundation and framework"
                     },
                     {
-                        title: "Hogan's Alley Society",
-                        url: "https://www.hogansalleysociety.org/",
-                        description: "Restoring Vancouver's historic Black community"
+                        title: "Vancity Lookout — Powell Rooms Acquisition",
+                        url: "https://www.vancitylookout.com/p/exclusive-powell-rooms-sro-set-to-become-a-unique-model-of-community-owned-housing",
+                        description: "In-depth reporting on the CLT's first building acquisition and community-owned housing model"
+                    },
+                    {
+                        title: "BC Housing — Keefer Rooms Acquisition",
+                        url: "https://news.gov.bc.ca/releases/2023HOUS0137-001604",
+                        description: "Provincial announcement on the Keefer Rooms purchase and CLT operating partnership"
+                    },
+                    {
+                        title: "BSH Research in Progress Webinar — DTES CLT",
+                        url: "https://bsh.ubc.ca/research/evictions-and-security-of-tenure/",
+                        description: "BSH webinar featuring DTES CLT research with Andy and Allie"
                     }
                 ]
             }
@@ -203,9 +207,11 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p><strong>FIRST UNITED</strong> has worked in Vancouver's Downtown Eastside since 1886. Today it combines shelter, legal advocacy, and community food programs in one service model focused on reducing harm and preventing homelessness.</p>
-                    <p>Its Safe Shelter program currently operates <strong>51 low-barrier shelter beds</strong> at 467 Alexander Street. The Legal Advocacy program supports tenants and income-security clients and reports <strong>more than 1,400 unique cases each year</strong>.</p>
-                    <p>The organization is also leading a major redevelopment at 320 East Hastings with partner <strong>Lu'ma Native BCH Housing Society</strong>, planned to include <strong>100+ homes and roughly 40,000 sq ft</strong> of community-serving space.</p>
+                    <p><strong>FIRST UNITED</strong> has operated in Vancouver's Downtown Eastside since 1886. The organization works from a harm reduction perspective across three pillars: <strong>Essential Services</strong>, <strong>Community Connection</strong>, and <strong>Systems Change</strong>.</p>
+                    <p><strong>Essential Services</strong> meet basic human needs: the Safe Shelter program operates <strong>51 low-barrier beds</strong> at 467 Alexander Street; food security programs serve daily meals and run a mobile food truck; and the Community Help Desk provides direct harm reduction supplies.</p>
+                    <p><strong>Community Connection</strong> keeps people linked to supports: Legal Advocacy handles <strong>over 1,400 cases annually</strong> focused on tenancy and income security; the Tax Clinic and Mail &amp; Phone programs maintain practical lifelines; and spiritual care fosters healing and belonging.</p>
+                    <p><strong>Systems Change</strong> tackles structural causes of poverty: the Law Reform program addresses policy gaps; and the <strong>BC Eviction Mapping</strong> project — a partnership with BSH's Evictions and Security of Tenure research — collects critical data on what happens to BC tenants after eviction. Over 1,100 tenants have completed this survey, providing information not collected anywhere else in Canada.</p>
+                    <p>FIRST UNITED is also leading a major <strong>redevelopment at 320 East Hastings</strong> in partnership with Lu'ma Native Housing Society, planned to include over 100 below-market homes for Indigenous peoples and approximately 40,000 sq ft of universally accessible, purpose-built community space.</p>
                 `
             },
             {
@@ -241,16 +247,20 @@ const tourStops = [
                 label: "Programs",
                 icon: "document",
                 content: `
-                    <h4>Core Programs</h4>
-                    <p>FIRST UNITED's front-line model combines shelter, legal support, and food access:</p>
+                    <h4>First Forward Redevelopment — 320 E Hastings</h4>
+                    <p>The First Forward project will transform the 320 East Hastings site into a universally accessible, purpose-built facility: <strong>four floors of community amenities</strong> topped by <strong>seven floors of below-market rental housing</strong> (over 100 studio and one-bedroom units) operated by Lu'ma Native Housing Society.</p>
+                    <p>The new facility will nearly <strong>triple First United's program space to ~40,000 sq ft</strong>, incorporating:</p>
                     <ul>
-                        <li><strong>Safe Shelter:</strong> 51 low-barrier beds currently operating at 467 Alexander Street</li>
-                        <li><strong>Legal Advocacy:</strong> more than 1,400 unique client cases annually focused on tenancy and income rights</li>
-                        <li><strong>Food Programs:</strong> daily meal services, lunch distribution, and a mobile food truck</li>
+                        <li>Expanded food security and meal service infrastructure</li>
+                        <li>Dedicated legal advocacy and tenant support offices</li>
+                        <li>Culturally grounded healing and spiritual care spaces</li>
+                        <li>Community gathering and drop-in areas</li>
+                        <li>Indigenous-led governance with Musqueam, Squamish, and Tsleil-Waututh artwork integrated into the building design</li>
                     </ul>
-                    <h4>Redevelopment at 320 E Hastings</h4>
-                    <p>The redevelopment project is designed to preserve FIRST UNITED's service base while adding permanent housing supply. Public project materials describe a mixed-use community hub with 100+ homes and approximately 40,000 sq ft for social, cultural, and health-serving uses.</p>
-                    <p>The project partnership with Lu'ma Native BCH Housing Society also sets out Indigenous-led and community-accountable governance outcomes for long-term operations.</p>
+                    <p>The project is developed in partnership with Lu'ma Native Housing Society, ensuring <strong>Indigenous-led and community-accountable governance</strong> for long-term operations. The building is targeted for completion in 2026.</p>
+
+                    <h4>BSH Research Partnership</h4>
+                    <p>First United is a key partner in BSH's <strong>Evictions and Security of Tenure</strong> research project. Through this collaboration, First United has collected eviction survey data from over 1,100 BC tenants, providing critical evidence on who is being evicted and the downstream impacts on households — data not being collected anywhere else in Canada. The project also includes research on Indigenous tenant rights and model legislation for Indigenous housing justice.</p>
                 `,
                 keyPoints: [
                     "Operating in the DTES since 1886",
@@ -294,29 +304,24 @@ const tourStops = [
                 type: "resources",
                 resources: [
                     {
-                        title: "First United Church",
+                        title: "First United Church Community Ministry Society",
                         url: "https://firstunited.ca/",
-                        description: "Official organization website"
+                        description: "Official website — programs, redevelopment plans, and community impact"
                     },
                     {
-                        title: "Safe Shelter",
-                        url: "https://firstunited.ca/how-we-help/safe-shelter/",
-                        description: "Current low-barrier shelter program details"
+                        title: "BSH — Evictions and Security of Tenure",
+                        url: "https://bsh.ubc.ca/research/evictions-and-security-of-tenure/",
+                        description: "BSH research project partnering with First United on BC eviction data"
                     },
                     {
-                        title: "Legal Advocacy",
-                        url: "https://firstunited.ca/how-we-help/legal-advocacy/",
-                        description: "Tenancy and income advocacy services"
+                        title: "First United — BC Eviction Mapping",
+                        url: "https://firstunited.ca/how-we-help/bc-eviction-mapping/",
+                        description: "Eviction survey collecting data from 1,100+ BC tenants"
                     },
                     {
-                        title: "Redevelopment of FIRST UNITED",
+                        title: "First Forward Redevelopment",
                         url: "https://firstunited.ca/first-forward-redevelopment/",
-                        description: "320 E Hastings redevelopment plan"
-                    },
-                    {
-                        title: "Food Security Programs",
-                        url: "https://firstunited.ca/how-we-help/food-security/",
-                        description: "Meal access and food outreach programs"
+                        description: "Plans for the 320 E Hastings mixed-use community hub and housing"
                     }
                 ]
             }
@@ -449,12 +454,7 @@ const tourStops = [
                     {
                         title: "Hogan's Alley Society",
                         url: "https://www.hogansalleysociety.org/",
-                        description: "Restoring Vancouver's historic Black community"
-                    },
-                    {
-                        title: "Hogan's Alley Society - About",
-                        url: "https://www.hogansalleysociety.org/aboutus",
-                        description: "Organization history, MOU context, and project pillars"
+                        description: "Organization history, MOU context, cultural restoration, and project pillars"
                     },
                     {
                         title: "City of Vancouver - Hogan's Alley Society Block",
@@ -465,6 +465,16 @@ const tourStops = [
                         title: "City of Vancouver - 258 Union Street",
                         url: "https://vancouver.ca/people-programs/258-union-street.aspx",
                         description: "Nora Hendrix Place housing project profile"
+                    },
+                    {
+                        title: "CNCLT Summit — Vancouver Community Land Trusts",
+                        url: "https://www.youtube.com/watch?v=KevcrQW11T4",
+                        description: "Canadian Network of Community Land Trusts summit presentation from Vancouver"
+                    },
+                    {
+                        title: "BSH Research in Progress Webinar — Vancouver CLTs",
+                        url: "https://bsh.ubc.ca/research/evictions-and-security-of-tenure/",
+                        description: "BSH webinar series on BIPOC CLTs and resisting gentrification"
                     }
                 ]
             }
@@ -486,8 +496,8 @@ const tourStops = [
 
         stats: [
             { label: "Provincial Grant", value: "$11M" },
-            { label: "Focus", value: "Tenant advocacy" },
-            { label: "Program", value: "TORO" }
+            { label: "Active SROs", value: "~40" },
+            { label: "Tenants Supported", value: "2,700+" }
         ],
 
         sections: [
@@ -496,9 +506,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>The <strong>DTES SRO Collaborative Society</strong> is a tenant-led organization focused on resident safety, tenancy rights, and policy change in privately owned SRO hotels.</p>
-                    <p>Its <strong>Tenant Overdose Response Organizers (TORO)</strong> initiative is active in around 40 private SRO hotels and supports residents through overdose prevention education, naloxone access, and peer organizing.</p>
-                    <p>In 2023, the Province of British Columbia announced a <strong>one-time $11 million grant</strong> to support tenant-led safety and stabilization work in the DTES. The Collaborative also co-led a 2024 tenant survey project with community partners and the City.</p>
+                    <p>The <strong>DTES SRO Collaborative Society (SRO-C)</strong> is a tenant-led organization focused on improving habitability, safety, and housing security in privately owned SRO hotels. More than <strong>2,700 tenants across 40+ private SROs</strong> are supported through its tenant-based initiatives.</p>
+                    <p>Core programs include: <strong>tenant committees</strong> that identify building-level issues and coordinate safety planning; <strong>TORO (Tenant Overdose Response Organizers)</strong> providing peer-led harm reduction and naloxone access; <strong>room cleaning and repairs</strong> training; <strong>cultural reconnection</strong> supports for Indigenous tenants (~33% of SRO residents); <strong>fire safety and emergency preparedness</strong>; and the <strong>Right to Remain</strong> research collective supporting tenant organizing for improved conditions.</p>
+                    <p>In 2023, the Province provided a <strong>one-time $11 million grant</strong> to support tenant-led safety and stabilization programming over three years. In 2024, the Collaborative partnered with the City to conduct a major <strong>SRO Tenant Survey</strong> — interviewing over 900 tenants in 133 SRO buildings.</p>
                 `
             },
             {
@@ -534,25 +544,29 @@ const tourStops = [
                 label: "Programs",
                 icon: "document",
                 content: `
-                    <h4>How the Collaborative Works</h4>
-                    <p>The organization describes tenant committees as a core accountability structure. These committees identify building-level issues, connect residents to legal and health supports, and coordinate local safety planning.</p>
-                    <h4>TORO Program</h4>
-                    <p>TORO is designed as a tenant-led overdose response and harm-reduction model within SRO buildings. The program focuses on peer leadership and direct supply access to reduce preventable deaths.</p>
-                    <h4>Policy and Public Accountability</h4>
-                    <p>Recent efforts include coordinated tenant surveys and public documentation of SRO living conditions, helping shape city and provincial conversations on minimum standards, rent protections, and anti-displacement policy.</p>
-                    <h4>Funding Context</h4>
-                    <p>The 2023 provincial grant provides targeted support for tenant-led operations, outreach, and staffing for services tied to safety and stabilization in the private SRO stock.</p>
+                    <h4>Tenant-Based Initiatives (TBIs)</h4>
+                    <p>The SRO Collaborative's model empowers tenants to improve their own buildings. In contrast to top-down supportive housing, SRO-C provides life-skills training to tenants who then become active participants in building improvement. Programs include:</p>
                     <ul>
-                        <li>Resident-led governance through tenant committees</li>
-                        <li>Harm reduction and overdose response capacity in SRO hotels</li>
-                        <li>Cross-partner survey and policy evidence gathering</li>
+                        <li><strong>Tenant committees:</strong> Democratic structures that identify building-level issues and coordinate with landlords for repairs</li>
+                        <li><strong>TORO:</strong> Peer-led overdose response and naloxone distribution across ~40 private SROs</li>
+                        <li><strong>Room cleaning and repairs:</strong> Tenants trained in building maintenance and trades skills</li>
+                        <li><strong>Cultural reconnection:</strong> Supports for the ~33% of SRO tenants who self-identify as Indigenous</li>
+                        <li><strong>Fire safety:</strong> Emergency preparedness training and building-level planning</li>
+                        <li><strong>SRO Hub:</strong> Newsletter, tenant rights library, and workshops including the "SRO Degree" program</li>
                     </ul>
+
+                    <h4>2024 SRO Tenant Survey</h4>
+                    <p>Between January and April 2024, the SRO Collaborative partnered with the City of Vancouver to survey <strong>over 900 tenants across 133 SRO buildings</strong> — approximately 15% of all tenants in surveyed buildings. The survey was designed in collaboration with a Tenant Advisory Committee and included questions comparable to the 2008 and 2013 surveys to track trends over time. Key findings inform the City's intergovernmental <strong>SRO Investment Strategy</strong> on demographics, service use, and housing conditions.</p>
+
+                    <h4>Policy and Public Accountability</h4>
+                    <p>The SRO Collaborative played a central role in the campaign for <strong>vacancy control for SROs</strong>. In November 2021, Vancouver City Council voted near-unanimously to approve the bylaw. After legal challenges suspended it, the Province of BC passed an amendment in May 2024 to the <strong>Municipalities Enabling and Validating Act</strong> to restore the city's bylaw — a landmark tenant protection preventing rent spikes between tenancies.</p>
+                    <p>The Collaborative continues to document SRO living conditions through public reporting, coordinated surveys, and the <strong>Right to Remain</strong> research collective, generating evidence that shapes municipal and provincial housing policy.</p>
                 `,
                 keyPoints: [
-                    "Tenant-led advocacy organization",
-                    "$11M provincial grant (2023)",
-                    "TORO active in around 40 private SRO hotels",
-                    "2024 tenant survey work with city and community partners"
+                    "Tenant-led programming across 40+ private SROs supporting 2,700+ residents",
+                    "$11M provincial grant (2023) funds three years of tenant-based initiatives",
+                    "2024 SRO Tenant Survey: 900+ tenants across 133 buildings — informs SRO Investment Strategy",
+                    "Central role in winning vacancy control for SROs (2021 bylaw, restored 2024)"
                 ]
             },
             {
@@ -628,6 +642,16 @@ const tourStops = [
                         title: "BC Government Grant Announcement (2023)",
                         url: "https://news.gov.bc.ca/releases/2023hous0053-000772",
                         description: "One-time provincial funding announcement"
+                    },
+                    {
+                        title: "2024 SRO Tenant Survey",
+                        url: "https://srocollaborative.org/projects/sro-tenant-survey/",
+                        description: "Survey of 900+ tenants across 133 SROs — demographics, conditions, and housing experiences"
+                    },
+                    {
+                        title: "City of Vancouver — SRO Tenant Survey Report",
+                        url: "https://vancouver.ca/files/cov/sro-tenant-survey-2024.pdf",
+                        description: "Full report with aggregated findings informing the SRO Investment Strategy"
                     }
                 ]
             }
@@ -659,9 +683,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>The <strong>UBC Learning Exchange</strong> is a long-running university-community hub in the Downtown Eastside. It has operated from 612 Main Street since the program launched in 2000 as part of UBC's Community Learning Initiative.</p>
-                    <p>Programming focuses on two-way learning: local residents access free educational opportunities while UBC students and faculty engage in community-informed teaching, volunteering, and research.</p>
-                    <p>Core activities include computer and digital literacy support, conversation and communication programming, and partnerships with local organizations on neighbourhood priorities.</p>
+                    <p>The <strong>UBC Learning Exchange</strong> has operated at 612 Main Street since 2000, serving as a bridge between UBC and the Downtown Eastside community. Programming is grounded in <strong>reciprocal learning</strong>: residents access free educational opportunities, while UBC students and faculty engage in community-informed teaching and research.</p>
+                    <p>Core programs include computer and digital literacy support, conversation and communication workshops, and collaborative projects shaped by resident-identified priorities. The Learning Exchange also serves as a venue for community-engaged research events.</p>
+                    <p>In June 2025, UBC's Housing Research Collaborative held <strong>"Confronting Sweeps: Reimagining Advocacy for Tent Cities"</strong> at the Learning Exchange. The workshop brought together 40 participants — legal experts, frontline workers, community organizers, and individuals with lived experience — to examine how municipal bylaws and zoning policies continue to displace unhoused residents. The resulting report proposes classifying encampment supports as core policy decisions and shifting toward legal tools that emphasize human dignity and community accountability.</p>
                 `
             },
             {
@@ -698,24 +722,24 @@ const tourStops = [
                 icon: "document",
                 content: `
                     <h4>Program Model</h4>
-                    <p>The Learning Exchange frames its work as reciprocal community learning. Programs are built with community members and local organizations rather than delivered as one-way outreach.</p>
+                    <p>The Learning Exchange builds all programs with community members and local organizations — not as one-way outreach. Residents shape program priorities, and their knowledge is reflected in project design and evaluation.</p>
                     <h4>Education and Skills</h4>
-                    <p>Public-facing activities include computer and internet support, literacy and communication programming, and workshops that respond to resident-identified interests.</p>
-                    <h4>University-Community Bridge</h4>
-                    <p>The site provides practical entry points for UBC students and faculty to participate in community-engaged learning and collaborative research in the DTES.</p>
-                    <h4>Neighbourhood Partnerships</h4>
-                    <p>Partnerships across the DTES shape how UBC resources are shared and how local knowledge is reflected in project design and evaluation.</p>
+                    <p>Activities include computer and digital literacy support, communication and conversation workshops, and sessions responding to resident-identified interests. These programs prioritize equitable access and digital inclusion for DTES residents.</p>
+                    <h4>Research and Events</h4>
+                    <p>The Learning Exchange hosts community-engaged research events. In 2025, the Housing Research Collaborative's <strong>Confronting Sweeps</strong> workshop convened legal experts, frontline workers, and community members to develop policy recommendations on encampment responses grounded in human dignity rather than punitive enforcement.</p>
+                    <h4>Community Integration</h4>
+                    <p>Partnerships across the DTES ensure UBC resources are shared equitably:</p>
                     <ul>
-                        <li>Resident-informed education and digital inclusion programming</li>
-                        <li>Community-engaged teaching and service learning pathways for students</li>
-                        <li>Long-term collaboration infrastructure between UBC and DTES organizations</li>
+                        <li>Resident-informed programming shapes digital inclusion and education offerings</li>
+                        <li>Service learning pathways connect UBC students with community priorities</li>
+                        <li>Research collaborations bridge academic analysis with lived experience and frontline knowledge</li>
                     </ul>
                 `,
                 keyPoints: [
-                    "University-community partnership since 2000",
-                    "Free educational programming",
-                    "Reciprocal model for research and teaching",
-                    "Based at 612 Main Street in the DTES"
+                    "Reciprocal learning hub at 612 Main Street since 2000",
+                    "Free digital literacy, communication, and education programs",
+                    "Hosted HRC's 'Confronting Sweeps' workshop in June 2025",
+                    "Research collaborations bridging academic and community knowledge"
                 ]
             },
             {
@@ -750,12 +774,17 @@ const tourStops = [
                     {
                         title: "UBC Learning Exchange",
                         url: "https://learningexchange.ubc.ca/",
-                        description: "Official program website"
+                        description: "Official website — reciprocal learning model, programs, and community partnerships"
                     },
                     {
-                        title: "Who We Are",
-                        url: "https://learningexchange.ubc.ca/about-us/",
-                        description: "Program model and reciprocal learning approach"
+                        title: "HRC — Confronting Sweeps Report",
+                        url: "https://www.hrc.ubc.ca/wp-content/uploads/2025/07/Confronting-Sweeps-Report.pdf",
+                        description: "2025 report from the Housing Research Collaborative workshop held at the Learning Exchange"
+                    },
+                    {
+                        title: "Housing Research Collaborative (HRC)",
+                        url: "https://www.hrc.ubc.ca/",
+                        description: "UBC's parent research centre for BSH — community-based housing research and events"
                     },
                     {
                         title: "Place-Based Learning in the DTES",

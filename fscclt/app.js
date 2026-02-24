@@ -201,7 +201,8 @@ const tourStops = [
                 icon: "info",
                 content: `
                     <p>Senakw (pronounced "sen-AHK-w") is the <strong>largest Indigenous-led urban housing development in Canadian history</strong>. Located on 10.5 acres of Squamish Nation reserve land near the south end of the Burrard Bridge, this project demonstrates how Indigenous land rights can create new pathways for housing development.</p>
-                    <p>The development will include <strong>6,000 purpose-built rental units</strong> across 11 towers, with 4 million square feet of floor space. Critically, <strong>1,200 units will be designated affordable</strong>, and rents will be 30-40% below comparable market rates.</p>
+                    <p>The development will include <strong>6,000 purpose-built rental units</strong> across 11 towers, with 4 million square feet of floor space. Critically, <strong>1,200 units (20%) will be designated affordable</strong>, with rents 30–40% below comparable market rates. Of these, <strong>250 units are set aside specifically for Squamish Nation members</strong>, managed by the Nation's non-profit housing society <strong>Hiy̓ám̓ Housing</strong>. Applications for Squamish citizens opened in February 2026 — making Senakw the largest permanent return of Squamish residents to this land in over a century.</p>
+                    <p>The three-tier rental structure prioritizes Indigenous access: <strong>Hiy̓ám̓ Housing homes</strong> (rent-assisted, Squamish members first), <strong>affordable homes</strong> (below-market for middle-income households), and <strong>market rental homes</strong>. This model positions Senakw as a landmark in urban Indigenous housing — addressing the needs of one of Vancouver's most historically marginalized communities.</p>
                     <p>In September 2022, Prime Minister Justin Trudeau announced a <strong>$1.4 billion federal loan</strong> to fund the first two phases. Phase One (1,409 units in three towers) targets completion in early 2026, with phased buildout continuing into the early 2030s.</p>
                 `
             },
@@ -250,7 +251,7 @@ const tourStops = [
 
                     <h4>Services Agreement & Tenant Protections</h4>
                     <p>A 120-year services agreement with the City of Vancouver (signed May 2022) covers water, sewer, fire, and police services, with the Squamish Nation paying the same rates as Vancouver property owners.</p>
-                    <p>The Squamish Nation adopted BC's Residential Tenancy Act through the First Nations Commercial and Industrial Development Act, ensuring rent increase limits and tenant protections, alongside an Indigenous-led dispute resolution process.</p>
+                    <p>In July 2023, the Squamish Nation became the first in Canada to adopt BC's <strong>Residential Tenancy Act (BCRTA)</strong> for a major housing development through the federal <strong>First Nations Commercial and Industrial Development Act (FNCIDA)</strong>. FNCIDA enables First Nations to request federal regulations that incorporate provincial law on reserve lands — a mechanism used only five times since 2005, and never before for residential housing. This means Senakw tenants receive the same rent increase limits, eviction protections, and dispute resolution rights as any BC renter, with one key addition: an <strong>Indigenous-led dispute resolution process</strong> consistent with Squamish traditions. The protections also extend to Hiy̓ám̓ Housing developments on other Squamish Nation reserves in North Vancouver.</p>
 
                     <h4>Indigenous Land Development in BC</h4>
                     <p>Senakw is part of a broader movement of Indigenous nations using land development for economic self-determination:</p>
@@ -263,7 +264,7 @@ const tourStops = [
                 `,
                 keyPoints: [
                     "Federal reserve land — exempt from municipal zoning",
-                    "100% rental: 6,000 units with 1,200 affordable",
+                    "100% rental: 6,000 units; 1,200 affordable; 250 for Squamish Nation members via Hiy̓ám̓ Housing",
                     "$1.4B federal loan announced September 2022",
                     "50/50 Squamish Nation-OPTrust ownership (Phases 1-2)",
                     "Over half the site dedicated to public green space"
@@ -327,6 +328,21 @@ const tourStops = [
                         title: "Vancouver Public Views Policy",
                         url: "https://vancouver.ca/home-property-development/protecting-vancouvers-views.aspx",
                         description: "Background on view cone regulations"
+                    },
+                    {
+                        title: "Squamish Nation — BCRTA Adoption Press Release",
+                        url: "https://www.squamish.net/bcrta-adoption/",
+                        description: "First-in-Canada adoption of provincial tenancy protections on reserve land via FNCIDA"
+                    },
+                    {
+                        title: "First Nations Commercial and Industrial Development Act (FNCIDA)",
+                        url: "https://www.sac-isc.gc.ca/eng/1100100033561/1612128155378",
+                        description: "Federal legislation enabling Squamish Nation residential tenancy regulations"
+                    },
+                    {
+                        title: "Maclean's — Vancouver's Mega-Development Is Undeniably Indigenous",
+                        url: "https://macleans.ca/society/senakw-vancouver/",
+                        description: "In-depth feature on Senakw's significance for Indigenous urbanism"
                     }
                 ]
             }
@@ -404,9 +420,6 @@ const tourStops = [
                         <li>Free community spaces and public amenities</li>
                         <li>The Public Market vendors</li>
                     </ul>
-
-                    <h4>Connection to False Creek South</h4>
-                    <p>In the late 1960s, the federal government tasked CMHC with developing False Creek's former industrial lands. CMHC built <strong>social housing, co-op housing (including a live-aboard marina co-op), market condos on leased land, and rental housing</strong> — creating the mixed-tenure False Creek South community. Granville Island was part of this broader vision.</p>
 
                     <h4>Current Challenges</h4>
                     <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>

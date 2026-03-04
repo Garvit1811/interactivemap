@@ -93,7 +93,7 @@ function updateRouteProgress() {
     if(pastSegments.length) {
         layers.push(L.layerGroup(pastSegments.map(seg => L.polyline(seg, {
             color: '#8b9bb4', // Grayed out for past
-            weight: 6, opacity: 0.98, dashArray: '8, 8', lineCap: 'round', lineJoin: 'round', interactive: false, className: 'tour-route-past'
+            weight: 6, opacity: 0.98, lineCap: 'round', lineJoin: 'round', interactive: false, className: 'tour-route-past'
         }))));
     }
     if(futureSegments.length) {

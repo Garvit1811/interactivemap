@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const routeCoords = [
-        [49.26715, -123.12615],  // Start
+    // Segment 1: FCS → Senakw (walk west along seawall through GI area)
+    const fcsToSenakw = [
+        [49.26715, -123.12615],  // Start at FCS
         [49.26800, -123.12615],  // North on Moberly Rd
         [49.26900, -123.12620],  // North through FCS
         [49.27000, -123.12630],  // Approaching 1st Ave
@@ -11,8 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         [49.27110, -123.13140],  // Stamps Landing approach
         [49.27160, -123.13300],  // Stamps Landing dock
         [49.27170, -123.13380],  // Stamps Landing west
-        [49.27056, -123.13417],  // Granville Island
-        [49.27056, -123.13417],  // Granville Island
+        [49.27056, -123.13417],  // Past Granville Island
         [49.27100, -123.13600],  // Turning north toward seawall
         [49.27120, -123.13680],  // Under Granville Bridge
         [49.27100, -123.13750],  // West of Granville Bridge
@@ -22,12 +22,24 @@ document.addEventListener('DOMContentLoaded', () => {
         [49.27257, -123.14289]   // Senakw
     ];
 
+    // Segment 2: Senakw → Granville Island (walk back east)
+    const senakwToGI = [
+        [49.27257, -123.14289],  // Senakw
+        [49.27080, -123.14180],  // From Burrard Bridge
+        [49.27030, -123.14040],  // Alder Bay Walk
+        [49.27060, -123.13900],  // Island Park Walk
+        [49.27100, -123.13750],  // West of Granville Bridge
+        [49.27120, -123.13680],  // Under Granville Bridge
+        [49.27100, -123.13600],  // Approaching Granville Island
+        [49.27056, -123.13417]   // Granville Island
+    ];
+
     window.BSHTourMap.init({
         dataUrl: 'data.json',
         center: [49.2720, -123.1320],
         zoom: 14,
         routeColor: '#2f67dc',
-        routeSegments: [routeCoords],
+        routeSegments: [fcsToSenakw, senakwToGI],
         onMapInit: (map, L) => {
             const busStopIcon = L.divIcon({
                 className: 'poi-marker-wrapper',

@@ -1341,9 +1341,9 @@ const tourStops = [
         coordinates: [49.2812, -123.0996],
 
         heroImage: {
-            src: "../images/community-orgs/dtes-streetscape.jpg",
-            alt: "Downtown Eastside streetscape near Main Street in Vancouver",
-            caption: "Downtown Eastside streetscape near Main Street — context photo"
+            src: "../images/community-orgs/aboriginal-front-door-vancity-lookout.jpg",
+            alt: "Aboriginal Front Door Society outreach photo in Vancouver's Downtown Eastside",
+            caption: "Aboriginal Front Door Society outreach photo — Source: Vancity Lookout"
         },
 
         stats: [
@@ -1415,9 +1415,9 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "../images/community-orgs/dtes-streetscape.jpg",
-                        alt: "Downtown Eastside streetscape near Main Street in Vancouver",
-                        caption: "Downtown Eastside streetscape near Main Street — context photo"
+                        src: "../images/community-orgs/aboriginal-front-door-vancity-lookout.jpg",
+                        alt: "Aboriginal Front Door Society outreach photo in Vancouver's Downtown Eastside",
+                        caption: "Aboriginal Front Door Society outreach photo — Source: Vancity Lookout"
                     },
                     {
                         src: "../images/community-orgs/first-united-church.webp",
@@ -1723,6 +1723,11 @@ function renderStats(stats) {
                 <div class="stat-badge">
                     <span class="stat-badge-label">${stat.label}:</span>
                     <span class="stat-badge-value">${stat.value}</span>
+                    ${stat.sourceUrl ? `
+                        <a class="stat-badge-source" href="${stat.sourceUrl}" target="_blank" rel="noopener noreferrer" aria-label="Verify ${stat.label} source">
+                            source
+                        </a>
+                    ` : ''}
                 </div>
             `).join('')}
         </div>

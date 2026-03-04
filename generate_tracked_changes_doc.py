@@ -19,6 +19,10 @@ from html.parser import HTMLParser
 from docx import Document
 from docx.shared import Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_UNDERLINE
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
+from docx.opc.constants import RELATIONSHIP_TYPE as RT
+from docx.text.paragraph import Paragraph
 
 
 # ── Colors ──────────────────────────────────────────────────────────────
@@ -64,6 +68,167 @@ def strip_html(html_str):
     parser = HTMLStripper()
     parser.feed(html_str)
     return parser.get_text()
+
+
+def build_stat_source_map(data_paths):
+    """Map each stop title to per-stat verification URLs."""
+    stat_sources = {}
+    for data_path in data_paths:
+        with open(data_path, "r", encoding="utf-8") as f:
+            stops = json.load(f)
+
+        for stop in stops:
+            resource_urls = []
+            for section in stop.get("sections", []):
+                if section.get("type") == "resources":
+                    resource_urls = [
+                        r.get("url") for r in section.get("resources", []) if r.get("url")
+                    ]
+                    break
+
+            per_stat = []
+            for idx, stat in enumerate(stop.get("stats", [])):
+                if stat.get("sourceUrl"):
+                    url = stat.get("sourceUrl")
+                elif idx < len(resource_urls):
+                    url = resource_urls[idx]
+                elif resource_urls:
+                    url = resource_urls[0]
+                else:
+                    url = ""
+                per_stat.append({
+                    "label": stat.get("label", ""),
+                    "url": url
+                })
+
+            stat_sources[stop.get("title", "")] = per_stat
+
+    return stat_sources
+
+
+def add_hyperlink(paragraph, text, url):
+    """Insert a clickable external hyperlink run."""
+    if not url:
+        return paragraph.add_run(text)
+
+    r_id = paragraph.part.relate_to(url, RT.HYPERLINK, is_external=True)
+    hyperlink = OxmlElement("w:hyperlink")
+    hyperlink.set(qn("r:id"), r_id)
+
+    new_run = OxmlElement("w:r")
+    r_pr = OxmlElement("w:rPr")
+    r_style = OxmlElement("w:rStyle")
+    r_style.set(qn("w:val"), "Hyperlink")
+    r_pr.append(r_style)
+    new_run.append(r_pr)
+
+    text_elm = OxmlElement("w:t")
+    text_elm.text = text
+    new_run.append(text_elm)
+    hyperlink.append(new_run)
+
+    paragraph._p.append(hyperlink)
+    return hyperlink
+
+
+def insert_paragraph_after(paragraph):
+    """Create and return a paragraph inserted directly after another."""
+    new_p = OxmlElement("w:p")
+    paragraph._p.addnext(new_p)
+    return Paragraph(new_p, paragraph._parent)
+
+
+def is_strike_only_paragraph(paragraph):
+    text_runs = [run for run in paragraph.runs if run.text.strip()]
+    if not text_runs:
+        return False
+    return all(run.font.strike for run in text_runs)
+
+
+def inject_stat_source_links(doc, stat_sources_by_stop):
+    """Add one per-stop stat source line with hyperlinks."""
+    known_titles = list(stat_sources_by_stop.keys())
+
+    def resolve_stop_title_from_heading(line):
+        matches = []
+        for title in known_titles:
+            pos = line.find(title)
+            if pos != -1:
+                matches.append((pos, len(title), title))
+        if matches:
+            # In mixed tracked-change headings, the latest/new title tends to appear later.
+            matches.sort(key=lambda m: (m[0], m[1]))
+            return matches[-1][2]
+        if ":" in line:
+            return line.split(":", 1)[1].strip()
+        return line.strip()
+
+    def paragraph_already_has_sources(paragraph):
+        next_p = paragraph._p.getnext()
+        if next_p is None:
+            return False
+        next_text = "".join(next_p.itertext()).strip()
+        return next_text.startswith("Stat sources:")
+
+    def add_sources_line(anchor_paragraph, stop_title):
+        stat_sources = stat_sources_by_stop.get(stop_title, [])
+        if not stat_sources:
+            return False
+        if paragraph_already_has_sources(anchor_paragraph):
+            return True
+
+        source_para = insert_paragraph_after(anchor_paragraph)
+        lead = source_para.add_run("Stat sources: ")
+        lead.font.size = Pt(9)
+        lead.font.color.rgb = GRAY
+        lead.font.italic = True
+
+        for idx, src in enumerate(stat_sources):
+            label = src.get("label", "").strip() or "Stat"
+            lbl_run = source_para.add_run(f"{label} ")
+            lbl_run.font.size = Pt(9)
+            lbl_run.font.color.rgb = GRAY
+
+            add_hyperlink(source_para, "[source]", src.get("url", ""))
+
+            if idx < len(stat_sources) - 1:
+                sep = source_para.add_run(" | ")
+                sep.font.size = Pt(9)
+                sep.font.color.rgb = GRAY
+        return True
+
+    paragraphs = list(doc.paragraphs)
+    current_stop_title = None
+    inserted_stops = set()
+    fallback_anchor = None
+
+    for paragraph in paragraphs:
+        line = paragraph.text.strip()
+
+        if line.startswith("Stop ") and ":" in line:
+            if current_stop_title and current_stop_title not in inserted_stops and fallback_anchor is not None:
+                if add_sources_line(fallback_anchor, current_stop_title):
+                    inserted_stops.add(current_stop_title)
+
+            current_stop_title = resolve_stop_title_from_heading(line)
+            fallback_anchor = None
+            continue
+
+        if not current_stop_title:
+            continue
+
+        if line.startswith("Location:") and fallback_anchor is None:
+            fallback_anchor = paragraph
+            continue
+
+        if line.startswith("Quick stats:") and not is_strike_only_paragraph(paragraph):
+            if current_stop_title not in inserted_stops:
+                if add_sources_line(paragraph, current_stop_title):
+                    inserted_stops.add(current_stop_title)
+
+    if current_stop_title and current_stop_title not in inserted_stops and fallback_anchor is not None:
+        if add_sources_line(fallback_anchor, current_stop_title):
+            inserted_stops.add(current_stop_title)
 
 
 # ── Extract plain text from data.json ───────────────────────────────────
@@ -267,7 +432,7 @@ def get_heading_level(line):
     return 3
 
 
-def build_tracked_doc(old_text, new_text, output_path):
+def build_tracked_doc(old_text, new_text, output_path, stat_sources_by_stop=None):
     """Build a Word document with tracked changes."""
     doc = Document()
 
@@ -457,6 +622,9 @@ def build_tracked_doc(old_text, new_text, output_path):
                             run.underline = WD_UNDERLINE.SINGLE
                             run.font.size = Pt(11)
 
+    if stat_sources_by_stop:
+        inject_stat_source_links(doc, stat_sources_by_stop)
+
     doc.save(output_path)
     print(f"Tracked changes document saved to: {output_path}")
 
@@ -486,6 +654,8 @@ if __name__ == "__main__":
         2
     )
 
+    stat_sources_by_stop = build_stat_source_map([fscclt_path, community_path])
+
     output_path = os.path.join(script_dir, "BSH_2026_Tour_Content_Tracked_Changes.docx")
-    build_tracked_doc(old_text, new_text, output_path)
+    build_tracked_doc(old_text, new_text, output_path, stat_sources_by_stop)
     print("Done!")

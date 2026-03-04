@@ -896,37 +896,6 @@
                 { title: "Aboriginal Front Door Society", coords: [49.2812, -123.0996] }
             ];
 
-            var fsccltRouteCoords = [
-                // False Creek South to Granville Island
-                [49.2710, -123.1280], [49.27040, -123.12800], [49.27050, -123.12960],
-                [49.27110, -123.13140], [49.27160, -123.13300], [49.27170, -123.13380],
-                [49.27056, -123.13417],
-                // Granville Island to Sen̓áḵw
-                [49.27056, -123.13417], [49.27090, -123.13600], [49.27120, -123.13680],
-                [49.27100, -123.13750], [49.27060, -123.13900], [49.27030, -123.14040],
-                [49.27080, -123.14180], [49.27257, -123.14289]
-            ];
-            var communityRouteCoords = [
-                // First United
-                [49.28101, -123.09716],
-                // UBC Learning Exchange
-                [49.28100, -123.09716], [49.28100, -123.09930], [49.27920, -123.09929],
-                // DTES CLT / SRO Collab
-                [49.27922, -123.09891], [49.27918, -123.09802],
-                // Hogan's Alley
-                [49.27792, -123.09802], [49.27792, -123.09831],
-                // Aboriginal Front Door
-                [49.27792, -123.09960], [49.28120, -123.09960]
-            ];
-
-            L.polyline(fsccltRouteCoords, {
-                color: '#002145', weight: 3, opacity: 0.6
-            }).addTo(map);
-
-            L.polyline(communityRouteCoords, {
-                color: '#c2a02e', weight: 3, opacity: 0.8
-            }).addTo(map);
-
             fsccltStops.forEach(function (stop, i) {
                 var icon = L.divIcon({
                     className: '',

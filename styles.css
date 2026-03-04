@@ -1895,18 +1895,6 @@ button:focus:not(:focus-visible) {
     transform: translateY(8px);
 }
 
-/* ── Tour Route Line ── */
-.tour-route {
-    pointer-events: none;
-    stroke-linejoin: round !important;
-}
-
-.tour-route-past {
-    pointer-events: none;
-    stroke-linejoin: round !important;
-    opacity: 0.6 !important;
-}
-
 /* ── Tour Completion Panel ── */
 .tour-complete-panel {
     padding: 2rem 1.5rem;

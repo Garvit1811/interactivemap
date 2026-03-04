@@ -747,16 +747,16 @@ const tourStops = [
                 icon: "document",
                 content: `
                     <h4>First Forward Redevelopment — 320 E Hastings</h4>
-                    <p>The First Forward project will transform the 320 East Hastings site into a universally accessible, purpose-built facility: <strong>four floors of community amenities</strong> topped by <strong>seven floors of below-market rental housing</strong> (over 100 studio and one-bedroom units) operated by Lu'ma Native Housing Society.</p>
-                    <p>The new facility will nearly <strong>triple First United's program space to ~40,000 sq ft</strong>, incorporating:</p>
+                    <p>The First Forward project will transform the 320 East Hastings site into a universally accessible, purpose-built facility: <strong>four floors of community amenities</strong> topped by <strong>seven floors of below-market rental housing</strong> (103 units — 35 supportive and 68 rental prioritized for Indigenous peoples) operated by Lu'ma Native Housing Society. <strong>25% of units will be fully accessible</strong>, with the remainder built to adaptable standards.</p>
+                    <p>The ~$80 million project will nearly <strong>triple First United's program space to ~40,000 sq ft</strong>, incorporating:</p>
                     <ul>
                         <li>Expanded food security and meal service infrastructure</li>
                         <li>Dedicated legal advocacy and tenant support offices</li>
                         <li>Culturally grounded healing and spiritual care spaces</li>
-                        <li>Community gathering and drop-in areas</li>
-                        <li>Indigenous-led governance with Musqueam, Squamish, and Tsleil-Waututh artwork integrated into the building design</li>
+                        <li>Community gathering, drop-in areas, and an outdoor deck</li>
+                        <li>Warming, cooling, and wildfire smoke refuge for unsheltered community members</li>
                     </ul>
-                    <p>The project is developed in partnership with Lu'ma Native Housing Society, ensuring <strong>Indigenous-led and community-accountable governance</strong> for long-term operations.</p>
+                    <p>The design was shaped by <strong>extensive community consultation</strong>: nearly 100 DTES residents with lived experience participated in one-on-one conversations and focus groups, alongside service providers and government partners. The interior is designed by Nisga'a architect <strong>Luugigyoo Patrick Stewart</strong>, with cultural consultant <strong>Xalek/Sekyu Siyam Chief Ian Campbell</strong> guiding the regulatory and design process. The exterior integrates works by <strong>Musqueam, Squamish, and Tsleil-Waututh artists</strong>.</p>
 
                     <h4>BSH Evictions & Security of Tenure Partnership</h4>
                     <p>First United is a key partner in BSH's <strong>Evictions and Security of Tenure</strong> research project. Through this collaboration, First United has collected eviction survey data from <strong>over 1,100 BC tenants</strong>, providing critical evidence on who is being evicted and the downstream impacts on households — data not being collected anywhere else in Canada.</p>
@@ -814,22 +814,22 @@ const tourStops = [
                     {
                         title: "First United Church Community Ministry Society",
                         url: "https://firstunited.ca/",
-                        description: "Official website — programs, redevelopment plans, and community impact"
+                        description: "Official website — programs, services, redevelopment plans, and community impact"
                     },
                     {
                         title: "BSH — Evictions and Security of Tenure",
                         url: "https://bsh.ubc.ca/research/evictions-and-security-of-tenure/",
-                        description: "BSH research project partnering with First United on BC eviction data"
+                        description: "BSH research project partnering with First United on BC eviction data and tenant displacement"
                     },
                     {
-                        title: "First United — BC Eviction Mapping",
-                        url: "https://firstunited.ca/how-we-help/bc-eviction-mapping/",
-                        description: "Eviction survey collecting data from 1,100+ BC tenants"
+                        title: "The Tyee — First United Launches $30M Campaign",
+                        url: "https://thetyee.ca/Presents/2021/11/17/First-United-30-Million-Campaign-Downtown-Eastside-Site/",
+                        description: "Coverage of the First Forward capital campaign and DTES redevelopment vision"
                     },
                     {
-                        title: "First Forward Redevelopment",
-                        url: "https://firstunited.ca/first-forward-redevelopment/",
-                        description: "Plans for the 320 E Hastings mixed-use community hub and housing"
+                        title: "Vancouver Is Awesome — Community-Informed DTES Space",
+                        url: "https://www.vancouverisawesome.com/sponsored/first-united-church-is-creating-a-community-informed-space-for-the-downtown-eastside-vancouver-6152186",
+                        description: "How First United's inclusive design process centred DTES residents' voices"
                     }
                 ]
             }
@@ -975,22 +975,12 @@ const tourStops = [
                     {
                         title: "Hogan's Alley Society",
                         url: "https://www.hogansalleysociety.org/",
-                        description: "Organization history, MOU context, cultural restoration, and project pillars"
+                        description: "Official website — history, cultural restoration, CLT vision, and project updates"
                     },
                     {
-                        title: "City of Vancouver - Hogan's Alley Society Block",
-                        url: "https://vancouver.ca/home-property-development/hogans-alley-society-block.aspx",
-                        description: "Municipal planning and implementation details"
-                    },
-                    {
-                        title: "City of Vancouver - 258 Union Street",
-                        url: "https://vancouver.ca/people-programs/258-union-street.aspx",
-                        description: "Nora Hendrix Place housing project profile"
-                    },
-                    {
-                        title: "City of Vancouver — Hogan's Alley MOU",
+                        title: "City of Vancouver — Hogan's Alley MOU & Northeast False Creek",
                         url: "https://vancouver.ca/people-programs/hogan-s-alley-mou.aspx",
-                        description: "MOU details, Northeast False Creek Plan context, and cultural redress framework"
+                        description: "MOU details, 898 Main Street block plans, cultural redress framework, and NEFC Plan context"
                     },
                     {
                         title: "CNCLT Summit — Vancouver Community Land Trusts",
@@ -1000,12 +990,17 @@ const tourStops = [
                     {
                         title: "BSH Research in Progress — Vancouver's Growing CLT Movement",
                         url: "https://bsh.ubc.ca/research-in-progress-on-vancouvers-growing-clt-movement/",
-                        description: "October 2025 BSH webinar featuring HAS and DTES CLT on affordable housing and community land stewardship"
+                        description: "BSH webinar featuring HAS and DTES CLT on affordable housing and community land stewardship"
                     },
                     {
                         title: "BSH — Reclaim, Remain: BIPOC-Led CLTs in Canada",
                         url: "https://bsh.ubc.ca/research/policy-report-profile-series-on-canadian-community-land-trusts/",
-                        description: "Research profiles of six BIPOC-led CLTs including HAS, examining collective land stewardship and anti-displacement strategies"
+                        description: "Research profiles of six BIPOC-led CLTs including HAS, examining collective land stewardship"
+                    },
+                    {
+                        title: "Globe and Mail — Vancouver Signs CLT Deal for Hogan's Alley",
+                        url: "https://www.theglobeandmail.com/canada/british-columbia/article-vancouver-signs-deal-to-turn-former-site-of-hogans-alley-into/",
+                        description: "Coverage of the City-HAS agreement to create a community land trust on the former Hogan's Alley site"
                     }
                 ]
             }

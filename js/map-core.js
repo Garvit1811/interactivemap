@@ -991,7 +991,6 @@ window.BSHTourMap = {
                 });
             }
 
-            // Progress dots removed per editorial feedback
 
             // ============================================
             // Onboarding Toast
@@ -1074,7 +1073,7 @@ window.BSHTourMap = {
                     container.innerHTML = `
             <div class="tour-complete-panel">
                 <h3>Tour Complete</h3>
-                <p>You've explored all ${tourStops.length} stops in this tour. Return to see other tours or revisit any stop using the dots above.</p>
+                <p>You've explored all ${tourStops.length} stops in this tour. Return to see other tours or revisit any stop from the sidebar.</p>
                 <a href="../index.html" class="tour-complete-link">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M15 18l-6-6 6-6"/>

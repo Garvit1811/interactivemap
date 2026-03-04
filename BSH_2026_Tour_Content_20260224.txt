@@ -12,7 +12,7 @@ Quick stats: City-Owned: 80% | Units: 1,849 | Leases: 2036-46
 Overview
 False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this 136-acre waterfront neighbourhood demonstrates how public land ownership can support diverse housing options while maintaining long-term affordability.
 
-                    The City of Vancouver owns 80% of False Creek South, making it a rare example of large-scale public land stewardship. The original vision committed to a tenure mix of one-third non-market rental housing, one-third co-ops, and one-third strata leasehold — a model designed to avoid the social stratification common in single-tenure developments.
+                    The City of Vancouver owns about 80 acres in False Creek South, making it a rare example of large-scale public land stewardship. The original vision committed to a tenure mix of one-third non-market rental housing, one-third co-ops, and one-third strata leasehold — a model designed to avoid the social stratification common in single-tenure developments.
 
                     Today, about 5,500 residents live in 1,849 homes. The land is leased on 60-year terms that begin expiring between 2036 and 2046, creating a pivotal decision point about how to preserve affordability while renewing public assets.
 
@@ -64,7 +64,7 @@ Mixed Tenure Breakdown
 
                     Recent grant-funded projects include an Embodied Carbon study (Vancity Envirofund) comparing demolition vs. lease extensions, and a capacity-building program to support governance, community engagement, and long-term financial planning.
 Key Points
-- 80% of neighbourhood is on City-owned land
+- About 80 acres are on City-owned land
 - 1,849 homes with a one-third / one-third / one-third tenure mix
 - All land leases expire in 2036-2046 — critical transition period
 - 2021 Council rejected wholesale demolition and density tripling

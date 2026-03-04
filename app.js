@@ -22,7 +22,7 @@ const tourStops = [
         },
 
         stats: [
-            { label: "City-Owned", value: "80%" },
+            { label: "City-Owned", value: "80 acres" },
             { label: "Units", value: "1,849" },
             { label: "Leases", value: "2036-46" }
         ],
@@ -34,7 +34,7 @@ const tourStops = [
                 icon: "info",
                 content: `
                     <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this <strong>136-acre waterfront neighbourhood</strong> demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>
-                    <p>The City of Vancouver owns <strong>80% of False Creek South</strong>, making it a rare example of large-scale public land stewardship. The original vision committed to a tenure mix of one-third non-market rental housing, one-third co-ops, and one-third strata leasehold — a model designed to avoid the social stratification common in single-tenure developments.</p>
+                    <p>The City of Vancouver owns <strong>about 80 acres in False Creek South</strong>, making it a rare example of large-scale public land stewardship. The original vision committed to a tenure mix of one-third non-market rental housing, one-third co-ops, and one-third strata leasehold — a model designed to avoid the social stratification common in single-tenure developments.</p>
                     <p>Today, about <strong>5,500 residents live in 1,849 homes</strong>. The land is leased on 60-year terms that begin expiring between 2036 and 2046, creating a pivotal decision point about how to preserve affordability while renewing public assets.</p>
                     <p><strong>Robyn Chan</strong>, Project Manager for the False Creek South Community Housing Trust, leads community planning efforts. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to establish a community land trust that would give residents more control over their housing future.</p>
                 `
@@ -105,7 +105,7 @@ const tourStops = [
                     <p>Recent grant-funded projects include an <strong>Embodied Carbon study</strong> (Vancity Envirofund) comparing demolition vs. lease extensions, and a <strong>capacity-building program</strong> to support governance, community engagement, and long-term financial planning.</p>
                 `,
                 keyPoints: [
-                    "80% of neighbourhood is on City-owned land",
+                    "About 80 acres are on City-owned land",
                     "1,849 homes with a one-third / one-third / one-third tenure mix",
                     "All land leases expire in 2036-2046 — critical transition period",
                     "2021 Council rejected wholesale demolition and density tripling",

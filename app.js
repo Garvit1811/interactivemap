@@ -1341,9 +1341,9 @@ const tourStops = [
         coordinates: [49.2812, -123.0996],
 
         heroImage: {
-            src: "../images/placeholder.svg",
-            alt: "Aboriginal Front Door Society at 384 Main Street",
-            caption: "Aboriginal Front Door Society (384 Main St)"
+            src: "../images/community-orgs/dtes-streetscape.jpg",
+            alt: "Downtown Eastside streetscape near Main Street in Vancouver",
+            caption: "Downtown Eastside streetscape near Main Street — context photo"
         },
 
         stats: [
@@ -1406,6 +1406,29 @@ const tourStops = [
                     "Provides cultural activities, Elder guidance, and safe referrals",
                     "Operates a homeless storage program and regular food bank",
                     "A critical Indigenous-led organization in the neighborhood"
+                ]
+            },
+            {
+                id: "gallery",
+                label: "Gallery",
+                icon: "images",
+                type: "gallery",
+                images: [
+                    {
+                        src: "../images/community-orgs/dtes-streetscape.jpg",
+                        alt: "Downtown Eastside streetscape near Main Street in Vancouver",
+                        caption: "Downtown Eastside streetscape near Main Street — context photo"
+                    },
+                    {
+                        src: "../images/community-orgs/first-united-church.webp",
+                        alt: "East Hastings and Gore streetscape in the Downtown Eastside",
+                        caption: "East Hastings and Gore streetscape — nearby DTES context"
+                    },
+                    {
+                        src: "../images/community-orgs/has-union-street-building.jpg",
+                        alt: "Union Street streetscape in Vancouver",
+                        caption: "Union Street streetscape — community-serving area context"
+                    }
                 ]
             },
             {

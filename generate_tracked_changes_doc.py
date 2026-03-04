@@ -248,7 +248,8 @@ def is_heading(line):
         r"^Gallery$",
         r"^Resources$",
         r"^(Housing Model|Land Model|Land Rights|Programs|Partners & Work|"
-        r"History & Plans|Details|Learn More)$",
+        r"History & Plans|Details|Learn More|Deeper Dive|"
+        r"Policy and Public Accountability|Key Points)$",
     ]
     for pat in patterns:
         if re.match(pat, line.strip()):
@@ -299,7 +300,7 @@ def build_tracked_doc(old_text, new_text, output_path):
 
     subtitle = doc.add_paragraph()
     subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = subtitle.add_run("Comparing: Feb 22 baseline → Current live content (Feb 28, 2026)")
+    run = subtitle.add_run("Comparing: Feb 22 baseline → Current live content (Mar 4, 2026)")
     run.font.size = Pt(14)
     run.font.color.rgb = GRAY
 

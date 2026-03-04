@@ -738,16 +738,16 @@
         },
         "stats": [
           {
-            "label": "Private SROs",
-            "value": "~100"
+            "label": "CLT Buildings",
+            "value": "2"
           },
           {
-            "label": "SRO Residents",
-            "value": "4,000+"
+            "label": "First Acquisition",
+            "value": "2026"
           },
           {
-            "label": "Indigenous",
-            "value": "~33%"
+            "label": "Governance",
+            "value": "Community-led"
           }
         ],
         "sections": [
@@ -755,7 +755,7 @@
             "id": "overview",
             "label": "Overview",
             "icon": "info",
-            "content": "\n                    <p>The Downtown Eastside (DTES) is home to <strong>over 4,000 residents living in roughly 99 SRO buildings</strong> — often the last rental option before homelessness. Approximately one-third of SRO residents are Indigenous.</p>\n                    <p>Community organizations are working to acquire buildings and convert them to <strong>permanent community ownership through land trust models</strong>, removing them from the speculative market while preserving affordability for current residents.</p>\n                    <p>In 2023, the Province provided an <strong>$11 million grant to the DTES SRO Collaborative Society</strong> to support tenant-led programming and safety initiatives. The Downtown Eastside Community Land Trust (DTES CLT) was incorporated in 2023 to acquire buildings under Indigenous co-leadership and community governance.</p>\n                "
+            "content": "\n                    <p>The <strong>Downtown Eastside Community Land Trust (DTES CLT)</strong> is a community-governed non-profit that acquires privately owned buildings and transfers them into permanent community ownership. Founded in 2020 and formally incorporated in January 2023, the CLT operates under <strong>Indigenous co-leadership</strong> with a decolonized governance model co-led by Indigenous peoples and those with lived experience of housing precarity.</p>\n                    <p>The CLT's governance structure includes a <strong>community-elected board</strong> and a <strong>tenant and elder sub-committee</strong> that meets monthly to provide input on building acquisitions, renovations, and operations. This model ensures that those most affected by housing instability have direct decision-making power.</p>\n                    <p>In February 2026, DTES CLT <strong>officially took possession of Powell Rooms</strong> — its first building acquisition. The CLT is also the operating partner for <strong>Keefer Rooms (48 units)</strong>, purchased by BC Housing in October 2023.</p>\n                "
           },
           {
             "id": "highlights",
@@ -764,19 +764,24 @@
             "type": "highlights",
             "highlights": [
               {
-                "title": "SRO Support Loop",
-                "description": "Map the tenant support network connecting SRO buildings, outreach teams, and health resources.",
-                "meta": "Support services"
-              },
-              {
-                "title": "Hogan's Alley Sites",
-                "description": "Identify the restoration efforts honoring Vancouver's historic Black neighbourhood.",
-                "meta": "Cultural heritage"
-              },
-              {
-                "title": "Future Acquisitions",
-                "description": "Review the Keefer and Powell Rooms timelines to understand CLT acquisition strategy.",
+                "title": "Community Ownership Model",
+                "description": "DTES CLT acquires and stewards SRO buildings as permanently community-owned housing.",
                 "meta": "Land trust"
+              },
+              {
+                "title": "Powell Rooms (23 units)",
+                "description": "DTES CLT's first acquisition, completed February 2026. Funded through a $1M Reaching Home federal grant, City SRO upgrade funding, and philanthropic donations. Total cost: ~$2.5M. Includes ground-floor childcare by Promise Vancouver.",
+                "meta": "First acquisition"
+              },
+              {
+                "title": "Keefer Rooms (48 units)",
+                "description": "Purchased by BC Housing for $8.2M in October 2023 after a 2022 fire displaced 39 residents. DTES CLT operates the building in partnership with BC Housing; over time, the lease may transfer fully to DTES CLT. Renovations included window, electrical, and fire-system upgrades.",
+                "meta": "BC Housing partnership"
+              },
+              {
+                "title": "CLT Governance Model",
+                "description": "Community-elected board with Indigenous co-leadership. A tenant and elder sub-committee meets monthly to guide acquisition decisions, building design, and operations. Grounded in decolonized, non-hierarchical governance.",
+                "meta": "Community governance"
               }
             ]
           },
@@ -784,12 +789,12 @@
             "id": "details",
             "label": "Partners & Work",
             "icon": "document",
-            "content": "\n                    <h4>The SRO Challenge</h4>\n                    <p>Vancouver's SRO stock is governed by the SRA by-law, with <strong>~99 buildings and ~4,000 rooms</strong> in the DTES alone. Average rents are roughly <strong>$680/month</strong> overall, while private SROs average closer to <strong>$740/month</strong>. The provincial shelter rate is $500/month, creating a persistent affordability gap.</p>\n                    <p>As <strong>Wendy Pedersen</strong>, Executive Director of the SRO Collaborative, explains: \"Privately owned SRO hotels are a last resort before homelessness.\" The Collaborative's Tenant Overdose Response Organizers (TORO) project connects tenant organizers with naloxone supplies and education.</p>\n\n                    <h4>Community Partners</h4>\n                    <p>Multiple organizations work together to preserve and improve DTES housing:</p>\n                    <ul>\n                        <li><strong>DTES SRO Collaborative:</strong> Advocates for tenants, received $11M provincial grant in 2023</li>\n                        <li><strong>Hogan's Alley Society:</strong> Restoring Vancouver's historic Black neighbourhood, with projects on Union Street and Main Street</li>\n                        <li><strong>Aboriginal Front Door:</strong> Indigenous-led support services</li>\n                        <li><strong>Carnegie Community Centre:</strong> Historic community hub since 1903</li>\n                        <li><strong>DTES Neighbourhood House:</strong> Community programs and partnerships</li>\n                        <li><strong>UBC Learning Exchange:</strong> University-community partnership</li>\n                    </ul>\n\n                    <h4>Community Land Trust Model</h4>\n                    <p>The CLT approach in the DTES:</p>\n                    <ul>\n                        <li>Removes buildings permanently from the speculative market</li>\n                        <li>Ensures long-term affordability through trust structure</li>\n                        <li>Keeps housing decisions in community hands</li>\n                        <li>Prevents displacement of current residents during acquisition</li>\n                    </ul>\n\n                    <h4>Policy Context</h4>\n                    <p>In 2024, Vancouver implemented <strong>vacancy control for SROs</strong>, preventing rent spikes between tenancies. DTES CLT's first acquisition, <strong>Powell Rooms (23 units)</strong>, is expected to close in January 2026, while <strong>Keefer Rooms (48 units)</strong> is reopening in spring 2025 through a BC Housing partnership and community programming model.</p>\n                ",
+            "content": "\n                    <h4>Powell Rooms — First CLT Acquisition</h4>\n                    <p>In February 2026, DTES CLT completed its first building acquisition: <strong>Powell Rooms</strong>, a 23-unit SRO with ground-floor childcare operated by Promise Vancouver. The previous owner, Rob Harden, sold the property after owning it since 2005.</p>\n                    <p>The ~$2.5 million acquisition was funded through a <strong>$1 million Reaching Home federal grant</strong>, approximately $230,000 from a City of Vancouver SRO upgrade program, and philanthropic donations. The CLT had secured approximately 85% of required funds before closing.</p>\n\n                    <h4>Keefer Rooms — BC Housing Partnership</h4>\n                    <p>In October 2023, BC Housing purchased Keefer Rooms (48 SRO units at 222 Keefer St) for <strong>$8.2 million</strong> after a September 2022 fire displaced 39 residents. The building had been vacant for over a year. DTES CLT was named the <strong>operating partner</strong>, with the DTES SRO Collaborative overseeing tenant-led programming including harm reduction and fire safety.</p>\n                    <p>Renovations included window replacements and electrical and fire-system upgrades. The building was targeted for reopening in spring 2025. Over time, <strong>BC Housing may transfer the lease to DTES CLT</strong>, but for now management operates as a partnership between BC Housing, the CLT, and the SRO Collaborative.</p>\n\n                    <h4>Governance Model</h4>\n                    <p>The CLT uses a <strong>decolonized, non-hierarchical governance model</strong> co-led by Indigenous peoples and people with lived experience:</p>\n                    <ul>\n                        <li><strong>Community-elected board of directors</strong> with Indigenous co-leadership</li>\n                        <li><strong>Tenant and elder sub-committee</strong> meets monthly to guide decisions on acquisitions, furnishings, and building operations</li>\n                        <li>Profits are reinvested into buildings and community benefit — not extracted</li>\n                        <li>Properties are permanently removed from the speculative market through the trust structure</li>\n                    </ul>\n\n                    <h4>The CLT Model</h4>\n                    <p>Community land trusts are non-profit corporations that acquire and hold land in perpetuity for community use. In the DTES context, the CLT model:</p>\n                    <ul>\n                        <li>Acquires privately owned SROs before they are lost to speculation or neglect</li>\n                        <li>Ensures rents remain permanently affordable — tied to income levels, not market rates</li>\n                        <li>Integrates <strong>holistic, tenant-centred housing</strong> designed by and for the community</li>\n                        <li>Partners with DTES SRO Collaborative for tenant-based initiatives in each building</li>\n                    </ul>\n                ",
             "keyPoints": [
-              "4,000+ residents in ~99 SROs — last stop before homelessness",
-              "$11M provincial grant to SRO Collaborative (2023)",
-              "CLT acquisitions remove buildings from speculative market",
-              "Vacancy control (2024) prevents rent hikes between tenancies"
+              "First acquisition (Powell Rooms, 23 units) completed February 2026",
+              "Keefer Rooms (48 units) operated in partnership with BC Housing",
+              "Indigenous co-leadership with tenant and elder sub-committee governance",
+              "Buildings permanently removed from speculative market through trust structure"
             ]
           },
           {

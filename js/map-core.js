@@ -1108,6 +1108,9 @@ window.BSHTourMap = {
             initStopsDrawer();
             initMapActions();
 
+            // Auto-render stop 1 on load so panel isn't blank
+            goToStop(0);
+
             // Allow markers to be keyboard accessible
             document.querySelectorAll('.custom-marker').forEach((btn) => {
                 btn.addEventListener('keydown', (e) => {

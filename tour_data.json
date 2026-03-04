@@ -75,7 +75,7 @@
             "id": "details",
             "label": "Housing Model",
             "icon": "document",
-            "content": "\n                    <h4>Mixed Tenure Breakdown</h4>\n                    <p>False Creek South showcases six distinct tenure types, each serving different community needs:</p>\n                    <ul>\n                        <li><strong>Co-operatives:</strong> Six housing co-ops including Twin Rainbows (86 units, opened 1981), Creekview, Alder Bay, and others. Members have secure tenure and participate in democratic governance.</li>\n                        <li><strong>Non-Market Rental:</strong> Below-market housing operated by non-profit societies, ensuring affordability for lower-income residents.</li>\n                        <li><strong>Market Rental:</strong> Rental housing at market rates, providing flexibility for those who prefer renting.</li>\n                        <li><strong>Strata Residential:</strong> Privately-owned condominiums within the mixed community.</li>\n                        <li><strong>City-Owned Properties:</strong> Land and buildings retained by the City of Vancouver.</li>\n                        <li><strong>Commercial & Civic:</strong> Including False Creek School and retail frontages.</li>\n                    </ul>\n\n                    <h4>The Land Lease Model</h4>\n                    <p>Housing operators <strong>lease land from the city</strong> rather than purchasing it. All lease terms expire in the 2030s and 2040s, creating both opportunity and uncertainty. This model:</p>\n                    <ul>\n                        <li>Keeps land costs out of housing prices</li>\n                        <li>Prevents speculation and land flipping</li>\n                        <li>Maintains public control over development decisions</li>\n                        <li>Allows the city to enforce affordability requirements</li>\n                    </ul>\n\n                    <h4>The Lease Crisis</h4>\n                    <p>The original 60-year leases are approaching expiry, creating uncertainty for roughly <strong>3,200 residents</strong>. In 2021, City Council rejected a staff proposal to triple density and instead directed a community-led planning process. In January 2025, the City awarded a <strong>$4 million contract to Arup Group</strong> to prepare a landowner plan, sparking renewed debate about community involvement.</p>\n\n                    <h4>Community Land Trust Initiative</h4>\n                    <p>In March 2024, Vancouver Council passed a motion supporting the construction of new co-ops on City-owned land through a <strong>community land trust model</strong>. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: \"It's a way to have more control and to expand non-profit housing.\"</p>\n                    <p>Recent grant-funded projects include an <strong>Embodied Carbon study</strong> (Vancity Envirofund) comparing demolition vs. lease extensions, and a <strong>capacity-building program</strong> to support governance, community engagement, and long-term financial planning.</p>\n                ",
+            "content": "\n                    <h4>Mixed Tenure Breakdown</h4>\n                    <p>False Creek South showcases six distinct tenure types, each serving different community needs:</p>\n                    <ul>\n                        <li><strong>Co-operatives:</strong> Six housing co-ops including Twin Rainbows (86 units, opened 1981), Creekview, Alder Bay, and others. Members have secure tenure and participate in democratic governance.</li>\n                        <li><strong>Non-Market Rental:</strong> Below-market housing operated by non-profit societies, ensuring affordability for lower-income residents.</li>\n                        <li><strong>Market Rental:</strong> Rental housing at market rates, providing flexibility for those who prefer renting.</li>\n                        <li><strong>Strata Residential:</strong> Privately-owned condominiums within the mixed community.</li>\n                        <li><strong>City-Owned Properties:</strong> Land and buildings retained by the City of Vancouver.</li>\n                        <li><strong>Commercial & Civic:</strong> Including False Creek School and retail frontages.</li>\n                    </ul>\n\n                    <h4>The Land Lease Model</h4>\n                    <p>Housing operators <strong>lease land from the city</strong> rather than purchasing it. All lease terms expire in the 2030s and 2040s, creating both opportunity and uncertainty. This model:</p>\n                    <ul>\n                        <li>Keeps land costs out of housing prices</li>\n                        <li>Prevents speculation and land flipping</li>\n                        <li>Maintains public control over development decisions</li>\n                        <li>Allows the city to enforce affordability requirements</li>\n                    </ul>\n\n                    \n                    <h4>CMHC Origins & the Co-op Legacy</h4>\n                    <p>In the late 1960s, the federal government tasked CMHC with developing False Creek's former industrial lands. CMHC built <strong>social housing, co-op housing, market condos on leased land, and rental housing</strong> — creating the mixed-tenure False Creek South community. Five co-ops managed by CHF BC still operate along False Creek: <strong>Harbour Cove, Marina, Creekview, Twin Rainbows, and Alder Bay</strong>.</p>\n\n                    <h4>The Lease Crisis</h4>\n                    <p>The original 60-year leases are approaching expiry, creating uncertainty for roughly <strong>3,200 residents</strong>. In 2021, City Council rejected a staff proposal to triple density and instead directed a community-led planning process. In January 2025, the City awarded a <strong>$4 million contract to Arup Group</strong> to prepare a landowner plan, sparking renewed debate about community involvement.</p>\n\n                    <h4>Community Land Trust Initiative</h4>\n                    <p>In March 2024, Vancouver Council passed a motion supporting the construction of new co-ops on City-owned land through a <strong>community land trust model</strong>. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: \"It's a way to have more control and to expand non-profit housing.\"</p>\n                    <p>Recent grant-funded projects include an <strong>Embodied Carbon study</strong> (Vancity Envirofund) comparing demolition vs. lease extensions, and a <strong>capacity-building program</strong> to support governance, community engagement, and long-term financial planning.</p>\n                ",
             "keyPoints": [
               "80% of neighbourhood is on City-owned land",
               "1,849 homes with a one-third / one-third / one-third tenure mix",
@@ -363,7 +363,7 @@
             "id": "details",
             "label": "Land Model",
             "icon": "document",
-            "content": "\n                    <h4>The Land Lease Approach</h4>\n                    <p>CMHC owns all land on Granville Island and leases it to <strong>over 300 commercial, retail, cultural, artistic, and educational tenants</strong>. The island operates a <strong>subsidy model</strong> where market rents from some businesses support more affordable rents for:</p>\n                    <ul>\n                        <li>Small businesses and artisans</li>\n                        <li>Arts and cultural organizations</li>\n                        <li>Free community spaces and public amenities</li>\n                        <li>The Public Market vendors</li>\n                    </ul>\n\n                    <h4>Connection to False Creek South</h4>\n                    <p>In the late 1960s, the federal government tasked CMHC with developing False Creek's former industrial lands. CMHC built <strong>social housing, co-op housing (including a live-aboard marina co-op), market condos on leased land, and rental housing</strong> — creating the mixed-tenure False Creek South community. Granville Island was part of this broader vision.</p>\n\n                    <h4>Current Challenges</h4>\n                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>\n                    <p>Possible paths include: <strong>more development</strong>, a <strong>government subsidy model</strong>, a new <strong>Granville Island Foundation</strong>, or a <strong>cultural land trust</strong> proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are \"no current plans for housing development.\"</p>\n\n                    <h4>Why This Matters for Housing</h4>\n                    <p>Granville Island demonstrates key principles for housing policy:</p>\n                    <ul>\n                        <li><strong>Public ownership prevents speculation</strong> — land value increases don't inflate costs</li>\n                        <li><strong>Cross-subsidy works</strong> — market tenants support affordable space</li>\n                        <li><strong>Self-sufficiency is possible</strong> — no ongoing government funding required</li>\n                        <li><strong>Flexibility enables innovation</strong> — outside municipal rules, creative solutions emerge</li>\n                    </ul>\n                ",
+            "content": "\n                    <h4>The Land Lease Approach</h4>\n                    <p>CMHC owns all land on Granville Island and leases it to <strong>over 300 commercial, retail, cultural, artistic, and educational tenants</strong>. The island operates a <strong>subsidy model</strong> where market rents from some businesses support more affordable rents for:</p>\n                    <ul>\n                        <li>Small businesses and artisans</li>\n                        <li>Arts and cultural organizations</li>\n                        <li>Free community spaces and public amenities</li>\n                        <li>The Public Market vendors</li>\n                    </ul>\n\n                    <h4>Current Challenges</h4>\n                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>\n                    <p>Possible paths include: <strong>more development</strong>, a <strong>government subsidy model</strong>, a new <strong>Granville Island Foundation</strong>, or a <strong>cultural land trust</strong> proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are \"no current plans for housing development.\"</p>\n\n                    <h4>Why This Matters for Housing</h4>\n                    <p>Granville Island demonstrates key principles for housing policy:</p>\n                    <ul>\n                        <li><strong>Public ownership prevents speculation</strong> — land value increases don't inflate costs</li>\n                        <li><strong>Cross-subsidy works</strong> — market tenants support affordable space</li>\n                        <li><strong>Self-sufficiency is possible</strong> — no ongoing government funding required</li>\n                        <li><strong>Flexibility enables innovation</strong> — outside municipal rules, creative solutions emerge</li>\n                    </ul>\n                ",
             "keyPoints": [
               "40 acres of federal land, self-sustaining on lease revenue",
               "300+ tenants with cross-subsidy model",
@@ -592,6 +592,139 @@
       },
       {
         "id": 2,
+        "title": "UBC Learning Exchange",
+        "location": "612 Main St, Vancouver",
+        "coordinates": [
+          49.2792,
+          -123.09929
+        ],
+        "heroImage": {
+          "src": "https://learningexchange.ubc.ca/files/2018/08/le_homepage_main-1920x600.jpg",
+          "alt": "UBC Learning Exchange in Vancouver's Downtown Eastside",
+          "caption": "UBC Learning Exchange — Source: UBC Learning Exchange"
+        },
+        "stats": [
+          {
+            "label": "Since",
+            "value": "2000"
+          },
+          {
+            "label": "Focus",
+            "value": "Education"
+          },
+          {
+            "label": "Location",
+            "value": "612 Main St"
+          }
+        ],
+        "sections": [
+          {
+            "id": "overview",
+            "label": "Overview",
+            "icon": "info",
+            "content": "\n                    <p>The <strong>UBC Learning Exchange</strong> is a long-running university-community hub in the Downtown Eastside. It has operated from 612 Main Street since the program launched in 2000 as part of UBC's Community Learning Initiative.</p>\n                    <p>Programming focuses on two-way learning: local residents access free educational opportunities while UBC students and faculty engage in community-informed teaching, volunteering, and research.</p>\n                    <p>Core activities include computer and digital literacy support, conversation and communication programming, and partnerships with local organizations on neighbourhood priorities.</p>\n                "
+          },
+          {
+            "id": "highlights",
+            "label": "At This Stop",
+            "icon": "sparkles",
+            "type": "highlights",
+            "highlights": [
+              {
+                "title": "Community Programs",
+                "description": "Observe free, resident-centered learning programs delivered at 612 Main Street.",
+                "meta": "Education"
+              },
+              {
+                "title": "Research Partnerships",
+                "description": "Review how community priorities are integrated into UBC teaching and research projects.",
+                "meta": "Research"
+              },
+              {
+                "title": "Student Involvement",
+                "description": "See how students contribute through service learning and community-engaged coursework.",
+                "meta": "Partnership"
+              },
+              {
+                "title": "Resource Access",
+                "description": "Map pathways from the neighbourhood into UBC resources and public-facing services.",
+                "meta": "Access"
+              }
+            ]
+          },
+          {
+            "id": "details",
+            "label": "Programs",
+            "icon": "document",
+            "content": "\n                    <h4>Program Model</h4>\n                    <p>The Learning Exchange frames its work as reciprocal community learning. Programs are built with community members and local organizations rather than delivered as one-way outreach.</p>\n                    <h4>Education and Skills</h4>\n                    <p>Public-facing activities include computer and internet support, literacy and communication programming, and workshops that respond to resident-identified interests.</p>\n                    <h4>University-Community Bridge</h4>\n                    <p>The site provides practical entry points for UBC students and faculty to participate in community-engaged learning and collaborative research in the DTES.</p>\n                    <h4>Neighbourhood Partnerships</h4>\n                    <p>Partnerships across the DTES shape how UBC resources are shared and how local knowledge is reflected in project design and evaluation.</p>\n                    <ul>\n                        <li>Resident-informed education and digital inclusion programming</li>\n                        <li>Community-engaged teaching and service learning pathways for students</li>\n                        <li>Long-term collaboration infrastructure between UBC and DTES organizations</li>\n                    </ul>\n                ",
+            "keyPoints": [
+              "University-community partnership since 2000",
+              "Free educational programming",
+              "Reciprocal model for research and teaching",
+              "Based at 612 Main Street in the DTES"
+            ]
+          },
+          {
+            "id": "gallery",
+            "label": "Gallery",
+            "icon": "images",
+            "type": "gallery",
+            "images": [
+              {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/796_Main_-_Flickr_-_Edna_Winti.jpg/1280px-796_Main_-_Flickr_-_Edna_Winti.jpg",
+                "alt": "Building at 796 Main Street in the Downtown Eastside",
+                "caption": "Main Street building near the Learning Exchange — Photo: Edna Winti (CC BY-SA)"
+              },
+              {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dominion_Building_-_207_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG/1280px-Dominion_Building_-_207_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG",
+                "alt": "Dominion Building at 207 West Hastings Street",
+                "caption": "Dominion Building (207 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)"
+              },
+              {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flack_Block_-_163_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG/1280px-Flack_Block_-_163_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG",
+                "alt": "Flack Block heritage building at 163 West Hastings Street",
+                "caption": "Flack Block (163 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)"
+              }
+            ]
+          },
+          {
+            "id": "resources",
+            "label": "Resources",
+            "icon": "link",
+            "type": "resources",
+            "resources": [
+              {
+                "title": "UBC Learning Exchange",
+                "url": "https://learningexchange.ubc.ca/",
+                "description": "Official program website"
+              },
+              {
+                "title": "Who We Are",
+                "url": "https://learningexchange.ubc.ca/about-us/",
+                "description": "Program model and reciprocal learning approach"
+              },
+              {
+                "title": "Place-Based Learning in the DTES",
+                "url": "https://learningexchange.ubc.ca/ubc-student-learning/",
+                "description": "How 612 Main Street supports community learning"
+              },
+              {
+                "title": "UBC Today: Learning Exchange at 20 Years",
+                "url": "https://learningexchange.ubc.ca/ubc-learning-exchange-reopens-marks-20-years-in-the-downtown-eastside/",
+                "description": "History and community impact profile"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "education",
+          "university",
+          "community",
+          "dtes"
+        ]
+      },
+      {
+        "id": 3,
         "title": "Downtown Eastside Community Land Trust",
         "location": "222 Keefer St, Vancouver",
         "coordinates": [
@@ -605,16 +738,16 @@
         },
         "stats": [
           {
-            "label": "Private SROs",
-            "value": "~100"
+            "label": "CLT Buildings",
+            "value": "2"
           },
           {
-            "label": "SRO Residents",
-            "value": "4,000+"
+            "label": "First Acquisition",
+            "value": "2026"
           },
           {
-            "label": "Indigenous",
-            "value": "~33%"
+            "label": "Governance",
+            "value": "Community-led"
           }
         ],
         "sections": [
@@ -622,7 +755,7 @@
             "id": "overview",
             "label": "Overview",
             "icon": "info",
-            "content": "\n                    <p>The Downtown Eastside (DTES) is home to <strong>over 4,000 residents living in roughly 99 SRO buildings</strong> — often the last rental option before homelessness. Approximately one-third of SRO residents are Indigenous.</p>\n                    <p>Community organizations are working to acquire buildings and convert them to <strong>permanent community ownership through land trust models</strong>, removing them from the speculative market while preserving affordability for current residents.</p>\n                    <p>In 2023, the Province provided an <strong>$11 million grant to the DTES SRO Collaborative Society</strong> to support tenant-led programming and safety initiatives. The Downtown Eastside Community Land Trust (DTES CLT) was incorporated in 2023 to acquire buildings under Indigenous co-leadership and community governance.</p>\n                "
+            "content": "\n                    <p>The <strong>Downtown Eastside Community Land Trust (DTES CLT)</strong> is a community-governed non-profit that acquires privately owned buildings and transfers them into permanent community ownership. Founded in 2020 and formally incorporated in January 2023, the CLT operates under <strong>Indigenous co-leadership</strong> with a decolonized governance model co-led by Indigenous peoples and those with lived experience of housing precarity.</p>\n                    <p>The CLT's governance structure includes a <strong>community-elected board</strong> and a <strong>tenant and elder sub-committee</strong> that meets monthly to provide input on building acquisitions, renovations, and operations. This model ensures that those most affected by housing instability have direct decision-making power.</p>\n                    <p>In February 2026, DTES CLT <strong>officially took possession of Powell Rooms</strong> — its first building acquisition. The CLT is also the operating partner for <strong>Keefer Rooms (48 units)</strong>, purchased by BC Housing in October 2023.</p>\n                "
           },
           {
             "id": "highlights",
@@ -631,19 +764,24 @@
             "type": "highlights",
             "highlights": [
               {
-                "title": "SRO Support Loop",
-                "description": "Map the tenant support network connecting SRO buildings, outreach teams, and health resources.",
-                "meta": "Support services"
-              },
-              {
-                "title": "Hogan's Alley Sites",
-                "description": "Identify the restoration efforts honoring Vancouver's historic Black neighbourhood.",
-                "meta": "Cultural heritage"
-              },
-              {
-                "title": "Future Acquisitions",
-                "description": "Review the Keefer and Powell Rooms timelines to understand CLT acquisition strategy.",
+                "title": "Community Ownership Model",
+                "description": "DTES CLT acquires and stewards SRO buildings as permanently community-owned housing.",
                 "meta": "Land trust"
+              },
+              {
+                "title": "Powell Rooms (23 units)",
+                "description": "DTES CLT's first acquisition, completed February 2026. Funded through a $1M Reaching Home federal grant, City SRO upgrade funding, and philanthropic donations. Total cost: ~$2.5M. Includes ground-floor childcare by Promise Vancouver.",
+                "meta": "First acquisition"
+              },
+              {
+                "title": "Keefer Rooms (48 units)",
+                "description": "Purchased by BC Housing for $8.2M in October 2023 after a 2022 fire displaced 39 residents. DTES CLT operates the building in partnership with BC Housing; over time, the lease may transfer fully to DTES CLT. Renovations included window, electrical, and fire-system upgrades.",
+                "meta": "BC Housing partnership"
+              },
+              {
+                "title": "CLT Governance Model",
+                "description": "Community-elected board with Indigenous co-leadership. A tenant and elder sub-committee meets monthly to guide acquisition decisions, building design, and operations. Grounded in decolonized, non-hierarchical governance.",
+                "meta": "Community governance"
               }
             ]
           },
@@ -651,12 +789,12 @@
             "id": "details",
             "label": "Partners & Work",
             "icon": "document",
-            "content": "\n                    <h4>The SRO Challenge</h4>\n                    <p>Vancouver's SRO stock is governed by the SRA by-law, with <strong>~99 buildings and ~4,000 rooms</strong> in the DTES alone. Average rents are roughly <strong>$680/month</strong> overall, while private SROs average closer to <strong>$740/month</strong>. The provincial shelter rate is $500/month, creating a persistent affordability gap.</p>\n                    <p>As <strong>Wendy Pedersen</strong>, Executive Director of the SRO Collaborative, explains: \"Privately owned SRO hotels are a last resort before homelessness.\" The Collaborative's Tenant Overdose Response Organizers (TORO) project connects tenant organizers with naloxone supplies and education.</p>\n\n                    <h4>Community Partners</h4>\n                    <p>Multiple organizations work together to preserve and improve DTES housing:</p>\n                    <ul>\n                        <li><strong>DTES SRO Collaborative:</strong> Advocates for tenants, received $11M provincial grant in 2023</li>\n                        <li><strong>Hogan's Alley Society:</strong> Restoring Vancouver's historic Black neighbourhood, with projects on Union Street and Main Street</li>\n                        <li><strong>Aboriginal Front Door:</strong> Indigenous-led support services</li>\n                        <li><strong>Carnegie Community Centre:</strong> Historic community hub since 1903</li>\n                        <li><strong>DTES Neighbourhood House:</strong> Community programs and partnerships</li>\n                        <li><strong>UBC Learning Exchange:</strong> University-community partnership</li>\n                    </ul>\n\n                    <h4>Community Land Trust Model</h4>\n                    <p>The CLT approach in the DTES:</p>\n                    <ul>\n                        <li>Removes buildings permanently from the speculative market</li>\n                        <li>Ensures long-term affordability through trust structure</li>\n                        <li>Keeps housing decisions in community hands</li>\n                        <li>Prevents displacement of current residents during acquisition</li>\n                    </ul>\n\n                    <h4>Policy Context</h4>\n                    <p>In 2024, Vancouver implemented <strong>vacancy control for SROs</strong>, preventing rent spikes between tenancies. DTES CLT's first acquisition, <strong>Powell Rooms (23 units)</strong>, is expected to close in January 2026, while <strong>Keefer Rooms (48 units)</strong> is reopening in spring 2025 through a BC Housing partnership and community programming model.</p>\n                ",
+            "content": "\n                    <h4>Powell Rooms — First CLT Acquisition</h4>\n                    <p>In February 2026, DTES CLT completed its first building acquisition: <strong>Powell Rooms</strong>, a 23-unit SRO with ground-floor childcare operated by Promise Vancouver. The previous owner, Rob Harden, sold the property after owning it since 2005.</p>\n                    <p>The ~$2.5 million acquisition was funded through a <strong>$1 million Reaching Home federal grant</strong>, approximately $230,000 from a City of Vancouver SRO upgrade program, and philanthropic donations. The CLT had secured approximately 85% of required funds before closing.</p>\n\n                    <h4>Keefer Rooms — BC Housing Partnership</h4>\n                    <p>In October 2023, BC Housing purchased Keefer Rooms (48 SRO units at 222 Keefer St) for <strong>$8.2 million</strong> after a September 2022 fire displaced 39 residents. The building had been vacant for over a year. DTES CLT was named the <strong>operating partner</strong>, with the DTES SRO Collaborative overseeing tenant-led programming including harm reduction and fire safety.</p>\n                    <p>Renovations included window replacements and electrical and fire-system upgrades. The building was targeted for reopening in spring 2025. Over time, <strong>BC Housing may transfer the lease to DTES CLT</strong>, but for now management operates as a partnership between BC Housing, the CLT, and the SRO Collaborative.</p>\n\n                    <h4>Governance Model</h4>\n                    <p>The CLT uses a <strong>decolonized, non-hierarchical governance model</strong> co-led by Indigenous peoples and people with lived experience:</p>\n                    <ul>\n                        <li><strong>Community-elected board of directors</strong> with Indigenous co-leadership</li>\n                        <li><strong>Tenant and elder sub-committee</strong> meets monthly to guide decisions on acquisitions, furnishings, and building operations</li>\n                        <li>Profits are reinvested into buildings and community benefit — not extracted</li>\n                        <li>Properties are permanently removed from the speculative market through the trust structure</li>\n                    </ul>\n\n                    <h4>The CLT Model</h4>\n                    <p>Community land trusts are non-profit corporations that acquire and hold land in perpetuity for community use. In the DTES context, the CLT model:</p>\n                    <ul>\n                        <li>Acquires privately owned SROs before they are lost to speculation or neglect</li>\n                        <li>Ensures rents remain permanently affordable — tied to income levels, not market rates</li>\n                        <li>Integrates <strong>holistic, tenant-centred housing</strong> designed by and for the community</li>\n                        <li>Partners with DTES SRO Collaborative for tenant-based initiatives in each building</li>\n                    </ul>\n                ",
             "keyPoints": [
-              "4,000+ residents in ~99 SROs — last stop before homelessness",
-              "$11M provincial grant to SRO Collaborative (2023)",
-              "CLT acquisitions remove buildings from speculative market",
-              "Vacancy control (2024) prevents rent hikes between tenancies"
+              "First acquisition (Powell Rooms, 23 units) completed February 2026",
+              "Keefer Rooms (48 units) operated in partnership with BC Housing",
+              "Indigenous co-leadership with tenant and elder sub-committee governance",
+              "Buildings permanently removed from speculative market through trust structure"
             ]
           },
           {
@@ -741,165 +879,6 @@
           "sro",
           "dtes",
           "affordable"
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Hogan's Alley Society",
-        "location": "Union Street & Main Street, Vancouver",
-        "coordinates": [
-          49.27779,
-          -123.09836
-        ],
-        "heroImage": {
-          "src": "../images/community-orgs/has-union-street-building.jpg",
-          "alt": "Nora Hendrix Place at 258 Union Street",
-          "caption": "258 Union Street (Nora Hendrix Place) — Source: user-provided photo"
-        },
-        "stats": [
-          {
-            "label": "CLT Site",
-            "value": "3.5 acres"
-          },
-          {
-            "label": "Cultural Centre",
-            "value": "27,000 sq ft"
-          },
-          {
-            "label": "Nora Hendrix Place",
-            "value": "52 homes"
-          }
-        ],
-        "sections": [
-          {
-            "id": "overview",
-            "label": "Overview",
-            "icon": "info",
-            "content": "\n                    <p><strong>Hogan's Alley</strong> — the informal name for Park Lane between Union and Prior streets — was the centre of Vancouver's Black community from the early 1900s through the 1960s. At its peak the neighbourhood included as many as 800 Black residents, many of whom were immigrants from the western United States and railway porters employed by the Great Northern Railway. The community supported Black-owned businesses, churches (including the African Methodist Episcopal Fountain Chapel), and social institutions until the City cleared the area for Georgia and Dunsmuir viaduct construction in 1967–72.</p>\n                    <p>The <strong>Hogan's Alley Society (HAS)</strong>, formed in 2018, is a Black-led non-profit focused on cultural repair, anti-displacement work, and community-owned development. Under inaugural Executive Director Djaka Blais — who co-founded the Foundation for Black Communities, Canada's first philanthropic foundation for Black communities — HAS operates across three strategic pillars: <strong>culturally informed housing</strong>, <strong>non-profit housing development</strong>, and <strong>community engagement</strong>.</p>\n                    <p>In <strong>September 2022</strong>, HAS and the City of Vancouver signed a Memorandum of Understanding for the <strong>898 Main Street block</strong> (bounded by Main, Union, Gore, and Prior streets), a 3.5-acre site within the Northeast False Creek Plan area. The MOU sets terms for negotiating a long-term lease to deliver affordable housing, a <strong>27,000-square-foot Black cultural centre</strong>, childcare facilities, artist production space, and small-business units through a Black-led Community Land Trust.</p>\n                    <p>HAS currently operates <strong>Nora Hendrix Place</strong> at 258 Union Street: 52 temporary modular homes with private kitchens and washrooms, prioritizing Black and Indigenous residents at risk of or experiencing homelessness. HAS has been in a mentorship and capacity-building partnership with Atira to eventually assume full operations.</p>\n                "
-          },
-          {
-            "id": "highlights",
-            "label": "At This Stop",
-            "icon": "sparkles",
-            "type": "highlights",
-            "highlights": [
-              {
-                "title": "898 Main Street Block",
-                "description": "3.5-acre CLT site within the Northeast False Creek Plan: long-term lease under negotiation since the 2022 MOU with the City.",
-                "meta": "Land Trust"
-              },
-              {
-                "title": "27,000 sq ft Cultural Centre",
-                "description": "Planned focal point for Vancouver's Black community: food, gathering, education, art, music, dance, and research into Black Canadian history.",
-                "meta": "Culture"
-              },
-              {
-                "title": "Nora Hendrix Place",
-                "description": "52-home temporary modular housing project at 258 Union Street, prioritizing Black and Indigenous residents with culturally grounded supports.",
-                "meta": "Housing"
-              },
-              {
-                "title": "Afrocentric Governance",
-                "description": "Black-led governance informed by Ubuntu and communal decision-making principles, developed through community consultation with elders and diaspora organizations.",
-                "meta": "Governance"
-              }
-            ]
-          },
-          {
-            "id": "details",
-            "label": "History & Plans",
-            "icon": "document",
-            "content": "\n                    <h4>Historical Displacement</h4>\n                    <p>From the early 1900s, Hogan's Alley anchored Black social, cultural, and economic life in Vancouver's Strathcona neighbourhood. The community included families, businesses, the African Methodist Episcopal Fountain Chapel, and gathering places like Vie's Chicken and Steak House. City officials cleared the area for the Georgia and Dunsmuir viaducts (1967–72), displacing the roughly 800-person Black community and demolishing its institutions as part of a broader freeway plan that was ultimately abandoned.</p>\n                    <h4>The 898 Main Street Block and CLT Strategy</h4>\n                    <p>HAS's central project is the redevelopment of the <strong>898 Main Street block</strong>, a 3.5-acre City-owned site bounded by Main Street, Union Street, Gore Avenue, and Prior Street. A 2017 preliminary concept by Perkins &amp; Will proposed six buildings reaching up to 14 storeys on this site. The broader Northeast False Creek Plan envisions 12,000 new residents, 1,800 units of social housing, 32 acres of parks, 8,000 new jobs, and $1.7 billion in public benefits across the plan area.</p>\n                    <p>Under the 2022 MOU, HAS is responsible for design, construction, programming, operation, maintenance, and capital costs of the block's redevelopment. Planned deliverables include:</p>\n                    <ul>\n                        <li><strong>Affordable housing:</strong> ~300 social housing units targeted on the two blocks between Prior and Union, with 50% required to be two- and three-bedroom family units</li>\n                        <li><strong>Cultural centre:</strong> a 27,000-square-foot facility for food, gathering, celebration, education, art, music, dance, and Black Canadian history research</li>\n                        <li><strong>Childcare:</strong> dedicated childcare facilities within the block</li>\n                        <li><strong>Enterprise space:</strong> Black-owned retail, restaurants, and artist production studios drawing on African diaspora design influences</li>\n                    </ul>\n                    <p>Physical redevelopment depends on viaduct demolition and a new street network, which have progressed more slowly than anticipated due to the NEFC Plan's reliance on development-driven revenues. HAS is currently engaged in community consultation, fundraising with senior government agencies, and developing detailed business and financial plans for the block.</p>\n                    <h4>Nora Hendrix Place</h4>\n                    <p>At 258 Union Street, Nora Hendrix Place — named for Jimi Hendrix's grandmother, a Vancouver resident — delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services. The project prioritizes Black and Indigenous people who are at risk of or currently experiencing homelessness. HAS has been in a mentorship and capacity-building partnership with Atira, with the goal of HAS assuming full operational control.</p>\n                    <h4>Governance: Afrocentric and Community-Accountable</h4>\n                    <p>HAS governance is Black-led and community-accountable. The Society has engaged in a structured process — including community learning sessions and consultation with African diaspora organizations and elders — to develop an Afrocentric governance framework. This draws on principles such as Ubuntu, shifting from an individualistic decision-making model to a communal one rooted in African diaspora traditions.</p>\n                    <p>Through the proposed Community Land Trust, land and assets are held in community ownership and removed from the speculative real estate market. Governance priorities are informed by residents, elders, cultural workers, and partner organizations, so that housing and cultural infrastructure remain under community control over the long term.</p>\n                    <h4>BSH Partnership and CNCLT Network</h4>\n                    <p>HAS is a BSH (Balanced Supply of Housing) research partner. The October 2025 BSH Research in Progress webinar featured both HAS and the DTES CLT discussing their community work and its role in expanding affordable housing. At the CNCLT Summit (October 18–20, 2024, Vancouver), HAS was one of three Vancouver CLT site tours. The summit drew 200+ delegates — CLT practitioners, funders, policymakers, researchers, and activists.</p>\n                ",
-            "keyPoints": [
-              "898 Main Street block: 3.5-acre CLT site under long-term lease negotiation (MOU signed September 2022)",
-              "Planned: ~300 social housing units (50% family-sized), 27,000 sq ft Black cultural centre, childcare, enterprise space",
-              "Nora Hendrix Place: 52 modular homes prioritizing Black and Indigenous residents",
-              "Afrocentric, community-accountable governance model developed through structured diaspora consultation",
-              "BSH research partner; featured at CNCLT Summit (October 2024, 200+ delegates)"
-            ]
-          },
-          {
-            "id": "gallery",
-            "label": "Gallery",
-            "icon": "images",
-            "type": "gallery",
-            "images": [
-              {
-                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vancouver_Downtown_Eastside.jpg/1280px-Vancouver_Downtown_Eastside.jpg",
-                "alt": "Downtown Eastside neighbourhood streetscape near Hogan's Alley",
-                "caption": "Downtown Eastside neighbourhood — Photo: Wikimedia Commons (CC BY-SA)"
-              },
-              {
-                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Vancouver_Holden_Building_Tellier_Tower_2011.jpg/1280px-Vancouver_Holden_Building_Tellier_Tower_2011.jpg",
-                "alt": "Holden Building and Tellier Tower in the Downtown Eastside",
-                "caption": "Holden Building / Tellier Tower — Photo: Wikimedia Commons (CC BY-SA)"
-              },
-              {
-                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Vancouver_Chinatown_17.JPG/1280px-Vancouver_Chinatown_17.JPG",
-                "alt": "Chinatown streetscape near Hogan's Alley",
-                "caption": "Chinatown near Main and Keefer — Photo: Wikimedia Commons (CC BY-SA 3.0)"
-              },
-              {
-                "src": "../images/community-orgs/has-nora-hendrix-mural.jpg",
-                "alt": "Hogan's Alley mural at Nora Hendrix Place",
-                "caption": "Nora Hendrix Place mural (258 Union Street) — Source: user-provided photo"
-              },
-              {
-                "src": "../images/community-orgs/has-union-street-building.jpg",
-                "alt": "Nora Hendrix Place building at 258 Union Street",
-                "caption": "258 Union Street building — Source: user-provided photo"
-              }
-            ]
-          },
-          {
-            "id": "resources",
-            "label": "Resources",
-            "icon": "link",
-            "type": "resources",
-            "resources": [
-              {
-                "title": "Hogan's Alley Society",
-                "url": "https://www.hogansalleysociety.org/",
-                "description": "Organization history, MOU context, cultural restoration, and project pillars"
-              },
-              {
-                "title": "City of Vancouver - Hogan's Alley Society Block",
-                "url": "https://vancouver.ca/home-property-development/hogans-alley-society-block.aspx",
-                "description": "Municipal planning and implementation details"
-              },
-              {
-                "title": "City of Vancouver - 258 Union Street",
-                "url": "https://vancouver.ca/people-programs/258-union-street.aspx",
-                "description": "Nora Hendrix Place housing project profile"
-              },
-              {
-                "title": "City of Vancouver — Hogan's Alley MOU",
-                "url": "https://vancouver.ca/people-programs/hogan-s-alley-mou.aspx",
-                "description": "MOU details, Northeast False Creek Plan context, and cultural redress framework"
-              },
-              {
-                "title": "CNCLT Summit — Vancouver Community Land Trusts",
-                "url": "https://www.youtube.com/watch?v=KevcrQW11T4",
-                "description": "Canadian Network of Community Land Trusts summit presentation featuring Vancouver CLT site tours"
-              },
-              {
-                "title": "BSH Research in Progress — Vancouver's Growing CLT Movement",
-                "url": "https://bsh.ubc.ca/research-in-progress-on-vancouvers-growing-clt-movement/",
-                "description": "October 2025 BSH webinar featuring HAS and DTES CLT on affordable housing and community land stewardship"
-              },
-              {
-                "title": "BSH — Reclaim, Remain: BIPOC-Led CLTs in Canada",
-                "url": "https://bsh.ubc.ca/research/policy-report-profile-series-on-canadian-community-land-trusts/",
-                "description": "Research profiles of six BIPOC-led CLTs including HAS, examining collective land stewardship and anti-displacement strategies"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          "black-history",
-          "heritage",
-          "housing",
-          "culture"
         ]
       },
       {
@@ -1062,29 +1041,29 @@
       },
       {
         "id": 5,
-        "title": "UBC Learning Exchange",
-        "location": "612 Main St, Vancouver",
+        "title": "Hogan's Alley Society",
+        "location": "Union Street & Main Street, Vancouver",
         "coordinates": [
-          49.2792,
-          -123.09929
+          49.27779,
+          -123.09836
         ],
         "heroImage": {
-          "src": "https://learningexchange.ubc.ca/files/2018/08/le_homepage_main-1920x600.jpg",
-          "alt": "UBC Learning Exchange in Vancouver's Downtown Eastside",
-          "caption": "UBC Learning Exchange — Source: UBC Learning Exchange"
+          "src": "../images/community-orgs/has-union-street-building.jpg",
+          "alt": "Nora Hendrix Place at 258 Union Street",
+          "caption": "258 Union Street (Nora Hendrix Place) — Source: user-provided photo"
         },
         "stats": [
           {
-            "label": "Since",
-            "value": "2000"
+            "label": "CLT Site",
+            "value": "3.5 acres"
           },
           {
-            "label": "Focus",
-            "value": "Education"
+            "label": "Cultural Centre",
+            "value": "27,000 sq ft"
           },
           {
-            "label": "Location",
-            "value": "612 Main St"
+            "label": "Nora Hendrix Place",
+            "value": "52 homes"
           }
         ],
         "sections": [
@@ -1092,7 +1071,7 @@
             "id": "overview",
             "label": "Overview",
             "icon": "info",
-            "content": "\n                    <p>The <strong>UBC Learning Exchange</strong> is a long-running university-community hub in the Downtown Eastside. It has operated from 612 Main Street since the program launched in 2000 as part of UBC's Community Learning Initiative.</p>\n                    <p>Programming focuses on two-way learning: local residents access free educational opportunities while UBC students and faculty engage in community-informed teaching, volunteering, and research.</p>\n                    <p>Core activities include computer and digital literacy support, conversation and communication programming, and partnerships with local organizations on neighbourhood priorities.</p>\n                "
+            "content": "\n                    <p><strong>Hogan's Alley</strong> — the informal name for Park Lane between Union and Prior streets — was the centre of Vancouver's Black community from the early 1900s through the 1960s. At its peak the neighbourhood included as many as 800 Black residents, many of whom were immigrants from the western United States and railway porters employed by the Great Northern Railway. The community supported Black-owned businesses, churches (including the African Methodist Episcopal Fountain Chapel), and social institutions until the City cleared the area for Georgia and Dunsmuir viaduct construction in 1967–72.</p>\n                    <p>The <strong>Hogan's Alley Society (HAS)</strong>, formed in 2018, is a Black-led non-profit focused on cultural repair, anti-displacement work, and community-owned development. Under inaugural Executive Director Djaka Blais — who co-founded the Foundation for Black Communities, Canada's first philanthropic foundation for Black communities — HAS operates across three strategic pillars: <strong>culturally informed housing</strong>, <strong>non-profit housing development</strong>, and <strong>community engagement</strong>.</p>\n                    <p>In <strong>September 2022</strong>, HAS and the City of Vancouver signed a Memorandum of Understanding for the <strong>898 Main Street block</strong> (bounded by Main, Union, Gore, and Prior streets), a 3.5-acre site within the Northeast False Creek Plan area. The MOU sets terms for negotiating a long-term lease to deliver affordable housing, a <strong>27,000-square-foot Black cultural centre</strong>, childcare facilities, artist production space, and small-business units through a Black-led Community Land Trust.</p>\n                    <p>HAS currently operates <strong>Nora Hendrix Place</strong> at 258 Union Street: 52 temporary modular homes with private kitchens and washrooms, prioritizing Black and Indigenous residents at risk of or experiencing homelessness. HAS has been in a mentorship and capacity-building partnership with Atira to eventually assume full operations.</p>\n                "
           },
           {
             "id": "highlights",
@@ -1101,37 +1080,38 @@
             "type": "highlights",
             "highlights": [
               {
-                "title": "Community Programs",
-                "description": "Observe free, resident-centered learning programs delivered at 612 Main Street.",
-                "meta": "Education"
+                "title": "898 Main Street Block",
+                "description": "3.5-acre CLT site within the Northeast False Creek Plan: long-term lease under negotiation since the 2022 MOU with the City.",
+                "meta": "Land Trust"
               },
               {
-                "title": "Research Partnerships",
-                "description": "Review how community priorities are integrated into UBC teaching and research projects.",
-                "meta": "Research"
+                "title": "27,000 sq ft Cultural Centre",
+                "description": "Planned focal point for Vancouver's Black community: food, gathering, education, art, music, dance, and research into Black Canadian history.",
+                "meta": "Culture"
               },
               {
-                "title": "Student Involvement",
-                "description": "See how students contribute through service learning and community-engaged coursework.",
-                "meta": "Partnership"
+                "title": "Nora Hendrix Place",
+                "description": "52-home temporary modular housing project at 258 Union Street, prioritizing Black and Indigenous residents with culturally grounded supports.",
+                "meta": "Housing"
               },
               {
-                "title": "Resource Access",
-                "description": "Map pathways from the neighbourhood into UBC resources and public-facing services.",
-                "meta": "Access"
+                "title": "Afrocentric Governance",
+                "description": "Black-led governance informed by Ubuntu and communal decision-making principles, developed through community consultation with elders and diaspora organizations.",
+                "meta": "Governance"
               }
             ]
           },
           {
             "id": "details",
-            "label": "Programs",
+            "label": "History & Plans",
             "icon": "document",
-            "content": "\n                    <h4>Program Model</h4>\n                    <p>The Learning Exchange frames its work as reciprocal community learning. Programs are built with community members and local organizations rather than delivered as one-way outreach.</p>\n                    <h4>Education and Skills</h4>\n                    <p>Public-facing activities include computer and internet support, literacy and communication programming, and workshops that respond to resident-identified interests.</p>\n                    <h4>University-Community Bridge</h4>\n                    <p>The site provides practical entry points for UBC students and faculty to participate in community-engaged learning and collaborative research in the DTES.</p>\n                    <h4>Neighbourhood Partnerships</h4>\n                    <p>Partnerships across the DTES shape how UBC resources are shared and how local knowledge is reflected in project design and evaluation.</p>\n                    <ul>\n                        <li>Resident-informed education and digital inclusion programming</li>\n                        <li>Community-engaged teaching and service learning pathways for students</li>\n                        <li>Long-term collaboration infrastructure between UBC and DTES organizations</li>\n                    </ul>\n                ",
+            "content": "\n                    <h4>Historical Displacement</h4>\n                    <p>From the early 1900s, Hogan's Alley anchored Black social, cultural, and economic life in Vancouver's Strathcona neighbourhood. The community included families, businesses, the African Methodist Episcopal Fountain Chapel, and gathering places like Vie's Chicken and Steak House. City officials cleared the area for the Georgia and Dunsmuir viaducts (1967–72), displacing the roughly 800-person Black community and demolishing its institutions as part of a broader freeway plan that was ultimately abandoned.</p>\n                    <h4>The 898 Main Street Block and CLT Strategy</h4>\n                    <p>HAS's central project is the redevelopment of the <strong>898 Main Street block</strong>, a 3.5-acre City-owned site bounded by Main Street, Union Street, Gore Avenue, and Prior Street. A 2017 preliminary concept by Perkins &amp; Will proposed six buildings reaching up to 14 storeys on this site. The broader Northeast False Creek Plan envisions 12,000 new residents, 1,800 units of social housing, 32 acres of parks, 8,000 new jobs, and $1.7 billion in public benefits across the plan area.</p>\n                    <p>Under the 2022 MOU, HAS is responsible for design, construction, programming, operation, maintenance, and capital costs of the block's redevelopment. Planned deliverables include:</p>\n                    <ul>\n                        <li><strong>Affordable housing:</strong> ~300 social housing units targeted on the two blocks between Prior and Union, with 50% required to be two- and three-bedroom family units</li>\n                        <li><strong>Cultural centre:</strong> a 27,000-square-foot facility for food, gathering, celebration, education, art, music, dance, and Black Canadian history research</li>\n                        <li><strong>Childcare:</strong> dedicated childcare facilities within the block</li>\n                        <li><strong>Enterprise space:</strong> Black-owned retail, restaurants, and artist production studios drawing on African diaspora design influences</li>\n                    </ul>\n                    <p>Physical redevelopment depends on viaduct demolition and a new street network, which have progressed more slowly than anticipated due to the NEFC Plan's reliance on development-driven revenues. HAS is currently engaged in community consultation, fundraising with senior government agencies, and developing detailed business and financial plans for the block.</p>\n                    <h4>Nora Hendrix Place</h4>\n                    <p>At 258 Union Street, Nora Hendrix Place — named for Jimi Hendrix's grandmother, a Vancouver resident — delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services. The project prioritizes Black and Indigenous people who are at risk of or currently experiencing homelessness. HAS has been in a mentorship and capacity-building partnership with Atira, with the goal of HAS assuming full operational control.</p>\n                    <h4>Governance: Afrocentric and Community-Accountable</h4>\n                    <p>HAS governance is Black-led and community-accountable. The Society has engaged in a structured process — including community learning sessions and consultation with African diaspora organizations and elders — to develop an Afrocentric governance framework. This draws on principles such as Ubuntu, shifting from an individualistic decision-making model to a communal one rooted in African diaspora traditions.</p>\n                    <p>Through the proposed Community Land Trust, land and assets are held in community ownership and removed from the speculative real estate market. Governance priorities are informed by residents, elders, cultural workers, and partner organizations, so that housing and cultural infrastructure remain under community control over the long term.</p>\n                    <h4>BSH Partnership and CNCLT Network</h4>\n                    <p>HAS is a BSH (Balanced Supply of Housing) research partner. The October 2025 BSH Research in Progress webinar featured both HAS and the DTES CLT discussing their community work and its role in expanding affordable housing. At the CNCLT Summit (October 18–20, 2024, Vancouver), HAS was one of three Vancouver CLT site tours. The summit drew 200+ delegates — CLT practitioners, funders, policymakers, researchers, and activists.</p>\n                ",
             "keyPoints": [
-              "University-community partnership since 2000",
-              "Free educational programming",
-              "Reciprocal model for research and teaching",
-              "Based at 612 Main Street in the DTES"
+              "898 Main Street block: 3.5-acre CLT site under long-term lease negotiation (MOU signed September 2022)",
+              "Planned: ~300 social housing units (50% family-sized), 27,000 sq ft Black cultural centre, childcare, enterprise space",
+              "Nora Hendrix Place: 52 modular homes prioritizing Black and Indigenous residents",
+              "Afrocentric, community-accountable governance model developed through structured diaspora consultation",
+              "BSH research partner; featured at CNCLT Summit (October 2024, 200+ delegates)"
             ]
           },
           {
@@ -1141,19 +1121,29 @@
             "type": "gallery",
             "images": [
               {
-                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/796_Main_-_Flickr_-_Edna_Winti.jpg/1280px-796_Main_-_Flickr_-_Edna_Winti.jpg",
-                "alt": "Building at 796 Main Street in the Downtown Eastside",
-                "caption": "Main Street building near the Learning Exchange — Photo: Edna Winti (CC BY-SA)"
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vancouver_Downtown_Eastside.jpg/1280px-Vancouver_Downtown_Eastside.jpg",
+                "alt": "Downtown Eastside neighbourhood streetscape near Hogan's Alley",
+                "caption": "Downtown Eastside neighbourhood — Photo: Wikimedia Commons (CC BY-SA)"
               },
               {
-                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dominion_Building_-_207_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG/1280px-Dominion_Building_-_207_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG",
-                "alt": "Dominion Building at 207 West Hastings Street",
-                "caption": "Dominion Building (207 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)"
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Vancouver_Holden_Building_Tellier_Tower_2011.jpg/1280px-Vancouver_Holden_Building_Tellier_Tower_2011.jpg",
+                "alt": "Holden Building and Tellier Tower in the Downtown Eastside",
+                "caption": "Holden Building / Tellier Tower — Photo: Wikimedia Commons (CC BY-SA)"
               },
               {
-                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flack_Block_-_163_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG/1280px-Flack_Block_-_163_West_Hastings_Street%2C_Vancouver%2C_BC_-_2012.JPG",
-                "alt": "Flack Block heritage building at 163 West Hastings Street",
-                "caption": "Flack Block (163 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)"
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Vancouver_Chinatown_17.JPG/1280px-Vancouver_Chinatown_17.JPG",
+                "alt": "Chinatown streetscape near Hogan's Alley",
+                "caption": "Chinatown near Main and Keefer — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+              },
+              {
+                "src": "../images/community-orgs/has-nora-hendrix-mural.jpg",
+                "alt": "Hogan's Alley mural at Nora Hendrix Place",
+                "caption": "Nora Hendrix Place mural (258 Union Street) — Source: user-provided photo"
+              },
+              {
+                "src": "../images/community-orgs/has-union-street-building.jpg",
+                "alt": "Nora Hendrix Place building at 258 Union Street",
+                "caption": "258 Union Street building — Source: user-provided photo"
               }
             ]
           },
@@ -1164,33 +1154,48 @@
             "type": "resources",
             "resources": [
               {
-                "title": "UBC Learning Exchange",
-                "url": "https://learningexchange.ubc.ca/",
-                "description": "Official program website"
+                "title": "Hogan's Alley Society",
+                "url": "https://www.hogansalleysociety.org/",
+                "description": "Organization history, MOU context, cultural restoration, and project pillars"
               },
               {
-                "title": "Who We Are",
-                "url": "https://learningexchange.ubc.ca/about-us/",
-                "description": "Program model and reciprocal learning approach"
+                "title": "City of Vancouver - Hogan's Alley Society Block",
+                "url": "https://vancouver.ca/home-property-development/hogans-alley-society-block.aspx",
+                "description": "Municipal planning and implementation details"
               },
               {
-                "title": "Place-Based Learning in the DTES",
-                "url": "https://learningexchange.ubc.ca/ubc-student-learning/",
-                "description": "How 612 Main Street supports community learning"
+                "title": "City of Vancouver - 258 Union Street",
+                "url": "https://vancouver.ca/people-programs/258-union-street.aspx",
+                "description": "Nora Hendrix Place housing project profile"
               },
               {
-                "title": "UBC Today: Learning Exchange at 20 Years",
-                "url": "https://learningexchange.ubc.ca/ubc-learning-exchange-reopens-marks-20-years-in-the-downtown-eastside/",
-                "description": "History and community impact profile"
+                "title": "City of Vancouver — Hogan's Alley MOU",
+                "url": "https://vancouver.ca/people-programs/hogan-s-alley-mou.aspx",
+                "description": "MOU details, Northeast False Creek Plan context, and cultural redress framework"
+              },
+              {
+                "title": "CNCLT Summit — Vancouver Community Land Trusts",
+                "url": "https://www.youtube.com/watch?v=KevcrQW11T4",
+                "description": "Canadian Network of Community Land Trusts summit presentation featuring Vancouver CLT site tours"
+              },
+              {
+                "title": "BSH Research in Progress — Vancouver's Growing CLT Movement",
+                "url": "https://bsh.ubc.ca/research-in-progress-on-vancouvers-growing-clt-movement/",
+                "description": "October 2025 BSH webinar featuring HAS and DTES CLT on affordable housing and community land stewardship"
+              },
+              {
+                "title": "BSH — Reclaim, Remain: BIPOC-Led CLTs in Canada",
+                "url": "https://bsh.ubc.ca/research/policy-report-profile-series-on-canadian-community-land-trusts/",
+                "description": "Research profiles of six BIPOC-led CLTs including HAS, examining collective land stewardship and anti-displacement strategies"
               }
             ]
           }
         ],
         "tags": [
-          "education",
-          "university",
-          "community",
-          "dtes"
+          "black-history",
+          "heritage",
+          "housing",
+          "culture"
         ]
       }
     ]

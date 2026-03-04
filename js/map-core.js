@@ -859,7 +859,6 @@ window.BSHTourMap = {
                 renderStop(safeIndex);
                 flyToStop(safeIndex);
                 updateProgress();
-                updateRouteProgress();
                 updateMarkers();
                 updateStopNavigator();
                 updateNavButtons();
@@ -1101,15 +1100,6 @@ window.BSHTourMap = {
 
 
             initMap();
-            if (!config.routeSegments) {
-                config.routeSegments = [tourStops.map(s => s.coordinates)];
-            }
-            if (config.routeSegments) {
-                drawRoute(config.routeSegments);
-                if (typeof upgradeRouteWithOSRM !== "undefined") {
-                    void upgradeRouteWithOSRM(config.routeSegments);
-                }
-            }
             if (config.onMapInit) config.onMapInit(map, L);
 
             createLightbox();

@@ -720,30 +720,30 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "Safe Shelter Program",
-                        description: "Review how the 51-bed low-barrier shelter supports people facing immediate housing instability.",
-                        meta: "Shelter"
+                        title: "Essential Services",
+                        description: "Safe Shelter program (51 low-barrier beds at 467 Alexander St), daily meals and mobile food truck, Community Help Desk for benefits navigation and ID replacement.",
+                        meta: "Basic needs"
                     },
                     {
-                        title: "Legal Advocacy",
-                        description: "Understand tenancy, social assistance, and disability advocacy support delivered at street level.",
-                        meta: "Tenant rights"
+                        title: "Community Connection",
+                        description: "Drop-in gathering spaces, cultural and spiritual programming, healing supports including Indigenous-led ceremonies, peer support networks, and community-building activities.",
+                        meta: "Belonging & healing"
                     },
                     {
-                        title: "Food Access",
-                        description: "Track meal services including daily lunch and outreach food truck operations.",
-                        meta: "Food security"
+                        title: "Systems Change",
+                        description: "Legal advocacy for tenant rights and eviction prevention, policy research with BSH on Evictions and Security of Tenure, and the First Forward redevelopment at 320 E Hastings.",
+                        meta: "Advocacy & research"
                     },
                     {
-                        title: "Redevelopment Site",
-                        description: "Connect the current site to plans for long-term affordable homes and integrated community space.",
+                        title: "First Forward Redevelopment",
+                        description: "320 E Hastings: 4 floors of community amenities + 7 floors of below-market rental housing (100+ units) by Lu\u2019ma Native Housing. Triples program space to ~40,000 sq ft. Completion targeted 2026.",
                         meta: "Housing delivery"
                     }
                 ]
             },
             {
                 id: "details",
-                label: "Programs",
+                label: "Deeper Dive",
                 icon: "document",
                 content: `
                     <h4>First Forward Redevelopment — 320 E Hastings</h4>
@@ -756,10 +756,19 @@ const tourStops = [
                         <li>Community gathering and drop-in areas</li>
                         <li>Indigenous-led governance with Musqueam, Squamish, and Tsleil-Waututh artwork integrated into the building design</li>
                     </ul>
-                    <p>The project is developed in partnership with Lu'ma Native Housing Society, ensuring <strong>Indigenous-led and community-accountable governance</strong> for long-term operations. The building is targeted for completion in 2026.</p>
+                    <p>The project is developed in partnership with Lu'ma Native Housing Society, ensuring <strong>Indigenous-led and community-accountable governance</strong> for long-term operations.</p>
 
-                    <h4>BSH Research Partnership</h4>
-                    <p>First United is a key partner in BSH's <strong>Evictions and Security of Tenure</strong> research project. Through this collaboration, First United has collected eviction survey data from over 1,100 BC tenants, providing critical evidence on who is being evicted and the downstream impacts on households — data not being collected anywhere else in Canada. The project also includes research on Indigenous tenant rights and model legislation for Indigenous housing justice.</p>
+                    <h4>BSH Evictions & Security of Tenure Partnership</h4>
+                    <p>First United is a key partner in BSH's <strong>Evictions and Security of Tenure</strong> research project. Through this collaboration, First United has collected eviction survey data from <strong>over 1,100 BC tenants</strong>, providing critical evidence on who is being evicted and the downstream impacts on households — data not being collected anywhere else in Canada.</p>
+                    <p>Key findings from the broader BSH research show that <strong>no-fault evictions account for 65% of evictions nationally and 85% in British Columbia</strong>, highlighting the severe displacement pressures renters face. The project also includes research on <strong>Indigenous tenant rights and model legislation</strong> for Indigenous housing justice.</p>
+
+                    <h4>Three Pillars Model</h4>
+                    <p>First United organizes its work around three interconnected pillars, mirroring how housing precarity requires integrated responses:</p>
+                    <ul>
+                        <li><strong>Essential Services:</strong> Meeting immediate needs — safe shelter, food, help desk navigation for benefits, ID, and housing applications</li>
+                        <li><strong>Community Connection:</strong> Building belonging through drop-in spaces, cultural programming, Indigenous-led healing, peer support, and spiritual care</li>
+                        <li><strong>Systems Change:</strong> Addressing root causes through legal advocacy, tenant rights work, eviction prevention, and policy research partnerships like the BSH collaboration</li>
+                    </ul>
                 `,
                 keyPoints: [
                     "Operating in the DTES since 1886",

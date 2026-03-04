@@ -139,6 +139,106 @@
   },
   {
     "id": 2,
+    "title": "Aboriginal Front Door Society",
+    "location": "384 Main St, Vancouver",
+    "coordinates": [
+      49.2812,
+      -123.0996
+    ],
+    "heroImage": {
+      "src": "../images/placeholder.svg",
+      "alt": "Aboriginal Front Door Society at 384 Main Street",
+      "caption": "Aboriginal Front Door Society (384 Main St)"
+    },
+    "stats": [
+      {
+        "label": "Cultural Space",
+        "value": "DTES Hub"
+      },
+      {
+        "label": "Focus",
+        "value": "Indigenous-led support"
+      },
+      {
+        "label": "Location",
+        "value": "384 Main St"
+      }
+    ],
+    "sections": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "icon": "info",
+        "content": "\n                    <p>The <strong>Aboriginal Front Door Society</strong> offers a supportive space for Indigenous and non-Indigenous people in the Downtown Eastside, focusing on traditional approaches to community and healing.</p>\n                    <p>Operating as a drop-in centre, they provide Elder and family cultural guidance, community meetings, social and recreational activities, and culturally safe referrals for drug and alcohol treatment.</p>\n                    <p>Their mission is to foster, encourage, and support marginalized people to live with love, honor, respect, and compassion by reconnecting them to their culture and to each other through traditional ways.</p>\n                "
+      },
+      {
+        "id": "highlights",
+        "label": "At This Stop",
+        "icon": "sparkles",
+        "type": "highlights",
+        "highlights": [
+          {
+            "title": "Cultural Programming",
+            "description": "Provides talking circles, drumming, singing, beadwork, cedar bark weaving, and bannock making.",
+            "meta": "Culture"
+          },
+          {
+            "title": "Drop-in Centre",
+            "description": "A safe entry point for community connection, education, and language learning.",
+            "meta": "Community services"
+          },
+          {
+            "title": "Homeless Storage Program",
+            "description": "Secure bin storage for individuals experiencing homelessness or precarious housing.",
+            "meta": "Support"
+          },
+          {
+            "title": "Food Security",
+            "description": "A weekly food bank and daily morning coffee with Elder Coordinators.",
+            "meta": "Basic needs"
+          }
+        ]
+      },
+      {
+        "id": "details",
+        "label": "Programs & Role",
+        "icon": "document",
+        "content": "\n                    <h4>Cultural Reconnection</h4>\n                    <p>The organization champions the implementation of an Indigenous-specific drug and alcohol strategy in the DTES, grounding its approach in Aboriginal traditions and teachings.</p>\n                    <h4>Daily Supports</h4>\n                    <p>Programming includes morning coffee starting at 8:00 AM, a Wednesday food bank, and regular cultural workshops. These activities help anchor individuals needing connection and cultural resonance in the neighborhood.</p>\n                ",
+        "keyPoints": [
+          "Located at 384 Main Street, serving the DTES community",
+          "Provides cultural activities, Elder guidance, and safe referrals",
+          "Operates a homeless storage program and regular food bank",
+          "A critical Indigenous-led organization in the neighborhood"
+        ]
+      },
+      {
+        "id": "learn-more",
+        "label": "Learn More",
+        "icon": "link",
+        "type": "resources",
+        "resources": [
+          {
+            "title": "Aboriginal Front Door - BC 211",
+            "url": "https://bc.211.ca/agencies/aboriginal-front-door-society/",
+            "description": "Services overview and access information"
+          },
+          {
+            "title": "LinkVan - Aboriginal Front Door",
+            "url": "https://linkvan.ca/resources/aboriginal-front-door-society",
+            "description": "Drop-in hours and current program schedule"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "indigenous",
+      "community-centre",
+      "dtes",
+      "cultural-services"
+    ]
+  },
+  {
+    "id": 3,
     "title": "UBC Learning Exchange",
     "location": "612 Main St, Vancouver",
     "coordinates": [
@@ -276,7 +376,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Downtown Eastside Community Land Trust",
     "location": "222 Keefer St, Vancouver",
     "coordinates": [
@@ -434,7 +534,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "DTES SRO Collaborative",
     "location": "268 Keefer St, Vancouver",
     "coordinates": [
@@ -602,7 +702,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Hogan's Alley Society",
     "location": "Union Street & Main Street, Vancouver",
     "coordinates": [
@@ -758,106 +858,6 @@
       "heritage",
       "housing",
       "culture"
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Aboriginal Front Door Society",
-    "location": "384 Main St, Vancouver",
-    "coordinates": [
-      49.2812,
-      -123.0996
-    ],
-    "heroImage": {
-      "src": "../images/placeholder.svg",
-      "alt": "Aboriginal Front Door Society at 384 Main Street",
-      "caption": "Aboriginal Front Door Society (384 Main St)"
-    },
-    "stats": [
-      {
-        "label": "Cultural Space",
-        "value": "DTES Hub"
-      },
-      {
-        "label": "Focus",
-        "value": "Indigenous-led support"
-      },
-      {
-        "label": "Location",
-        "value": "384 Main St"
-      }
-    ],
-    "sections": [
-      {
-        "id": "overview",
-        "label": "Overview",
-        "icon": "info",
-        "content": "\n                    <p>The <strong>Aboriginal Front Door Society</strong> offers a supportive space for Indigenous and non-Indigenous people in the Downtown Eastside, focusing on traditional approaches to community and healing.</p>\n                    <p>Operating as a drop-in centre, they provide Elder and family cultural guidance, community meetings, social and recreational activities, and culturally safe referrals for drug and alcohol treatment.</p>\n                    <p>Their mission is to foster, encourage, and support marginalized people to live with love, honor, respect, and compassion by reconnecting them to their culture and to each other through traditional ways.</p>\n                "
-      },
-      {
-        "id": "highlights",
-        "label": "At This Stop",
-        "icon": "sparkles",
-        "type": "highlights",
-        "highlights": [
-          {
-            "title": "Cultural Programming",
-            "description": "Provides talking circles, drumming, singing, beadwork, cedar bark weaving, and bannock making.",
-            "meta": "Culture"
-          },
-          {
-            "title": "Drop-in Centre",
-            "description": "A safe entry point for community connection, education, and language learning.",
-            "meta": "Community services"
-          },
-          {
-            "title": "Homeless Storage Program",
-            "description": "Secure bin storage for individuals experiencing homelessness or precarious housing.",
-            "meta": "Support"
-          },
-          {
-            "title": "Food Security",
-            "description": "A weekly food bank and daily morning coffee with Elder Coordinators.",
-            "meta": "Basic needs"
-          }
-        ]
-      },
-      {
-        "id": "details",
-        "label": "Programs & Role",
-        "icon": "document",
-        "content": "\n                    <h4>Cultural Reconnection</h4>\n                    <p>The organization champions the implementation of an Indigenous-specific drug and alcohol strategy in the DTES, grounding its approach in Aboriginal traditions and teachings.</p>\n                    <h4>Daily Supports</h4>\n                    <p>Programming includes morning coffee starting at 8:00 AM, a Wednesday food bank, and regular cultural workshops. These activities help anchor individuals needing connection and cultural resonance in the neighborhood.</p>\n                ",
-        "keyPoints": [
-          "Located at 384 Main Street, serving the DTES community",
-          "Provides cultural activities, Elder guidance, and safe referrals",
-          "Operates a homeless storage program and regular food bank",
-          "A critical Indigenous-led organization in the neighborhood"
-        ]
-      },
-      {
-        "id": "learn-more",
-        "label": "Learn More",
-        "icon": "link",
-        "type": "resources",
-        "resources": [
-          {
-            "title": "Aboriginal Front Door - BC 211",
-            "url": "https://bc.211.ca/agencies/aboriginal-front-door-society/",
-            "description": "Services overview and access information"
-          },
-          {
-            "title": "LinkVan - Aboriginal Front Door",
-            "url": "https://linkvan.ca/resources/aboriginal-front-door-society",
-            "description": "Drop-in hours and current program schedule"
-          }
-        ]
-      }
-    ],
-    "tags": [
-      "indigenous",
-      "community-centre",
-      "dtes",
-      "cultural-services"
     ]
   }
 ]

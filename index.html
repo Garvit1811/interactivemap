@@ -772,7 +772,7 @@
 
         <section class="grid">
             <a href="fscclt/index.html" class="card card-one"
-                aria-label="Start FCSCLT Tour: False Creek South and Kitsilano — 3 stops">
+                aria-label="Start FCSCLT Tour: False Creek South, Senakw and Granville Island — 3 stops">
                 <div class="card-preview">
                     <svg class="card-preview-icon" width="140" height="140" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="0.5" aria-hidden="true">
@@ -781,7 +781,7 @@
                     </svg>
                     <div class="card-preview-text">
                         <p class="tour-label">Tour 1</p>
-                        <p class="tour-name">False Creek South &amp; Kitsilano</p>
+                        <p class="tour-name">False Creek South, Senakw &amp; Granville Island</p>
                     </div>
                 </div>
                 <div class="card-body">
@@ -882,8 +882,8 @@
             // FCSCLT Tour stops (blue)
             var fsccltStops = [
                 { title: "False Creek South CLT", coords: [49.26715, -123.12615] },
-                { title: "Granville Island", coords: [49.27056, -123.13417] },
-                { title: "Senakw Development", coords: [49.27257, -123.14289] }
+                { title: "Senakw Development", coords: [49.27257, -123.14289] },
+                { title: "Granville Island", coords: [49.27056, -123.13417] }
             ];
 
             // Community Orgs stops (gold)
@@ -921,11 +921,11 @@
             ];
 
             L.polyline(fsccltRouteCoords, {
-                color: '#002145', weight: 3, opacity: 0.6, dashArray: '8, 8'
+                color: '#002145', weight: 3, opacity: 0.6
             }).addTo(map);
 
             L.polyline(communityRouteCoords, {
-                color: '#c2a02e', weight: 3, opacity: 0.8, dashArray: '8, 8'
+                color: '#c2a02e', weight: 3, opacity: 0.8
             }).addTo(map);
 
             fsccltStops.forEach(function (stop, i) {

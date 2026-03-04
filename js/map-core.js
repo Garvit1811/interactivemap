@@ -133,7 +133,7 @@ window.BSHTourMap = {
                 if (pastSegments.length) {
                     layers.push(L.layerGroup(pastSegments.map(seg => L.polyline(seg, {
                         color: '#8b9bb4', // Grayed out for past
-                        weight: 6, opacity: 0.98, dashArray: '8, 8', lineCap: 'round', lineJoin: 'round', interactive: false, className: 'tour-route-past'
+                        weight: 6, opacity: 0.98, lineCap: 'round', lineJoin: 'round', interactive: false, className: 'tour-route-past'
                     }))));
                 }
                 if (futureSegments.length) {
@@ -730,7 +730,6 @@ window.BSHTourMap = {
                 if (indicator) {
                     indicator.textContent = `Stop ${currentStopIndex + 1} of ${tourStops.length}`;
                 }
-                updateProgressDots();
             }
 
             function createStopNavigator() {
@@ -992,40 +991,7 @@ window.BSHTourMap = {
                 });
             }
 
-            // ============================================
-            // Progress Dots
-            // ============================================
-
-            function createProgressDots() {
-                const container = document.getElementById('progressDots');
-                if (!container) return;
-
-                container.innerHTML = tourStops.map((stop, index) => `
-        <button
-            class="progress-dot ${index === 0 ? 'active' : ''}"
-            data-index="${index}"
-            aria-label="Go to stop ${index + 1}: ${stop.title}"
-            type="button"
-        >${index + 1}</button>
-    `).join('');
-
-                container.querySelectorAll('.progress-dot').forEach(dot => {
-                    dot.addEventListener('click', () => {
-                        const index = parseInt(dot.dataset.index, 10);
-                        goToStop(index);
-                    });
-                });
-
-                updateProgressDots();
-            }
-
-            function updateProgressDots() {
-                document.querySelectorAll('.progress-dot').forEach((dot, index) => {
-                    const isActive = index === currentStopIndex;
-                    dot.classList.toggle('active', isActive);
-                    dot.setAttribute('aria-current', isActive ? 'step' : 'false');
-                });
-            }
+            // Progress dots removed per editorial feedback
 
             // ============================================
             // Onboarding Toast

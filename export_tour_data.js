@@ -21,7 +21,7 @@ function extractTourStops(filePath) {
 const tours = [
     {
         id: "fcsclt",
-        title: "False Creek South, Senakw & Granville Island Tour",
+        title: "False Creek South, Sen̓áḵw & Granville Island Tour",
         description: "Seawall walking tour covering public land stewardship, Indigenous-led development, and federal property governance.",
         stops: extractTourStops(path.join(__dirname, 'fscclt', 'app.js'))
     },

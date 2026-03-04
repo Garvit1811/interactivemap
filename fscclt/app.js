@@ -1,13 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Segment 1: FCS → Senakw (walk west along seawall through GI area)
+    // Segment 1: FCS → Sen̓áḵw (walk west along seawall through GI area)
     const fcsToSenakw = [
-        [49.26715, -123.12615],  // Start at FCS
-        [49.26800, -123.12615],  // North on Moberly Rd
-        [49.26900, -123.12620],  // North through FCS
-        [49.27000, -123.12630],  // Approaching 1st Ave
-        [49.27050, -123.12640],  // Seawall access point
-        [49.27060, -123.12720],  // On seawall, heading west
-        [49.27040, -123.12800],  // Leg-in-Boot Square area
+        [49.2710, -123.1280],    // Start at FCS (waterfront, Leg-in-Boot Square)
         [49.27050, -123.12960],  // Seawall continues west
         [49.27110, -123.13140],  // Stamps Landing approach
         [49.27160, -123.13300],  // Stamps Landing dock
@@ -19,12 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
         [49.27060, -123.13900],  // Island Park Walk
         [49.27030, -123.14040],  // Alder Bay Walk
         [49.27080, -123.14180],  // Approaching Burrard Bridge
-        [49.27257, -123.14289]   // Senakw
+        [49.27257, -123.14289]   // Sen̓áḵw
     ];
 
-    // Segment 2: Senakw → Granville Island (walk back east)
+    // Segment 2: Sen̓áḵw → Granville Island (walk back east)
     const senakwToGI = [
-        [49.27257, -123.14289],  // Senakw
+        [49.27257, -123.14289],  // Sen̓áḵw
         [49.27080, -123.14180],  // From Burrard Bridge
         [49.27030, -123.14040],  // Alder Bay Walk
         [49.27060, -123.13900],  // Island Park Walk

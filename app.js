@@ -179,7 +179,7 @@ const tourStops = [
     },
     {
         id: 2,
-        title: "Senakw Development",
+        title: "Sen̓áḵw Development",
         location: "Kitsilano, Vancouver (near Burrard Bridge)",
         coordinates: [49.27257, -123.14289],
 
@@ -201,9 +201,9 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>Senakw (pronounced "sen-AHK-w") is the <strong>largest Indigenous-led urban housing development in Canadian history</strong>. Located on 10.5 acres of Squamish Nation reserve land near the south end of the Burrard Bridge, this project demonstrates how Indigenous land rights can create new pathways for housing development.</p>
-                    <p>The development will include <strong>6,000 purpose-built rental units</strong> across 11 towers, with 4 million square feet of floor space. Critically, <strong>1,200 units (20%) will be designated affordable</strong>, with rents 30–40% below comparable market rates. Of these, <strong>250 units are set aside specifically for Squamish Nation members</strong>, managed by the Nation's non-profit housing society <strong>Hiy̓ám̓ Housing</strong>. Applications for Squamish citizens opened in February 2026 — making Senakw the largest permanent return of Squamish residents to this land in over a century.</p>
-                    <p>The three-tier rental structure prioritizes Indigenous access: <strong>Hiy̓ám̓ Housing homes</strong> (rent-assisted, Squamish members first), <strong>affordable homes</strong> (below-market for middle-income households), and <strong>market rental homes</strong>. This model positions Senakw as a landmark in urban Indigenous housing — addressing the needs of one of Vancouver's most historically marginalized communities.</p>
+                    <p>Sen̓áḵw (pronounced "sen-AHK-w") is the <strong>largest Indigenous-led urban housing development in Canadian history</strong>. Located on 10.5 acres of Squamish Nation reserve land near the south end of the Burrard Bridge, this project demonstrates how Indigenous land rights can create new pathways for housing development.</p>
+                    <p>The development will include <strong>6,000 purpose-built rental units</strong> across 11 towers, with 4 million square feet of floor space. Critically, <strong>1,200 units (20%) will be designated affordable</strong>, with rents 30–40% below comparable market rates. Of these, <strong>250 units are set aside specifically for Squamish Nation members</strong>, managed by the Nation's non-profit housing society <strong>Hiy̓ám̓ Housing</strong>. Applications for Squamish citizens opened in February 2026 — making Sen̓áḵw the largest permanent return of Squamish residents to this land in over a century.</p>
+                    <p>The three-tier rental structure prioritizes Indigenous access: <strong>Hiy̓ám̓ Housing homes</strong> (rent-assisted, Squamish members first), <strong>affordable homes</strong> (below-market for middle-income households), and <strong>market rental homes</strong>. This model positions Sen̓áḵw as a landmark in urban Indigenous housing — addressing the needs of one of Vancouver's most historically marginalized communities.</p>
                     <p>In September 2022, Prime Minister Justin Trudeau announced a <strong>$1.4 billion federal loan</strong> to fund the first two phases. Phase One (1,409 units in three towers) targets completion in early 2026, with phased buildout continuing into the early 2030s.</p>
                 `
             },
@@ -241,21 +241,21 @@ const tourStops = [
                 icon: "document",
                 content: `
                     <h4>Federal Jurisdiction & View Cones</h4>
-                    <p>Senakw operates on <strong>federal reserve land</strong>, which exempts it from Vancouver's municipal zoning bylaws — including the city's "view cone" policies that restrict building heights to protect mountain views.</p>
-                    <p>Vancouver's view cones, established in 1989, identify 38 protected views from specific locations. The Senakw towers enter View Cone 20.0 (from West Broadway and Granville Street), but as reserve land, the project is not bound by these restrictions. In July 2024, Council approved major changes to the view cone policy, partly influenced by Senakw's development.</p>
+                    <p>Sen̓áḵw operates on <strong>federal reserve land</strong>, which exempts it from Vancouver's municipal zoning bylaws — including the city's "view cone" policies that restrict building heights to protect mountain views.</p>
+                    <p>Vancouver's view cones, established in 1989, identify 38 protected views from specific locations. The Sen̓áḵw towers enter View Cone 20.0 (from West Broadway and Granville Street), but as reserve land, the project is not bound by these restrictions. In July 2024, Council approved major changes to the view cone policy, partly influenced by Sen̓áḵw's development.</p>
 
                     <h4>Ownership & Partnership</h4>
                     <p>In August 2025, <strong>OPTrust</strong> — one of Canada's largest pension fund investors — acquired development partner Westbank's ownership stake in Phases One and Two. OPTrust and the Squamish Nation now each hold <strong>50% ownership</strong> in these phases, representing a significant Indigenous-led partnership model.</p>
 
                     <h4>Project Scope & Public Space</h4>
-                    <p>Senakw's unit mix includes <strong>2,688 studios, 2,046 one-bedrooms, 874 two-bedrooms, and 472 three-bedrooms</strong>. Over half the site (roughly six acres) is planned as publicly accessible green space and cultural gathering areas.</p>
+                    <p>Sen̓áḵw's unit mix includes <strong>2,688 studios, 2,046 one-bedrooms, 874 two-bedrooms, and 472 three-bedrooms</strong>. Over half the site (roughly six acres) is planned as publicly accessible green space and cultural gathering areas.</p>
 
                     <h4>Services Agreement & Tenant Protections</h4>
                     <p>A 120-year services agreement with the City of Vancouver (signed May 2022) covers water, sewer, fire, and police services, with the Squamish Nation paying the same rates as Vancouver property owners.</p>
-                    <p>In July 2023, the Squamish Nation became the first in Canada to adopt BC's <strong>Residential Tenancy Act (BCRTA)</strong> for a major housing development through the federal <strong>First Nations Commercial and Industrial Development Act (FNCIDA)</strong>. FNCIDA enables First Nations to request federal regulations that incorporate provincial law on reserve lands — a mechanism used only five times since 2005, and never before for residential housing. This means Senakw tenants receive the same rent increase limits, eviction protections, and dispute resolution rights as any BC renter, with one key addition: an <strong>Indigenous-led dispute resolution process</strong> consistent with Squamish traditions. The protections also extend to Hiy̓ám̓ Housing developments on other Squamish Nation reserves in North Vancouver.</p>
+                    <p>In July 2023, the Squamish Nation became the first in Canada to adopt BC's <strong>Residential Tenancy Act (BCRTA)</strong> for a major housing development through the federal <strong>First Nations Commercial and Industrial Development Act (FNCIDA)</strong>. FNCIDA enables First Nations to request federal regulations that incorporate provincial law on reserve lands — a mechanism used only five times since 2005, and never before for residential housing. This means Sen̓áḵw tenants receive the same rent increase limits, eviction protections, and dispute resolution rights as any BC renter, with one key addition: an <strong>Indigenous-led dispute resolution process</strong> consistent with Squamish traditions. The protections also extend to Hiy̓ám̓ Housing developments on other Squamish Nation reserves in North Vancouver.</p>
 
                     <h4>Indigenous Land Development in BC</h4>
-                    <p>Senakw is part of a broader movement of Indigenous nations using land development for economic self-determination:</p>
+                    <p>Sen̓áḵw is part of a broader movement of Indigenous nations using land development for economic self-determination:</p>
                     <ul>
                         <li>Land is retained rather than sold, maintaining long-term nation ownership</li>
                         <li>Projects prioritize community benefit alongside economic returns</li>
@@ -306,17 +306,17 @@ const tourStops = [
                 type: "resources",
                 resources: [
                     {
-                        title: "Senakw Official Website",
+                        title: "Sen̓áḵw Official Website",
                         url: "https://www.senakw.com/",
                         description: "Project timeline, unit information, and updates"
                     },
                     {
-                        title: "Squamish Nation — Senakw Partnership",
+                        title: "Squamish Nation — Sen̓áḵw Partnership",
                         url: "https://www.squamish.net/partnerships-entities/partnerships/senakw/",
                         description: "Squamish Nation's overview of the project"
                     },
                     {
-                        title: "City of Vancouver — Senakw Development",
+                        title: "City of Vancouver — Sen̓áḵw Development",
                         url: "https://vancouver.ca/home-property-development/senakw-development.aspx",
                         description: "City coordination and infrastructure planning"
                     },
@@ -343,7 +343,7 @@ const tourStops = [
                     {
                         title: "Maclean's — Vancouver's Mega-Development Is Undeniably Indigenous",
                         url: "https://macleans.ca/society/senakw-vancouver/",
-                        description: "In-depth feature on Senakw's significance for Indigenous urbanism"
+                        description: "In-depth feature on Sen̓áḵw's significance for Indigenous urbanism"
                     }
                 ]
             }

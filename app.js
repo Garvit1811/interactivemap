@@ -720,46 +720,55 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "Safe Shelter Program",
-                        description: "Review how the 51-bed low-barrier shelter supports people facing immediate housing instability.",
-                        meta: "Shelter"
+                        title: "Essential Services",
+                        description: "Safe Shelter program (51 low-barrier beds at 467 Alexander St), daily meals and mobile food truck, Community Help Desk for benefits navigation and ID replacement.",
+                        meta: "Basic needs"
                     },
                     {
-                        title: "Legal Advocacy",
-                        description: "Understand tenancy, social assistance, and disability advocacy support delivered at street level.",
-                        meta: "Tenant rights"
+                        title: "Community Connection",
+                        description: "Drop-in gathering spaces, cultural and spiritual programming, healing supports including Indigenous-led ceremonies, peer support networks, and community-building activities.",
+                        meta: "Belonging & healing"
                     },
                     {
-                        title: "Food Access",
-                        description: "Track meal services including daily lunch and outreach food truck operations.",
-                        meta: "Food security"
+                        title: "Systems Change",
+                        description: "Legal advocacy for tenant rights and eviction prevention, policy research with BSH on Evictions and Security of Tenure, and the First Forward redevelopment at 320 E Hastings.",
+                        meta: "Advocacy & research"
                     },
                     {
-                        title: "Redevelopment Site",
-                        description: "Connect the current site to plans for long-term affordable homes and integrated community space.",
+                        title: "First Forward Redevelopment",
+                        description: "320 E Hastings: 4 floors of community amenities + 7 floors of below-market rental housing (100+ units) by Lu\u2019ma Native Housing. Triples program space to ~40,000 sq ft. Completion targeted 2026.",
                         meta: "Housing delivery"
                     }
                 ]
             },
             {
                 id: "details",
-                label: "Programs",
+                label: "Deeper Dive",
                 icon: "document",
                 content: `
                     <h4>First Forward Redevelopment — 320 E Hastings</h4>
-                    <p>The First Forward project will transform the 320 East Hastings site into a universally accessible, purpose-built facility: <strong>four floors of community amenities</strong> topped by <strong>seven floors of below-market rental housing</strong> (over 100 studio and one-bedroom units) operated by Lu'ma Native Housing Society.</p>
-                    <p>The new facility will nearly <strong>triple First United's program space to ~40,000 sq ft</strong>, incorporating:</p>
+                    <p>The First Forward project will transform the 320 East Hastings site into a universally accessible, purpose-built facility: <strong>four floors of community amenities</strong> topped by <strong>seven floors of below-market rental housing</strong> (103 units — 35 supportive and 68 rental prioritized for Indigenous peoples) operated by Lu'ma Native Housing Society. <strong>25% of units will be fully accessible</strong>, with the remainder built to adaptable standards.</p>
+                    <p>The ~$80 million project will nearly <strong>triple First United's program space to ~40,000 sq ft</strong>, incorporating:</p>
                     <ul>
                         <li>Expanded food security and meal service infrastructure</li>
                         <li>Dedicated legal advocacy and tenant support offices</li>
                         <li>Culturally grounded healing and spiritual care spaces</li>
-                        <li>Community gathering and drop-in areas</li>
-                        <li>Indigenous-led governance with Musqueam, Squamish, and Tsleil-Waututh artwork integrated into the building design</li>
+                        <li>Community gathering, drop-in areas, and an outdoor deck</li>
+                        <li>Warming, cooling, and wildfire smoke refuge for unsheltered community members</li>
                     </ul>
-                    <p>The project is developed in partnership with Lu'ma Native Housing Society, ensuring <strong>Indigenous-led and community-accountable governance</strong> for long-term operations. The building is targeted for completion in 2026.</p>
+                    <p>The design was shaped by <strong>extensive community consultation</strong>: nearly 100 DTES residents with lived experience participated in one-on-one conversations and focus groups, alongside service providers and government partners. The interior is designed by Nisga'a architect <strong>Luugigyoo Patrick Stewart</strong>, with cultural consultant <strong>Xalek/Sekyu Siyam Chief Ian Campbell</strong> guiding the regulatory and design process. The exterior integrates works by <strong>Musqueam, Squamish, and Tsleil-Waututh artists</strong>.</p>
 
-                    <h4>BSH Research Partnership</h4>
-                    <p>First United is a key partner in BSH's <strong>Evictions and Security of Tenure</strong> research project. Through this collaboration, First United has collected eviction survey data from over 1,100 BC tenants, providing critical evidence on who is being evicted and the downstream impacts on households — data not being collected anywhere else in Canada. The project also includes research on Indigenous tenant rights and model legislation for Indigenous housing justice.</p>
+                    <h4>BSH Evictions & Security of Tenure Partnership</h4>
+                    <p>First United is a key partner in BSH's <strong>Evictions and Security of Tenure</strong> research project. Through this collaboration, First United has collected eviction survey data from <strong>over 1,100 BC tenants</strong>, providing critical evidence on who is being evicted and the downstream impacts on households — data not being collected anywhere else in Canada.</p>
+                    <p>Key findings from the broader BSH research show that <strong>no-fault evictions account for 65% of evictions nationally and 85% in British Columbia</strong>, highlighting the severe displacement pressures renters face. The project also includes research on <strong>Indigenous tenant rights and model legislation</strong> for Indigenous housing justice.</p>
+
+                    <h4>Three Pillars Model</h4>
+                    <p>First United organizes its work around three interconnected pillars, mirroring how housing precarity requires integrated responses:</p>
+                    <ul>
+                        <li><strong>Essential Services:</strong> Meeting immediate needs — safe shelter, food, help desk navigation for benefits, ID, and housing applications</li>
+                        <li><strong>Community Connection:</strong> Building belonging through drop-in spaces, cultural programming, Indigenous-led healing, peer support, and spiritual care</li>
+                        <li><strong>Systems Change:</strong> Addressing root causes through legal advocacy, tenant rights work, eviction prevention, and policy research partnerships like the BSH collaboration</li>
+                    </ul>
                 `,
                 keyPoints: [
                     "Operating in the DTES since 1886",
@@ -805,22 +814,22 @@ const tourStops = [
                     {
                         title: "First United Church Community Ministry Society",
                         url: "https://firstunited.ca/",
-                        description: "Official website — programs, redevelopment plans, and community impact"
+                        description: "Official website — programs, services, redevelopment plans, and community impact"
                     },
                     {
                         title: "BSH — Evictions and Security of Tenure",
                         url: "https://bsh.ubc.ca/research/evictions-and-security-of-tenure/",
-                        description: "BSH research project partnering with First United on BC eviction data"
+                        description: "BSH research project partnering with First United on BC eviction data and tenant displacement"
                     },
                     {
-                        title: "First United — BC Eviction Mapping",
-                        url: "https://firstunited.ca/how-we-help/bc-eviction-mapping/",
-                        description: "Eviction survey collecting data from 1,100+ BC tenants"
+                        title: "The Tyee — First United Launches $30M Campaign",
+                        url: "https://thetyee.ca/Presents/2021/11/17/First-United-30-Million-Campaign-Downtown-Eastside-Site/",
+                        description: "Coverage of the First Forward capital campaign and DTES redevelopment vision"
                     },
                     {
-                        title: "First Forward Redevelopment",
-                        url: "https://firstunited.ca/first-forward-redevelopment/",
-                        description: "Plans for the 320 E Hastings mixed-use community hub and housing"
+                        title: "Vancouver Is Awesome — Community-Informed DTES Space",
+                        url: "https://www.vancouverisawesome.com/sponsored/first-united-church-is-creating-a-community-informed-space-for-the-downtown-eastside-vancouver-6152186",
+                        description: "How First United's inclusive design process centred DTES residents' voices"
                     }
                 ]
             }
@@ -966,22 +975,12 @@ const tourStops = [
                     {
                         title: "Hogan's Alley Society",
                         url: "https://www.hogansalleysociety.org/",
-                        description: "Organization history, MOU context, cultural restoration, and project pillars"
+                        description: "Official website — history, cultural restoration, CLT vision, and project updates"
                     },
                     {
-                        title: "City of Vancouver - Hogan's Alley Society Block",
-                        url: "https://vancouver.ca/home-property-development/hogans-alley-society-block.aspx",
-                        description: "Municipal planning and implementation details"
-                    },
-                    {
-                        title: "City of Vancouver - 258 Union Street",
-                        url: "https://vancouver.ca/people-programs/258-union-street.aspx",
-                        description: "Nora Hendrix Place housing project profile"
-                    },
-                    {
-                        title: "City of Vancouver — Hogan's Alley MOU",
+                        title: "City of Vancouver — Hogan's Alley MOU & Northeast False Creek",
                         url: "https://vancouver.ca/people-programs/hogan-s-alley-mou.aspx",
-                        description: "MOU details, Northeast False Creek Plan context, and cultural redress framework"
+                        description: "MOU details, 898 Main Street block plans, cultural redress framework, and NEFC Plan context"
                     },
                     {
                         title: "CNCLT Summit — Vancouver Community Land Trusts",
@@ -991,12 +990,17 @@ const tourStops = [
                     {
                         title: "BSH Research in Progress — Vancouver's Growing CLT Movement",
                         url: "https://bsh.ubc.ca/research-in-progress-on-vancouvers-growing-clt-movement/",
-                        description: "October 2025 BSH webinar featuring HAS and DTES CLT on affordable housing and community land stewardship"
+                        description: "BSH webinar featuring HAS and DTES CLT on affordable housing and community land stewardship"
                     },
                     {
                         title: "BSH — Reclaim, Remain: BIPOC-Led CLTs in Canada",
                         url: "https://bsh.ubc.ca/research/policy-report-profile-series-on-canadian-community-land-trusts/",
-                        description: "Research profiles of six BIPOC-led CLTs including HAS, examining collective land stewardship and anti-displacement strategies"
+                        description: "Research profiles of six BIPOC-led CLTs including HAS, examining collective land stewardship"
+                    },
+                    {
+                        title: "Globe and Mail — Vancouver Signs CLT Deal for Hogan's Alley",
+                        url: "https://www.theglobeandmail.com/canada/british-columbia/article-vancouver-signs-deal-to-turn-former-site-of-hogans-alley-into/",
+                        description: "Coverage of the City-HAS agreement to create a community land trust on the former Hogan's Alley site"
                     }
                 ]
             }
@@ -1017,8 +1021,8 @@ const tourStops = [
         },
 
         stats: [
-            { label: "Active SROs", value: "~40" },
-            { label: "Tenants Supported", value: "2,700+" },
+            { label: "Participating SROs", value: "~40" },
+            { label: "Tenants Surveyed", value: "900+" },
             { label: "Provincial Grant", value: "$11M" }
         ],
 
@@ -1040,24 +1044,24 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "Tenant Organizing",
-                        description: "Learn about tenant-led organizing and advocacy strategies.",
-                        meta: "Advocacy"
+                        title: "Tenant Committees",
+                        description: "The cornerstone of SRO-C's Hub Program. Democratic structures where tenants identify building-level issues, coordinate repairs with landlords, and organize for improved habitability and affordability.",
+                        meta: "Community organizing"
                     },
                     {
-                        title: "TORO Program",
-                        description: "Understand the Tenant Overdose Response Organizers initiative.",
+                        title: "TORO (Tenant Overdose Response)",
+                        description: "Peer-led harm reduction across ~40 private SROs. Tenants trained as TOROs provide naloxone training and kits, safer supply referrals, and harm reduction supplies in the places people live.",
                         meta: "Harm reduction"
                     },
                     {
-                        title: "SRO Conditions",
-                        description: "Discuss challenges and opportunities in SRO housing.",
-                        meta: "Housing"
+                        title: "SRO Degree & Right to Remain",
+                        description: "The SRO Degree equips tenants with housing rights knowledge and practical skills. Right to Remain is a research collective supporting tenant organizing for safety, cleanliness, and empowerment.",
+                        meta: "Education & research"
                     },
                     {
-                        title: "Policy Impact",
-                        description: "Review the Collaborative's role in vacancy control policy.",
-                        meta: "Policy"
+                        title: "2024 SRO Tenant Survey",
+                        description: "Partnered with the City to survey 900+ tenants across 133 buildings — the most comprehensive SRO tenant data since 2013. Findings inform the intergovernmental SRO Investment Strategy.",
+                        meta: "Data & justice"
                     }
                 ]
             },
@@ -1067,29 +1071,34 @@ const tourStops = [
                 icon: "document",
                 content: `
                     <h4>Tenant-Based Initiatives (TBIs)</h4>
-                    <p>The SRO Collaborative's model empowers tenants to improve their own buildings. In contrast to top-down supportive housing, SRO-C provides life-skills training to tenants who then become active participants in building improvement. Programs include:</p>
+                    <p>The SRO Collaborative's model empowers tenants to improve their own buildings. In contrast to top-down supportive housing, SRO-C provides life-skills training to tenants who then become active participants in building improvement. Core programs include:</p>
                     <ul>
-                        <li><strong>Tenant committees:</strong> Democratic structures that identify building-level issues and coordinate with landlords for repairs</li>
-                        <li><strong>TORO:</strong> Peer-led overdose response and naloxone distribution across ~40 private SROs</li>
+                        <li><strong>Tenant Committees (SRO Hub Program):</strong> The cornerstone program — democratic structures that identify building-level issues, coordinate repairs, and build community ownership in privately-owned SROs</li>
+                        <li><strong>TORO (Tenant Overdose Response Organizers):</strong> Peer-led harm reduction operating in ~40 private SRO hotels, providing naloxone training, safer supply referrals, and harm reduction supplies</li>
+                        <li><strong>SRO Degree:</strong> Connects tenants with housing and tenant rights knowledge to take power in their living situations</li>
+                        <li><strong>Right to Remain:</strong> A research collective supporting tenant organizing for improved safety, cleanliness, affordability, and empowerment</li>
                         <li><strong>Room cleaning and repairs:</strong> Tenants trained in building maintenance and trades skills</li>
                         <li><strong>Cultural reconnection:</strong> Supports for the ~33% of SRO tenants who self-identify as Indigenous</li>
-                        <li><strong>Fire safety:</strong> Emergency preparedness training and building-level planning</li>
-                        <li><strong>SRO Hub:</strong> Newsletter, tenant rights library, and workshops including the "SRO Degree" program</li>
+                        <li><strong>Fire safety:</strong> Emergency preparedness training and building-level evacuation planning</li>
                     </ul>
 
                     <h4>2024 SRO Tenant Survey</h4>
-                    <p>Between January and April 2024, the SRO Collaborative partnered with the City of Vancouver to survey <strong>over 900 tenants across 133 SRO buildings</strong> — approximately 15% of all tenants in surveyed buildings. The survey was designed in collaboration with a Tenant Advisory Committee and included questions comparable to the 2008 and 2013 surveys to track trends over time. Key findings inform the City's intergovernmental <strong>SRO Investment Strategy</strong> on demographics, service use, and housing conditions.</p>
+                    <p>Between January and April 2024, the SRO Collaborative partnered with the City of Vancouver to conduct the <strong>most comprehensive SRO tenant survey since 2013</strong>. Over <strong>900 tenants were interviewed across 133 SRO buildings</strong> — approximately 15% of all tenants in surveyed buildings. The survey was designed in collaboration with a Tenant Advisory Committee, with questions comparable to 2008 and 2013 surveys to track trends over time.</p>
+                    <p>Key context from the survey and related data:</p>
+                    <ul>
+                        <li>Average private SRO rent: <strong>$681/month</strong> (up 21% since 2019), with some units reaching $1,950/month</li>
+                        <li>At least <strong>60% of private SRO residents</strong> spend more than half their income on housing</li>
+                        <li>Provincial shelter rate remains <strong>$500/month</strong>, creating a persistent affordability gap</li>
+                        <li>Private SRO stock has declined from 7,830 rooms (1994) to 3,305 rooms (2023)</li>
+                        <li><strong>One-third of tenants</strong> self-identify as Indigenous</li>
+                        <li>SRO tenants are excluded from most census data, making this survey a critical data source</li>
+                    </ul>
 
                     <h4>Policy and Public Accountability</h4>
-                    <p>The SRO Collaborative played a central role in the campaign for <strong>vacancy control for SROs</strong>. In November 2021, Vancouver City Council voted near-unanimously to approve the bylaw. After legal challenges suspended it, the Province of BC passed an amendment in May 2024 to the <strong>Municipalities Enabling and Validating Act</strong> to restore the city's bylaw — a landmark tenant protection preventing rent spikes between tenancies.</p>
-                    <p>The Collaborative continues to document SRO living conditions through public reporting, coordinated surveys, and the <strong>Right to Remain</strong> research collective, generating evidence that shapes municipal and provincial housing policy.</p>
-                `,
-                keyPoints: [
-                    "Tenant-led programming across 40+ private SROs supporting 2,700+ residents",
-                    "$11M provincial grant (2023) funds three years of tenant-based initiatives",
-                    "2024 SRO Tenant Survey: 900+ tenants across 133 buildings — informs SRO Investment Strategy",
-                    "Central role in winning vacancy control for SROs (2021 bylaw, restored 2024)"
-                ]
+                    <p>The SRO Collaborative played a central role in the campaign for <strong>vacancy control for SROs</strong>. In November 2021, Vancouver City Council voted near-unanimously to approve the bylaw. After legal challenges from 13 SRO owners suspended it, the Province of BC passed an amendment in May 2024 to the <strong>Municipalities Enabling and Validating Act (MEVA)</strong> to restore the city's bylaw — a landmark tenant protection preventing rent spikes between tenancies and protecting as many as 1,000 tenants from displacement.</p>
+                    <p>In 2023, the Province provided an <strong>$11 million grant</strong> to the SRO Collaborative to expand services and supports across the DTES. As Executive Director Wendy Pedersen stated: "Privately owned SRO hotels are a last resort before homelessness."</p>
+                    <p>The Collaborative continues to generate evidence that shapes housing policy through the <strong>Right to Remain</strong> research collective, coordinated surveys, the 2019 Habitability Study, and public reporting that documents living conditions in real time. Their 2024 survey findings directly inform the City's intergovernmental <strong>SRO Investment Strategy</strong>.</p>
+                `
             },
             {
                 id: "gallery",
@@ -1248,7 +1257,8 @@ const tourStops = [
                     <h4>Education and Skills</h4>
                     <p>Activities include computer and digital literacy support, communication and conversation workshops, and sessions responding to resident-identified interests. These programs prioritize equitable access and digital inclusion for DTES residents.</p>
                     <h4>Research and Events</h4>
-                    <p>The Learning Exchange hosts community-engaged research events. In 2025, the Housing Research Collaborative's <strong>Confronting Sweeps</strong> workshop convened legal experts, frontline workers, and community members to develop policy recommendations on encampment responses grounded in human dignity rather than punitive enforcement.</p>
+                    <p>The Learning Exchange hosts community-engaged research events that bridge academic analysis with lived experience. In June 2025, UBC's <strong>Housing Research Collaborative (HRC)</strong> held the <strong>"Confronting Sweeps: Reimagining Advocacy for Tent Cities"</strong> workshop at the Learning Exchange, convening <strong>40 participants</strong> — legal experts, frontline workers, community organizers, and individuals with lived experience of homelessness — to reimagine policy responses to encampment displacement.</p>
+                    <p>The resulting report (McKay &amp; Sethi, 2025) examines how municipal bylaws and zoning policies continue to displace unhoused residents through surveillance and control, and proposes advocacy frameworks grounded in human dignity rather than punitive enforcement. The Learning Exchange's role as host reflects its position as a trusted community space where research serves justice.</p>
                     <h4>Community Integration</h4>
                     <p>Partnerships across the DTES ensure UBC resources are shared equitably:</p>
                     <ul>

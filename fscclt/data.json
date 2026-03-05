@@ -34,7 +34,7 @@
         "id": "overview",
         "label": "Overview",
         "icon": "info",
-        "content": "\n                    <p>False Creek South is a long-standing example of mixed-tenure housing on public land.</p>\n                    <p>The neighbourhood continues to inform citywide debates about affordability, renewal, and community-led planning.</p>\n                    <p>Residents, co-ops, and local organizations are actively shaping how future redevelopment can protect social mix and long-term stability.</p>\n                    <p>Verified figures are listed in Quick Facts, with linked sources for each value.</p>\n                "
+        "content": "\n                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this <strong>136-acre waterfront neighbourhood</strong> demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>\n                    <p>The City of Vancouver owns <strong>about 80 acres in False Creek South</strong>, making it a rare example of large-scale public land stewardship. The original vision committed to a tenure mix of one-third non-market rental housing, one-third co-ops, and one-third strata leasehold — a model designed to avoid the social stratification common in single-tenure developments.</p>\n                    <p>Today, about <strong>5,500 residents live in 1,849 homes</strong>. The land is leased on 60-year terms that begin expiring between 2036 and 2046, creating a pivotal decision point about how to preserve affordability while renewing public assets.</p>\n                    <p><strong>Robyn Chan</strong>, Project Manager for the False Creek South Community Housing Trust, leads community planning efforts. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to establish a community land trust that would give residents more control over their housing future.</p>\n                "
       },
       {
         "id": "highlights",
@@ -43,28 +43,28 @@
         "type": "highlights",
         "highlights": [
           {
-            "title": "Tour Start: Heather Bus Stop",
-            "description": "The tour begins near the seawall with a short walk from transit to the neighbourhood edge.",
+            "title": "Tour Start: 4th & Heather Bus Stop",
+            "description": "The tour begins on the False Creek seawall near W 6th Avenue, a short walk from the W 4th Avenue and Heather Street bus stop.",
             "meta": "Starting point"
           },
           {
-            "title": "Lease Renewal Context",
-            "description": "Current planning focuses on how lease renewal choices affect long-term affordability and community continuity.",
-            "meta": "Policy focus"
+            "title": "Lease Renewal Timeline",
+            "description": "Locate the leasehold parcels expiring between 2036–2046 and discuss how renewal options affect long-term affordability.",
+            "meta": "Decision window"
           },
           {
             "title": "Co-op Cluster",
-            "description": "Co-op homes and shared courtyards illustrate resident governance and collective stewardship.",
+            "description": "Visit the co-op homes along the waterfront to see shared courtyards and resident-led governance in action.",
             "meta": "Community-led"
           },
           {
-            "title": "Waterfront Public Realm",
-            "description": "The seawall and open spaces show how public land decisions shape daily life and access.",
+            "title": "Waterfront Greenway",
+            "description": "Follow the seawall to experience the public-realm improvements tied to public land stewardship.",
             "meta": "Public realm"
           },
           {
-            "title": "Land Trust Direction",
-            "description": "Local organizations continue exploring land trust governance as part of future redevelopment.",
+            "title": "Housing Trust Hub",
+            "description": "Review the community housing trust concept and how it could govern future redevelopment.",
             "meta": "Future planning"
           }
         ]
@@ -73,13 +73,13 @@
         "id": "details",
         "label": "Housing Model",
         "icon": "document",
-        "content": "\n                    <h4>Land Stewardship</h4>\n                    <p>Public ownership has supported a mixed-tenure neighbourhood where co-ops, rental housing, and community facilities coexist in close proximity.</p>\n\n                    <h4>Lease Transition</h4>\n                    <p>As lease renewals approach, the central policy question is how to maintain affordability while renewing homes and infrastructure.</p>\n\n                    <h4>Community Governance</h4>\n                    <p>Residents and housing organizations are advocating for planning approaches that protect social diversity, tenant security, and long-term public benefit.</p>\n                ",
+        "content": "\n                    <h4>Mixed Tenure Breakdown</h4>\n                    <p>False Creek South showcases six distinct tenure types, each serving different community needs:</p>\n                    <ul>\n                        <li><strong>Co-operatives:</strong> Six housing co-ops including Twin Rainbows (86 units, opened 1981), Creekview, Alder Bay, and others. Members have secure tenure and participate in democratic governance.</li>\n                        <li><strong>Non-Market Rental:</strong> Below-market housing operated by non-profit societies, ensuring affordability for lower-income residents.</li>\n                        <li><strong>Market Rental:</strong> Rental housing at market rates, providing flexibility for those who prefer renting.</li>\n                        <li><strong>Strata Residential:</strong> Privately-owned condominiums within the mixed community.</li>\n                        <li><strong>City-Owned Properties:</strong> Land and buildings retained by the City of Vancouver.</li>\n                        <li><strong>Commercial & Civic:</strong> Including False Creek School and retail frontages.</li>\n                    </ul>\n\n                    <h4>The Land Lease Model</h4>\n                    <p>Housing operators <strong>lease land from the city</strong> rather than purchasing it. All lease terms expire in the 2030s and 2040s, creating both opportunity and uncertainty. This model:</p>\n                    <ul>\n                        <li>Keeps land costs out of housing prices</li>\n                        <li>Prevents speculation and land flipping</li>\n                        <li>Maintains public control over development decisions</li>\n                        <li>Allows the city to enforce affordability requirements</li>\n                    </ul>\n\n                    <h4>The Lease Crisis</h4>\n                    <p>The original 60-year leases are approaching expiry, creating uncertainty for roughly <strong>3,200 residents</strong>. In 2021, City Council rejected a staff proposal to triple density and instead directed a community-led planning process. In January 2025, the City awarded a <strong>$4 million contract to Arup Group</strong> to prepare a landowner plan, sparking renewed debate about community involvement.</p>\n\n                    <h4>Community Land Trust Initiative</h4>\n                    <p>In March 2024, Vancouver Council passed a motion supporting the construction of new co-ops on City-owned land through a <strong>community land trust model</strong>. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: \"It's a way to have more control and to expand non-profit housing.\"</p>\n                    <p>Recent grant-funded projects include an <strong>Embodied Carbon study</strong> (Vancity Envirofund) comparing demolition vs. lease extensions, and a <strong>capacity-building program</strong> to support governance, community engagement, and long-term financial planning.</p>\n                ",
         "keyPoints": [
-          "Public land stewardship shapes local housing outcomes",
-          "Mixed tenure supports social diversity and neighbourhood stability",
-          "Lease renewal choices will influence future affordability",
-          "Community governance remains central to redevelopment planning",
-          "Land trust models are active in local policy discussions"
+          "About 80 acres are on City-owned land",
+          "1,849 homes with a one-third / one-third / one-third tenure mix",
+          "All land leases expire in 2036-2046 — critical transition period",
+          "2021 Council rejected wholesale demolition and density tripling",
+          "March 2024 Council motion supports community land trust model"
         ]
       },
       {
@@ -186,7 +186,7 @@
         "id": "overview",
         "label": "Overview",
         "icon": "info",
-        "content": "\n                    <p>Sen̓áḵw is an Indigenous-led rental development on Squamish Nation reserve land.</p>\n                    <p>The project demonstrates how Indigenous jurisdiction can reshape housing delivery, governance, and partnership models in urban settings.</p>\n                    <p>Its design combines market and below-market homes with cultural space and strong transit access.</p>\n                    <p>Verified figures are listed in Quick Facts, with linked sources for each value.</p>\n                "
+        "content": "\n                    <p>Sen̓áḵw (pronounced \"sen-AHK-w\") is the <strong>largest Indigenous-led urban housing development in Canadian history</strong>. Located on 10.5 acres of Squamish Nation reserve land near the south end of the Burrard Bridge, this project demonstrates how Indigenous land rights can create new pathways for housing development.</p>\n                    <p>The development will include <strong>6,000 purpose-built rental units</strong> across 11 towers, with 4 million square feet of floor space. Critically, <strong>1,200 units (20%) will be designated affordable</strong>, with rents 30–40% below comparable market rates. Of these, <strong>250 units are set aside specifically for Squamish Nation members</strong>, managed by the Nation's non-profit housing society <strong>Hiy̓ám̓ Housing</strong>. Applications for Squamish citizens opened in February 2026 — making Sen̓áḵw the largest permanent return of Squamish residents to this land in over a century.</p>\n                    <p>The three-tier rental structure prioritizes Indigenous access: <strong>Hiy̓ám̓ Housing homes</strong> (rent-assisted, Squamish members first), <strong>affordable homes</strong> (below-market for middle-income households), and <strong>market rental homes</strong>. This model positions Sen̓áḵw as a landmark in urban Indigenous housing — addressing the needs of one of Vancouver's most historically marginalized communities.</p>\n                    <p>In September 2022, Prime Minister Justin Trudeau announced a <strong>$1.4 billion federal loan</strong> to fund the first two phases. Phase One (1,409 units in three towers) targets completion in early 2026, with phased buildout continuing into the early 2030s.</p>\n                "
       },
       {
         "id": "highlights",
@@ -196,22 +196,22 @@
         "highlights": [
           {
             "title": "Tower Cluster View",
-            "description": "The proposed tower form marks a major shift in scale and rental supply at the south end of Burrard Bridge.",
+            "description": "Compare the 11-tower massing plan with surrounding Kitsilano scale to understand the density shift.",
             "meta": "Design focus"
           },
           {
             "title": "Public Green Space",
-            "description": "Open-space planning is integrated with mobility, shoreline access, and cultural gathering.",
+            "description": "Walk the six-acre open space to see how public realm access is built into the development agreement.",
             "meta": "Open space"
           },
           {
             "title": "Transit Connections",
-            "description": "The site is tied to major cycling routes, bridge crossings, and regional transit corridors.",
+            "description": "Note the proximity to Burrard Bridge, cycling routes, and future rapid transit plans.",
             "meta": "Mobility"
           },
           {
-            "title": "Cultural Placekeeping",
-            "description": "The project includes Indigenous-led placemaking and community-serving programming.",
+            "title": "Cultural Gathering",
+            "description": "Identify where cultural programming and Indigenous-led placemaking will be hosted.",
             "meta": "Community"
           }
         ]
@@ -220,13 +220,13 @@
         "id": "details",
         "label": "Land Rights",
         "icon": "document",
-        "content": "\n                    <h4>Jurisdiction and Planning</h4>\n                    <p>Because the site is on reserve land, development approvals follow Nation and federal frameworks rather than municipal zoning rules.</p>\n\n                    <h4>Partnership Model</h4>\n                    <p>Project delivery combines Indigenous leadership with institutional investment while retaining long-term Nation control over land and direction.</p>\n\n                    <h4>Tenant and Community Framework</h4>\n                    <p>The rental model prioritizes long-term stewardship, below-market access, and protections aligned with regional tenancy standards.</p>\n                ",
+        "content": "\n                    <h4>Federal Jurisdiction & View Cones</h4>\n                    <p>Sen̓áḵw operates on <strong>federal reserve land</strong>, which exempts it from Vancouver's municipal zoning bylaws — including the city's \"view cone\" policies that restrict building heights to protect mountain views.</p>\n                    <p>Vancouver's view cones, established in 1989, identify 38 protected views from specific locations. The Sen̓áḵw towers enter View Cone 20.0 (from West Broadway and Granville Street), but as reserve land, the project is not bound by these restrictions. In July 2024, Council approved major changes to the view cone policy, partly influenced by Sen̓áḵw's development.</p>\n\n                    <h4>Ownership & Partnership</h4>\n                    <p>In August 2025, <strong>OPTrust</strong> — one of Canada's largest pension fund investors — acquired development partner Westbank's ownership stake in Phases One and Two. OPTrust and the Squamish Nation now each hold <strong>50% ownership</strong> in these phases, representing a significant Indigenous-led partnership model.</p>\n\n                    <h4>Project Scope & Public Space</h4>\n                    <p>Sen̓áḵw's unit mix includes <strong>2,688 studios, 2,046 one-bedrooms, 874 two-bedrooms, and 472 three-bedrooms</strong>. Over half the site (roughly six acres) is planned as publicly accessible green space and cultural gathering areas.</p>\n\n                    <h4>Services Agreement & Tenant Protections</h4>\n                    <p>A 120-year services agreement with the City of Vancouver (signed May 2022) covers water, sewer, fire, and police services, with the Squamish Nation paying the same rates as Vancouver property owners.</p>\n                    <p>In July 2023, the Squamish Nation became the first in Canada to adopt BC's <strong>Residential Tenancy Act (BCRTA)</strong> for a major housing development through the federal <strong>First Nations Commercial and Industrial Development Act (FNCIDA)</strong>. FNCIDA enables First Nations to request federal regulations that incorporate provincial law on reserve lands — a mechanism used only five times since 2005, and never before for residential housing. This means Sen̓áḵw tenants receive the same rent increase limits, eviction protections, and dispute resolution rights as any BC renter, with one key addition: an <strong>Indigenous-led dispute resolution process</strong> consistent with Squamish traditions. The protections also extend to Hiy̓ám̓ Housing developments on other Squamish Nation reserves in North Vancouver.</p>\n\n                    <h4>Indigenous Land Development in BC</h4>\n                    <p>Sen̓áḵw is part of a broader movement of Indigenous nations using land development for economic self-determination:</p>\n                    <ul>\n                        <li>Land is retained rather than sold, maintaining long-term nation ownership</li>\n                        <li>Projects prioritize community benefit alongside economic returns</li>\n                        <li>Housing developments include cultural spaces and community amenities</li>\n                        <li>The 100% rental model prevents speculation and ensures ongoing control</li>\n                    </ul>\n                ",
         "keyPoints": [
-          "Indigenous jurisdiction drives planning and governance",
-          "The project uses a rental-first stewardship model",
-          "Partnership structure supports long-term Nation control",
-          "Public access and cultural space are core design priorities",
-          "Verified numeric values are provided in Quick Facts"
+          "Federal reserve land — exempt from municipal zoning",
+          "100% rental: 6,000 units; 1,200 affordable; 250 for Squamish Nation members via Hiy̓ám̓ Housing",
+          "$1.4B federal loan announced September 2022",
+          "50/50 Squamish Nation-OPTrust ownership (Phases 1-2)",
+          "Over half the site dedicated to public green space"
         ]
       },
       {
@@ -348,7 +348,7 @@
         "id": "overview",
         "label": "Overview",
         "icon": "info",
-        "content": "\n                    <p>Granville Island is a federal public property known for arts, culture, small business, and food economy activity.</p>\n                    <p>Its governance model relies on land leasing and cross-subsidy, balancing commercial activity with public-serving uses.</p>\n                    <p>Current policy discussion focuses on long-term maintenance, affordability for tenants, and future governance structure.</p>\n                    <p>Verified figures are listed in Quick Facts, with linked sources for each value.</p>\n                "
+        "content": "\n                    <p>Granville Island is a <strong>40-acre federal property</strong> that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, the island is entirely <strong>self-sustaining with no government funding</strong> — operating solely on lease revenue, parking fees, and filming permits.</p>\n                    <p>Between 1973 and 1982, CMHC invested <strong>$24.7 million</strong> to transform the former industrial site into a public market, arts hub, and cultural destination. As federal land, Granville Island operates outside Vancouver's municipal regulations, functioning essentially as <strong>its own jurisdiction</strong> and enabling creative placemaking that wouldn't be possible under rigid municipal zoning.</p>\n                    <p>Urbanist and documentary creator <strong>Uytae Lee</strong> highlighted the island's governance model in a 2025 documentary, sparking renewed public debate about whether the site should pursue more development, public subsidy, or a new foundation model to fund repairs.</p>\n                "
       },
       {
         "id": "highlights",
@@ -357,24 +357,24 @@
         "type": "highlights",
         "highlights": [
           {
-            "title": "Public Market Core",
-            "description": "The market remains a key anchor for food access, tourism, and local business visibility.",
-            "meta": "Economic anchor"
+            "title": "Public Market Hall",
+            "description": "Start at the Public Market to see how cross-subsidy supports local vendors and public amenities.",
+            "meta": "Must see"
           },
           {
-            "title": "Arts and Cultural Tenancy",
-            "description": "Leasing policy supports artist spaces and cultural programming alongside commercial uses.",
-            "meta": "Cultural economy"
+            "title": "Artist Studio Row",
+            "description": "Visit the artisan studios to experience the affordable creative space model.",
+            "meta": "Creative economy"
           },
           {
-            "title": "Federal Land Governance",
-            "description": "As a federal site, Granville Island follows a distinct planning and management framework.",
-            "meta": "Governance"
+            "title": "Waterfront Walk",
+            "description": "Follow the seawall edge to observe flexible public space programming and ferry access.",
+            "meta": "Public realm"
           },
           {
-            "title": "Future Direction",
-            "description": "Stakeholders continue to debate infrastructure renewal, funding pathways, and long-term stewardship options.",
-            "meta": "Planning"
+            "title": "Future Sites",
+            "description": "Discuss aging infrastructure and where reinvestment could support long-term viability.",
+            "meta": "Reinvestment"
           }
         ]
       },
@@ -382,13 +382,12 @@
         "id": "details",
         "label": "Land Model",
         "icon": "document",
-        "content": "\n                    <h4>Land Lease Model</h4>\n                    <p>Federal ownership and lease management allow the site to support both market activity and mission-driven cultural uses.</p>\n\n                    <h4>Cross-Subsidy Approach</h4>\n                    <p>Higher-revenue tenants help sustain lower-rent spaces for artists, non-profits, and public-serving amenities.</p>\n\n                    <h4>Renewal Challenges</h4>\n                    <p>Ongoing discussions focus on infrastructure upgrades, tenant affordability, and governance reforms that protect public value.</p>\n                ",
+        "content": "\n                    <h4>The Land Lease Approach</h4>\n                    <p>CMHC owns all land on Granville Island and leases it to <strong>over 300 commercial, retail, cultural, artistic, and educational tenants</strong>. The island operates a <strong>subsidy model</strong> where market rents from some businesses support more affordable rents for:</p>\n                    <ul>\n                        <li>Small businesses and artisans</li>\n                        <li>Arts and cultural organizations</li>\n                        <li>Free community spaces and public amenities</li>\n                        <li>The Public Market vendors</li>\n                    </ul>\n\n                    <h4>Current Challenges</h4>\n                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>\n                    <p>Possible paths include: <strong>more development</strong>, a <strong>government subsidy model</strong>, a new <strong>Granville Island Foundation</strong>, or a <strong>cultural land trust</strong> proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are \"no current plans for housing development.\"</p>\n\n                    <h4>Why This Matters for Housing</h4>\n                    <p>Granville Island demonstrates key principles for housing policy:</p>\n                    <ul>\n                        <li><strong>Public ownership prevents speculation</strong> — land value increases don't inflate costs</li>\n                        <li><strong>Cross-subsidy works</strong> — market tenants support affordable space</li>\n                        <li><strong>Self-sufficiency is possible</strong> — no ongoing government funding required</li>\n                        <li><strong>Flexibility enables innovation</strong> — outside municipal rules, creative solutions emerge</li>\n                    </ul>\n                ",
         "keyPoints": [
-          "Federal ownership shapes long-term governance choices",
-          "Lease policy balances commercial and cultural uses",
-          "Cross-subsidy supports public-serving tenancy",
-          "Infrastructure renewal is a central strategic challenge",
-          "Verified numeric values are provided in Quick Facts"
+          "40 acres of federal land, self-sustaining on lease revenue",
+          "300+ tenants with cross-subsidy model",
+          "Operates outside municipal zoning as federal property",
+          "$300M in infrastructure needs — future governance in discussion"
         ]
       },
       {

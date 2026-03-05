@@ -401,11 +401,6 @@ window.BSHTourMap = {
                 <div class="stat-badge">
                     <span class="stat-badge-label">${stat.label}:</span>
                     <span class="stat-badge-value">${stat.value}</span>
-                    ${stat.sourceUrl ? `
-                        <a class="stat-badge-source" href="${stat.sourceUrl}" target="_blank" rel="noopener noreferrer" aria-label="Verify ${stat.label} source">
-                            source
-                        </a>
-                    ` : ''}
                 </div>
             `).join('')}
         </div>

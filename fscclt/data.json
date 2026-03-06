@@ -34,7 +34,7 @@
         "id": "overview",
         "label": "Overview",
         "icon": "info",
-        "content": "\n                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this <strong>136-acre waterfront neighbourhood</strong> demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>\n                    <p>The City of Vancouver owns <strong>about 80 acres in False Creek South</strong>, making it a rare example of large-scale public land stewardship. The original vision committed to a tenure mix of one-third non-market rental housing, one-third co-ops, and one-third strata leasehold — a model designed to avoid the social stratification common in single-tenure developments.</p>\n                    <p>Today, about <strong>5,500 residents live in 1,849 homes</strong>. The land is leased on 60-year terms that begin expiring between 2036 and 2046, creating a pivotal decision point about how to preserve affordability while renewing public assets.</p>\n                    <p><strong>Robyn Chan</strong>, Project Manager for the False Creek South Community Housing Trust, leads community planning efforts. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to establish a community land trust that would give residents more control over their housing future.</p>\n                "
+        "content": "\n                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this <strong>approximately 100-acre neighbourhood</strong> demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>\n                    <p>The City of Vancouver owns <strong>about 80 acres in False Creek South</strong>, making it a rare example of large-scale public land stewardship. The neighbourhood includes a mix of co-op, non-market rental, market rental, and strata leasehold housing, alongside civic and commercial uses.</p>\n                    <p>There are approximately <strong>5,500 residents in all of False Creek South</strong>. On City-owned land, there are <strong>1,849 housing units</strong> (plus <strong>1,354 units on non-City land</strong>). The land is leased on 60-year terms, and most City-land leases expire between 2036 and 2046, creating a pivotal decision point about how to preserve affordability while renewing public assets.</p>\n                    <p><strong>Robyn Chan</strong>, Project Manager for the False Creek South Community Housing Trust, leads community planning efforts. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to establish a community land trust that would give residents more control over their housing future.</p>\n                "
       },
       {
         "id": "highlights",
@@ -73,13 +73,13 @@
         "id": "details",
         "label": "Housing Model",
         "icon": "document",
-        "content": "\n                    <h4>Mixed Tenure Breakdown</h4>\n                    <p>False Creek South showcases six distinct tenure types, each serving different community needs:</p>\n                    <ul>\n                        <li><strong>Co-operatives:</strong> Six housing co-ops including Twin Rainbows (86 units, opened 1981), Creekview, Alder Bay, and others. Members have secure tenure and participate in democratic governance.</li>\n                        <li><strong>Non-Market Rental:</strong> Below-market housing operated by non-profit societies, ensuring affordability for lower-income residents.</li>\n                        <li><strong>Market Rental:</strong> Rental housing at market rates, providing flexibility for those who prefer renting.</li>\n                        <li><strong>Strata Residential:</strong> Privately-owned condominiums within the mixed community.</li>\n                        <li><strong>City-Owned Properties:</strong> Land and buildings retained by the City of Vancouver.</li>\n                        <li><strong>Commercial & Civic:</strong> Including False Creek School and retail frontages.</li>\n                    </ul>\n\n                    <h4>The Land Lease Model</h4>\n                    <p>Housing operators <strong>lease land from the city</strong> rather than purchasing it. All lease terms expire in the 2030s and 2040s, creating both opportunity and uncertainty. This model:</p>\n                    <ul>\n                        <li>Keeps land costs out of housing prices</li>\n                        <li>Prevents speculation and land flipping</li>\n                        <li>Maintains public control over development decisions</li>\n                        <li>Allows the city to enforce affordability requirements</li>\n                    </ul>\n\n                    <h4>The Lease Crisis</h4>\n                    <p>The original 60-year leases are approaching expiry, creating uncertainty for roughly <strong>3,200 residents</strong>. In 2021, City Council rejected a staff proposal to triple density and instead directed a community-led planning process. In January 2025, the City awarded a <strong>$4 million contract to Arup Group</strong> to prepare a landowner plan, sparking renewed debate about community involvement.</p>\n\n                    <h4>Community Land Trust Initiative</h4>\n                    <p>In March 2024, Vancouver Council passed a motion supporting the construction of new co-ops on City-owned land through a <strong>community land trust model</strong>. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: \"It's a way to have more control and to expand non-profit housing.\"</p>\n                    <p>Recent grant-funded projects include an <strong>Embodied Carbon study</strong> (Vancity Envirofund) comparing demolition vs. lease extensions, and a <strong>capacity-building program</strong> to support governance, community engagement, and long-term financial planning.</p>\n                ",
+        "content": "\n                    <h4>Mixed Tenure Breakdown</h4>\n                    <p>False Creek South includes multiple tenure types, each serving different community needs:</p>\n                    <ul>\n                        <li><strong>Co-operatives:</strong> City data identifies seven co-op buildings (517 units) on City land, including Twin Rainbows Co-op (86 units, opened 1981). Members have secure tenure and participate in democratic governance.</li>\n                        <li><strong>Non-Market Rental:</strong> Below-market housing operated by non-profit societies, ensuring affordability for lower-income residents.</li>\n                        <li><strong>Market Rental:</strong> Rental housing at market rates, providing flexibility for those who prefer renting.</li>\n                        <li><strong>Strata Residential:</strong> Privately-owned condominiums within the mixed community.</li>\n                        <li><strong>City-Owned Properties:</strong> Land and buildings retained by the City of Vancouver.</li>\n                        <li><strong>Commercial & Civic:</strong> Including False Creek School and retail frontages.</li>\n                    </ul>\n\n                    <h4>The Land Lease Model</h4>\n                    <p>Housing operators <strong>lease land from the city</strong> rather than purchasing it. Most City-land lease terms expire between 2036 and 2046, creating both opportunity and uncertainty. This model:</p>\n                    <ul>\n                        <li>Keeps land costs out of housing prices</li>\n                        <li>Prevents speculation and land flipping</li>\n                        <li>Maintains public control over development decisions</li>\n                        <li>Allows the city to enforce affordability requirements</li>\n                    </ul>\n\n                    <h4>The Lease Renewal Moment</h4>\n                    <p>The original 60-year leases are approaching expiry, creating uncertainty for households across the neighbourhood. In October 2021, Council received a False Creek South landowner update, and in March 2024 Council directed staff to report back with an updated and enhanced development framework. On January 22, 2025, Council approved entering negotiations with Arup Canada Inc. for consulting services, with an estimated contract value of <strong>$4 million</strong>.</p>\n\n                    <h4>Community Land Trust Initiative</h4>\n                    <p>In March 2024, Vancouver Council passed a motion supporting community land trust models and the construction of newly built co-op housing on City-owned land. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: \"It's a way to have more control and to expand non-profit housing.\"</p>\n                    <p>Recent grant-funded projects include an <strong>Embodied Carbon study</strong> (Vancity Envirofund) comparing demolition vs. lease extensions, and a <strong>capacity-building program</strong> to support governance, community engagement, and long-term financial planning.</p>\n                ",
         "keyPoints": [
           "About 80 acres are on City-owned land",
-          "1,849 homes with a one-third / one-third / one-third tenure mix",
-          "All land leases expire in 2036-2046 — critical transition period",
-          "2021 Council rejected wholesale demolition and density tripling",
-          "March 2024 Council motion supports community land trust model"
+          "1,849 housing units are on City land, plus 1,354 units on non-City land",
+          "Most City-land leases expire in 2036-2046 — a critical transition period",
+          "January 22, 2025: Council approved negotiations for a consulting contract valued at up to $4 million",
+          "March 2024 Council motion supports community land trust models and new co-op housing on City-owned land"
         ]
       },
       {
@@ -130,6 +130,31 @@
             "title": "City of Vancouver — False Creek South",
             "url": "https://vancouver.ca/home-property-development/false-creek-south.aspx",
             "description": "Municipal planning information and policy documents"
+          },
+          {
+            "title": "City of Vancouver — False Creek South Leases on City Land",
+            "url": "https://vancouver.ca/home-property-development/false-creek-south-leases-on-city-land.aspx",
+            "description": "City and non-City land unit counts and lease-expiry timeline"
+          },
+          {
+            "title": "Vancouver Council Report (Oct 21, 2021) — False Creek South Planning Program Update",
+            "url": "https://council.vancouver.ca/20211021/documents/pspc2.pdf",
+            "description": "Council report with neighbourhood size, land ownership, and resident figures"
+          },
+          {
+            "title": "Vancouver Council Report (Jan 22, 2025) — Contracting Authority to Arup Canada Inc.",
+            "url": "https://council.vancouver.ca/20250122/documents/pspc2r.pdf",
+            "description": "Council approval for consulting services with an estimated value of $4 million"
+          },
+          {
+            "title": "Vancouver Council Motion (Mar 13, 2024) — False Creek South Planning Program",
+            "url": "https://council.vancouver.ca/20240313/documents/cfsca3.pdf",
+            "description": "Council direction supporting CLT models and newly built co-op housing on City-owned lands"
+          },
+          {
+            "title": "Twin Rainbows Housing Co-op",
+            "url": "https://www.twinrainbowscoop.ca/",
+            "description": "Co-op profile including 86 units and 1981 completion year"
           },
           {
             "title": "Globe and Mail — Are Land Trusts the Future?",
@@ -186,7 +211,7 @@
         "id": "overview",
         "label": "Overview",
         "icon": "info",
-        "content": "\n                    <p>Sen̓áḵw (pronounced \"sen-AHK-w\") is the <strong>largest Indigenous-led urban housing development in Canadian history</strong>. Located on 10.5 acres of Squamish Nation reserve land near the south end of the Burrard Bridge, this project demonstrates how Indigenous land rights can create new pathways for housing development.</p>\n                    <p>The development will include <strong>6,000 purpose-built rental units</strong> across 11 towers, with 4 million square feet of floor space. Critically, <strong>1,200 units (20%) will be designated affordable</strong>, with rents 30–40% below comparable market rates. Of these, <strong>250 units are set aside specifically for Squamish Nation members</strong>, managed by the Nation's non-profit housing society <strong>Hiy̓ám̓ Housing</strong>. Applications for Squamish citizens opened in February 2026 — making Sen̓áḵw the largest permanent return of Squamish residents to this land in over a century.</p>\n                    <p>The three-tier rental structure prioritizes Indigenous access: <strong>Hiy̓ám̓ Housing homes</strong> (rent-assisted, Squamish members first), <strong>affordable homes</strong> (below-market for middle-income households), and <strong>market rental homes</strong>. This model positions Sen̓áḵw as a landmark in urban Indigenous housing — addressing the needs of one of Vancouver's most historically marginalized communities.</p>\n                    <p>In September 2022, Prime Minister Justin Trudeau announced a <strong>$1.4 billion federal loan</strong> to fund the first two phases. Phase One (1,409 units in three towers) targets completion in early 2026, with phased buildout continuing into the early 2030s.</p>\n                "
+        "content": "\n                    <p>Sen̓áḵw (pronounced \"sen-AHK-w\") is one of the largest Indigenous-led urban housing developments in Canada. It is being built on <strong>10.5 acres of Squamish Nation reserve land</strong> near the south end of the Burrard Bridge.</p>\n                    <p>The project is planned as <strong>6,000 purpose-built rental homes, including 1,200 below-market homes</strong>. Hiy̓ám̓ Housing states that <strong>250 homes are allocated for Squamish People</strong> through its housing stream.</p>\n                    <p><strong>Phase One includes three towers and 1,409 homes</strong>. In its February 5, 2026 update, Squamish Nation said first move-ins were expected in summer 2026, with phase-one homes prioritized for Squamish People.</p>\n                    <p>On September 6, 2022, the federal government announced <strong>$1.4 billion</strong> in financing support for Sen̓áḵw through CMHC for early phases of the project.</p>\n                "
       },
       {
         "id": "highlights",
@@ -196,12 +221,12 @@
         "highlights": [
           {
             "title": "Tower Cluster View",
-            "description": "Compare the 11-tower massing plan with surrounding Kitsilano scale to understand the density shift.",
+            "description": "Compare the tower massing plan with surrounding Kitsilano scale to understand the density shift.",
             "meta": "Design focus"
           },
           {
             "title": "Public Green Space",
-            "description": "Walk the six-acre open space to see how public realm access is built into the development agreement.",
+            "description": "Walk the public open-space network to see how public realm access is built into the development agreement.",
             "meta": "Open space"
           },
           {
@@ -220,13 +245,14 @@
         "id": "details",
         "label": "Land Rights",
         "icon": "document",
-        "content": "\n                    <h4>Federal Jurisdiction & View Cones</h4>\n                    <p>Sen̓áḵw operates on <strong>federal reserve land</strong>, which exempts it from Vancouver's municipal zoning bylaws — including the city's \"view cone\" policies that restrict building heights to protect mountain views.</p>\n                    <p>Vancouver's view cones, established in 1989, identify 38 protected views from specific locations. The Sen̓áḵw towers enter View Cone 20.0 (from West Broadway and Granville Street), but as reserve land, the project is not bound by these restrictions. In July 2024, Council approved major changes to the view cone policy, partly influenced by Sen̓áḵw's development.</p>\n\n                    <h4>Ownership & Partnership</h4>\n                    <p>In August 2025, <strong>OPTrust</strong> — one of Canada's largest pension fund investors — acquired development partner Westbank's ownership stake in Phases One and Two. OPTrust and the Squamish Nation now each hold <strong>50% ownership</strong> in these phases, representing a significant Indigenous-led partnership model.</p>\n\n                    <h4>Project Scope & Public Space</h4>\n                    <p>Sen̓áḵw's unit mix includes <strong>2,688 studios, 2,046 one-bedrooms, 874 two-bedrooms, and 472 three-bedrooms</strong>. Over half the site (roughly six acres) is planned as publicly accessible green space and cultural gathering areas.</p>\n\n                    <h4>Services Agreement & Tenant Protections</h4>\n                    <p>A 120-year services agreement with the City of Vancouver (signed May 2022) covers water, sewer, fire, and police services, with the Squamish Nation paying the same rates as Vancouver property owners.</p>\n                    <p>In July 2023, the Squamish Nation became the first in Canada to adopt BC's <strong>Residential Tenancy Act (BCRTA)</strong> for a major housing development through the federal <strong>First Nations Commercial and Industrial Development Act (FNCIDA)</strong>. FNCIDA enables First Nations to request federal regulations that incorporate provincial law on reserve lands — a mechanism used only five times since 2005, and never before for residential housing. This means Sen̓áḵw tenants receive the same rent increase limits, eviction protections, and dispute resolution rights as any BC renter, with one key addition: an <strong>Indigenous-led dispute resolution process</strong> consistent with Squamish traditions. The protections also extend to Hiy̓ám̓ Housing developments on other Squamish Nation reserves in North Vancouver.</p>\n\n                    <h4>Indigenous Land Development in BC</h4>\n                    <p>Sen̓áḵw is part of a broader movement of Indigenous nations using land development for economic self-determination:</p>\n                    <ul>\n                        <li>Land is retained rather than sold, maintaining long-term nation ownership</li>\n                        <li>Projects prioritize community benefit alongside economic returns</li>\n                        <li>Housing developments include cultural spaces and community amenities</li>\n                        <li>The 100% rental model prevents speculation and ensures ongoing control</li>\n                    </ul>\n                ",
+        "content": "\n                    <h4>Federal Jurisdiction & Public Views</h4>\n                    <p>Sen̓áḵw is on <strong>federal reserve land</strong>. The City of Vancouver states that city land-use policies and regulations do not apply to these lands, and the City is not directly involved in planning or design approvals.</p>\n                    <p>For context, Vancouver's protected public-view framework has been in place since 1989. On July 10, 2024, Council replaced the old View Protection Guidelines with new Public Views Guidelines, including amendments to some public views.</p>\n\n                    <h4>Ownership & Partnership</h4>\n                    <p>On August 28, 2025, <strong>OPTrust</strong> announced it had acquired Westbank's interest in Phases One and Two. OPTrust and the Squamish Nation now each hold <strong>50% ownership</strong> in those phases, while Squamish Nation holds <strong>100% ownership</strong> of Phases Three and Four.</p>\n\n                    <h4>Services Agreement</h4>\n                    <p>The City of Vancouver and Squamish Nation signed a services agreement on May 25, 2022. The Service Agreement Overview states a <strong>120-year term</strong> applying to all four phases. It also states that the City provides core municipal services, and the Nation pays annual charges using the same methodology applied to other Vancouver property owners.</p>\n                    <p>The same overview states that the first two phases are expected to include approximately <strong>2,950 rental units</strong>, including <strong>590 affordable units</strong> (20%), plus <strong>65-75 childcare spaces</strong>.</p>\n\n                    <h4>Tenant Protections</h4>\n                    <p>In July 2023, Squamish Nation announced that protections in BC's <strong>Residential Tenancy Act (BCRTA)</strong> would be in place for Sen̓áḵw through the federal <strong>First Nations Commercial and Industrial Development Act (FNCIDA)</strong>. The Squamish Nation Residential Tenancy Regulations (<strong>SOR/2023-135</strong>) are now in force under FNCIDA.</p>\n\n                    <h4>Indigenous Land Development in BC</h4>\n                    <p>Sen̓áḵw is part of a broader movement of Indigenous nations using land development for economic self-determination:</p>\n                    <ul>\n                        <li>Land is retained rather than sold, maintaining long-term nation ownership</li>\n                        <li>Projects prioritize community benefit alongside economic returns</li>\n                        <li>Housing developments include cultural spaces and community amenities</li>\n                        <li>The rental model supports long-term community control</li>\n                    </ul>\n                ",
         "keyPoints": [
           "Federal reserve land — exempt from municipal zoning",
-          "100% rental: 6,000 units; 1,200 affordable; 250 for Squamish Nation members via Hiy̓ám̓ Housing",
-          "$1.4B federal loan announced September 2022",
-          "50/50 Squamish Nation-OPTrust ownership (Phases 1-2)",
-          "Over half the site dedicated to public green space"
+          "Project scale: 6,000 rental homes and 1,200 below-market homes",
+          "Phase One: 1,409 homes across three towers; 250 homes allocated through Hiy̓ám̓ Housing",
+          "$1.4B federal financing support announced September 6, 2022",
+          "August 28, 2025: OPTrust and Squamish Nation each hold 50% of Phases 1-2; Nation holds 100% of Phases 3-4",
+          "Services agreement term: 120 years; first two phases: ~2,950 rental homes including 590 affordable units"
         ]
       },
       {
@@ -269,9 +295,34 @@
             "description": "Project timeline, unit information, and updates"
           },
           {
+            "title": "Sen̓áḵw Project Page",
+            "url": "https://senakw.com/project",
+            "description": "Current project headline figures including rental and below-market homes"
+          },
+          {
             "title": "Squamish Nation — Sen̓áḵw Partnership",
             "url": "https://www.squamish.net/partnerships-entities/partnerships/senakw/",
             "description": "Squamish Nation's overview of the project"
+          },
+          {
+            "title": "Squamish Nation — Returning to Sen̓áḵw (Feb 5, 2026)",
+            "url": "https://www.squamish.net/returning-to-sen%CC%93a%E1%B8%B5w/",
+            "description": "Phase-one home count, three-tower configuration, and move-in timing update"
+          },
+          {
+            "title": "Hiy̓ám̓ Housing — Sen̓áḵw",
+            "url": "https://hiyamhousing.com/senakw",
+            "description": "250 homes allocated for Squamish People through Hiy̓ám̓ Housing"
+          },
+          {
+            "title": "Prime Minister of Canada (Sep 6, 2022) — Historic partnership announcement",
+            "url": "https://www.pm.gc.ca/en/news/news-releases/2022/09/06/historic-partnership-between-canada-and-skwxwu7mesh-uxwumixw-squamish",
+            "description": "Announcement of $1.4 billion federal support for early Sen̓áḵw phases"
+          },
+          {
+            "title": "City of Vancouver-Squamish Nation Sen̓áḵw Service Agreement Overview (PDF)",
+            "url": "https://www.squamish.net/wp-content/uploads/2023/11/Senakw-Service-Agreement-Overview.pdf",
+            "description": "120-year term, municipal service framework, and phase 1-2 housing/affordability figures"
           },
           {
             "title": "City of Vancouver — Sen̓áḵw Development",
@@ -279,29 +330,19 @@
             "description": "City coordination and infrastructure planning"
           },
           {
-            "title": "CBC — Inside Canada's Largest Indigenous-Led Housing Development",
-            "url": "https://www.cbc.ca/news/canada/british-columbia/sen-%C3%A1%E1%B8%B5w-sneak-preview-1.7451499",
-            "description": "2025 media coverage with interior previews"
+            "title": "City of Vancouver — Public Views",
+            "url": "https://vancouver.ca/home-property-development/protecting-public-views.aspx",
+            "description": "Public views policy background and July 10, 2024 guideline update"
           },
           {
-            "title": "Vancouver Public Views Policy",
-            "url": "https://vancouver.ca/home-property-development/protecting-vancouvers-views.aspx",
-            "description": "Background on view cone regulations"
+            "title": "OPTrust (Aug 28, 2025) — Sen̓áḵw ownership update",
+            "url": "https://www.optrust.com/news/senakw-development-partnership-welcomes-50-ownership-stake-by-OPTrust",
+            "description": "OPTrust 50% stake in Phases 1-2 and updated partnership structure"
           },
           {
-            "title": "Squamish Nation — BCRTA Adoption Press Release",
-            "url": "https://www.squamish.net/bcrta-adoption/",
-            "description": "First-in-Canada adoption of provincial tenancy protections on reserve land via FNCIDA"
-          },
-          {
-            "title": "First Nations Commercial and Industrial Development Act (FNCIDA)",
-            "url": "https://www.sac-isc.gc.ca/eng/1100100033561/1612128155378",
-            "description": "Federal legislation enabling Squamish Nation residential tenancy regulations"
-          },
-          {
-            "title": "Maclean's — Vancouver's Mega-Development Is Undeniably Indigenous",
-            "url": "https://macleans.ca/society/senakw-vancouver/",
-            "description": "In-depth feature on Sen̓áḵw's significance for Indigenous urbanism"
+            "title": "Squamish Nation Residential Tenancy Regulations (SOR/2023-135)",
+            "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-135/index.html",
+            "description": "Federal regulations applying BC tenancy-law framework to Sen̓áḵw through FNCIDA"
           }
         ]
       }

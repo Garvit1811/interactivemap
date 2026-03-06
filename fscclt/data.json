@@ -1,0 +1,503 @@
+[
+  {
+    "id": 1,
+    "title": "False Creek South Community Land Trust",
+    "location": "False Creek South, Vancouver",
+    "coordinates": [
+      49.2686,
+      -123.1224
+    ],
+    "heroImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
+      "alt": "Panoramic view of False Creek in Vancouver",
+      "caption": "False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
+    },
+    "stats": [
+      {
+        "label": "City-Owned Land",
+        "value": "80 acres",
+        "sourceUrl": "https://vancouver.ca/home-property-development/false-creek-south.aspx"
+      },
+      {
+        "label": "Units on City Land",
+        "value": "1,849",
+        "sourceUrl": "https://vancouver.ca/home-property-development/false-creek-south-leases-on-city-land.aspx"
+      },
+      {
+        "label": "Lease Expiry",
+        "value": "2036-2046",
+        "sourceUrl": "https://vancouver.ca/home-property-development/false-creek-south-leases-on-city-land.aspx"
+      }
+    ],
+    "sections": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "icon": "info",
+        "content": "\n                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this <strong>approximately 100-acre neighbourhood</strong> demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>\n                    <p>The City of Vancouver owns <strong>about 80 acres in False Creek South</strong>, making it a rare example of large-scale public land stewardship. The neighbourhood includes a mix of co-op, non-market rental, market rental, and strata leasehold housing, alongside civic and commercial uses.</p>\n                    <p>There are approximately <strong>5,500 residents in all of False Creek South</strong>. On City-owned land, there are <strong>1,849 housing units</strong> (plus <strong>1,354 units on non-City land</strong>). The land is leased on 60-year terms, and most City-land leases expire between 2036 and 2046, creating a pivotal decision point about how to preserve affordability while renewing public assets.</p>\n                    <p><strong>Robyn Chan</strong>, Project Manager for the False Creek South Community Housing Trust, leads community planning efforts. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to establish a community land trust that would give residents more control over their housing future.</p>\n                "
+      },
+      {
+        "id": "highlights",
+        "label": "At This Stop",
+        "icon": "sparkles",
+        "type": "highlights",
+        "highlights": [
+          {
+            "title": "Tour Start: 4th & Heather Bus Stop",
+            "description": "The tour begins on the False Creek seawall near W 6th Avenue, a short walk from the W 4th Avenue and Heather Street bus stop.",
+            "meta": "Starting point"
+          },
+          {
+            "title": "Lease Renewal Timeline",
+            "description": "Locate the leasehold parcels expiring between 2036–2046 and discuss how renewal options affect long-term affordability.",
+            "meta": "Decision window"
+          },
+          {
+            "title": "Co-op Cluster",
+            "description": "Visit the co-op homes along the waterfront to see shared courtyards and resident-led governance in action.",
+            "meta": "Community-led"
+          },
+          {
+            "title": "Waterfront Greenway",
+            "description": "Follow the seawall to experience the public-realm improvements tied to public land stewardship.",
+            "meta": "Public realm"
+          },
+          {
+            "title": "Housing Trust Hub",
+            "description": "Review the community housing trust concept and how it could govern future redevelopment.",
+            "meta": "Future planning"
+          }
+        ]
+      },
+      {
+        "id": "details",
+        "label": "Housing Model",
+        "icon": "document",
+        "content": "\n                    <h4>Mixed Tenure Breakdown</h4>\n                    <p>False Creek South includes multiple tenure types, each serving different community needs:</p>\n                    <ul>\n                        <li><strong>Co-operatives:</strong> City data identifies seven co-op buildings (517 units) on City land, including Twin Rainbows Co-op (86 units, opened 1981). Members have secure tenure and participate in democratic governance.</li>\n                        <li><strong>Non-Market Rental:</strong> Below-market housing operated by non-profit societies, ensuring affordability for lower-income residents.</li>\n                        <li><strong>Market Rental:</strong> Rental housing at market rates, providing flexibility for those who prefer renting.</li>\n                        <li><strong>Strata Residential:</strong> Privately-owned condominiums within the mixed community.</li>\n                        <li><strong>City-Owned Properties:</strong> Land and buildings retained by the City of Vancouver.</li>\n                        <li><strong>Commercial & Civic:</strong> Including False Creek School and retail frontages.</li>\n                    </ul>\n\n                    <h4>The Land Lease Model</h4>\n                    <p>Housing operators <strong>lease land from the city</strong> rather than purchasing it. Most City-land lease terms expire between 2036 and 2046, creating both opportunity and uncertainty. This model:</p>\n                    <ul>\n                        <li>Keeps land costs out of housing prices</li>\n                        <li>Prevents speculation and land flipping</li>\n                        <li>Maintains public control over development decisions</li>\n                        <li>Allows the city to enforce affordability requirements</li>\n                    </ul>\n\n                    <h4>The Lease Renewal Moment</h4>\n                    <p>The original 60-year leases are approaching expiry, creating uncertainty for households across the neighbourhood. In October 2021, Council received a False Creek South landowner update, and in March 2024 Council directed staff to report back with an updated and enhanced development framework. On January 22, 2025, Council approved entering negotiations with Arup Canada Inc. for consulting services, with an estimated contract value of <strong>$4 million</strong>.</p>\n\n                    <h4>Community Land Trust Initiative</h4>\n                    <p>In March 2024, Vancouver Council passed a motion supporting community land trust models and the construction of newly built co-op housing on City-owned land. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: \"It's a way to have more control and to expand non-profit housing.\"</p>\n                    <p>Recent grant-funded projects include an <strong>Embodied Carbon study</strong> (Vancity Envirofund) comparing demolition vs. lease extensions, and a <strong>capacity-building program</strong> to support governance, community engagement, and long-term financial planning.</p>\n                ",
+        "keyPoints": [
+          "About 80 acres are on City-owned land",
+          "1,849 housing units are on City land, plus 1,354 units on non-City land",
+          "Most City-land leases expire in 2036-2046 — a critical transition period",
+          "January 22, 2025: Council approved negotiations for a consulting contract valued at up to $4 million",
+          "March 2024 Council motion supports community land trust models and new co-op housing on City-owned land"
+        ]
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "icon": "images",
+        "type": "gallery",
+        "images": [
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vancouver_-_False_Creek_near_Granville_Island_01.jpg/1280px-Vancouver_-_False_Creek_near_Granville_Island_01.jpg",
+            "alt": "False Creek near Granville Island in Vancouver",
+            "caption": "False Creek near Granville Island — Photo: Joe Mabel (CC BY-SA 3.0)"
+          },
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vancouver_-_False_Creek_pano_03.jpg/1280px-Vancouver_-_False_Creek_pano_03.jpg",
+            "alt": "False Creek panorama in Vancouver",
+            "caption": "False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)"
+          },
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Granville_Street_Bridge_01.JPG/1280px-Granville_Street_Bridge_01.JPG",
+            "alt": "Granville Street Bridge over False Creek",
+            "caption": "Granville Street Bridge — Photo: Xicotencatl (CC BY-SA 4.0)"
+          },
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/False_Creek%2C_Vancouver_%282025%29.jpg/1280px-False_Creek%2C_Vancouver_%282025%29.jpg",
+            "alt": "Aerial view over False Creek with downtown Vancouver",
+            "caption": "Aerial view over False Creek — Photo: Northwest (CC BY 4.0)"
+          }
+        ]
+      },
+      {
+        "id": "learn-more",
+        "label": "Learn More",
+        "icon": "link",
+        "type": "resources",
+        "resources": [
+          {
+            "title": "False Creek South Neighbourhood Association (RePlan)",
+            "url": "https://www.falsecreeksouth.org/",
+            "description": "Official community organization and housing trust information"
+          },
+          {
+            "title": "False Creek South Community Housing Trust",
+            "url": "https://www.falsecreeksouth.org/community-housing-trust/",
+            "description": "About the community land trust initiative"
+          },
+          {
+            "title": "City of Vancouver — False Creek South",
+            "url": "https://vancouver.ca/home-property-development/false-creek-south.aspx",
+            "description": "Municipal planning information and policy documents"
+          },
+          {
+            "title": "City of Vancouver — False Creek South Leases on City Land",
+            "url": "https://vancouver.ca/home-property-development/false-creek-south-leases-on-city-land.aspx",
+            "description": "City and non-City land unit counts and lease-expiry timeline"
+          },
+          {
+            "title": "Vancouver Council Report (Oct 21, 2021) — False Creek South Planning Program Update",
+            "url": "https://council.vancouver.ca/20211021/documents/pspc2.pdf",
+            "description": "Council report with neighbourhood size, land ownership, and resident figures"
+          },
+          {
+            "title": "Vancouver Council Report (Jan 22, 2025) — Contracting Authority to Arup Canada Inc.",
+            "url": "https://council.vancouver.ca/20250122/documents/pspc2r.pdf",
+            "description": "Council approval for consulting services with an estimated value of $4 million"
+          },
+          {
+            "title": "Vancouver Council Motion (Mar 13, 2024) — False Creek South Planning Program",
+            "url": "https://council.vancouver.ca/20240313/documents/cfsca3.pdf",
+            "description": "Council direction supporting CLT models and newly built co-op housing on City-owned lands"
+          },
+          {
+            "title": "Twin Rainbows Housing Co-op",
+            "url": "https://www.twinrainbowscoop.ca/",
+            "description": "Co-op profile including 86 units and 1981 completion year"
+          },
+          {
+            "title": "Globe and Mail — Are Land Trusts the Future?",
+            "url": "https://www.theglobeandmail.com/business/article-are-land-trusts-the-future-of-canadian-housing/",
+            "description": "Coverage of False Creek South's community land trust model"
+          },
+          {
+            "title": "CHF BC — Find a Co-op",
+            "url": "https://www.chf.bc.ca/find-co-op/",
+            "description": "Co-operative Housing Federation of BC directory"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "community-land-trust",
+      "cooperative",
+      "mixed-tenure",
+      "public-land"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sen̓áḵw Development",
+    "location": "Kitsilano, Vancouver (near Burrard Bridge)",
+    "coordinates": [
+      49.27257,
+      -123.14289
+    ],
+    "heroImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrard_Bridge_and_False_Creek_Vancouver.jpg/1280px-Burrard_Bridge_and_False_Creek_Vancouver.jpg",
+      "alt": "Burrard Bridge and False Creek in Vancouver",
+      "caption": "Burrard Bridge and False Creek — Photo: Darren Kirby (CC BY-SA 3.0)"
+    },
+    "stats": [
+      {
+        "label": "Rental Homes",
+        "value": "6,000",
+        "sourceUrl": "https://senakw.com/project"
+      },
+      {
+        "label": "Below-Market Homes",
+        "value": "1,200",
+        "sourceUrl": "https://senakw.com/project"
+      },
+      {
+        "label": "Phase 1 Homes",
+        "value": "1,409",
+        "sourceUrl": "https://www.squamish.net/partnerships-entities/partnerships/senakw/"
+      }
+    ],
+    "sections": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "icon": "info",
+        "content": "\n                    <p>Sen̓áḵw (pronounced \"sen-AHK-w\") is one of the largest Indigenous-led urban housing developments in Canada. It is being built on <strong>10.5 acres of Squamish Nation reserve land</strong> near the south end of the Burrard Bridge.</p>\n                    <p>The project is planned as <strong>6,000 purpose-built rental homes, including 1,200 below-market homes</strong>. Hiy̓ám̓ Housing states that <strong>250 homes are allocated for Squamish People</strong> through its housing stream.</p>\n                    <p><strong>Phase One includes three towers and 1,409 homes</strong>. In its February 5, 2026 update, Squamish Nation said first move-ins were expected in summer 2026, with phase-one homes prioritized for Squamish People.</p>\n                    <p>On September 6, 2022, the federal government announced <strong>$1.4 billion</strong> in financing support for Sen̓áḵw through CMHC for early phases of the project.</p>\n                "
+      },
+      {
+        "id": "highlights",
+        "label": "At This Stop",
+        "icon": "sparkles",
+        "type": "highlights",
+        "highlights": [
+          {
+            "title": "Tower Cluster View",
+            "description": "Compare the tower massing plan with surrounding Kitsilano scale to understand the density shift.",
+            "meta": "Design focus"
+          },
+          {
+            "title": "Public Green Space",
+            "description": "Walk the public open-space network to see how public realm access is built into the development agreement.",
+            "meta": "Open space"
+          },
+          {
+            "title": "Transit Connections",
+            "description": "Note the proximity to Burrard Bridge, cycling routes, and future rapid transit plans.",
+            "meta": "Mobility"
+          },
+          {
+            "title": "Cultural Gathering",
+            "description": "Identify where cultural programming and Indigenous-led placemaking will be hosted.",
+            "meta": "Community"
+          }
+        ]
+      },
+      {
+        "id": "details",
+        "label": "Land Rights",
+        "icon": "document",
+        "content": "\n                    <h4>Federal Jurisdiction & Public Views</h4>\n                    <p>Sen̓áḵw is on <strong>federal reserve land</strong>. The City of Vancouver states that city land-use policies and regulations do not apply to these lands, and the City is not directly involved in planning or design approvals.</p>\n                    <p>For context, Vancouver's protected public-view framework has been in place since 1989. On July 10, 2024, Council replaced the old View Protection Guidelines with new Public Views Guidelines, including amendments to some public views.</p>\n\n                    <h4>Ownership & Partnership</h4>\n                    <p>On August 28, 2025, <strong>OPTrust</strong> announced it had acquired Westbank's interest in Phases One and Two. OPTrust and the Squamish Nation now each hold <strong>50% ownership</strong> in those phases, while Squamish Nation holds <strong>100% ownership</strong> of Phases Three and Four.</p>\n\n                    <h4>Services Agreement</h4>\n                    <p>The City of Vancouver and Squamish Nation signed a services agreement on May 25, 2022. The Service Agreement Overview states a <strong>120-year term</strong> applying to all four phases. It also states that the City provides core municipal services, and the Nation pays annual charges using the same methodology applied to other Vancouver property owners.</p>\n                    <p>The same overview states that the first two phases are expected to include approximately <strong>2,950 rental units</strong>, including <strong>590 affordable units</strong> (20%), plus <strong>65-75 childcare spaces</strong>.</p>\n\n                    <h4>Tenant Protections</h4>\n                    <p>In July 2023, Squamish Nation announced that protections in BC's <strong>Residential Tenancy Act (BCRTA)</strong> would be in place for Sen̓áḵw through the federal <strong>First Nations Commercial and Industrial Development Act (FNCIDA)</strong>. The Squamish Nation Residential Tenancy Regulations (<strong>SOR/2023-135</strong>) are now in force under FNCIDA.</p>\n\n                    <h4>Indigenous Land Development in BC</h4>\n                    <p>Sen̓áḵw is part of a broader movement of Indigenous nations using land development for economic self-determination:</p>\n                    <ul>\n                        <li>Land is retained rather than sold, maintaining long-term nation ownership</li>\n                        <li>Projects prioritize community benefit alongside economic returns</li>\n                        <li>Housing developments include cultural spaces and community amenities</li>\n                        <li>The rental model supports long-term community control</li>\n                    </ul>\n                ",
+        "keyPoints": [
+          "Federal reserve land — exempt from municipal zoning",
+          "Project scale: 6,000 rental homes and 1,200 below-market homes",
+          "Phase One: 1,409 homes across three towers; 250 homes allocated through Hiy̓ám̓ Housing",
+          "$1.4B federal financing support announced September 6, 2022",
+          "August 28, 2025: OPTrust and Squamish Nation each hold 50% of Phases 1-2; Nation holds 100% of Phases 3-4",
+          "Services agreement term: 120 years; first two phases: ~2,950 rental homes including 590 affordable units"
+        ]
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "icon": "images",
+        "type": "gallery",
+        "images": [
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Vancouver_Burrard_Street_Bridge_%289971716326%29.jpg/1280px-Vancouver_Burrard_Street_Bridge_%289971716326%29.jpg",
+            "alt": "Burrard Street Bridge in Vancouver",
+            "caption": "Burrard Street Bridge — Photo: Wikimedia Commons (CC0)"
+          },
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
+            "alt": "False Creek panorama near Kitsilano",
+            "caption": "False Creek near Kits Point — Photo: Joe Mabel (CC BY-SA 3.0)"
+          },
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Dusk_View_of_Downtown_and_West_End_from_Kitsilano_Beach_-_Vancouver_BC_-_Canada.jpg/1280px-Dusk_View_of_Downtown_and_West_End_from_Kitsilano_Beach_-_Vancouver_BC_-_Canada.jpg",
+            "alt": "Kitsilano Beach with the Vancouver skyline at dusk",
+            "caption": "Kitsilano Beach — Photo: Adam Jones (CC BY-SA 2.0)"
+          },
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Vanier-Park.jpg/1280px-Vanier-Park.jpg",
+            "alt": "Downtown Vancouver skyline seen from Vanier Park",
+            "caption": "Downtown skyline from Vanier Park — Photo: Wikimedia Commons (CC BY-SA)"
+          }
+        ]
+      },
+      {
+        "id": "learn-more",
+        "label": "Learn More",
+        "icon": "link",
+        "type": "resources",
+        "resources": [
+          {
+            "title": "Sen̓áḵw Official Website",
+            "url": "https://www.senakw.com/",
+            "description": "Project timeline, unit information, and updates"
+          },
+          {
+            "title": "Sen̓áḵw Project Page",
+            "url": "https://senakw.com/project",
+            "description": "Current project headline figures including rental and below-market homes"
+          },
+          {
+            "title": "Squamish Nation — Sen̓áḵw Partnership",
+            "url": "https://www.squamish.net/partnerships-entities/partnerships/senakw/",
+            "description": "Squamish Nation's overview of the project"
+          },
+          {
+            "title": "Squamish Nation — Returning to Sen̓áḵw (Feb 5, 2026)",
+            "url": "https://www.squamish.net/returning-to-sen%CC%93a%E1%B8%B5w/",
+            "description": "Phase-one home count, three-tower configuration, and move-in timing update"
+          },
+          {
+            "title": "Hiy̓ám̓ Housing — Sen̓áḵw",
+            "url": "https://hiyamhousing.com/senakw",
+            "description": "250 homes allocated for Squamish People through Hiy̓ám̓ Housing"
+          },
+          {
+            "title": "Prime Minister of Canada (Sep 6, 2022) — Historic partnership announcement",
+            "url": "https://www.pm.gc.ca/en/news/news-releases/2022/09/06/historic-partnership-between-canada-and-skwxwu7mesh-uxwumixw-squamish",
+            "description": "Announcement of $1.4 billion federal support for early Sen̓áḵw phases"
+          },
+          {
+            "title": "City of Vancouver-Squamish Nation Sen̓áḵw Service Agreement Overview (PDF)",
+            "url": "https://www.squamish.net/wp-content/uploads/2023/11/Senakw-Service-Agreement-Overview.pdf",
+            "description": "120-year term, municipal service framework, and phase 1-2 housing/affordability figures"
+          },
+          {
+            "title": "City of Vancouver — Sen̓áḵw Development",
+            "url": "https://vancouver.ca/home-property-development/senakw-development.aspx",
+            "description": "City coordination and infrastructure planning"
+          },
+          {
+            "title": "City of Vancouver — Public Views",
+            "url": "https://vancouver.ca/home-property-development/protecting-public-views.aspx",
+            "description": "Public views policy background and July 10, 2024 guideline update"
+          },
+          {
+            "title": "OPTrust (Aug 28, 2025) — Sen̓áḵw ownership update",
+            "url": "https://www.optrust.com/news/senakw-development-partnership-welcomes-50-ownership-stake-by-OPTrust",
+            "description": "OPTrust 50% stake in Phases 1-2 and updated partnership structure"
+          },
+          {
+            "title": "Squamish Nation Residential Tenancy Regulations (SOR/2023-135)",
+            "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2023-135/index.html",
+            "description": "Federal regulations applying BC tenancy-law framework to Sen̓áḵw through FNCIDA"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "indigenous",
+      "rental",
+      "federal-land",
+      "squamish-nation"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Granville Island",
+    "location": "Granville Island, Vancouver",
+    "coordinates": [
+      49.27056,
+      -123.13417
+    ],
+    "heroImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Granville_Island.jpg",
+      "alt": "Granville Island on False Creek in Vancouver",
+      "caption": "Granville Island — Photo: Public domain"
+    },
+    "stats": [
+      {
+        "label": "Food Purveyors",
+        "value": "50+",
+        "sourceUrl": "https://admin.granvilleisland.com/wp-content/uploads/2022/11/Granville-Island-Council-Strategic-Priorities-2022-2023.pdf"
+      },
+      {
+        "label": "Businesses",
+        "value": "300+",
+        "sourceUrl": "https://admin.granvilleisland.com/wp-content/uploads/2022/11/Granville-Island-Council-Strategic-Priorities-2022-2023.pdf"
+      },
+      {
+        "label": "Jobs",
+        "value": "3,000+",
+        "sourceUrl": "https://admin.granvilleisland.com/wp-content/uploads/2022/11/Granville-Island-Council-Strategic-Priorities-2022-2023.pdf"
+      }
+    ],
+    "sections": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "icon": "info",
+        "content": "\n                    <p>Granville Island is a <strong>40-acre federal property</strong> that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, the island is entirely <strong>self-sustaining with no government funding</strong> — operating solely on lease revenue, parking fees, and filming permits.</p>\n                    <p>Between 1973 and 1982, CMHC invested <strong>$24.7 million</strong> to transform the former industrial site into a public market, arts hub, and cultural destination. As federal land, Granville Island operates outside Vancouver's municipal regulations, functioning essentially as <strong>its own jurisdiction</strong> and enabling creative placemaking that wouldn't be possible under rigid municipal zoning.</p>\n                    <p>Urbanist and documentary creator <strong>Uytae Lee</strong> highlighted the island's governance model in a 2025 documentary, sparking renewed public debate about whether the site should pursue more development, public subsidy, or a new foundation model to fund repairs.</p>\n                "
+      },
+      {
+        "id": "highlights",
+        "label": "At This Stop",
+        "icon": "sparkles",
+        "type": "highlights",
+        "highlights": [
+          {
+            "title": "Public Market Hall",
+            "description": "Start at the Public Market to see how cross-subsidy supports local vendors and public amenities.",
+            "meta": "Must see"
+          },
+          {
+            "title": "Artist Studio Row",
+            "description": "Visit the artisan studios to experience the affordable creative space model.",
+            "meta": "Creative economy"
+          },
+          {
+            "title": "Waterfront Walk",
+            "description": "Follow the seawall edge to observe flexible public space programming and ferry access.",
+            "meta": "Public realm"
+          },
+          {
+            "title": "Future Sites",
+            "description": "Discuss aging infrastructure and where reinvestment could support long-term viability.",
+            "meta": "Reinvestment"
+          }
+        ]
+      },
+      {
+        "id": "details",
+        "label": "Land Model",
+        "icon": "document",
+        "content": "\n                    <h4>The Land Lease Approach</h4>\n                    <p>CMHC owns all land on Granville Island and leases it to <strong>over 300 commercial, retail, cultural, artistic, and educational tenants</strong>. The island operates a <strong>subsidy model</strong> where market rents from some businesses support more affordable rents for:</p>\n                    <ul>\n                        <li>Small businesses and artisans</li>\n                        <li>Arts and cultural organizations</li>\n                        <li>Free community spaces and public amenities</li>\n                        <li>The Public Market vendors</li>\n                    </ul>\n\n                    <h4>Current Challenges</h4>\n                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>\n                    <p>Possible paths include: <strong>more development</strong>, a <strong>government subsidy model</strong>, a new <strong>Granville Island Foundation</strong>, or a <strong>cultural land trust</strong> proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are \"no current plans for housing development.\"</p>\n\n                    <h4>Why This Matters for Housing</h4>\n                    <p>Granville Island demonstrates key principles for housing policy:</p>\n                    <ul>\n                        <li><strong>Public ownership prevents speculation</strong> — land value increases don't inflate costs</li>\n                        <li><strong>Cross-subsidy works</strong> — market tenants support affordable space</li>\n                        <li><strong>Self-sufficiency is possible</strong> — no ongoing government funding required</li>\n                        <li><strong>Flexibility enables innovation</strong> — outside municipal rules, creative solutions emerge</li>\n                    </ul>\n                ",
+        "keyPoints": [
+          "40 acres of federal land, self-sustaining on lease revenue",
+          "300+ tenants with cross-subsidy model",
+          "Operates outside municipal zoning as federal property",
+          "$300M in infrastructure needs — future governance in discussion"
+        ]
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "icon": "images",
+        "type": "gallery",
+        "images": [
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Granville_Island_Public_Market_2024.jpg/1280px-Granville_Island_Public_Market_2024.jpg",
+            "alt": "Granville Island Public Market exterior",
+            "caption": "Granville Island Public Market — Photo: On the road (CC BY 4.0)"
+          },
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg/1280px-Granville_Island%2C_Mar_2%2C_2025_-_54362444969.jpg",
+            "alt": "Granville Island waterfront and village area",
+            "caption": "Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)"
+          },
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Granville_Island_Vancouver_01.JPG/1280px-Granville_Island_Vancouver_01.JPG",
+            "alt": "Granville Island overview",
+            "caption": "Granville Island overview — Photo: Xicotencatl (CC BY-SA 4.0)"
+          },
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Granville_Island_-_ArtsClub_Theatre_Company.jpg/1280px-Granville_Island_-_ArtsClub_Theatre_Company.jpg",
+            "alt": "Arts Club Theatre Company on Granville Island",
+            "caption": "Arts Club Theatre on Granville Island — Photo: Wikimedia Commons (CC BY-SA 3.0)"
+          }
+        ]
+      },
+      {
+        "id": "learn-more",
+        "label": "Learn More",
+        "icon": "link",
+        "type": "resources",
+        "resources": [
+          {
+            "title": "Granville Island 2040",
+            "url": "https://granvilleisland2040.ca/",
+            "description": "Community visioning process for the island's future"
+          },
+          {
+            "title": "Granville Island Official Website",
+            "url": "https://granvilleisland.com/",
+            "description": "Visitor information and tenant directory"
+          },
+          {
+            "title": "Heritage Vancouver — Granville Island",
+            "url": "https://heritagevancouver.org/2025/3-granville-island/",
+            "description": "Heritage context and preservation considerations"
+          },
+          {
+            "title": "CBC — Is Housing the Solution for Granville Island?",
+            "url": "https://www.cbc.ca/news/canada/british-columbia/granville-island-future-harcourt-housing-debate-1.7558992",
+            "description": "2024 coverage of infrastructure needs and housing debate"
+          },
+          {
+            "title": "Traveling Circus of Urbanism — Granville Island Model",
+            "url": "https://www.travelingcircusofurbanism.com/vancouver/granvilleisland/",
+            "description": "Analysis of the brownfield redevelopment model"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "public-land",
+      "federal",
+      "land-lease",
+      "cmhc"
+    ]
+  }
+]

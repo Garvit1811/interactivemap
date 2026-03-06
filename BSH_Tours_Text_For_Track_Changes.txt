@@ -1,0 +1,399 @@
+BSH Interactive Map Tours - Editable Text for Track Changes
+Generated: February 22, 2026 at 18:34:56 PST
+Source files: fscclt/app.js and community-orgs/app.js
+
+Tour 1: False Creek South & Kitsilano (FCSCLT)
+Total stops: 3
+
+Stop 1: False Creek South Community Land Trust
+Location: False Creek South, Vancouver
+Quick stats: City-Owned: 80% | Units: 1,849 | Leases: 2036-46
+Overview
+False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this 136-acre waterfront neighbourhood demonstrates how public land ownership can support diverse housing options while maintaining long-term affordability.
+The City of Vancouver owns about 80 acres in False Creek South, making it a rare example of large-scale public land stewardship. The original vision committed to a tenure mix of one-third non-market rental housing, one-third co-ops, and one-third strata leasehold — a model designed to avoid the social stratification common in single-tenure developments.
+Today, about 5,500 residents live in 1,849 homes. The land is leased on 60-year terms that begin expiring between 2036 and 2046, creating a pivotal decision point about how to preserve affordability while renewing public assets.
+Robyn Chan, Project Manager for the False Creek South Community Housing Trust, leads community planning efforts. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to establish a community land trust that would give residents more control over their housing future.
+
+At This Stop
+• Tour Start: 4th & Heather Bus Stop: The tour begins on the False Creek seawall near W 6th Avenue, a short walk from the W 4th Avenue and Heather Street bus stop. (Starting point)
+• Lease Renewal Timeline: Locate the leasehold parcels expiring between 2036–2046 and discuss how renewal options affect long-term affordability. (Decision window)
+• Co-op Cluster: Visit the co-op homes along the waterfront to see shared courtyards and resident-led governance in action. (Community-led)
+• Waterfront Greenway: Follow the seawall to experience the public-realm improvements tied to public land stewardship. (Public realm)
+• Housing Trust Hub: Review the community housing trust concept and how it could govern future redevelopment. (Future planning)
+
+Housing Model
+Mixed Tenure Breakdown
+False Creek South showcases six distinct tenure types, each serving different community needs:
+• Co-operatives: Six housing co-ops including Twin Rainbows (86 units, opened 1981), Creekview, Alder Bay, and others. Members have secure tenure and participate in democratic governance.
+• Non-Market Rental: Below-market housing operated by non-profit societies, ensuring affordability for lower-income residents.
+• Market Rental: Rental housing at market rates, providing flexibility for those who prefer renting.
+• Strata Residential: Privately-owned condominiums within the mixed community.
+• City-Owned Properties: Land and buildings retained by the City of Vancouver.
+• Commercial & Civic: Including False Creek School and retail frontages.
+The Land Lease Model
+Housing operators lease land from the city rather than purchasing it. All lease terms expire in the 2030s and 2040s, creating both opportunity and uncertainty. This model:
+• Keeps land costs out of housing prices
+• Prevents speculation and land flipping
+• Maintains public control over development decisions
+• Allows the city to enforce affordability requirements
+The Lease Crisis
+The original 60-year leases are approaching expiry, creating uncertainty for roughly 3,200 residents. In 2021, City Council rejected a staff proposal to triple density and instead directed a community-led planning process. In January 2025, the City awarded a $4 million contract to Arup Group to prepare a landowner plan, sparking renewed debate about community involvement.
+Community Land Trust Initiative
+In March 2024, Vancouver Council passed a motion supporting the construction of new co-ops on City-owned land through a community land trust model. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: "It's a way to have more control and to expand non-profit housing."
+Recent grant-funded projects include an Embodied Carbon study (Vancity Envirofund) comparing demolition vs. lease extensions, and a capacity-building program to support governance, community engagement, and long-term financial planning.
+• About 80 acres are on City-owned land
+• 1,849 homes with a one-third / one-third / one-third tenure mix
+• All land leases expire in 2036-2046 — critical transition period
+• 2021 Council rejected wholesale demolition and density tripling
+• March 2024 Council motion supports community land trust model
+
+Gallery
+• False Creek near Granville Island — Photo: Joe Mabel (CC BY-SA 3.0)
+• False Creek panorama — Photo: Joe Mabel (CC BY-SA 3.0)
+• Granville Street Bridge — Photo: Xicotencatl (CC BY-SA 4.0)
+• Aerial view over False Creek — Photo: Northwest (CC BY 4.0)
+
+Resources
+• False Creek South Neighbourhood Association (RePlan) - Official community organization and housing trust information | https://www.falsecreeksouth.org/
+• False Creek South Community Housing Trust - About the community land trust initiative | https://www.falsecreeksouth.org/community-housing-trust/
+• City of Vancouver — False Creek South - Municipal planning information and policy documents | https://vancouver.ca/home-property-development/false-creek-south.aspx
+• Globe and Mail — Are Land Trusts the Future? - Coverage of False Creek South's community land trust model | https://www.theglobeandmail.com/business/article-are-land-trusts-the-future-of-canadian-housing/
+• CHF BC — Find a Co-op - Co-operative Housing Federation of BC directory | https://www.chf.bc.ca/find-co-op/
+
+
+Stop 2: Sen̓áḵw Development
+Location: Kitsilano, Vancouver (near Burrard Bridge)
+Quick stats: Units: 6,000 | Affordable: 1,200 | Phase 1: 2026
+Overview
+Sen̓áḵw (pronounced "sen-AHK-w") is the largest Indigenous-led urban housing development in Canadian history. Located on 10.5 acres of Squamish Nation reserve land near the south end of the Burrard Bridge, this project demonstrates how Indigenous land rights can create new pathways for housing development.
+The development will include 6,000 purpose-built rental units across 11 towers, with 4 million square feet of floor space. Critically, 1,200 units will be designated affordable, and rents will be 30-40% below comparable market rates.
+In September 2022, Prime Minister Justin Trudeau announced a $1.4 billion federal loan to fund the first two phases. Phase One (1,409 units in three towers) targets completion in early 2026, with phased buildout continuing into the early 2030s.
+
+At This Stop
+• Tower Cluster View: Compare the 11-tower massing plan with surrounding Kitsilano scale to understand the density shift. (Design focus)
+• Public Green Space: Walk the six-acre open space to see how public realm access is built into the development agreement. (Open space)
+• Transit Connections: Note the proximity to Burrard Bridge, cycling routes, and future rapid transit plans. (Mobility)
+• Cultural Gathering: Identify where cultural programming and Indigenous-led placemaking will be hosted. (Community)
+
+Land Rights
+Federal Jurisdiction & View Cones
+Sen̓áḵw operates on federal reserve land, which exempts it from Vancouver's municipal zoning bylaws — including the city's "view cone" policies that restrict building heights to protect mountain views.
+Vancouver's view cones, established in 1989, identify 38 protected views from specific locations. The Sen̓áḵw towers enter View Cone 20.0 (from West Broadway and Granville Street), but as reserve land, the project is not bound by these restrictions. In July 2024, Council approved major changes to the view cone policy, partly influenced by Sen̓áḵw's development.
+Ownership & Partnership
+In August 2025, OPTrust — one of Canada's largest pension fund investors — acquired development partner Westbank's ownership stake in Phases One and Two. OPTrust and the Squamish Nation now each hold 50% ownership in these phases, representing a significant Indigenous-led partnership model.
+Project Scope & Public Space
+Sen̓áḵw's unit mix includes 2,688 studios, 2,046 one-bedrooms, 874 two-bedrooms, and 472 three-bedrooms. Over half the site (roughly six acres) is planned as publicly accessible green space and cultural gathering areas.
+Services Agreement & Tenant Protections
+A 120-year services agreement with the City of Vancouver (signed May 2022) covers water, sewer, fire, and police services, with the Squamish Nation paying the same rates as Vancouver property owners.
+The Squamish Nation adopted BC's Residential Tenancy Act through the First Nations Commercial and Industrial Development Act, ensuring rent increase limits and tenant protections, alongside an Indigenous-led dispute resolution process.
+Indigenous Land Development in BC
+Sen̓áḵw is part of a broader movement of Indigenous nations using land development for economic self-determination:
+• Land is retained rather than sold, maintaining long-term nation ownership
+• Projects prioritize community benefit alongside economic returns
+• Housing developments include cultural spaces and community amenities
+• The 100% rental model prevents speculation and ensures ongoing control
+• Federal reserve land — exempt from municipal zoning
+• 100% rental: 6,000 units with 1,200 affordable
+• $1.4B federal loan announced September 2022
+• 50/50 Squamish Nation-OPTrust ownership (Phases 1-2)
+• Over half the site dedicated to public green space
+
+Gallery
+• Burrard Street Bridge — Photo: Wikimedia Commons (CC0)
+• False Creek near Kits Point — Photo: Joe Mabel (CC BY-SA 3.0)
+• Kitsilano Beach — Photo: Adam Jones (CC BY-SA 2.0)
+• Downtown skyline from Vanier Park — Photo: Wikimedia Commons (CC BY-SA)
+
+Resources
+• Sen̓áḵw Official Website - Project timeline, unit information, and updates | https://www.senakw.com/
+• Squamish Nation — Sen̓áḵw Partnership - Squamish Nation's overview of the project | https://www.squamish.net/partnerships-entities/partnerships/senakw/
+• City of Vancouver — Sen̓áḵw Development - City coordination and infrastructure planning | https://vancouver.ca/home-property-development/senakw-development.aspx
+• CBC — Inside Canada's Largest Indigenous-Led Housing Development - 2025 media coverage with interior previews | https://www.cbc.ca/news/canada/british-columbia/sen-%C3%A1%E1%B8%B5w-sneak-preview-1.7451499
+• Vancouver Public Views Policy - Background on view cone regulations | https://vancouver.ca/home-property-development/protecting-vancouvers-views.aspx
+
+
+Stop 3: Granville Island
+Location: Granville Island, Vancouver
+Quick stats: Size: 40 acres | Tenants: 300+ | Govt Funding: $0
+Overview
+Granville Island is a 40-acre federal property that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, the island is entirely self-sustaining with no government funding — operating solely on lease revenue, parking fees, and filming permits.
+Between 1973 and 1982, CMHC invested $24.7 million to transform the former industrial site into a public market, arts hub, and cultural destination. As federal land, Granville Island operates outside Vancouver's municipal regulations, functioning essentially as its own jurisdiction and enabling creative placemaking that wouldn't be possible under rigid municipal zoning.
+Urbanist and documentary creator Uytae Lee highlighted the island's governance model in a 2025 documentary, sparking renewed public debate about whether the site should pursue more development, public subsidy, or a new foundation model to fund repairs.
+
+At This Stop
+• Public Market Hall: Start at the Public Market to see how cross-subsidy supports local vendors and public amenities. (Must see)
+• Artist Studio Row: Visit the artisan studios to experience the affordable creative space model. (Creative economy)
+• Waterfront Walk: Follow the seawall edge to observe flexible public space programming and ferry access. (Public realm)
+• Future Sites: Discuss aging infrastructure and where reinvestment could support long-term viability. (Reinvestment)
+
+Land Model
+The Land Lease Approach
+CMHC owns all land on Granville Island and leases it to over 300 commercial, retail, cultural, artistic, and educational tenants. The island operates a subsidy model where market rents from some businesses support more affordable rents for:
+• Small businesses and artisans
+• Arts and cultural organizations
+• Free community spaces and public amenities
+• The Public Market vendors
+Current Challenges
+General Manager Tom Lancaster estimates up to $300 million is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.
+Possible paths include: more development, a government subsidy model, a new Granville Island Foundation, or a cultural land trust proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are "no current plans for housing development."
+Why This Matters for Housing
+Granville Island demonstrates key principles for housing policy:
+• Public ownership prevents speculation — land value increases don't inflate costs
+• Cross-subsidy works — market tenants support affordable space
+• Self-sufficiency is possible — no ongoing government funding required
+• Flexibility enables innovation — outside municipal rules, creative solutions emerge
+• 40 acres of federal land, self-sustaining on lease revenue
+• 300+ tenants with cross-subsidy model
+• Operates outside municipal zoning as federal property
+• $300M in infrastructure needs — future governance in discussion
+
+Gallery
+• Granville Island Public Market — Photo: On the road (CC BY 4.0)
+• Granville Island village — Photo: Dietmar Rabich (CC BY 2.0)
+• Granville Island overview — Photo: Xicotencatl (CC BY-SA 4.0)
+• Arts Club Theatre on Granville Island — Photo: Wikimedia Commons (CC BY-SA 3.0)
+
+Resources
+• Granville Island 2040 - Community visioning process for the island's future | https://granvilleisland2040.ca/
+• Granville Island Official Website - Visitor information and tenant directory | https://granvilleisland.com/
+• Heritage Vancouver — Granville Island - Heritage context and preservation considerations | https://heritagevancouver.org/2025/3-granville-island/
+• CBC — Is Housing the Solution for Granville Island? - 2024 coverage of infrastructure needs and housing debate | https://www.cbc.ca/news/canada/british-columbia/granville-island-future-harcourt-housing-debate-1.7558992
+• Traveling Circus of Urbanism — Granville Island Model - Analysis of the brownfield redevelopment model | https://www.travelingcircusofurbanism.com/vancouver/granvilleisland/
+
+
+Tour 2: Downtown Eastside Community Organizations
+Total stops: 5
+
+Stop 1: Downtown Eastside Community Land Trust
+Location: 222 Keefer St, Vancouver
+Quick stats: Private SROs: ~100 | SRO Residents: 4,000+ | Indigenous: ~33%
+Overview
+The Downtown Eastside (DTES) is home to over 4,000 residents living in roughly 99 SRO buildings — often the last rental option before homelessness. Approximately one-third of SRO residents are Indigenous.
+Community organizations are working to acquire buildings and convert them to permanent community ownership through land trust models, removing them from the speculative market while preserving affordability for current residents.
+In 2023, the Province provided an $11 million grant to the DTES SRO Collaborative Society to support tenant-led programming and safety initiatives. The Downtown Eastside Community Land Trust (DTES CLT) was incorporated in 2023 to acquire buildings under Indigenous co-leadership and community governance.
+
+At This Stop
+• SRO Support Loop: Map the tenant support network connecting SRO buildings, outreach teams, and health resources. (Support services)
+• Hogan's Alley Sites: Identify the restoration efforts honoring Vancouver's historic Black neighbourhood. (Cultural heritage)
+• Future Acquisitions: Review the Keefer and Powell Rooms timelines to understand CLT acquisition strategy. (Land trust)
+
+Partners & Work
+The SRO Challenge
+Vancouver's SRO stock is governed by the SRA by-law, with ~99 buildings and ~4,000 rooms in the DTES alone. Average rents are roughly $680/month overall, while private SROs average closer to $740/month. The provincial shelter rate is $500/month, creating a persistent affordability gap.
+As Wendy Pedersen, Executive Director of the SRO Collaborative, explains: "Privately owned SRO hotels are a last resort before homelessness." The Collaborative's Tenant Overdose Response Organizers (TORO) project connects tenant organizers with naloxone supplies and education.
+Community Partners
+Multiple organizations work together to preserve and improve DTES housing:
+• DTES SRO Collaborative: Advocates for tenants, received $11M provincial grant in 2023
+• Hogan's Alley Society: Restoring Vancouver's historic Black neighbourhood, with projects on Union Street and Main Street
+• Aboriginal Front Door: Indigenous-led support services
+• Carnegie Community Centre: Historic community hub since 1903
+• DTES Neighbourhood House: Community programs and partnerships
+• UBC Learning Exchange: University-community partnership
+Community Land Trust Model
+The CLT approach in the DTES:
+• Removes buildings permanently from the speculative market
+• Ensures long-term affordability through trust structure
+• Keeps housing decisions in community hands
+• Prevents displacement of current residents during acquisition
+Policy Context
+In 2024, Vancouver implemented vacancy control for SROs, preventing rent spikes between tenancies. DTES CLT's first acquisition, Powell Rooms (23 units), is expected to close in January 2026, while Keefer Rooms (48 units) is reopening in spring 2025 through a BC Housing partnership and community programming model.
+• 4,000+ residents in ~99 SROs — last stop before homelessness
+• $11M provincial grant to SRO Collaborative (2023)
+• CLT acquisitions remove buildings from speculative market
+• Vacancy control (2024) prevents rent hikes between tenancies
+
+Gallery
+• DTES SRO streetscape — Source: Downtown Eastside Community Land Trust
+• Arlington Hotel — Source: Downtown Eastside Community Land Trust
+• Laurel Hotel — Source: Downtown Eastside Community Land Trust
+• Empress Hotel — Source: Downtown Eastside Community Land Trust
+• Community ownership action in the DTES — Source: user-provided photo
+• Powell Rooms SRO — Source: user-provided photo
+• DTES streetscape — Source: user-provided photo
+
+Resources
+• DTES SRO Collaborative - Tenant advocacy and support organization | https://srocollaborative.org/
+• DTES Neighbourhood House — SRO Collaborative Profile - Background on the SRO Collaborative's work | https://www.dtesnhouse.ca/news-updates/partner-feature-sro-collaborative
+• Downtown Eastside Community Land Trust - Community land trust leadership and acquisition model in the DTES | https://www.dtescommunitylandtrust.ca/
+• SRO Collaborative Programs - Tenant organizing, peer supports, and SRO-focused program directory | https://srocollaborative.org/programs/
+• Hogan's Alley Society - Restoring Vancouver's historic Black community | https://www.hogansalleysociety.org/
+
+
+Stop 2: First United Church
+Location: 320 E Hastings St, Vancouver
+Quick stats: Founded: 1886 | Safe Shelter: 51 beds | Legal Cases: 1,400+/yr
+Overview
+FIRST UNITED has worked in Vancouver's Downtown Eastside since 1886. Today it combines shelter, legal advocacy, and community food programs in one service model focused on reducing harm and preventing homelessness.
+Its Safe Shelter program currently operates 51 low-barrier shelter beds at 467 Alexander Street. The Legal Advocacy program supports tenants and income-security clients and reports more than 1,400 unique cases each year.
+The organization is also leading a major redevelopment at 320 East Hastings with partner Lu'ma Native BCH Housing Society, planned to include 100+ homes and roughly 40,000 sq ft of community-serving space.
+
+At This Stop
+• Safe Shelter Program: Review how the 51-bed low-barrier shelter supports people facing immediate housing instability. (Shelter)
+• Legal Advocacy: Understand tenancy, social assistance, and disability advocacy support delivered at street level. (Tenant rights)
+• Food Access: Track meal services including daily lunch and outreach food truck operations. (Food security)
+• Redevelopment Site: Connect the current site to plans for long-term affordable homes and integrated community space. (Housing delivery)
+
+Programs
+Core Programs
+FIRST UNITED's front-line model combines shelter, legal support, and food access:
+• Safe Shelter: 51 low-barrier beds currently operating at 467 Alexander Street
+• Legal Advocacy: more than 1,400 unique client cases annually focused on tenancy and income rights
+• Food Programs: daily meal services, lunch distribution, and a mobile food truck
+Redevelopment at 320 E Hastings
+The redevelopment project is designed to preserve FIRST UNITED's service base while adding permanent housing supply. Public project materials describe a mixed-use community hub with 100+ homes and approximately 40,000 sq ft for social, cultural, and health-serving uses.
+The project partnership with Lu'ma Native BCH Housing Society also sets out Indigenous-led and community-accountable governance outcomes for long-term operations.
+• Operating in the DTES since 1886
+• 51 low-barrier shelter beds at the current safe shelter site
+• 1,400+ legal advocacy cases each year
+• 320 E Hastings redevelopment targets 100+ homes
+
+Gallery
+• First United Church at East Hastings and Gore — Source: user-provided photo
+• East Hastings Street — Photo: Wikimedia Commons (CC BY-SA 3.0)
+• Carnegie Community Centre at Main and Hastings — Photo: Wikimedia Commons (CC BY-SA)
+• Pennsylvania Hotel (heritage SRO) — Photo: Wikimedia Commons (CC BY-SA)
+
+Resources
+• First United Church - Official organization website | https://firstunited.ca/
+• Safe Shelter - Current low-barrier shelter program details | https://firstunited.ca/how-we-help/safe-shelter/
+• Legal Advocacy - Tenancy and income advocacy services | https://firstunited.ca/how-we-help/legal-advocacy/
+• Redevelopment of FIRST UNITED - 320 E Hastings redevelopment plan | https://firstunited.ca/first-forward-redevelopment/
+• Food Security Programs - Meal access and food outreach programs | https://firstunited.ca/how-we-help/food-security/
+
+
+Stop 3: Hogan's Alley Society
+Location: Union Street & Main Street, Vancouver
+Quick stats: Historic Era: 1935-67 | Focus: Black history | Nora Hendrix: 52 homes
+Overview
+Hogan's Alley was the historic centre of Vancouver's Black community until the area was cleared during viaduct-era urban renewal. The Hogan's Alley Society (HAS) is a Black-led non-profit focused on cultural repair, anti-displacement work, and community-owned development.
+HAS and the City of Vancouver signed a formal Memorandum of Understanding in September 2022 to guide a Hogan's Alley Land Trust and long-term planning in Northeast False Creek.
+Current projects include Nora Hendrix Place at 258 Union Street, a 52-home temporary modular housing project that includes culturally informed supports and onsite services.
+
+At This Stop
+• Historic Site: Walk the former alley footprint and connect present blocks to erased Black community history. (Heritage)
+• Nora Hendrix Place: Review the 52-home project named for Jimi Hendrix's grandmother and its support model. (Housing)
+• Cultural Programming: Explore Black cultural programming, storytelling, and place-keeping led by HAS. (Culture)
+• Future Development: Track land trust and redevelopment planning tied to the Northeast False Creek process. (Planning)
+
+History & Plans
+Historical Context
+Hogan's Alley became a cultural anchor for Black life in Vancouver through the mid-20th century. City documents now identify the district as a major site of displacement connected to viaduct-era planning decisions.
+Current Housing and Land Work
+HAS is advancing housing and cultural infrastructure through a land trust approach. The Society's planning framework highlights affordable rental housing, childcare, support for Black-owned businesses, and dedicated cultural space.
+Nora Hendrix Place
+At 258 Union Street, Nora Hendrix Place delivers 52 temporary modular homes with private kitchens and washrooms, with a minimum accessibility target and culturally grounded support services.
+Municipal Partnership
+The City-HAS MOU (2022) sets a formal basis for co-development and governance conversations in Northeast False Creek as the viaduct removal area is rebuilt.
+• Black-led community governance in project planning
+• Housing, childcare, and enterprise space as linked anti-displacement tools
+• Cultural redress integrated into redevelopment decisions
+• Historic heart of Vancouver's Black community
+• City and HAS signed an MOU in September 2022
+• Nora Hendrix Place provides 52 modular homes
+• Land trust model ties housing with cultural redress
+
+Gallery
+• Downtown Eastside neighbourhood — Photo: Wikimedia Commons (CC BY-SA)
+• Holden Building / Tellier Tower — Photo: Wikimedia Commons (CC BY-SA)
+• Chinatown near Main and Keefer — Photo: Wikimedia Commons (CC BY-SA 3.0)
+• Nora Hendrix Place mural (258 Union Street) — Source: user-provided photo
+• 258 Union Street building — Source: user-provided photo
+
+Resources
+• Hogan's Alley Society - Restoring Vancouver's historic Black community | https://www.hogansalleysociety.org/
+• Hogan's Alley Society - About - Organization history, MOU context, and project pillars | https://www.hogansalleysociety.org/aboutus
+• City of Vancouver - Hogan's Alley Society Block - Municipal planning and implementation details | https://vancouver.ca/home-property-development/hogans-alley-society-block.aspx
+• City of Vancouver - 258 Union Street - Nora Hendrix Place housing project profile | https://vancouver.ca/people-programs/258-union-street.aspx
+
+
+Stop 4: DTES SRO Collaborative
+Location: 268 Keefer St, Vancouver
+Quick stats: Provincial Grant: $11M | Focus: Tenant advocacy | Program: TORO
+Overview
+The DTES SRO Collaborative Society is a tenant-led organization focused on resident safety, tenancy rights, and policy change in privately owned SRO hotels.
+Its Tenant Overdose Response Organizers (TORO) initiative is active in around 40 private SRO hotels and supports residents through overdose prevention education, naloxone access, and peer organizing.
+In 2023, the Province of British Columbia announced a one-time $11 million grant to support tenant-led safety and stabilization work in the DTES. The Collaborative also co-led a 2024 tenant survey project with community partners and the City.
+
+At This Stop
+• Tenant Organizing: Learn about tenant-led organizing and advocacy strategies. (Advocacy)
+• TORO Program: Understand the Tenant Overdose Response Organizers initiative. (Harm reduction)
+• SRO Conditions: Discuss challenges and opportunities in SRO housing. (Housing)
+• Policy Impact: Review the Collaborative's role in vacancy control policy. (Policy)
+
+Programs
+How the Collaborative Works
+The organization describes tenant committees as a core accountability structure. These committees identify building-level issues, connect residents to legal and health supports, and coordinate local safety planning.
+TORO Program
+TORO is designed as a tenant-led overdose response and harm-reduction model within SRO buildings. The program focuses on peer leadership and direct supply access to reduce preventable deaths.
+Policy and Public Accountability
+Recent efforts include coordinated tenant surveys and public documentation of SRO living conditions, helping shape city and provincial conversations on minimum standards, rent protections, and anti-displacement policy.
+Funding Context
+The 2023 provincial grant provides targeted support for tenant-led operations, outreach, and staffing for services tied to safety and stabilization in the private SRO stock.
+• Resident-led governance through tenant committees
+• Harm reduction and overdose response capacity in SRO hotels
+• Cross-partner survey and policy evidence gathering
+• Tenant-led advocacy organization
+• $11M provincial grant (2023)
+• TORO active in around 40 private SRO hotels
+• 2024 tenant survey work with city and community partners
+
+Gallery
+• TORO outreach space — Source: SRO Collaborative
+• Harm reduction supplies in TORO program — Source: SRO Collaborative
+• DTES SRO corridor streetscape — Source: SRO Collaborative
+• Community ownership action — Source: user-provided photo
+• Powell Rooms SRO — Source: user-provided photo
+• DTES streetscape — Source: user-provided photo
+
+Resources
+• DTES SRO Collaborative - Tenant advocacy and support organization | https://srocollaborative.org/
+• DTES Neighbourhood House — SRO Collaborative Profile - Background on the SRO Collaborative's work | https://www.dtesnhouse.ca/news-updates/partner-feature-sro-collaborative
+• Mission Statement - Organization mission and tenant-led model | https://www.srocollaborative.org/mission-statement
+• SRO HUB Program - Tenant committee support, advocacy, and building-level organizing | https://www.srocollaborative.org/programs/sro-hub-program/
+• TORO Program - Tenant overdose response initiative details | https://www.srocollaborative.org/programs/toro/
+• BC Government Grant Announcement (2023) - One-time provincial funding announcement | https://news.gov.bc.ca/releases/2023hous0053-000772
+
+
+Stop 5: UBC Learning Exchange
+Location: 612 Main St, Vancouver
+Quick stats: Since: 2000 | Focus: Education | Location: 612 Main St
+Overview
+The UBC Learning Exchange is a long-running university-community hub in the Downtown Eastside. It has operated from 612 Main Street since the program launched in 2000 as part of UBC's Community Learning Initiative.
+Programming focuses on two-way learning: local residents access free educational opportunities while UBC students and faculty engage in community-informed teaching, volunteering, and research.
+Core activities include computer and digital literacy support, conversation and communication programming, and partnerships with local organizations on neighbourhood priorities.
+
+At This Stop
+• Community Programs: Observe free, resident-centered learning programs delivered at 612 Main Street. (Education)
+• Research Partnerships: Review how community priorities are integrated into UBC teaching and research projects. (Research)
+• Student Involvement: See how students contribute through service learning and community-engaged coursework. (Partnership)
+• Resource Access: Map pathways from the neighbourhood into UBC resources and public-facing services. (Access)
+
+Programs
+Program Model
+The Learning Exchange frames its work as reciprocal community learning. Programs are built with community members and local organizations rather than delivered as one-way outreach.
+Education and Skills
+Public-facing activities include computer and internet support, literacy and communication programming, and workshops that respond to resident-identified interests.
+University-Community Bridge
+The site provides practical entry points for UBC students and faculty to participate in community-engaged learning and collaborative research in the DTES.
+Neighbourhood Partnerships
+Partnerships across the DTES shape how UBC resources are shared and how local knowledge is reflected in project design and evaluation.
+• Resident-informed education and digital inclusion programming
+• Community-engaged teaching and service learning pathways for students
+• Long-term collaboration infrastructure between UBC and DTES organizations
+• University-community partnership since 2000
+• Free educational programming
+• Reciprocal model for research and teaching
+• Based at 612 Main Street in the DTES
+
+Gallery
+• Main Street building near the Learning Exchange — Photo: Edna Winti (CC BY-SA)
+• Dominion Building (207 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)
+• Flack Block (163 W Hastings) — Photo: Filip Conev (CC BY-SA 3.0)
+
+Resources
+• UBC Learning Exchange - Official program website | https://learningexchange.ubc.ca/
+• Who We Are - Program model and reciprocal learning approach | https://learningexchange.ubc.ca/about-us/
+• Place-Based Learning in the DTES - How 612 Main Street supports community learning | https://learningexchange.ubc.ca/ubc-student-learning/
+• UBC Today: Learning Exchange at 20 Years - History and community impact profile | https://learningexchange.ubc.ca/ubc-learning-exchange-reopens-marks-20-years-in-the-downtown-eastside/
+
+

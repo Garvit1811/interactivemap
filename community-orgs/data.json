@@ -288,22 +288,22 @@
         "highlights": [
           {
             "title": "Community Programs",
-            "description": "Observe free, resident-centered learning programs delivered at 612 Main Street.",
+            "description": "Free, resident-centered learning programs are delivered at 612 Main Street.",
             "meta": "Education"
           },
           {
             "title": "Research Partnerships",
-            "description": "Review how community priorities are integrated into UBC teaching and research projects.",
+            "description": "Community priorities shape UBC teaching and research projects connected to the Learning Exchange.",
             "meta": "Research"
           },
           {
             "title": "Student Involvement",
-            "description": "See how students contribute through service learning and community-engaged coursework.",
+            "description": "Students participate through service learning and community-engaged coursework.",
             "meta": "Partnership"
           },
           {
             "title": "Resource Access",
-            "description": "Map pathways from the neighbourhood into UBC resources and public-facing services.",
+            "description": "The Learning Exchange connects neighbourhood residents with UBC resources and public-facing services.",
             "meta": "Access"
           }
         ]

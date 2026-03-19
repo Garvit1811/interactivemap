@@ -44,12 +44,12 @@
         "highlights": [
           {
             "title": "Tour Start: 6th at Heather",
-            "description": "The tour begins on the False Creek seawall near W 6th Avenue, a short walk from the W 6th Avenue and Heather Street bus stop.",
+            "description": "This stop is on the False Creek seawall near W 6th Avenue, a short walk from the W 6th Avenue and Heather Street bus stop.",
             "meta": "Starting point"
           },
           {
             "title": "Lease Renewal Timeline",
-            "description": "Many leasehold parcels along False Creek South will expire between 2036-2046. Learn how renewal options affect long-term affordability.",
+            "description": "Many leasehold parcels along False Creek South will expire between 2036-2046, making renewal options significant for long-term affordability.",
             "meta": "Decision window"
           },
           {
@@ -59,12 +59,12 @@
           },
           {
             "title": "Waterfront Greenway",
-            "description": "Follow the seawall to experience the public-realm improvements tied to public land stewardship.",
+            "description": "The waterfront greenway reflects public-realm improvements associated with public land stewardship.",
             "meta": "Public realm"
           },
           {
             "title": "Housing Trust Hub",
-            "description": "The community housing trust concept could govern future redevelopment. See examples from RePlan's brief.",
+            "description": "The community housing trust concept could govern future redevelopment, with examples outlined in RePlan's brief.",
             "meta": "Future planning"
           }
         ]
@@ -125,6 +125,11 @@
             "title": "False Creek South Community Housing Trust",
             "url": "https://www.falsecreeksouth.org/community-housing-trust/",
             "description": "About the community land trust initiative"
+          },
+          {
+            "title": "False Creek South CHT Resources",
+            "url": "https://www.falsecreeksouth.org/cht-resources/",
+            "description": "Community housing trust resources from the False Creek South site, including lease-renewal and planning materials"
           },
           {
             "title": "RePlan Community Housing Trust Brief",
@@ -231,22 +236,22 @@
         "highlights": [
           {
             "title": "Tower Cluster View",
-            "description": "Compare the tower massing plan with surrounding Kitsilano scale to understand the density shift.",
+            "description": "The planned tower massing illustrates a significant increase in density relative to surrounding Kitsilano development.",
             "meta": "Design focus"
           },
           {
             "title": "Public Green Space",
-            "description": "Walk the public open-space network to see how public realm access is built into the development agreement.",
+            "description": "The public open-space network is intended to provide public-realm access as part of the development agreement.",
             "meta": "Open space"
           },
           {
             "title": "Transit Connections",
-            "description": "Note the proximity to Burrard Bridge, cycling routes, and future rapid transit plans.",
+            "description": "The site is close to Burrard Bridge, cycling routes, and planned rapid transit connections.",
             "meta": "Mobility"
           },
           {
             "title": "Cultural Gathering",
-            "description": "Identify where cultural programming and Indigenous-led placemaking will be hosted.",
+            "description": "The development includes spaces intended for cultural programming and Indigenous-led placemaking.",
             "meta": "Community"
           }
         ]
@@ -409,22 +414,22 @@
         "highlights": [
           {
             "title": "Public Market Hall",
-            "description": "Start at the Public Market to see how cross-subsidy supports local vendors and public amenities.",
+            "description": "The Public Market shows how cross-subsidy supports local vendors and public amenities.",
             "meta": "Must see"
           },
           {
             "title": "Artist Studio Row",
-            "description": "Visit the artisan studios to experience the affordable creative space model.",
+            "description": "The artisan studios demonstrate Granville Island's affordable creative-space model.",
             "meta": "Creative economy"
           },
           {
             "title": "Waterfront Walk",
-            "description": "Follow the seawall edge to observe flexible public space programming and ferry access.",
+            "description": "The waterfront edge shows how public space programming and ferry access are integrated along the seawall.",
             "meta": "Public realm"
           },
           {
             "title": "Future Sites",
-            "description": "Discuss aging infrastructure and where reinvestment could support long-term viability.",
+            "description": "Aging infrastructure highlights where reinvestment may be needed to support long-term viability.",
             "meta": "Reinvestment"
           }
         ]

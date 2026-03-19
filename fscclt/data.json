@@ -34,7 +34,7 @@
         "id": "overview",
         "label": "Overview",
         "icon": "info",
-        "content": "\n                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this <strong>approximately 100-acre neighbourhood</strong> demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>\n                    <p>The City of Vancouver owns <strong>about 80 acres in False Creek South</strong>, making it a rare example of large-scale public land stewardship. The neighbourhood includes a mix of co-op, non-market rental, market rental, and strata leasehold housing, alongside civic and commercial uses.</p>\n                    <p>False Creek South Neighbourhood Association (FCSNA) is the resident neighbourhood association. Its RePlan Committee leads community planning conversations, while the False Creek South Community Housing Trust is a separate organization focused on long-term housing stewardship and affordability.</p>\n                    <p><strong>Robyn Chan</strong>, RePlan's Project Manager, has also supported False Creek South Community Housing Trust outreach with co-op boards and residents. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to connect community planning, resident engagement, and the push for long-term housing affordability.</p>\n                "
+        "content": "\n                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this <strong>approximately 100-acre neighbourhood</strong> demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>\n                    <p>The City of Vancouver owns <strong>about 80 acres in False Creek South</strong>, making it a rare example of large-scale public land stewardship. The neighbourhood includes a mix of co-op, non-market rental, market rental, and strata leasehold housing, alongside civic and commercial uses.</p>\n                    <p>False Creek South Neighbourhood Association (FCSNA) is the resident neighbourhood association. Its RePlan Committee leads community planning conversations, while the False Creek South Community Housing Trust is a separate organization focused on long-term housing stewardship and affordability.</p>\n                    <p><strong>Robyn Chan</strong>, Project Manager for RePlan, the planning committee of the False Creek South Neighbourhood Association, has also supported False Creek South Community Housing Trust outreach with co-op boards and residents. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to connect community planning, resident engagement, and the push for long-term housing affordability.</p>\n                "
       },
       {
         "id": "highlights",
@@ -49,7 +49,7 @@
           },
           {
             "title": "Lease Renewal Timeline",
-            "description": "Many leasehold parcels along False Creek South will expire between 2036-2046, making renewal options significant for long-term affordability.",
+            "description": "Many leasehold parcels along False Creek South will expire between 2036-2046. Learn how renewal options affect long-term affordability.",
             "meta": "Decision window"
           },
           {
@@ -64,7 +64,7 @@
           },
           {
             "title": "Housing Trust Hub",
-            "description": "The community housing trust concept could govern future redevelopment, with examples outlined in RePlan's brief.",
+            "description": "The community housing trust concept could govern future redevelopment. See examples from RePlan's brief.",
             "meta": "Future planning"
           }
         ]

@@ -15,22 +15,36 @@ import json
 import os
 import re
 import difflib
+import subprocess
+import tempfile
 from html.parser import HTMLParser
-from docx import Document
-from docx.shared import Pt, Cm, RGBColor
-from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_UNDERLINE
-from docx.oxml import OxmlElement
-from docx.oxml.ns import qn
-from docx.opc.constants import RELATIONSHIP_TYPE as RT
-from docx.text.paragraph import Paragraph
+
+try:
+    from docx import Document
+    from docx.shared import Pt, Cm, RGBColor
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_UNDERLINE
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+    from docx.opc.constants import RELATIONSHIP_TYPE as RT
+    from docx.text.paragraph import Paragraph
+    HAVE_DOCX = True
+except ModuleNotFoundError:
+    HAVE_DOCX = False
 
 
 # ── Colors ──────────────────────────────────────────────────────────────
-RED = RGBColor(0xCC, 0x00, 0x00)
-BLUE = RGBColor(0x00, 0x44, 0xCC)
-GRAY = RGBColor(0x55, 0x55, 0x55)
-BLACK = RGBColor(0x33, 0x33, 0x33)
-GREEN = RGBColor(0x00, 0x77, 0x00)
+if HAVE_DOCX:
+    RED = RGBColor(0xCC, 0x00, 0x00)
+    BLUE = RGBColor(0x00, 0x44, 0xCC)
+    GRAY = RGBColor(0x55, 0x55, 0x55)
+    BLACK = RGBColor(0x33, 0x33, 0x33)
+    GREEN = RGBColor(0x00, 0x77, 0x00)
+else:
+    RED = (0xCC, 0x00, 0x00)
+    BLUE = (0x00, 0x44, 0xCC)
+    GRAY = (0x55, 0x55, 0x55)
+    BLACK = (0x33, 0x33, 0x33)
+    GREEN = (0x00, 0x77, 0x00)
 
 
 # ── HTML stripper ───────────────────────────────────────────────────────
@@ -311,6 +325,218 @@ def extract_tour_text(data_path, tour_name, tour_number):
     return "\n".join(lines)
 
 
+# ── RTF fallback helpers ───────────────────────────────────────────────
+
+RTF_COLOR_INDEX = {
+    "black": 1,
+    "red": 2,
+    "blue": 3,
+    "gray": 4,
+    "green": 5,
+}
+
+
+def rtf_escape(text):
+    escaped = []
+    for char in text:
+        codepoint = ord(char)
+        if char == "\\":
+            escaped.append(r"\\")
+        elif char == "{":
+            escaped.append(r"\{")
+        elif char == "}":
+            escaped.append(r"\}")
+        elif char == "\n":
+            escaped.append(r"\line ")
+        elif codepoint > 127:
+            if codepoint > 32767:
+                codepoint -= 65536
+            escaped.append(fr"\u{codepoint}?")
+        else:
+            escaped.append(char)
+    return "".join(escaped)
+
+
+def rtf_run(text, *, color="black", bold=False, italic=False, underline=False, strike=False, size=22):
+    if not text:
+        return ""
+    prefix = [f"\\cf{RTF_COLOR_INDEX[color]}", f"\\fs{size}"]
+    suffix = [r"\cf0 "]
+    if bold:
+        prefix.append(r"\b ")
+        suffix.append(r"\b0 ")
+    if italic:
+        prefix.append(r"\i ")
+        suffix.append(r"\i0 ")
+    if underline:
+        prefix.append(r"\ul ")
+        suffix.append(r"\ul0 ")
+    if strike:
+        prefix.append(r"\strike ")
+        suffix.append(r"\strike0 ")
+    return "".join(prefix) + " " + rtf_escape(text) + "".join(reversed(suffix))
+
+
+def rtf_paragraph(runs, *, align="left", space_after=80):
+    align_code = {"left": r"\ql", "center": r"\qc", "right": r"\qr"}.get(align, r"\ql")
+    return r"\pard" + align_code + f"\\sa{space_after} " + "".join(runs) + r"\par"
+
+
+def write_rtf_as_docx(rtf_text, output_path):
+    with tempfile.NamedTemporaryFile("w", suffix=".rtf", delete=False, encoding="utf-8") as tmp:
+        tmp.write(rtf_text)
+        tmp_path = tmp.name
+    try:
+        subprocess.run(
+            ["textutil", "-convert", "docx", "-output", output_path, tmp_path],
+            check=True,
+        )
+    finally:
+        if os.path.exists(tmp_path):
+            os.unlink(tmp_path)
+
+
+def add_diff_paragraph_rtf(parts, old_text, new_text):
+    if old_text == new_text:
+        parts.append(rtf_paragraph([rtf_run(old_text)]))
+        return
+
+    old_words = old_text.split()
+    new_words = new_text.split()
+    sm = difflib.SequenceMatcher(None, old_words, new_words)
+    runs = []
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        if op == "equal":
+            runs.append(rtf_run(" ".join(old_words[i1:i2]) + " "))
+        elif op == "delete":
+            runs.append(rtf_run(" ".join(old_words[i1:i2]) + " ", color="red", strike=True))
+        elif op == "insert":
+            runs.append(rtf_run(" ".join(new_words[j1:j2]) + " ", color="blue", underline=True))
+        elif op == "replace":
+            runs.append(rtf_run(" ".join(old_words[i1:i2]) + " ", color="red", strike=True))
+            runs.append(rtf_run(" ".join(new_words[j1:j2]) + " ", color="blue", underline=True))
+    parts.append(rtf_paragraph(runs))
+
+
+def build_tracked_doc_rtf(old_text, new_text, output_path, stat_sources_by_stop=None):
+    parts = [
+        r"{\rtf1\ansi\deff0",
+        r"{\fonttbl{\f0 Calibri;}}",
+        r"{\colortbl;"
+        r"\red51\green51\blue51;"
+        r"\red204\green0\blue0;"
+        r"\red0\green68\blue204;"
+        r"\red85\green85\blue85;"
+        r"\red0\green119\blue0;}",
+        "\n",
+    ]
+
+    parts.append(rtf_paragraph([rtf_run("BSH 2026 Tour Content — Tracked Changes", bold=True, size=34)], align="center", space_after=80))
+    parts.append(rtf_paragraph([rtf_run("Comparing: Feb 22 baseline → Current live content (Mar 19, 2026)", color="gray", size=26)], align="center", space_after=200))
+
+    parts.append(rtf_paragraph([rtf_run("How to Read This Document", bold=True, size=28)], space_after=100))
+    parts.append(rtf_paragraph([rtf_run("This document compares the original tour text (February 22, 2026) against the current live content. Changes are marked as follows:")]))
+    parts.append(rtf_paragraph([rtf_run("Deleted text "), rtf_run("shown in red with strikethrough", color="red", strike=True)]))
+    parts.append(rtf_paragraph([rtf_run("Added text "), rtf_run("shown in blue with underline", color="blue", underline=True)]))
+    parts.append(rtf_paragraph([rtf_run("Unchanged text shown in normal black")], space_after=120))
+    parts.append(rtf_paragraph([rtf_run("[REORDERED] ", color="green", bold=True), rtf_run("indicates stops that have been moved to a different position in the tour")]))
+    parts.append(rtf_paragraph([rtf_run("[NEW STOP] ", color="green", bold=True), rtf_run("indicates an entirely new stop added to the tour")], space_after=200))
+
+    old_lines = [l.strip() for l in old_text.strip().split("\n")]
+    new_lines = [l.strip() for l in new_text.strip().split("\n")]
+
+    if old_lines and old_lines[0].startswith("BSH Interactive Map Tours"):
+        old_lines = old_lines[3:]
+
+    first_tour = True
+
+    def append_equal_line(line):
+        nonlocal first_tour
+        if not line:
+            return
+        if line.startswith("Tour "):
+            if not first_tour:
+                parts.append(r"\page")
+            first_tour = False
+            parts.append(rtf_paragraph([rtf_run(line, bold=True, size=30)], space_after=100))
+        elif line.startswith("Stop "):
+            parts.append(rtf_paragraph([rtf_run(line, bold=True, size=26)], space_after=80))
+        elif line.startswith("Total stops:") or line.startswith("Location:") or line.startswith("Quick stats:"):
+            parts.append(rtf_paragraph([rtf_run(line, color="gray", italic=True)]))
+        elif is_heading(line):
+            parts.append(rtf_paragraph([rtf_run(line, bold=True, size=24)], space_after=60))
+        else:
+            parts.append(rtf_paragraph([rtf_run(line)]))
+
+    def append_deleted_line(line):
+        if line:
+            parts.append(rtf_paragraph([rtf_run(line, color="red", strike=True)]))
+
+    def append_inserted_line(line):
+        if not line:
+            return
+        if line.startswith("Stop "):
+            parts.append(rtf_paragraph([rtf_run(line, bold=True, size=26)], space_after=80))
+        else:
+            parts.append(rtf_paragraph([rtf_run(line, color="blue", underline=True)]))
+
+    sm = difflib.SequenceMatcher(None, old_lines, new_lines)
+
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        if op == "equal":
+            for line in old_lines[i1:i2]:
+                append_equal_line(line)
+
+        elif op == "delete":
+            for line in old_lines[i1:i2]:
+                append_deleted_line(line)
+
+        elif op == "insert":
+            for line in new_lines[j1:j2]:
+                append_inserted_line(line)
+
+        elif op == "replace":
+            old_block = [l for l in old_lines[i1:i2] if l.strip()]
+            new_block = [l for l in new_lines[j1:j2] if l.strip()]
+
+            inner_sm = difflib.SequenceMatcher(
+                None,
+                [l.lower()[:40] for l in old_block],
+                [l.lower()[:40] for l in new_block]
+            )
+
+            for iop, ii1, ii2, ij1, ij2 in inner_sm.get_opcodes():
+                if iop == "equal":
+                    for k in range(ii2 - ii1):
+                        ol = old_block[ii1 + k]
+                        nl = new_block[ij1 + k]
+                        if ol == nl:
+                            append_equal_line(ol)
+                        else:
+                            add_diff_paragraph_rtf(parts, ol, nl)
+
+                elif iop == "delete":
+                    for k in range(ii1, ii2):
+                        append_deleted_line(old_block[k])
+
+                elif iop == "insert":
+                    for k in range(ij1, ij2):
+                        append_inserted_line(new_block[k])
+
+                elif iop == "replace":
+                    max_pairs = min(ii2 - ii1, ij2 - ij1)
+                    for k in range(max_pairs):
+                        add_diff_paragraph_rtf(parts, old_block[ii1 + k], new_block[ij1 + k])
+                    for k in range(max_pairs, ii2 - ii1):
+                        append_deleted_line(old_block[ii1 + k])
+                    for k in range(max_pairs, ij2 - ij1):
+                        append_inserted_line(new_block[ij1 + k])
+
+    parts.append("}")
+    write_rtf_as_docx("".join(parts), output_path)
+    print(f"Tracked changes document saved to: {output_path}")
+
+
 # ── Diff and Word doc building ──────────────────────────────────────────
 
 def add_legend(doc):
@@ -465,7 +691,7 @@ def build_tracked_doc(old_text, new_text, output_path, stat_sources_by_stop=None
 
     subtitle = doc.add_paragraph()
     subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = subtitle.add_run("Comparing: Feb 22 baseline → Current live content (Mar 4, 2026)")
+    run = subtitle.add_run("Comparing: Feb 22 baseline → Current live content (Mar 19, 2026)")
     run.font.size = Pt(14)
     run.font.color.rgb = GRAY
 
@@ -645,7 +871,7 @@ if __name__ == "__main__":
 
     new_text = extract_tour_text(
         fscclt_path,
-        "False Creek South, Sen̓áḵw & Granville Island (FCSCLT)",
+        "False Creek South, Sen̓áḵw & Granville Island (FCS CLT)",
         1
     )
     new_text += "\n" + extract_tour_text(
@@ -657,5 +883,9 @@ if __name__ == "__main__":
     stat_sources_by_stop = build_stat_source_map([fscclt_path, community_path])
 
     output_path = os.path.join(script_dir, "BSH_2026_Tour_Content_Tracked_Changes.docx")
-    build_tracked_doc(old_text, new_text, output_path, stat_sources_by_stop)
+    if HAVE_DOCX:
+        build_tracked_doc(old_text, new_text, output_path, stat_sources_by_stop)
+    else:
+        print("python-docx not available; using RTF/textutil fallback")
+        build_tracked_doc_rtf(old_text, new_text, output_path, stat_sources_by_stop)
     print("Done!")

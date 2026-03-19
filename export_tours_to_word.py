@@ -13,11 +13,18 @@ BSH_2026_Tour_Content.docx — ready for track-changes editing.
 import json
 import re
 import os
+import subprocess
+import tempfile
 from html.parser import HTMLParser
-from docx import Document
-from docx.shared import Pt, Cm, RGBColor
-from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.enum.table import WD_TABLE_ALIGNMENT
+
+try:
+    from docx import Document
+    from docx.shared import Pt, Cm, RGBColor
+    from docx.enum.text import WD_ALIGN_PARAGRAPH
+    from docx.enum.table import WD_TABLE_ALIGNMENT
+    HAVE_DOCX = True
+except ModuleNotFoundError:
+    HAVE_DOCX = False
 
 
 # ── HTML → structured blocks parser ──────────────────────────────────
@@ -114,6 +121,178 @@ def html_to_blocks(html_string):
     parser = HTMLToBlocks()
     parser.feed(html_string)
     return parser.blocks
+
+
+# ── RTF fallback helpers ─────────────────────────────────────────────
+
+def rtf_escape(text):
+    escaped = []
+    for char in text:
+        codepoint = ord(char)
+        if char == "\\":
+            escaped.append(r"\\")
+        elif char == "{":
+            escaped.append(r"\{")
+        elif char == "}":
+            escaped.append(r"\}")
+        elif char == "\n":
+            escaped.append(r"\line ")
+        elif codepoint > 127:
+            if codepoint > 32767:
+                codepoint -= 65536
+            escaped.append(fr"\u{codepoint}?")
+        else:
+            escaped.append(char)
+    return "".join(escaped)
+
+
+def rtf_run(text, *, bold=False, italic=False, color=None, size=None):
+    if not text:
+        return ""
+    prefixes = []
+    suffixes = []
+    if bold:
+        prefixes.append(r"\b ")
+        suffixes.append(r"\b0 ")
+    if italic:
+        prefixes.append(r"\i ")
+        suffixes.append(r"\i0 ")
+    if color is not None:
+        prefixes.append(f"\\cf{color} ")
+        suffixes.append(r"\cf0 ")
+    if size is not None:
+        prefixes.append(f"\\fs{size} ")
+    return "".join(prefixes) + rtf_escape(text) + "".join(reversed(suffixes))
+
+
+def rtf_paragraph(runs, *, align="left", indent=0, first_indent=0, space_after=120):
+    align_code = {"left": r"\ql", "center": r"\qc", "right": r"\qr"}.get(align, r"\ql")
+    pieces = [r"\pard", align_code, f"\\li{indent}", f"\\fi{first_indent}", f"\\sa{space_after}", " "]
+    pieces.extend(runs)
+    pieces.append(r"\par")
+    return "".join(pieces)
+
+
+def write_rtf_as_docx(rtf_text, output_path):
+    with tempfile.NamedTemporaryFile("w", suffix=".rtf", delete=False, encoding="utf-8") as tmp:
+        tmp.write(rtf_text)
+        tmp_path = tmp.name
+    try:
+        subprocess.run(
+            ["textutil", "-convert", "docx", "-output", output_path, tmp_path],
+            check=True,
+        )
+    finally:
+        if os.path.exists(tmp_path):
+            os.unlink(tmp_path)
+
+
+def build_document_rtf(tours, output_path):
+    parts = [
+        r"{\rtf1\ansi\deff0",
+        r"{\fonttbl{\f0 Calibri;}}",
+        r"{\colortbl;\red51\green51\blue51;\red85\green85\blue85;\red102\green102\blue102;\red68\green102\blue170;}",
+        "\n",
+    ]
+
+    parts.append(rtf_paragraph([rtf_run("BSH 2026 Interactive Map Tour", bold=True, size=34)], align="center", space_after=80))
+    parts.append(rtf_paragraph([rtf_run("Non-Profit Housing in Vancouver", color=2, size=26)], align="center", space_after=80))
+    parts.append(rtf_paragraph([rtf_run("Tour Content for Editorial Review", italic=True, color=3, size=22)], align="center", space_after=240))
+
+    parts.append(rtf_paragraph([rtf_run("Table of Contents", bold=True, size=28)], space_after=180))
+    for tour in tours:
+        parts.append(rtf_paragraph([rtf_run(tour["title"], bold=True, size=24)], space_after=40))
+        if tour.get("description"):
+            parts.append(rtf_paragraph([rtf_run(tour["description"], italic=True, color=3, size=20)], indent=360, space_after=80))
+        for idx, stop in enumerate(tour["stops"], 1):
+            parts.append(rtf_paragraph([
+                rtf_run(f"{idx}. ", bold=True),
+                rtf_run(stop["title"], bold=True),
+                rtf_run(f" — {stop['location']}", color=2),
+            ], indent=360, first_indent=-180, space_after=40))
+
+    parts.append(r"\page")
+
+    for tour_idx, tour in enumerate(tours):
+        parts.append(rtf_paragraph([rtf_run(tour["title"], bold=True, size=30)], space_after=120))
+        if tour.get("description"):
+            parts.append(rtf_paragraph([rtf_run(tour["description"], italic=True, color=2, size=22)], space_after=180))
+
+        for stop_idx, stop in enumerate(tour["stops"], 1):
+            parts.append(rtf_paragraph([rtf_run(f"Stop {stop_idx}: {stop['title']}", bold=True, size=28)], space_after=80))
+            parts.append(rtf_paragraph([rtf_run(f"Location: {stop['location']}", italic=True, color=2)], space_after=80))
+
+            if stop.get("stats"):
+                stats_text = " | ".join(f"{stat['label']}: {stat['value']}" for stat in stop["stats"])
+                parts.append(rtf_paragraph([
+                    rtf_run("Quick Facts: ", bold=True),
+                    rtf_run(stats_text),
+                ], space_after=120))
+
+            for section in stop.get("sections", []):
+                section_type = section.get("type")
+                section_id = section.get("id", "")
+                section_label = section.get("label", "")
+
+                if section_type == "gallery":
+                    continue
+
+                if section_id == "overview":
+                    heading = "Overview"
+                elif section_id == "highlights":
+                    heading = "At This Stop"
+                elif section_id == "details":
+                    heading = section_label
+                elif section_type == "resources":
+                    heading = "Resources"
+                else:
+                    heading = section_label or section_id.title()
+
+                parts.append(rtf_paragraph([rtf_run(heading, bold=True, size=24)], space_after=60))
+
+                if section_type == "highlights":
+                    for hi_idx, hi in enumerate(section.get("highlights", []), 1):
+                        runs = [
+                            rtf_run(f"{hi_idx}. ", bold=True),
+                            rtf_run(hi["title"], bold=True),
+                        ]
+                        if hi.get("meta"):
+                            runs.append(rtf_run(f" [{hi['meta']}]", color=2, size=18))
+                        parts.append(rtf_paragraph(runs, indent=180, space_after=20))
+                        parts.append(rtf_paragraph([rtf_run(hi["description"])], indent=540, space_after=80))
+
+                elif section_type == "resources":
+                    for res in section.get("resources", []):
+                        parts.append(rtf_paragraph([rtf_run(f"• {res['title']}", bold=True)], indent=180, first_indent=-180, space_after=20))
+                        if res.get("url"):
+                            parts.append(rtf_paragraph([rtf_run(res["url"], color=4, size=20)], indent=540, space_after=20))
+                        if res.get("description"):
+                            parts.append(rtf_paragraph([rtf_run(res["description"], color=2, size=20)], indent=540, space_after=60))
+
+                else:
+                    content = section.get("content", "")
+                    if content:
+                        for block in html_to_blocks(content):
+                            if block["type"] == "subheading":
+                                parts.append(rtf_paragraph([rtf_run(block["text"], bold=True)], space_after=30))
+                            elif block["type"] == "paragraph":
+                                runs = [rtf_run(text, bold=is_bold) for text, is_bold in block["parts"]]
+                                parts.append(rtf_paragraph(runs, space_after=80))
+                            elif block["type"] == "list":
+                                for item_parts in block["items"]:
+                                    runs = [rtf_run("• ")]
+                                    runs.extend(rtf_run(text, bold=is_bold) for text, is_bold in item_parts)
+                                    parts.append(rtf_paragraph(runs, indent=180, first_indent=-180, space_after=30))
+
+                    for kp in section.get("keyPoints", []):
+                        parts.append(rtf_paragraph([rtf_run(f"• {kp}")], indent=180, first_indent=-180, space_after=30))
+
+            if stop_idx < len(tour["stops"]) or tour_idx < len(tours) - 1:
+                parts.append(r"\page")
+
+    parts.append("}")
+    write_rtf_as_docx("".join(parts), output_path)
+    print(f"Document saved to: {output_path}")
 
 
 # ── Word document builder ────────────────────────────────────────────
@@ -348,5 +527,9 @@ if __name__ == "__main__":
 
     total_stops = sum(len(t["stops"]) for t in tours)
     print(f"Loaded {len(tours)} tours with {total_stops} total stops")
-    build_document(tours, output_path)
+    if HAVE_DOCX:
+        build_document(tours, output_path)
+    else:
+        print("python-docx not available; using RTF/textutil fallback")
+        build_document_rtf(tours, output_path)
     print("Done! The document is ready for track-changes editing.")

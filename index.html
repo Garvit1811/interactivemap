@@ -292,6 +292,13 @@
             color: #cfd9ec;
         }
 
+        .hero-panel .workshop-note {
+            font-size: 0.78rem;
+            font-style: italic;
+            line-height: 1.35;
+            white-space: nowrap;
+        }
+
         /* ── Preview Map ── */
         .preview-map-section {
             margin-bottom: 1.15rem;
@@ -725,9 +732,7 @@
             <div class="hero-grid">
                 <div>
                     <h1>Explore Vancouver's housing landscape through guided, place-based tours.</h1>
-                    <p class="hero-desc">Use map narratives developed through Balanced Supply of Housing research to
-                        compare tenure models, Indigenous-led development, tenant organizing, and nonprofit service
-                        infrastructure across Vancouver neighbourhoods.</p>
+                    <p class="hero-desc">Grounded in Balanced Supply of Housing research, these tours take you through specific Vancouver neighbourhoods to examine tenure models, Indigenous-led development, tenant movements, and non-profit service infrastructure.</p>
                     <div class="meta">
                         <span>2 Guided Tours</span>
                         <span>8 Stops</span>
@@ -742,10 +747,10 @@
                     </a>
                 </div>
                 <aside class="hero-panel">
-                    <h2>Workshop Focus</h2>
+                    <h2>Tour Focus</h2>
                     <p>Research-driven storytelling grounded in local housing systems.</p>
                     <p>Each stop links place, institutions, and governance choices.</p>
-                    <p>Prepared for the Spring 2026 BSH Interactive Map Tours workshop.</p>
+                    <p class="workshop-note">Prepared for the Spring 2026 BSH Interactive Map Tours workshop.</p>
                 </aside>
             </div>
         </section>
@@ -755,7 +760,7 @@
             <div class="map-legend">
                 <div class="legend-item">
                     <span class="legend-dot blue"></span>
-                    FCSCLT Tour
+                    False Creek South
                 </div>
                 <div class="legend-item">
                     <span class="legend-dot gold"></span>
@@ -772,7 +777,7 @@
 
         <section class="grid">
             <a href="fscclt/index.html" class="card card-one"
-                aria-label="Start FCSCLT Tour: False Creek South, Sen̓áḵw and Granville Island — 3 stops">
+                aria-label="Start False Creek South Tour: False Creek South, Sen̓áḵw and Granville Island — 3 stops">
                 <div class="card-preview">
                     <svg class="card-preview-icon" width="140" height="140" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="0.5" aria-hidden="true">
@@ -792,12 +797,12 @@
                             </svg>
                             3 stops
                         </span>
-                        <span class="loc">FCSCLT Tour</span>
+                        <span class="loc">False Creek South</span>
                     </div>
                     <p class="desc">Examine public land stewardship at False Creek South, the Sen̓áḵw Indigenous-led
                         rental model, and federal land governance on Granville Island.</p>
                     <div class="chips">
-                        <span class="chip">False Creek South CLT</span>
+                        <span class="chip">False Creek South</span>
                         <span class="chip">Sen̓áḵw</span>
                         <span class="chip">Granville Island</span>
                     </div>
@@ -833,7 +838,7 @@
                         </span>
                         <span class="loc">Community Organizations</span>
                     </div>
-                    <p class="desc">Follow the DTES network of tenant advocates, cultural restoration groups, frontline
+                    <p class="desc">Follow the DTES network of tenant advocates, community groups, frontline
                         services, and university-community partnerships.</p>
                     <div class="chips">
                         <span class="chip">DTES CLT</span>
@@ -881,7 +886,7 @@
 
             // FCSCLT Tour stops (blue)
             var fsccltStops = [
-                { title: "False Creek South CLT", coords: [49.2686, -123.1224] },
+                { title: "False Creek South", coords: [49.2686, -123.1224] },
                 { title: "Sen̓áḵw Development", coords: [49.27257, -123.14289] },
                 { title: "Granville Island", coords: [49.27056, -123.13417] }
             ];

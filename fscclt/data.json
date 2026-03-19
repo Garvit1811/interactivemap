@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "False Creek South Community Land Trust",
+    "title": "False Creek South",
     "location": "False Creek South, Vancouver",
     "coordinates": [
       49.2686,
@@ -34,7 +34,7 @@
         "id": "overview",
         "label": "Overview",
         "icon": "info",
-        "content": "\n                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this <strong>approximately 100-acre neighbourhood</strong> demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>\n                    <p>The City of Vancouver owns <strong>about 80 acres in False Creek South</strong>, making it a rare example of large-scale public land stewardship. The neighbourhood includes a mix of co-op, non-market rental, market rental, and strata leasehold housing, alongside civic and commercial uses.</p>\n                    <p>There are approximately <strong>5,500 residents in all of False Creek South</strong>. On City-owned land, there are <strong>1,849 housing units</strong> (plus <strong>1,354 units on non-City land</strong>). The land is leased on 60-year terms, and most City-land leases expire between 2036 and 2046, creating a pivotal decision point about how to preserve affordability while renewing public assets.</p>\n                    <p><strong>Robyn Chan</strong>, Project Manager for the False Creek South Community Housing Trust, leads community planning efforts. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to establish a community land trust that would give residents more control over their housing future.</p>\n                "
+        "content": "\n                    <p>False Creek South represents one of Vancouver's most successful experiments in mixed-tenure community development. Built on former industrial land in the 1970s and 1980s, this <strong>approximately 100-acre neighbourhood</strong> demonstrates how <strong>public land ownership</strong> can support diverse housing options while maintaining long-term affordability.</p>\n                    <p>The City of Vancouver owns <strong>about 80 acres in False Creek South</strong>, making it a rare example of large-scale public land stewardship. The neighbourhood includes a mix of co-op, non-market rental, market rental, and strata leasehold housing, alongside civic and commercial uses.</p>\n                    <p>False Creek South Neighbourhood Association (FCSNA) is the resident neighbourhood association. Its RePlan Committee leads community planning conversations, while the False Creek South Community Housing Trust is a separate organization focused on long-term housing stewardship and affordability.</p>\n                    <p><strong>Robyn Chan</strong>, RePlan's Project Manager, has also supported False Creek South Community Housing Trust outreach with co-op boards and residents. A civic engagement specialist with a Masters in Urban Studies from SFU, Chan has been working with the neighbourhood to connect community planning, resident engagement, and the push for long-term housing affordability.</p>\n                "
       },
       {
         "id": "highlights",
@@ -43,18 +43,18 @@
         "type": "highlights",
         "highlights": [
           {
-            "title": "Tour Start: 4th & Heather Bus Stop",
-            "description": "The tour begins on the False Creek seawall near W 6th Avenue, a short walk from the W 4th Avenue and Heather Street bus stop.",
+            "title": "Tour Start: 6th at Heather",
+            "description": "The tour begins on the False Creek seawall near W 6th Avenue, a short walk from the W 6th Avenue and Heather Street bus stop.",
             "meta": "Starting point"
           },
           {
             "title": "Lease Renewal Timeline",
-            "description": "Locate the leasehold parcels expiring between 2036–2046 and discuss how renewal options affect long-term affordability.",
+            "description": "Many leasehold parcels along False Creek South will expire between 2036-2046. Learn how renewal options affect long-term affordability.",
             "meta": "Decision window"
           },
           {
             "title": "Co-op Cluster",
-            "description": "Visit the co-op homes along the waterfront to see shared courtyards and resident-led governance in action.",
+            "description": "False Creek South includes seven co-op buildings on City land, and two - False Creek Co-op and Alder Bay Co-op - have already partnered with FCS CLT.",
             "meta": "Community-led"
           },
           {
@@ -64,7 +64,7 @@
           },
           {
             "title": "Housing Trust Hub",
-            "description": "Review the community housing trust concept and how it could govern future redevelopment.",
+            "description": "The community housing trust concept could govern future redevelopment. See examples from RePlan's brief.",
             "meta": "Future planning"
           }
         ]
@@ -73,13 +73,13 @@
         "id": "details",
         "label": "Housing Model",
         "icon": "document",
-        "content": "\n                    <h4>Mixed Tenure Breakdown</h4>\n                    <p>False Creek South includes multiple tenure types, each serving different community needs:</p>\n                    <ul>\n                        <li><strong>Co-operatives:</strong> City data identifies seven co-op buildings (517 units) on City land, including Twin Rainbows Co-op (86 units, opened 1981). Members have secure tenure and participate in democratic governance.</li>\n                        <li><strong>Non-Market Rental:</strong> Below-market housing operated by non-profit societies, ensuring affordability for lower-income residents.</li>\n                        <li><strong>Market Rental:</strong> Rental housing at market rates, providing flexibility for those who prefer renting.</li>\n                        <li><strong>Strata Residential:</strong> Privately-owned condominiums within the mixed community.</li>\n                        <li><strong>City-Owned Properties:</strong> Land and buildings retained by the City of Vancouver.</li>\n                        <li><strong>Commercial & Civic:</strong> Including False Creek School and retail frontages.</li>\n                    </ul>\n\n                    <h4>The Land Lease Model</h4>\n                    <p>Housing operators <strong>lease land from the city</strong> rather than purchasing it. Most City-land lease terms expire between 2036 and 2046, creating both opportunity and uncertainty. This model:</p>\n                    <ul>\n                        <li>Keeps land costs out of housing prices</li>\n                        <li>Prevents speculation and land flipping</li>\n                        <li>Maintains public control over development decisions</li>\n                        <li>Allows the city to enforce affordability requirements</li>\n                    </ul>\n\n                    <h4>The Lease Renewal Moment</h4>\n                    <p>The original 60-year leases are approaching expiry, creating uncertainty for households across the neighbourhood. In October 2021, Council received a False Creek South landowner update, and in March 2024 Council directed staff to report back with an updated and enhanced development framework. On January 22, 2025, Council approved entering negotiations with Arup Canada Inc. for consulting services, with an estimated contract value of <strong>$4 million</strong>.</p>\n\n                    <h4>Community Land Trust Initiative</h4>\n                    <p>In March 2024, Vancouver Council passed a motion supporting community land trust models and the construction of newly built co-op housing on City-owned land. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: \"It's a way to have more control and to expand non-profit housing.\"</p>\n                    <p>Recent grant-funded projects include an <strong>Embodied Carbon study</strong> (Vancity Envirofund) comparing demolition vs. lease extensions, and a <strong>capacity-building program</strong> to support governance, community engagement, and long-term financial planning.</p>\n                ",
+        "content": "\n                    <h4>Mixed Tenure Breakdown</h4>\n                    <p>False Creek South includes multiple tenure types, each serving different community needs:</p>\n                    <ul>\n                        <li><strong>Co-operatives:</strong> City data identifies seven co-op buildings (517 units) on City land, and two are already working with FCS CLT: False Creek Co-op and Alder Bay Co-op. Members have secure tenure and participate in democratic governance.</li>\n                        <li><strong>Non-Market Rental:</strong> Below-market housing operated by non-profit societies, ensuring affordability for lower-income residents.</li>\n                        <li><strong>Market Rental:</strong> Rental housing at market rates.</li>\n                        <li><strong>Strata Residential:</strong> Privately-owned condominiums within the mixed community.</li>\n                        <li><strong>City-Owned Properties:</strong> Land and buildings retained by the City of Vancouver.</li>\n                        <li><strong>Commercial & Civic:</strong> Including False Creek School and retail frontages.</li>\n                    </ul>\n\n                    <h4>The Land Lease Model</h4>\n                    <p>Housing operators <strong>lease land from the city</strong> rather than purchasing it. Most City-land lease terms expire between 2036 and 2046, creating both opportunity and uncertainty. This model:</p>\n                    <ul>\n                        <li>Keeps land costs out of housing prices</li>\n                        <li>Prevents speculation and land flipping</li>\n                        <li>Maintains public control over development decisions</li>\n                        <li>Allows the city to enforce affordability requirements</li>\n                    </ul>\n\n                    <h4>The Lease Renewal Moment</h4>\n                    <p>The original 60-year leases are approaching expiry, creating uncertainty for households across the neighbourhood. In October 2021, Vancouver City Council received a False Creek South landowner update, and in March 2024 Vancouver City Council directed city staff to report back with an updated and enhanced development framework. On January 22, 2025, Vancouver City Council approved entering negotiations with Arup Canada Inc. for consulting services, with an estimated contract value of <strong>$4 million</strong>.</p>\n\n                    <h4>Community Land Trust Initiative</h4>\n                    <p>In March 2024, Vancouver City Council passed a motion supporting community land trust models and the construction of newly built co-op housing on City-owned land. The False Creek South Community Housing Trust received funding from Vancity Community Foundation to develop a business plan and engage with co-op boards. As Robyn Chan explains: \"It's a way to have more control and to expand non-profit housing.\"</p>\n                    <p>Recent grant-funded projects include an <a href=\"https://www.falsecreeksouth.org/2024/12/replan-annual-report-2024/\">Embodied Carbon study</a> (Vancity Envirofund) comparing demolition vs. lease extensions, and a <a href=\"https://www.falsecreeksouth.org/2024/12/false-creek-south-community-housing-trust-annual-report-2024/\">capacity-building program</a> supporting governance, community engagement, and long-term financial planning.</p>\n                ",
         "keyPoints": [
           "About 80 acres are on City-owned land",
           "1,849 housing units are on City land, plus 1,354 units on non-City land",
           "Most City-land leases expire in 2036-2046 — a critical transition period",
-          "January 22, 2025: Council approved negotiations for a consulting contract valued at up to $4 million",
-          "March 2024 Council motion supports community land trust models and new co-op housing on City-owned land"
+          "January 22, 2025: Vancouver City Council approved negotiations for a consulting contract valued at up to $4 million",
+          "March 2024: Vancouver City Council motion supports community land trust models and new co-op housing on City-owned land"
         ]
       },
       {
@@ -127,6 +127,21 @@
             "description": "About the community land trust initiative"
           },
           {
+            "title": "RePlan Community Housing Trust Brief",
+            "url": "https://www.falsecreeksouth.org/wp-content/uploads/2019/04/04102019-REVISED-CHT-Brief-1.pdf",
+            "description": "RePlan brief with examples for community housing trust governance"
+          },
+          {
+            "title": "RePlan Annual Report - 2024",
+            "url": "https://www.falsecreeksouth.org/2024/12/replan-annual-report-2024/",
+            "description": "Overview of RePlan's embodied-carbon project, city engagement, and 2024 community planning work"
+          },
+          {
+            "title": "False Creek South Community Housing Trust Annual Report - 2024",
+            "url": "https://www.falsecreeksouth.org/2024/12/false-creek-south-community-housing-trust-annual-report-2024/",
+            "description": "Details on the Vancity-funded capacity-building program and outreach with False Creek Co-op and Alder Bay Co-op"
+          },
+          {
             "title": "City of Vancouver — False Creek South",
             "url": "https://vancouver.ca/home-property-development/false-creek-south.aspx",
             "description": "Municipal planning information and policy documents"
@@ -150,11 +165,6 @@
             "title": "Vancouver Council Motion (Mar 13, 2024) — False Creek South Planning Program",
             "url": "https://council.vancouver.ca/20240313/documents/cfsca3.pdf",
             "description": "Council direction supporting CLT models and newly built co-op housing on City-owned lands"
-          },
-          {
-            "title": "Twin Rainbows Housing Co-op",
-            "url": "https://www.twinrainbowscoop.ca/",
-            "description": "Co-op profile including 86 units and 1981 completion year"
           },
           {
             "title": "Globe and Mail — Are Land Trusts the Future?",
@@ -211,7 +221,7 @@
         "id": "overview",
         "label": "Overview",
         "icon": "info",
-        "content": "\n                    <p>Sen̓áḵw (pronounced \"sen-AHK-w\") is one of the largest Indigenous-led urban housing developments in Canada. It is being built on <strong>10.5 acres of Squamish Nation reserve land</strong> near the south end of the Burrard Bridge.</p>\n                    <p>The project is planned as <strong>6,000+ purpose-built rental homes, including 1,200+ below-market homes</strong>. Hiy̓ám̓ Housing states that <strong>250 homes are allocated for Squamish People</strong> through its housing stream.</p>\n                    <p><strong>Phase One includes three towers and 1,409 homes</strong>. In its February 5, 2026 update, Squamish Nation said first move-ins were expected in summer 2026, with phase-one homes prioritized for Squamish People.</p>\n                    <p>On September 6, 2022, the federal government announced <strong>$1.4 billion</strong> in financing support for Sen̓áḵw through CMHC for early phases of the project.</p>\n                "
+        "content": "\n                    <p>Sen̓áḵw (pronounced \"sen-AHK-w\") means \"The place inside the head of False Creek.\" It is one of the largest Indigenous-led urban housing developments in Canada. It is being built on <strong>10.5 acres of Squamish Nation reserve land</strong> near the south end of the Burrard Bridge.</p>\n                    <p>The project is planned as <strong>6,000+ purpose-built rental homes, including 1,200+ below-market homes</strong>. <a href=\"https://hiyamhousing.com/senakw\">Hiy̓ám̓ Housing</a>, the Squamish Nation housing society, states that <strong>250 homes are allocated for Squamish People</strong> through its housing stream.</p>\n                    <p><strong>Phase One includes three towers and 1,409 homes</strong>. In its February 5, 2026 update, Squamish Nation said first move-ins were expected in summer 2026, with phase-one homes prioritized for Squamish People.</p>\n                    <p>Sen̓áḵw received <strong>$1.4 billion</strong> in financial support from CMHC for early phases of the project.</p>\n                "
       },
       {
         "id": "highlights",

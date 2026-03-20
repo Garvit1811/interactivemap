@@ -894,7 +894,6 @@ window.BSHTourMap = {
                     nextBtn.innerHTML = `
             <span class="nav-btn-text">
                 <span class="nav-btn-label">Complete Tour</span>
-                <span class="nav-btn-title">View summary</span>
             </span>
             <span class="nav-btn-icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

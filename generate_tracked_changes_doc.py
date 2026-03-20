@@ -871,7 +871,7 @@ if __name__ == "__main__":
 
     new_text = extract_tour_text(
         fscclt_path,
-        "False Creek South, Sen̓áḵw & Granville Island (FCS CLT)",
+        "False Creek South, Sen̓áḵw & Granville Island Tour",
         1
     )
     new_text += "\n" + extract_tour_text(

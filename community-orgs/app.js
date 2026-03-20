@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     window.BSHTourMap.init({
-        dataUrl: 'data.json',
+        dataUrl: 'data.json?v=20260320-1',
         center: [49.2800, -123.0985],
         zoom: 15,
         routeColor: '#2f67dc',

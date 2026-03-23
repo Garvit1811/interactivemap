@@ -844,9 +844,9 @@ const tourStops = [
         coordinates: [49.27779, -123.09836],
 
         heroImage: {
-            src: "../images/community-orgs/has-union-street-building.jpg",
-            alt: "Nora Hendrix Place at 258 Union Street",
-            caption: "258 Union Street (Nora Hendrix Place) — Source: user-provided photo"
+            src: "../images/hogans-alley-mural.webp",
+            alt: "Hogan's Alley mural celebrating Black history and cultural continuity in Vancouver",
+            caption: "Hogan's Alley mural — Source: user-provided photo"
         },
 
         stats: [

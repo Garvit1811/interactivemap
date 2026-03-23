@@ -940,29 +940,19 @@ const tourStops = [
                 type: "gallery",
                 images: [
                     {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vancouver_Downtown_Eastside.jpg/1280px-Vancouver_Downtown_Eastside.jpg",
-                        alt: "Downtown Eastside neighbourhood streetscape near Hogan's Alley",
-                        caption: "Downtown Eastside neighbourhood — Photo: Wikimedia Commons (CC BY-SA)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Vancouver_Holden_Building_Tellier_Tower_2011.jpg/1280px-Vancouver_Holden_Building_Tellier_Tower_2011.jpg",
-                        alt: "Holden Building and Tellier Tower in the Downtown Eastside",
-                        caption: "Holden Building / Tellier Tower — Photo: Wikimedia Commons (CC BY-SA)"
-                    },
-                    {
-                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Vancouver_Chinatown_17.JPG/1280px-Vancouver_Chinatown_17.JPG",
-                        alt: "Chinatown streetscape near Hogan's Alley",
-                        caption: "Chinatown near Main and Keefer — Photo: Wikimedia Commons (CC BY-SA 3.0)"
-                    },
-                    {
-                        src: "../images/community-orgs/has-nora-hendrix-mural.jpg",
-                        alt: "Hogan's Alley mural at Nora Hendrix Place",
-                        caption: "Nora Hendrix Place mural (258 Union Street) — Source: user-provided photo"
+                        src: "../images/hogans-alley-mural.webp",
+                        alt: "Hogan's Alley mural celebrating Black history and cultural continuity in Vancouver",
+                        caption: "Hogan's Alley mural — Source: user-provided photo"
                     },
                     {
                         src: "../images/community-orgs/has-union-street-building.jpg",
                         alt: "Nora Hendrix Place building at 258 Union Street",
-                        caption: "258 Union Street building — Source: user-provided photo"
+                        caption: "258 Union Street building at Nora Hendrix Place — Source: user-provided photo"
+                    },
+                    {
+                        src: "../images/community-orgs/has-nora-hendrix-mural.jpg",
+                        alt: "Mural detail at Nora Hendrix Place",
+                        caption: "Nora Hendrix Place mural detail — Source: user-provided photo"
                     }
                 ]
             },

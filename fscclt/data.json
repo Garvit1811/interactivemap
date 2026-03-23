@@ -404,19 +404,16 @@
     },
     "stats": [
       {
-        "label": "Food Purveyors",
-        "value": "50+",
-        "sourceUrl": "https://admin.granvilleisland.com/about-granville-island/mission-vision/"
+        "label": "Size",
+        "value": "40 acres"
       },
       {
-        "label": "Businesses",
-        "value": "300+",
-        "sourceUrl": "https://admin.granvilleisland.com/about-granville-island/mission-vision/"
+        "label": "Tenants",
+        "value": "300+"
       },
       {
-        "label": "Jobs",
-        "value": "3,000+",
-        "sourceUrl": "https://admin.granvilleisland.com/about-granville-island/mission-vision/"
+        "label": "Govt Funding",
+        "value": "$0"
       }
     ],
     "sections": [
@@ -424,7 +421,7 @@
         "id": "overview",
         "label": "Overview",
         "icon": "info",
-        "content": "\n                    <p>Granville Island is a federally administered public asset. A 2023 Granville Island Council notice describes it as <strong>15.2 hectares of land plus 2.1 hectares of tidal water</strong>, in close proximity to downtown Vancouver.</p>\n                    <p>The same notice states that administration, management, and control were transferred to CMHC by <strong>1973 Order in Council</strong>. Granville Island Administration describes the island as <strong>operationally self-sustaining</strong>, with major revenues from rent and parking.</p>\n                    <p>Granville Island continues to be used as a public policy reference point for how federal public land can support mixed cultural, commercial, and community uses in a high-value urban location.</p>\n                "
+        "content": "\n                    <p>Granville Island is a <strong>40-acre federal property</strong> that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, the island is entirely <strong>self-sustaining with no government funding</strong> \u2014 operating solely on lease revenue, parking fees, and filming permits.</p>\n                    <p>Between 1973 and 1982, CMHC invested <strong>$24.7 million</strong> to transform the former industrial site into a public market, arts hub, and cultural destination. As federal land, Granville Island operates outside Vancouver\u2019s municipal regulations, functioning essentially as <strong>its own jurisdiction</strong> and enabling creative placemaking that wouldn\u2019t be possible under rigid municipal zoning.</p>\n                    <p>Urbanist and documentary creator <strong>Uytae Lee</strong> highlighted the island\u2019s governance model in a 2025 documentary, sparking renewed public debate about whether the site should pursue more development, public subsidy, or a new foundation model to fund repairs.</p>\n                "
       },
       {
         "id": "highlights",
@@ -434,22 +431,22 @@
         "highlights": [
           {
             "title": "Public Market Hall",
-            "description": "The Public Market shows how cross-subsidy supports local vendors and public amenities.",
+            "description": "Start at the Public Market to see how cross-subsidy supports local vendors and public amenities.",
             "meta": "Must see"
           },
           {
             "title": "Artist Studio Row",
-            "description": "The artisan studios demonstrate Granville Island's affordable creative-space model.",
+            "description": "Visit the artisan studios to experience the affordable creative space model.",
             "meta": "Creative economy"
           },
           {
             "title": "Waterfront Walk",
-            "description": "The waterfront edge shows how public space programming and ferry access are integrated along the seawall.",
+            "description": "Follow the seawall edge to observe flexible public space programming and ferry access.",
             "meta": "Public realm"
           },
           {
             "title": "Future Sites",
-            "description": "Aging infrastructure highlights where reinvestment may be needed to support long-term viability.",
+            "description": "Discuss aging infrastructure and where reinvestment could support long-term viability.",
             "meta": "Reinvestment"
           }
         ]
@@ -458,12 +455,12 @@
         "id": "details",
         "label": "Land Model",
         "icon": "document",
-        "content": "\n                    <h4>The Land Lease Approach</h4>\n                    <p>CMHC administers Granville Island on behalf of the Government of Canada and leases space to a diverse tenant mix. Granville Island Administration reports <strong>300+ businesses</strong> and <strong>3,000+ jobs</strong>, while emphasizing support for arts, culture, and local enterprise.</p>\n                    <ul>\n                        <li>Small businesses and artisans</li>\n                        <li>Arts and cultural organizations</li>\n                        <li>Free community spaces and public amenities</li>\n                        <li>Public Market vendors and food businesses</li>\n                    </ul>\n\n                    <h4>Economic Profile (2023 Council Notice)</h4>\n                    <p>A 2023 Council notice reports Granville Island as generating <strong>over $300 million in economic activity</strong>, with <strong>$105 million in annual sales</strong> and about <strong>$2 million in annual tax receipts</strong>.</p>\n\n                    <h4>Current Challenges</h4>\n                    <p>Current Council priorities (2026–2028) identify <strong>Financial Sustainability</strong> and <strong>Asset Management</strong> as core focus areas, reflecting ongoing pressure to maintain aging infrastructure while preserving Granville Island's public and cultural role.</p>\n\n                    <h4>Why This Matters for Housing</h4>\n                    <p>Granville Island demonstrates key principles relevant to housing policy:</p>\n                    <ul>\n                        <li><strong>Public ownership can prevent land speculation</strong></li>\n                        <li><strong>Cross-subsidy can support below-market uses</strong></li>\n                        <li><strong>Long-term stewardship requires dedicated asset renewal planning</strong></li>\n                        <li><strong>Policy flexibility can enable local innovation</strong></li>\n                    </ul>\n                ",
+        "content": "\n                    <h4>The Land Lease Approach</h4>\n                    <p>CMHC owns all land on Granville Island and leases it to <strong>over 300 commercial, retail, cultural, artistic, and educational tenants</strong>. The island operates a <strong>subsidy model</strong> where market rents from some businesses support more affordable rents for:</p>\n                    <ul>\n                        <li>Small businesses and artisans</li>\n                        <li>Arts and cultural organizations</li>\n                        <li>Free community spaces and public amenities</li>\n                        <li>The Public Market vendors</li>\n                    </ul>\n\n                    <h4>Current Challenges</h4>\n                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>\n                    <p>Possible paths include: <strong>more development</strong>, a <strong>government subsidy model</strong>, a new <strong>Granville Island Foundation</strong>, or a <strong>cultural land trust</strong> proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are \u201cno current plans for housing development.\u201d</p>\n\n                    <h4>Why This Matters for Housing</h4>\n                    <p>Granville Island demonstrates key principles for housing policy:</p>\n                    <ul>\n                        <li><strong>Public ownership prevents speculation</strong> \u2014 land value increases don\u2019t inflate costs</li>\n                        <li><strong>Cross-subsidy works</strong> \u2014 market tenants support affordable space</li>\n                        <li><strong>Self-sufficiency is possible</strong> \u2014 no ongoing government funding required</li>\n                        <li><strong>Flexibility enables innovation</strong> \u2014 outside municipal rules, creative solutions emerge</li>\n                    </ul>\n                ",
         "keyPoints": [
-          "2023 Council notice: 15.2 hectares of land plus 2.1 hectares of tidal water",
-          "Public Market: 50+ independent food purveyors; island-wide: 300+ businesses and 3,000+ jobs",
-          "CMHC administration transferred by 1973 Order in Council; operations described as self-sustaining",
-          "2023 Council notice: over $300M economic activity, $105M annual sales, and about $2M tax receipts"
+          "40 acres of federal land, self-sustaining on lease revenue",
+          "300+ tenants with cross-subsidy model",
+          "Operates outside municipal zoning as federal property",
+          "$300M in infrastructure needs \u2014 future governance in discussion"
         ]
       },
       {
@@ -506,21 +503,6 @@
             "description": "Community visioning process for the island's future"
           },
           {
-            "title": "Granville Island Administration — Overview",
-            "url": "https://admin.granvilleisland.com/about-granville-island/mission-vision/",
-            "description": "Current overview including food purveyor, business, and employment figures"
-          },
-          {
-            "title": "Granville Island Council Notice of Opportunity (2023 PDF)",
-            "url": "https://admin.granvilleisland.com/wp-content/uploads/2023/11/2023-Council-Notice-of-Opportunity.pdf",
-            "description": "Land/tidal area, governance, and economic profile figures"
-          },
-          {
-            "title": "Granville Island Council Strategic Priorities (2026-2028)",
-            "url": "https://admin.granvilleisland.com/strategic-priorities/",
-            "description": "Current priorities including financial sustainability and asset management"
-          },
-          {
             "title": "Granville Island Official Website",
             "url": "https://granvilleisland.com/",
             "description": "Visitor information and tenant directory"
@@ -529,6 +511,11 @@
             "title": "Heritage Vancouver — Granville Island",
             "url": "https://heritagevancouver.org/2025/3-granville-island/",
             "description": "Heritage context and preservation considerations"
+          },
+          {
+            "title": "CBC — Is Housing the Solution for Granville Island?",
+            "url": "https://www.cbc.ca/news/canada/british-columbia/granville-island-future-harcourt-housing-debate-1.7558992",
+            "description": "2024 coverage of infrastructure needs and housing debate"
           },
           {
             "title": "Traveling Circus of Urbanism — Granville Island Model",

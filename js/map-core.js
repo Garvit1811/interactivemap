@@ -80,6 +80,22 @@ window.BSHTourMap = {
             let stopsDrawerOpen = false;
             let currentSectionIndex = 0;
 
+            function normalizeExternalLinks(root = document) {
+                if (!root || typeof root.querySelectorAll !== 'function') return;
+
+                root.querySelectorAll('a[href]').forEach((link) => {
+                    const href = link.getAttribute('href');
+                    if (!href || !/^https?:\/\//i.test(href)) return;
+
+                    link.setAttribute('target', '_blank');
+
+                    const relParts = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+                    relParts.add('noopener');
+                    relParts.add('noreferrer');
+                    link.setAttribute('rel', Array.from(relParts).join(' '));
+                });
+            }
+
 
 
             function initMap() {
@@ -355,6 +371,7 @@ window.BSHTourMap = {
 
             ${renderFacts(stop.stats)}
         `;
+                    normalizeExternalLinks(container);
 
                     // Fade in
                     container.style.opacity = '1';
@@ -1100,6 +1117,7 @@ window.BSHTourMap = {
 
             initMap();
             if (config.onMapInit) config.onMapInit(map, L);
+            normalizeExternalLinks();
 
             createLightbox();
             createStopNavigator();

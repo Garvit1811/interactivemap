@@ -13,7 +13,7 @@ const tourStops = [
         id: 1,
         title: "False Creek South Community Land Trust",
         location: "False Creek South, Vancouver",
-        coordinates: [49.2686, -123.1224],
+        coordinates: [49.271, -123.128],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
@@ -96,6 +96,10 @@ const tourStops = [
                         <li>Maintains public control over development decisions</li>
                         <li>Allows the city to enforce affordability requirements</li>
                     </ul>
+
+                    <h4>CMHC Origins & the Co-op Legacy</h4>
+                    <p>In the late 1960s, the federal government tasked CMHC with developing False Creek's former industrial lands. CMHC built social housing, co-op housing, market condos on leased land, and rental housing, creating the mixed-tenure False Creek South community.</p>
+                    <p>Five co-ops managed by CHF BC still operate along False Creek: Harbour Cove, Marina, Creekview, Twin Rainbows, and Alder Bay.</p>
 
                     <h4>The Lease Crisis</h4>
                     <p>The original 60-year leases are approaching expiry, creating uncertainty for roughly <strong>3,200 residents</strong>. In 2021, City Council rejected a staff proposal to triple density and instead directed a community-led planning process. In January 2025, the City awarded a <strong>$4 million contract to Arup Group</strong> to prepare a landowner plan, sparking renewed debate about community involvement.</p>
@@ -1538,6 +1542,22 @@ function handleImageError(imgEl) {
     }
 }
 
+function normalizeExternalLinks(root = document) {
+    if (!root || typeof root.querySelectorAll !== 'function') return;
+
+    root.querySelectorAll('a[href]').forEach((link) => {
+        const href = link.getAttribute('href');
+        if (!href || !/^https?:\/\//i.test(href)) return;
+
+        link.setAttribute('target', '_blank');
+
+        const relParts = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        relParts.add('noopener');
+        relParts.add('noreferrer');
+        link.setAttribute('rel', Array.from(relParts).join(' '));
+    });
+}
+
 // ============================================
 // Initialize Application
 // ============================================
@@ -1554,6 +1574,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initStopsDrawer();
     updateNavButtons();
     createLightbox();
+    normalizeExternalLinks();
 });
 
 // ============================================
@@ -1570,7 +1591,7 @@ function initMap() {
 
     // Use CartoDB Positron for a cleaner look
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener noreferrer">CARTO</a>',
         subdomains: 'abcd',
         maxZoom: 19
     }).addTo(map);
@@ -1584,6 +1605,7 @@ function initMap() {
 
     // Fly to first stop
     flyToStop(0);
+    normalizeExternalLinks();
 }
 
 function fitMapToStops() {
@@ -1671,6 +1693,7 @@ function renderStop(index) {
 
         ${renderFacts(stop.stats)}
     `;
+    normalizeExternalLinks(document.getElementById('stopContent'));
 
     // Initialize section tab handlers
     initSectionTabs();

@@ -379,7 +379,7 @@ const tourStops = [
                 label: "Overview",
                 icon: "info",
                 content: `
-                    <p>Granville Island is a <strong>40-acre federal property</strong> that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the Canada Mortgage and Housing Corporation (CMHC) since 1973, the island is entirely <strong>self-sustaining with no government funding</strong> — operating solely on lease revenue, parking fees, and filming permits.</p>
+                    <p><a href="https://granvilleisland.com/" target="_blank" rel="noopener noreferrer">Granville Island</a> is a <strong>40-acre federal property</strong> that demonstrates how public land ownership can create vibrant, mixed-use communities without privatization. Managed by the <a href="https://granvilleisland.com/about-us/" target="_blank" rel="noopener noreferrer">Canada Mortgage and Housing Corporation (CMHC)</a> since 1973, the island is entirely <a href="https://granvilleisland.com/about-us/" target="_blank" rel="noopener noreferrer">self-sustaining with no government funding</a> — operating solely on lease revenue, parking fees, and filming permits.</p>
                     <p>Between 1973 and 1982, CMHC invested <strong>$24.7 million</strong> to transform the former industrial site into a public market, arts hub, and cultural destination. As federal land, Granville Island operates outside Vancouver's municipal regulations, functioning essentially as <strong>its own jurisdiction</strong> and enabling creative placemaking that wouldn't be possible under rigid municipal zoning.</p>
                     <p>Urbanist and documentary creator <strong>Uytae Lee</strong> highlighted the island's governance model in a 2025 documentary, sparking renewed public debate about whether the site should pursue more development, public subsidy, or a new foundation model to fund repairs.</p>
                 `
@@ -418,7 +418,7 @@ const tourStops = [
                 icon: "document",
                 content: `
                     <h4>The Land Lease Approach</h4>
-                    <p>CMHC owns all land on Granville Island and leases it to <strong>over 300 commercial, retail, cultural, artistic, and educational tenants</strong>. The island operates a <strong>subsidy model</strong> where market rents from some businesses support more affordable rents for:</p>
+                    <p>CMHC owns all land on Granville Island and leases it to <a href="https://granvilleisland.com/about-us/" target="_blank" rel="noopener noreferrer">over 300</a> commercial, retail, cultural, artistic, and educational tenants. The island operates a <strong>subsidy model</strong> where market rents from some businesses support more affordable rents for:</p>
                     <ul>
                         <li>Small businesses and artisans</li>
                         <li>Arts and cultural organizations</li>
@@ -427,23 +427,23 @@ const tourStops = [
                     </ul>
 
                     <h4>Current Challenges</h4>
-                    <p>General Manager Tom Lancaster estimates <strong>up to $300 million</strong> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>
-                    <p>Possible paths include: <strong>more development</strong>, a <strong>government subsidy model</strong>, a new <strong>Granville Island Foundation</strong>, or a <strong>cultural land trust</strong> proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are "no current plans for housing development."</p>
+                    <p>General Manager Tom Lancaster estimates <a href="https://www.cbc.ca/news/canada/british-columbia/granville-island-future-harcourt-housing-debate-1.7558992" target="_blank" rel="noopener noreferrer">up to $300 million</a> is needed for infrastructure upgrades. Public Market revenues have leveled off, while aging buildings (including the former Emily Carr campus and Cats Social House) need major repairs.</p>
+                    <p>Possible paths include: <strong>more development</strong>, a <strong>government subsidy model</strong>, a new <a href="https://www.cbc.ca/news/canada/british-columbia/granville-island-future-harcourt-housing-debate-1.7558992" target="_blank" rel="noopener noreferrer">Granville Island Foundation</a>, or a <strong>cultural land trust</strong> proposal led by 221A Arts. Some have proposed transferring ownership from CMHC to Canada Lands Company, though CMHC states there are "<a href="https://www.cbc.ca/news/canada/british-columbia/granville-island-future-harcourt-housing-debate-1.7558992" target="_blank" rel="noopener noreferrer">no current plans for housing development</a>."</p>
 
                     <h4>Why This Matters for Housing</h4>
                     <p>Granville Island demonstrates key principles for housing policy:</p>
                     <ul>
                         <li><strong>Public ownership prevents speculation</strong> — land value increases don't inflate costs</li>
                         <li><strong>Cross-subsidy works</strong> — market tenants support affordable space</li>
-                        <li><strong>Self-sufficiency is possible</strong> — no ongoing government funding required</li>
+                        <li><strong>Self-sufficiency is possible</strong> — <a href="https://granvilleisland.com/about-us/" target="_blank" rel="noopener noreferrer">no ongoing government funding required</a></li>
                         <li><strong>Flexibility enables innovation</strong> — outside municipal rules, creative solutions emerge</li>
                     </ul>
                 `,
                 keyPoints: [
-                    "40 acres of federal land, self-sustaining on lease revenue",
-                    "300+ tenants with cross-subsidy model",
+                    "40 acres of federal land, <a href=\"https://granvilleisland.com/about-us/\" target=\"_blank\" rel=\"noopener noreferrer\">self-sustaining</a> on lease revenue",
+                    "<a href=\"https://granvilleisland.com/about-us/\" target=\"_blank\" rel=\"noopener noreferrer\">300+</a> tenants with cross-subsidy model",
                     "Operates outside municipal zoning as federal property",
-                    "$300M in infrastructure needs — future governance in discussion"
+                    "<a href=\"https://www.cbc.ca/news/canada/british-columbia/granville-island-future-harcourt-housing-debate-1.7558992\" target=\"_blank\" rel=\"noopener noreferrer\">$300M</a> in infrastructure needs — future governance in discussion"
                 ]
             },
             {

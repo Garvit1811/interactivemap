@@ -257,9 +257,9 @@
       -123.09929
     ],
     "heroImage": {
-      "src": "https://learningexchange.ubc.ca/files/2018/08/le_homepage_main-1920x600.jpg",
+      "src": "../images/community-orgs/ubc-learning-exchange-hero.jpg",
       "alt": "UBC Learning Exchange in Vancouver's Downtown Eastside",
-      "caption": "UBC Learning Exchange — Source: UBC Learning Exchange"
+      "caption": "UBC Learning Exchange — Photo: UBC Learning Exchange"
     },
     "stats": [
       {
@@ -332,24 +332,24 @@
         "type": "gallery",
         "images": [
           {
-            "src": "https://learningexchange.ubc.ca/wp-content/uploads/sites/15/2020/10/KM-LX-Front-Door-1-768x527.jpg",
-            "alt": "Front door of the UBC Learning Exchange at 612 Main Street",
-            "caption": "Front door at the UBC Learning Exchange — Source: UBC Learning Exchange"
+            "src": "../images/community-orgs/ubc-learning-exchange-exterior.jpg",
+            "alt": "Exterior of the UBC Learning Exchange at 612 Main Street",
+            "caption": "Learning Exchange exterior — Photo: UBC Learning Exchange"
           },
           {
-            "src": "https://learningexchange.ubc.ca/wp-content/uploads/sites/15/2020/10/KM-LX-20th-anniversary-53-768x522.jpg",
-            "alt": "Community gathering at the UBC Learning Exchange 20-year anniversary",
-            "caption": "Learning Exchange 20-year anniversary event — Source: UBC Learning Exchange"
+            "src": "../images/community-orgs/ubc-learning-exchange-collage.jpg",
+            "alt": "Collage of people and programs connected to the UBC Learning Exchange",
+            "caption": "Learning Exchange community collage — Photo: UBC Learning Exchange"
           },
           {
-            "src": "https://learningexchange.ubc.ca/wp-content/uploads/sites/15/2025/03/240109_LEX_17-scaled.jpg",
+            "src": "../images/community-orgs/ubc-learning-exchange-student-learning.jpg",
             "alt": "Student learning session at the UBC Learning Exchange",
-            "caption": "Student learning at the UBC Learning Exchange — Source: UBC Learning Exchange"
+            "caption": "Student learning at the UBC Learning Exchange — Photo: UBC Learning Exchange"
           },
           {
-            "src": "https://learningexchange.ubc.ca/wp-content/uploads/sites/15/2025/03/P1040002-2048x1365.jpg",
-            "alt": "Community-based research activity at the UBC Learning Exchange",
-            "caption": "Community-based research at the UBC Learning Exchange — Source: UBC Learning Exchange"
+            "src": "../images/community-orgs/ubc-learning-exchange-community.jpg",
+            "alt": "Learning Exchange community member portrait",
+            "caption": "Learning Exchange community story — Photo: UBC Learning Exchange"
           }
         ]
       },

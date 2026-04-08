@@ -13,7 +13,7 @@ const tourStops = [
         id: 1,
         title: "False Creek South Community Land Trust",
         location: "False Creek South, Vancouver",
-        coordinates: [49.271, -123.128],
+        coordinates: [49.2705, -123.1287],
 
         heroImage: {
             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vancouver_-_False_Creek_pano_02.jpg/1280px-Vancouver_-_False_Creek_pano_02.jpg",
@@ -46,8 +46,8 @@ const tourStops = [
                 type: "highlights",
                 highlights: [
                     {
-                        title: "Tour Start: 4th & Heather Bus Stop",
-                        description: "The tour begins on the False Creek seawall near W 6th Avenue, a short walk from the W 4th Avenue and Heather Street bus stop.",
+                        title: "Tour Start: Heather Square on Moberly Road",
+                        description: "This stop is at Heather Square on Moberly Road in False Creek South.",
                         meta: "Starting point"
                     },
                     {
@@ -548,7 +548,7 @@ const tourStops = [
                 highlights: [
                     {
                         title: "Community Ownership Model",
-                        description: "DTES CLT acquires and stewards SRO buildings as permanently community-owned housing.",
+                        description: "DTES CLT acquires and stewards SRO buildings as permanently affordable community-owned housing.",
                         meta: "Land trust"
                     },
                     {

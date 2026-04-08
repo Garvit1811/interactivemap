@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 iconSize: [24, 24],
                 iconAnchor: [12, 12]
             });
-            L.marker([49.2668, -123.1185], { icon: busStopIcon })
-                .bindTooltip('Tour Start: 6th at Heather', {
+            L.marker([49.27108, -123.12434], { icon: busStopIcon })
+                .bindTooltip('Tour Start: Heather Square on Moberly Road', {
                     direction: 'top', offset: [0, -16], className: 'marker-tooltip'
                 })
                 .addTo(map);

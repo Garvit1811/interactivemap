@@ -264,7 +264,7 @@
     "stats": [
       {
         "label": "Since",
-        "value": "2000",
+        "value": "1999",
         "sourceUrl": "https://learningexchange.ubc.ca/about-us/"
       },
       {
@@ -283,7 +283,7 @@
         "id": "overview",
         "label": "Overview",
         "icon": "info",
-        "content": "\n                    <p>The <a href=\"https://learningexchange.ubc.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">UBC Learning Exchange</a> has operated at 612 Main Street <a href=\"https://learningexchange.ubc.ca/about-us/\" target=\"_blank\" rel=\"noopener noreferrer\">since 2000</a>, serving as a bridge between UBC and the Downtown Eastside community. Programming is grounded in <strong>reciprocal learning</strong>: residents access free educational opportunities, while UBC students and faculty engage in community-informed teaching and research.</p>\n                    <p>Core programs include computer and digital literacy support, conversation and communication workshops, and collaborative projects shaped by resident-identified priorities. The Learning Exchange also serves as a venue for community-engaged research events.</p>\n                    <p>In June 2025, UBC's <a href=\"https://hrc.ubc.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">Housing Research Collaborative</a> held \"<a href=\"https://hrc.ubc.ca/confronting-sweeps-report/\" target=\"_blank\" rel=\"noopener noreferrer\">Confronting Sweeps: Reimagining Advocacy for Tent Cities</a>\" at the Learning Exchange. The workshop brought together <a href=\"https://hrc.ubc.ca/confronting-sweeps-report/\" target=\"_blank\" rel=\"noopener noreferrer\">40 participants</a> — legal experts, frontline workers, community organizers, and individuals with lived experience — to examine how municipal bylaws and zoning policies continue to displace unhoused residents. The resulting report proposes classifying encampment supports as core policy decisions and shifting toward legal tools that emphasize human dignity and community accountability.</p>\n                "
+        "content": "\n                    <p>The <a href=\"https://learningexchange.ubc.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">UBC Learning Exchange</a> has operated <a href=\"https://learningexchange.ubc.ca/about-us/\" target=\"_blank\" rel=\"noopener noreferrer\">since 1999</a>, connecting UBC and the Downtown Eastside community. Programming is grounded in <strong>reciprocal learning</strong>: residents access free educational opportunities, while UBC students and faculty engage in community-informed teaching, learning and research.</p>\n                    <p>Core programs include computer and digital literacy support, English conversation and communication workshops, and collaborative projects shaped by resident-identified priorities. The Learning Exchange also serves as a venue for community-engaged research events.</p>\n                    <p>In June 2025, UBC's <a href=\"https://hrc.ubc.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">Housing Research Collaborative</a> held \"<a href=\"https://hrc.ubc.ca/confronting-sweeps-report/\" target=\"_blank\" rel=\"noopener noreferrer\">Confronting Sweeps: Reimagining Advocacy for Tent Cities</a>\" at the Learning Exchange. The workshop brought together <a href=\"https://hrc.ubc.ca/confronting-sweeps-report/\" target=\"_blank\" rel=\"noopener noreferrer\">40 participants</a> — legal experts, frontline workers, community organizers, and individuals with lived experience — to examine how municipal bylaws and zoning policies continue to displace unhoused residents. The resulting report proposes classifying encampment supports as core policy decisions and shifting toward legal tools that emphasize human dignity and community accountability.</p>\n                "
       },
       {
         "id": "highlights",
@@ -303,7 +303,7 @@
           },
           {
             "title": "Student Involvement",
-            "description": "Students participate through service learning and community-engaged coursework.",
+            "description": "Students participate through community-engaged learning and coursework, often helping to co-deliver activities.",
             "meta": "Partnership"
           },
           {
@@ -317,12 +317,12 @@
         "id": "details",
         "label": "Programs",
         "icon": "document",
-        "content": "\n                    <h4>Program Model</h4>\n                    <p>The Learning Exchange builds all programs with community members and local organizations — not as one-way outreach. Residents shape program priorities, and their knowledge is reflected in project design and evaluation.</p>\n                    <h4>Education and Skills</h4>\n                    <p>Activities include computer and digital literacy support, communication and conversation workshops, and sessions responding to resident-identified interests. These programs prioritize equitable access and digital inclusion for DTES residents.</p>\n                    <h4>Research and Events</h4>\n                    <p>The Learning Exchange hosts community-engaged research events that bridge academic analysis with lived experience. In June 2025, UBC's <a href=\"https://hrc.ubc.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">Housing Research Collaborative (HRC)</a> held the \"<a href=\"https://hrc.ubc.ca/confronting-sweeps-report/\" target=\"_blank\" rel=\"noopener noreferrer\">Confronting Sweeps: Reimagining Advocacy for Tent Cities</a>\" workshop at the Learning Exchange, convening <a href=\"https://hrc.ubc.ca/confronting-sweeps-report/\" target=\"_blank\" rel=\"noopener noreferrer\">40 participants</a> — legal experts, frontline workers, community organizers, and individuals with lived experience of homelessness — to reimagine policy responses to encampment displacement.</p>\n                    <p>The resulting report (McKay &amp; Sethi, 2025) examines how municipal bylaws and zoning policies continue to displace unhoused residents through surveillance and control, and proposes advocacy frameworks grounded in human dignity rather than punitive enforcement. The Learning Exchange's role as host reflects its position as a trusted community space where research serves justice.</p>\n                    <h4>Community Integration</h4>\n                    <p>Partnerships across the DTES ensure UBC resources are shared equitably:</p>\n                    <ul>\n                        <li>Resident-informed programming shapes digital inclusion and education offerings</li>\n                        <li>Service learning pathways connect UBC students with community priorities</li>\n                        <li>Research collaborations bridge academic analysis with lived experience and frontline knowledge</li>\n                    </ul>\n                ",
+        "content": "\n                    <h4>Program Model</h4>\n                    <p>The Learning Exchange builds all programs with community members and local organizations — not as one-way outreach. Residents shape program priorities, and their knowledge is reflected in project design and evaluation.</p>\n                    <h4>Education and Skills</h4>\n                    <p>Activities include computer and digital literacy support, English communication and conversation workshops, and sessions responding to resident-identified interests. These programs prioritize equitable access and inclusion for DTES residents.</p>\n                    <h4>Research and Events</h4>\n                    <p>The Learning Exchange hosts community-engaged research events that bridge academic analysis with lived experience. In June 2025, UBC's <a href=\"https://hrc.ubc.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">Housing Research Collaborative (HRC)</a> held the \"<a href=\"https://hrc.ubc.ca/confronting-sweeps-report/\" target=\"_blank\" rel=\"noopener noreferrer\">Confronting Sweeps: Reimagining Advocacy for Tent Cities</a>\" workshop at the Learning Exchange, convening <a href=\"https://hrc.ubc.ca/confronting-sweeps-report/\" target=\"_blank\" rel=\"noopener noreferrer\">40 participants</a> — legal experts, frontline workers, community organizers, and individuals with lived experience of homelessness — to reimagine policy responses to encampment displacement.</p>\n                    <p>The resulting report (McKay &amp; Sethi, 2025) examines how municipal bylaws and zoning policies continue to displace unhoused residents through surveillance and control, and proposes advocacy frameworks grounded in human dignity rather than punitive enforcement. The Learning Exchange's role as host reflects its position as a trusted space where research serves community priorities.</p>\n                    <h4>Community Integration</h4>\n                    <p>Partnerships across the DTES help ensure UBC resources are shared equitably:</p>\n                    <ul>\n                        <li>Resident-informed programming shapes digital inclusion and education offerings</li>\n                        <li>Community-engaged learning pathways connect UBC students with community priorities</li>\n                        <li>Research collaborations bridge academic analysis with lived experience and frontline knowledge</li>\n                    </ul>\n                ",
         "keyPoints": [
-          "Reciprocal learning hub at 612 Main Street since 2000",
-          "Free digital literacy, communication, and education programs",
+          "Reciprocal learning hub since 1999",
+          "Free community education programs",
           "Hosted HRC's 'Confronting Sweeps' workshop in June 2025",
-          "Research collaborations bridging academic and community knowledge"
+          "Research collaborations connecting academic and community knowledge"
         ]
       },
       {
@@ -377,7 +377,7 @@
           {
             "title": "Place-Based Learning in the DTES",
             "url": "https://learningexchange.ubc.ca/ubc-student-learning/",
-            "description": "How 612 Main Street supports community learning"
+            "description": "How 612 Main Street supports community-engaged student learning"
           },
           {
             "title": "UBC Today: Learning Exchange at 20 Years",
